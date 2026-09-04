@@ -26,9 +26,10 @@
 | Integrante                           | Código     |
 | ------------------------------------ | ---------- |
 | Checa Burga, Oscar Diego             | U20231E492 |
-| Dextre Flores, Leonardo Felix        | u202421823 |
-| Salcedo Correa, Carlos Mathhew       | U20231E492 |
-
+| Dextre Flores, Leonardo Felix        | U202421823 |
+| Salcedo Correa, Carlos Mathhew       | U202421065 |
+| Patricio Farias, Ana Camila          | U20241I469 |
+| Barrenechea Bustamante, Rafael       | U202417417 |
 
 
 **Mes y Año**: Septiembre 2026
