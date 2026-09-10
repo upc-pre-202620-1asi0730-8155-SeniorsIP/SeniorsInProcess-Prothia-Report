@@ -360,6 +360,48 @@ En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender
 
 ---
 
-## 2.4. Big Picture EventStorming. 
+## 2.4. Big Picture EventStorming
 
-## 2.5. Ubiquitous Language.
+El Big Picture EventStorming permite representar de manera general los principales eventos que ocurren durante el proceso de rehabilitación, monitoreo biomecánico y gestión de la prótesis. Para esta primera aproximación se tomaron como referencia los procesos descritos en las User Stories y las responsabilidades de los tres segmentos objetivo.
+
+El recorrido comienza con el registro y acceso de los usuarios, continúa con el registro del paciente y la asociación de la prótesis, y posteriormente incorpora la asignación de ejercicios, recepción de datos biomecánicos, seguimiento de progreso, alertas, comunicación entre actores y mantenimiento. También se consideran los eventos relacionados con suscripciones, licencias y captación de usuarios desde la Landing Page.
+
+![Big Picture EventStorming](assets/big_picture_eventstorming.png)
+
+Entre los eventos principales identificados se encuentran: `Patient Registered`, `Prosthesis Associated`, `Exercise Plan Assigned`, `Exercise Completed`, `Biomechanical Data Received`, `Biomechanical Session Processed`, `Posture Classified`, `Clinical Alert Generated`, `Patient Information Shared`, `Technical Intervention Registered`, `Maintenance Scheduled`, `Maintenance Alert Generated`, `Subscription Activated`, `License Activated`, `Demo Request Registered` y `Report Generated`.
+
+A partir de estos eventos se identificaron grupos de responsabilidades que posteriormente son refinados en el Design-Level EventStorming del Capítulo IV.
+
+El código editable del diagrama se encuentra en `diagrams/big_picture_eventstorming.mmd`.
+
+## 2.5. Ubiquitous Language
+
+El Ubiquitous Language reúne los términos principales del dominio de Prothia para que el equipo utilice un mismo significado durante el análisis, diseño e implementación. Los términos se mantienen en inglés y sus definiciones se presentan en español.
+
+| Término | Definición |
+|---|---|
+| **Amputee Patient** | Persona que ha sufrido una amputación, utiliza una prótesis y participa en un proceso de adaptación y rehabilitación. |
+| **Rehabilitation Clinic** | Institución o equipo profesional responsable de evaluar, planificar y realizar seguimiento al proceso de rehabilitación del paciente. |
+| **Orthopedic Center** | Establecimiento especializado en la fabricación, adaptación, revisión y mantenimiento de prótesis. |
+| **Prosthesis** | Dispositivo utilizado por el paciente para sustituir total o parcialmente una extremidad y apoyar su movilidad. |
+| **Rehabilitation Plan** | Conjunto de objetivos y actividades definidas para acompañar la recuperación y adaptación del paciente. |
+| **Exercise Plan** | Conjunto de ejercicios asignados a un paciente, incluyendo frecuencia y repeticiones esperadas. |
+| **Exercise Completion** | Registro que indica que un paciente realizó un ejercicio perteneciente a su plan vigente. |
+| **Adherence** | Nivel de cumplimiento del paciente respecto de los ejercicios y actividades indicadas en su plan de rehabilitación. |
+| **Biomechanical Data** | Información obtenida durante el movimiento o uso de la prótesis y utilizada para analizar el desempeño del paciente. |
+| **Biomechanical Session** | Periodo de actividad durante el cual se recopilan y procesan datos biomecánicos relacionados con un paciente. |
+| **Posture Assessment** | Evaluación del movimiento o postura del paciente a partir de datos biomecánicos y parámetros establecidos. |
+| **Biomechanical History** | Conjunto cronológico de registros biomecánicos asociados a un paciente. |
+| **Rehabilitation Progress** | Evolución del paciente a partir del cumplimiento de ejercicios y la información registrada durante su rehabilitación. |
+| **Clinical Alert** | Aviso generado cuando se identifica una condición biomecánica que requiere la revisión de un profesional de la clínica. |
+| **Alert Threshold** | Valor o rango configurado para determinar cuándo un indicador biomecánico debe generar una alerta. |
+| **Technical History** | Registro de intervenciones, revisiones y observaciones realizadas sobre una prótesis. |
+| **Maintenance** | Actividad de revisión, ajuste o intervención realizada para conservar el funcionamiento adecuado de una prótesis. |
+| **Preventive Maintenance** | Mantenimiento programado antes de la aparición de una falla, según fecha o condiciones de uso. |
+| **Maintenance Alert** | Aviso dirigido al centro ortopédico cuando una prótesis alcanza una condición que requiere revisión o mantenimiento. |
+| **Patient Information Sharing** | Acción mediante la cual la clínica habilita información relevante del paciente al centro ortopédico responsable de su prótesis. |
+| **Subscription** | Modalidad de acceso anual utilizada por una clínica para utilizar Prothia. |
+| **Software License** | Modalidad de acceso utilizada por un centro ortopédico para emplear las funcionalidades de Prothia. |
+| **Demo Request** | Solicitud realizada por un visitante interesado en conocer el funcionamiento de Prothia antes de una posible contratación. |
+| **Biomechanical Monitoring** | Seguimiento de información biomecánica generada durante el uso de la prótesis y las actividades de rehabilitación. |
+| **Prosthesis Usage** | Información relacionada con el uso acumulado y condiciones de utilización de una prótesis. |
