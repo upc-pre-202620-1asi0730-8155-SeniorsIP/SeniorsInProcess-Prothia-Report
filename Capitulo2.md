@@ -251,9 +251,37 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 11. ¿Qué funcionalidades técnicas considera fundamentales para que una herramienta digital sea útil en la rutina de un protesista u ortesista? 
 12. ¿En qué dispositivos (computadoras de escritorio del taller, laptops de evaluación o smartphones) necesitarían utilizar la herramienta? 
 
-### 2.2.2. Registro de entrevistas. 
+### 2.2.2. Registro de entrevistas.
 
-### 2.2.3. Análisis de entrevistas. 
+#### Segmento Objetivo 2 – Clínicas de Rehabilitación
+
+##### Entrevista 1 – Diego Salazar Mendoza
+
+**Nombres y apellidos:** Diego Salazar Mendoza  
+**Edad:** 28 años  
+**Profesión:** Licenciado en Tecnología Médica, especialidad de Terapia Física y Rehabilitación  
+**Cargo:** Fisioterapeuta  
+**Distrito:** Jesús María, Lima (distrito donde labora)  
+**Experiencia profesional:** Aproximadamente 5 años, de los cuales cerca de 3 años corresponden al trabajo con pacientes amputados.  
+**Fecha de entrevista:** 07/09/2026  
+**Nombre del video:** upc-pre-202620-1asi0730-8155-SeniorsInProcess-needfinding-sprint-1  
+**Inicio de la entrevista en el video:** 00:00:36  
+**Duración de la entrevista:** 00:06:45  
+**Enlace:** [Ver entrevista en Microsoft Stream / OneDrive](https://1drv.ms/v/c/59fda0760f9c3f3a/IQDqjRVMClXKQ7ccZqQnU5OAAYrhIv1B8vOdM6lj8bgtF6I?e=E85Kz4)
+
+[![Entrevista a Diego Salazar Mendoza](assets/interview-clinic-diego-salazar.png)](https://1drv.ms/v/c/59fda0760f9c3f3a/IQDqjRVMClXKQ7ccZqQnU5OAAYrhIv1B8vOdM6lj8bgtF6I?e=E85Kz4)
+
+**Resumen de la entrevista:**
+
+Diego Salazar Mendoza trabaja como fisioterapeuta en un centro de rehabilitación ubicado en Jesús María y cuenta con aproximadamente cinco años de experiencia profesional, de los cuales cerca de tres corresponden al trabajo con pacientes amputados. Señaló que personalmente puede atender entre seis y diez pacientes amputados, mientras que el centro puede tener entre quince y veinte pacientes activos en determinados periodos. También explicó que cada paciente presenta un proceso diferente de adaptación y rehabilitación, incluso cuando existen amputaciones similares.
+
+Durante las sesiones se enseñan ejercicios de equilibrio, fortalecimiento, transferencia de peso y actividades relacionadas con la marcha, los cuales posteriormente deben continuar en el hogar. Para enviar indicaciones utilizan principalmente WhatsApp, mediante textos, imágenes o videos. Sin embargo, una de las principales dificultades aparece cuando el paciente se encuentra fuera de la clínica, ya que el profesional depende en gran medida de lo que este comunica y no cuenta con información objetiva que permita conocer con qué frecuencia realizó los ejercicios o cómo los ejecutó. Algunos pacientes envían videos para recibir observaciones, pero esta práctica no ocurre en todos los casos.
+
+Respecto a la comunicación con los centros ortopédicos, indicó que actualmente no cuentan con un sistema compartido. La comunicación suele realizarse mediante llamadas, WhatsApp o informes, mientras que cada institución mantiene su propia información. En la clínica utilizan un sistema para registrar información clínica y Excel para algunos controles internos, pero no disponen de una plataforma específica que permita monitorear información biomecánica del paciente amputado mientras se encuentra en su hogar.
+
+Finalmente, consideró que una plataforma como Prothia podría resultar útil porque permitiría conocer lo que ocurre entre una sesión y otra, siempre que la información presentada sea fácil de interpretar. Entre las funcionalidades que considera importantes mencionó una ficha organizada del paciente, el plan y cumplimiento de ejercicios, el seguimiento de su evolución, el historial biomecánico, las alertas y mecanismos de comunicación tanto con el paciente como con el centro ortopédico. En relación con una posible suscripción anual, señaló que la decisión de compra corresponde a la administración de la clínica y que, desde su posición como fisioterapeuta, primero necesitaría comprobar el funcionamiento de la solución antes de recomendarla.
+
+### 2.2.3. Análisis de entrevistas.
 
 ---
 
