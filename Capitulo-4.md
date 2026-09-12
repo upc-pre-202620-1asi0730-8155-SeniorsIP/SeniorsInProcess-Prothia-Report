@@ -468,7 +468,7 @@ Los User Flow Diagrams emplean mock-ups para representar la experiencia final e 
 
 El prototipo se desarrollará en Figma a partir de los mock-ups ya definidos y deberá cubrir Desktop y Mobile Web Browser con navegación consistente con los User Flow Diagrams.
 
-**Estado actual:** en elaboración. Falta configurar las interacciones nativas en Figma, registrar la evidencia audiovisual y añadir el enlace de Microsoft Stream. Esta sección se mantiene abierta hasta incorporar la evidencia interactiva; no se reemplaza con imágenes estáticas.
+**link del video del prototipo :** en elaboración. Falta configurar las interacciones nativas en Figma, registrar la evidencia audiovisual y añadir el enlace de Microsoft Stream.
 
 ## 4.6. Domain-Driven Software Architecture
 
