@@ -372,8 +372,6 @@ Entre los eventos principales identificados se encuentran: `Patient Registered`,
 
 A partir de estos eventos se identificaron grupos de responsabilidades que posteriormente son refinados en el Design-Level EventStorming del Capítulo IV.
 
-El código editable del diagrama se encuentra en `diagrams/big_picture_eventstorming.mmd`.
-
 ## 2.5. Ubiquitous Language
 
 El Ubiquitous Language reúne los términos principales del dominio de Prothia para que el equipo utilice un mismo significado durante el análisis, diseño e implementación. Los términos se mantienen en inglés y sus definiciones se presentan en español.
