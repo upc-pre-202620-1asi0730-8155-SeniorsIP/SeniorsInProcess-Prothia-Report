@@ -42,3 +42,51 @@
     *   Claro y directo, evitando tecnicismos ortopédicos complejos en la vista del paciente.
     *   Orientado a la acción, con instrucciones breves para los ejercicios de rehabilitación.
     *   Consistente en terminología médica, garantizando coherencia en alertas, reportes de desempeño y documentación técnica.
+### 4.1.2. Web Style Guidelines
+
+Elegimos una paleta basada en Azul Profundo, Teal / Verde Azulado, Verde Esmeralda y Gris Claro, porque queremos representar los valores de profesionalismo médico, tecnología, progreso y confianza. El Azul Profundo transmite estabilidad clínica y rigor, siendo el color principal de fondos de cabecera y tipografías para garantizar un alto contraste. El Teal simboliza la salud digital y la innovación, y es utilizado en botones primarios, elementos interactivos y trazados de gráficos biomecánicos. El Verde Esmeralda se reserva para indicadores de éxito, como la confirmación de ejercicios completados o posturas correctas. Finalmente, el Gris Claro se emplea como color de fondo en los dashboards, ofreciendo un lienzo limpio que evita la fatiga visual al revisar historiales clínicos y reportes de uso prolongado.
+
+El uso balanceado de estos tonos asegura que la información clave, como las alertas de posturas inadecuadas o avisos de mantenimiento preventivo, sea rápidamente perceptible sin perder sobriedad visual. Los contrastes se aplican estratégicamente para mantener un diseño ordenado, moderno y fácil de interpretar por los tres actores del sistema: pacientes, profesionales de rehabilitación y técnicos ortopédicos.
+
+En cuanto a la tipografía, dado que Prothia gestiona datos biomecánicos, historiales técnicos y programas de ejercicios, optamos por fuentes claras y contemporáneas. Montserrat se utiliza en títulos y encabezados para dar una estructura moderna y sólida, mientras que Inter se aplica en los cuerpos de texto y tablas de datos para maximizar la legibilidad. Los tamaños son lo suficientemente grandes para asegurar claridad en las métricas, utilizando variaciones de peso para guiar la atención del usuario en las pantallas de monitoreo.
+
+<div align="center">
+  <img src="../assets/Colors.png" alt="Paleta de Colores Web" width="250">
+</div>
+
+*   **Tipografía:** Se respetará la relación tipográfica y jerarquía establecida en los General Style Guidelines, combinando Montserrat e Inter.
+
+*   **Responsive Design Standards:** Prothia está diseñado con una arquitectura adaptable para satisfacer los distintos contextos de uso de sus usuarios:
+    *   **Mobile (360px – 768px)**
+        *   Navegación tipo hamburguesa.
+        *   Tarjetas de ejercicios y reportes apiladas en columna.
+        *   Botones grandes y legibles, ideal para el paciente amputado que consulta su rutina y progreso desde el hogar mediante su smartphone.
+    *   **Tablet (769px – 1024px)**
+        *   Layout en 2 columnas.
+        *   Menú lateral colapsable, optimizado para técnicos ortopédicos que visualizan datos de mantenimiento y ajustan parámetros desde el taller.
+    *   **Desktop (1025px en adelante)**
+        *   Menú principal siempre visible.
+        *   Layout de 3 columnas en los dashboards clínicos, permitiendo a los fisioterapeutas analizar gráficos biomecánicos, métricas en tiempo real y listas de alertas de forma simultánea.
+
+*   **Interactivity:**
+    *   **Botones:**
+        *   Bordes redondeados en 8px.
+        *   Hover: cambio sutil de saturación en el color Teal y sombra suave para indicar interactividad.
+        *   Feedback claro mediante animaciones sutiles al confirmar una tarea de rehabilitación o guardar un registro técnico.
+    *   **Transiciones y animaciones:**
+        *   Duración: 200–300ms.
+        *   Curva: ease-in-out, asegurando fluidez al navegar entre fichas de pacientes y reportes de uso de prótesis.
+
+*   **Accessibility:**
+    *   Todo ícono debe tener alternativa textual (`aria-label` o `alt`) para herramientas de asistencia.
+    *   Navegación totalmente compatible con teclado (Tab, Enter, Esc).
+    *   Fuente mínima: 16px para garantizar legibilidad, considerando a pacientes que puedan tener dificultades visuales.
+    *   Colores validados para asegurar un contraste suficiente (WCAG AA), permitiendo que textos sobre fondos claros como el Gris Claro se lean sin esfuerzo.
+
+*   **UI Consistency:**
+    *   Iconografía uniforme orientada a la salud y biomecánica, en estilo outline con grosor consistente.
+    *   Botones y formularios con la misma geometría y espaciado en las interfaces del paciente, clínica y centro ortopédico.
+    *   Uso consistente de la paleta semántica: Teal para acciones, Verde Esmeralda para éxito y estados óptimos, y colores de alerta (como rojo o naranja) exclusivamente para advertencias críticas de posturas inadecuadas o necesidades de mantenimiento en la prótesis.
+    *   Estándar de espaciado basado en múltiplos de 8px para mantener un ritmo visual coherente y ordenado.
+
+---
