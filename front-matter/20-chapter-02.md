@@ -255,15 +255,15 @@ En esta sección se presentan las fichas de User Personas construidas a partir d
 
 **Segmento Objetivo 1: Paciente Amputado**
 
-![User Personas Marcelo Arias](../assets/User%20Personas_Marcelo%20Arias.png)
+![User Personas Carlos Mendoza](../assets/up_CarlosMendoza.png)
 
 **Segmento Objetivo 2: Clínica de Rehabilitación**
 
-![User Personas Valeria Ríos](../assets/User%20Personas_Valeria%20Ríos.png)
+![User Personas Valeria Rios](../assets/up_Valeria%20Rios.png)
 
 **Segmento Objetivo 3: Centro Ortopédico**
 
-![User Personas Miguel Torres](../assets/User%20Personas_Miguel%20Torres.png)
+![User Personas Miguel Torres](../assets/up_Miguel%20Torres.png)
 
 ---
 ### 2.3.2. User Task Matrix
@@ -309,7 +309,7 @@ En esta sección se presentan los User Journey Maps de los tres segmentos objeti
 
 **Segmento Objetivo 1: Paciente Amputado**
 
-![journey map Marcelo Arias](../assets/journey%20map_Marcelo%20Arias.png)
+![journey map Carlos Mendoza](../assets/jm_CarlosMendoza.png)
 
 **Segmento Objetivo 2: Clínica de Rehabilitación**
 
@@ -318,5 +318,21 @@ En esta sección se presentan los User Journey Maps de los tres segmentos objeti
 **Segmento Objetivo 3: Centro Ortopédico**
 
 ![journey map Miguel Torres](../assets/journey%20map_Miguel%20Torres.png)
+
+---
+### 2.3.4. Empathy Mapping. 
+En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender las experiencias, emociones y pensamientos que expresan los usuarios de cada segmento objetivo.
+
+**Segmento Objetivo 1: Paciente Amputado**
+
+![Empathy Mapping Carlos Mendoza](../assets/Empathy%20Mapping_Carlos%20Mendoza.png)
+
+**Segmento objetivo 2:**
+
+![Empathy Mapping Valeria Ríos](../assets/Empathy%20Mapping_Valeria%20Ríos.png)
+
+**Segmento Objetivo 3: Centro Ortopédico**
+
+![Empathy Mapping Miguel Torres](../assets/Empathy%20Mapping_Miguel%20Torres.png)
 
 ---
