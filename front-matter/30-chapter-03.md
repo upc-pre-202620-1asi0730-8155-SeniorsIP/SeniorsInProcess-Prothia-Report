@@ -743,4 +743,56 @@ El equipo desarrolló un Impact Mapping en colaboración utilizando la herramien
 
 ![Impact Mapping](../assets/ImpactMap.png)
 
+---
+## 3.3. Product Backlog
+Para el desarrollo de nuestra plataforma, hemos creado un Product Backlog que funciona como una lista completa de todas las funcionalidades, características e incluso tareas técnicas necesarias para avanzar en el proyecto.
 
+Para mantener el proyecto organizado, usamos la escala de Fibonacci (1, 2, 3, 5, 8) para estimar el esfuerzo de cada tarea. Esta escala de Story Points nos ayuda a priorizar y planificar de la siguiente manera:
+
+1: Tareas sencillas y rápidas. 2: Tareas de complejidad moderada. 3: Tareas que requieren más tiempo y esfuerzo. 5: Tareas complejas. 8: Tareas de alta complejidad que impactan varias áreas del proyecto.
+
+| Orden | User Story Id | Título | Descripción | Story Points |
+| :---: | :---: | :--- | :--- | :---: |
+| 1 | US-25 | Visualización de información de la plataforma | Como visitante, quiero conocer las características y beneficios de la plataforma para evaluar si se ajusta a las necesidades de mi institución. | 2 |
+| 2 | US-26 | Solicitud de demostración de la plataforma | Como visitante del segmento clínicas de rehabilitación, quiero solicitar una demostración de la plataforma para conocer su funcionamiento antes de contratarla. | 3 |
+| 3 | US-27 | Suscripción al boletín informativo | Como visitante, quiero suscribirme al boletín informativo del sitio web para recibir novedades sobre la plataforma. | 1 |
+| 4 | US-01 | Registro de paciente amputado | Como paciente amputado, quiero registrarme en la plataforma para poder acceder a mi seguimiento de rehabilitación. | 3 |
+| 5 | US-02 | Inicio de sesión con acceso diferenciado por rol | Como usuario registrado, quiero iniciar sesión en la plataforma para acceder a las funcionalidades correspondientes a mi rol (paciente, profesional de clínica o técnico ortopédico). | 3 |
+| 6 | US-04 | Registro de datos del paciente en la clínica | Como profesional de clínica, quiero registrar los datos clínicos de un paciente amputado para llevar un control de su proceso de rehabilitación. | 3 |
+| 7 | US-05 | Asociación de prótesis a un paciente | Como técnico ortopédico, quiero asociar una prótesis a un paciente para llevar el registro de qué dispositivo utiliza. | 2 |
+| 8 | US-07 | Visualización del dashboard biomecánico | Como profesional de clínica, quiero visualizar un dashboard con los datos biomecánicos recientes de un paciente para evaluar su desempeño. | 5 |
+| 9 | US-09 | Identificación de postura o movimiento inadecuado | Como paciente, quiero recibir información sobre si mi postura o movimiento fue adecuado durante el uso de la prótesis para corregir mi desempeño. | 5 |
+| 10 | US-13 | Recepción de alerta por postura incorrecta | Como profesional de clínica, quiero recibir una alerta cuando se detecte una postura incorrecta en un paciente para intervenir oportunamente. | 5 |
+| 11 | US-10 | Asignación de plan de ejercicios | Como profesional de clínica, quiero asignar un plan de ejercicios personalizado a un paciente para guiar su rehabilitación en casa. | 3 |
+| 12 | US-11 | Registro de cumplimiento de ejercicios | Como paciente, quiero registrar la realización de los ejercicios indicados para llevar constancia de mi adherencia al plan de rehabilitación. | 2 |
+| 13 | US-12 | Consulta del progreso de rehabilitación | Como profesional de clínica, quiero consultar el progreso de rehabilitación de mis pacientes para evaluar la efectividad del tratamiento. | 3 |
+| 14 | US-08 | Consulta del historial de datos biomecánicos | Como paciente, quiero consultar el historial de mis datos biomecánicos para conocer la evolución de mi desempeño. | 3 |
+| 15 | US-14 | Configuración de umbrales de alerta | Como profesional de clínica, quiero configurar los umbrales que determinan cuándo se genera una alerta para adaptar el sistema a las necesidades de cada paciente. | 5 |
+| 16 | US-15 | Consulta del historial de alertas | Como profesional de clínica, quiero consultar el historial de alertas generadas para un paciente para revisar los eventos críticos registrados. | 2 |
+| 17 | US-18 | Recepción de alerta de mantenimiento requerido | Como técnico ortopédico, quiero recibir una alerta cuando una prótesis requiera mantenimiento para gestionar oportunamente su atención. | 5 |
+| 18 | US-16 | Registro de historial técnico de la prótesis | Como técnico ortopédico, quiero registrar el historial técnico de una prótesis para llevar control de su estado y componentes. | 3 |
+| 19 | US-17 | Programación de mantenimiento preventivo | Como técnico ortopédico, quiero programar una fecha de mantenimiento preventivo para una prótesis para anticiparme a posibles fallas. | 3 |
+| 20 | US-06 | Consulta de ficha del paciente | Como profesional de clínica, quiero consultar la ficha de un paciente para conocer su historial clínico y de prótesis. | 2 |
+| 21 | US-20 | Compartir información del paciente entre clínica y centro ortopédico | Como profesional de clínica, quiero compartir información relevante del paciente con el centro ortopédico correspondiente para coordinar el mantenimiento de la prótesis. | 5 |
+| 22 | US-19 | Envío de mensajes entre paciente y clínica | Como paciente, quiero enviar un mensaje a mi clínica de rehabilitación para resolver dudas sobre mi tratamiento. | 3 |
+| 23 | US-21 | Consulta de notificaciones generales | Como usuario de la plataforma, quiero consultar mis notificaciones generales para mantenerme informado sobre eventos relevantes de mi cuenta. | 2 |
+| 24 | US-28 | Generación de reporte de progreso del paciente | Como profesional de clínica, quiero generar un reporte del progreso de rehabilitación de un paciente para documentar su evolución. | 5 |
+| 25 | US-29 | Exportación de datos históricos del paciente | Como profesional de clínica, quiero exportar los datos históricos de un paciente para compartirlos con otros profesionales o instituciones. | 3 |
+| 26 | US-30 | Visualización de indicadores agregados de la clínica | Como administrador de clínica, quiero visualizar indicadores agregados sobre todos los pacientes atendidos para evaluar el desempeño general de la institución. | 5 |
+| 27 | US-22 | Contratación de suscripción anual | Como administrador de clínica, quiero contratar una suscripción anual para que mi institución acceda a la plataforma. | 8 |
+| 28 | US-23 | Adquisición de licencia de software | Como administrador de centro ortopédico, quiero adquirir una licencia de software para utilizar la plataforma en la gestión de prótesis. | 8 |
+| 29 | US-24 | Consulta del estado de suscripción o licencia | Como administrador, quiero consultar el estado de mi suscripción o licencia para conocer su vigencia y condiciones. | 2 |
+| 30 | US-03 | Recuperación de contraseña | Como usuario registrado, quiero recuperar mi contraseña para volver a acceder a mi cuenta en caso de olvido. | 2 |
+| 1 | TS-09 | Captación de leads del landing page vía API | Como developer, busco implementar los endpoints RESTful que permitan registrar las solicitudes de demostración y las suscripciones al boletín informativo desde el sitio web estático. | 2 |
+| 2 | TS-01 | Gestión de autenticación y cuentas vía API | Como developer, busco implementar los endpoints RESTful necesarios para el registro, autenticación y recuperación de contraseña de los usuarios de la plataforma. | 3 |
+| 3 | TS-02 | Gestión de pacientes y prótesis vía API | Como developer, busco implementar los endpoints RESTful que permitan crear, consultar y asociar pacientes y prótesis dentro de la plataforma. | 3 |
+| 4 | TS-03 | Ingesta y consulta de datos biomecánicos vía API | Como developer, busco implementar un endpoint RESTful que reciba los datos biomecánicos generados por los sensores de la prótesis y los exponga para su consulta. | 5 |
+| 5 | TS-05 | Gestión de alertas críticas vía API | Como developer, busco implementar un mecanismo que exponga las alertas críticas detectadas en los pacientes a través de una API RESTful, para activar notificaciones automáticas al profesional responsable. | 5 |
+| 6 | TS-04 | Gestión de planes de ejercicios vía API | Como developer, busco implementar los endpoints RESTful que permitan asignar planes de ejercicios y registrar el cumplimiento por parte del paciente. | 3 |
+| 7 | TS-06 | Gestión de mantenimiento de prótesis vía API | Como developer, busco implementar los endpoints RESTful que permitan registrar el historial técnico de las prótesis y programar su mantenimiento preventivo. | 3 |
+| 8 | TS-07 | Mensajería entre actores vía API | Como developer, busco implementar los endpoints RESTful que permitan el envío y la consulta de mensajes entre pacientes, clínicas y centros ortopédicos. | 5 |
+| 9 | TS-10 | Generación de reportes y exportación de datos vía API | Como developer, busco implementar los endpoints RESTful que permitan generar reportes de progreso y exportar los datos históricos de los pacientes. | 5 |
+| 10 | TS-08 | Gestión de suscripciones y licencias vía API | Como developer, busco implementar los endpoints RESTful que permitan contratar, consultar y renovar suscripciones de clínicas y licencias de centros ortopédicos. | 8 |
+---
+
+- **Tablero de Trello:** [Seniors in Process - Prothia](https://trello.com/invite/b/6aaa2414fe1250572c17b9fe/ATTIe7f0872c34d6ae28c8540edd005e015fC1DFC2EC/seniors-in-process-prothia)
