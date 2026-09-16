@@ -114,12 +114,35 @@ El sistema de etiquetado en Prothia está diseñado para reducir la carga cognit
     *   **Acciones del usuario:** Registrar paciente, Asociar prótesis, Generar reporte, Enviar mensaje, Configurar umbrales.
 ### 4.2.3. SEO Tags and Meta Tags
 
-Para asegurar el posicionamiento de la Landing Page de Prothia y captar a los segmentos objetivo corporativos (clínicas y ortopedias), se han definido las siguientes etiquetas SEO:
+Para asegurar el posicionamiento orgánico del ecosistema de Prothia en motores de búsqueda, consolidar la autoridad de marca médica y controlar los accesos según los segmentos objetivo (pacientes amputados, clínicas de rehabilitación física y centros ortopédicos), se han formulado los siguientes SEO Tags y Meta Tags, diferenciando entre el sitio web promocional público (Landing Page) y la aplicación transaccional (Web Application):
 
-*   **Title:** Prothia | Plataforma de Monitoreo Biomecánico y Rehabilitación
-*   **Meta Description:** Conecta a pacientes amputados, clínicas de rehabilitación y centros ortopédicos. Optimiza el seguimiento remoto, analiza datos biomecánicos en tiempo real y gestiona el mantenimiento de prótesis con Prothia.
-*   **Meta Keywords:** telerehabilitación, monitoreo biomecánico, pacientes amputados, prótesis, software clínico, mantenimiento ortopédico, salud digital.
-*   **Meta Author:** SeniorsInProcess.
+*   **Landing Page (Sitio Web Estático):**
+    Diseñada para maximizar la indexación comercial, la captación institucional y la correcta previsualización en redes sociales profesionales:
+    *   **Title:** Prothia | Biomechanical Telemetry & Rehabilitation Platform
+    *   **Meta Description:** Prothia connects amputee patients, rehabilitation clinics, and orthopedic centers to optimize remote tracking, analyze biomechanical telemetry, and manage prosthetic maintenance.
+    *   **Meta Keywords:** biomechanical telemetry, prosthetic rehabilitation, amputee patient, smart prosthetics, clinical telerehabilitation, gait analysis, socket comfort, orthopedic maintenance, digital health, IoT healthcare
+    *   **Meta Author:** SeniorsInProcess
+    *   **Meta Robots:** index, follow
+    *   **Open Graph Tags:**
+        *   `og:type`: website
+        *   `og:url`: https://www.prothia.tech
+        *   `og:title`: Prothia | Biomechanical Telemetry & Rehabilitation Platform
+        *   `og:description`: Connecting amputee patients, rehabilitation clinics, and orthopedic centers through continuous telemetry and remote rehabilitation monitoring.
+        *   `og:image`: https://www.prothia.tech/assets/Logo.png
+
+*   **Web Application (Aplicación Web Transaccional):**
+    Orientada a usuarios autenticados bajo control de acceso por roles (RBAC). Su propósito es preservar la identidad institucional en navegadores y garantizar la confidencialidad de las historias clínicas mediante directivas estrictas de exclusión de motores de búsqueda:
+    *   **Title:** Prothia App | Clinical Telemetry & Prosthetic Management
+    *   **Meta Description:** Access the Prothia clinical portal to monitor real-time gait telemetry, manage patient exercise adherence, and track prosthetic mechanical durability.
+    *   **Meta Keywords:** Prothia clinical portal, biomechanical monitoring system, patient gait dashboard, prosthetic wear logs, telemetría médica, rehabilitación protésica
+    *   **Meta Author:** SeniorsInProcess
+    *   **Meta Robots:** noindex, nofollow
+    *   **Open Graph Tags:**
+        *   `og:type`: application
+        *   `og:url`: https://app.prothia.tech
+        *   `og:title`: Prothia App | Clinical Telemetry & Prosthetic Management
+        *   `og:description`: Secure access to clinical telemetry, exercise prescriptions, and prosthetic lifecycle tracking.
+        *   `og:image`: https://app.prothia.tech/assets/Logo.png
 ### 4.2.4. Searching Systems
 
 Dado que las clínicas y los centros ortopédicos manejarán múltiples pacientes y dispositivos, el sistema de búsqueda es fundamental para la eficiencia operativa:
