@@ -245,6 +245,37 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 12. ¿En qué dispositivos (computadoras de escritorio del taller, laptops de evaluación o smartphones) necesitarían utilizar la herramienta? 
 
 ### 2.2.2. Registro de entrevistas.
+## Segmento objetivo 1 - Pacientes amputados
+
+## Entrevista 1 – Enrique Diaz
+
+### Datos Generales
+* **Nombres y Apellidos:** Enrique Diaz Aguero
+* **Edad:** 26 años
+* **Distrito de Residencia:** Lince (Lima)
+* **Estado Civil:** Soltero
+* **Ocupación:** Asistente administrativo (modalidad teletrabajo)
+* **Condición Médica:** Amputación transtibial en la pierna derecha (uso de prótesis mecánica convencional desde hace 2 años).
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 08/09/2026
+* **Inicio de la entrevista:** 0:05
+* **Duración de la entrevista:** 7:16
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQA4Y6sSavVkQJHK0xa8PFadASZ2VAnlsnRKd5NUOaA3Mi8?e=QFKKzj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<div align="center">
+          <img src="../assets/Entrevista_Segmento1.png" alt="escala" width="250">
+        </div>
+
+### Resumen de la entrevista
+
+Enrique es un joven de 26 años que reside en Lince, trabaja como asistente administrativo de forma remota y utiliza una prótesis transtibial mecánica debido a un accidente sufrido hace más de dos años. Su movilidad representa un desafío logístico y económico, ya que las molestias físicas y el tráfico a menudo lo obligan a gastar en taxis en lugar de usar el transporte público.
+
+A esto se suma la dificultad para cumplir con sus ejercicios diarios de rehabilitación en casa debido a la fatiga laboral, la desmotivación y la falta de supervisión profesional en tiempo real. Al intentar corregirse solo frente al espejo, experimenta inseguridad, dolores por malas posturas y frustración ante una atención clínica a distancia deficiente que suele exigirle visitas presenciales para resolver dudas, haciéndole perder tiempo valioso.
+
+De personalidad práctica y celoso de su privacidad, Enrique es un usuario estrictamente Mobile-First que utiliza un smartphone Android, pero es muy cauto con el consumo de datos, batería y espacio de almacenamiento. Actualmente evita las aplicaciones de salud por percibirlas complejas, pesadas o intrusivas, prefiriendo organizar sus citas de forma analógica y comunicarse con su ortopedia a través de WhatsApp.
+
+Cualquier solución tecnológica orientada a él debe ser sumamente intuitiva, ligera y estar enfocada en ahorrarle gastos y traslados innecesarios. Es fundamental que la herramienta respete su independencia y tranquilidad mental; no debe generarle ansiedad mediante notificaciones excesivas ni transmitirle la sensación de un monitoreo constante que lo haga sentir evaluado o vigilado.
 ### 2.2.3. Análisis de entrevistas.
 ---
 
