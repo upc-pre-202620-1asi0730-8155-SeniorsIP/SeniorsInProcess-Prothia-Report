@@ -266,4 +266,39 @@ En esta sección se presentan las fichas de User Personas construidas a partir d
 ![User Personas Miguel Torres](../assets/User%20Personas_Miguel%20Torres.png)
 
 ---
+### 2.3.2. User Task Matrix
 
+En esta sección se presenta el **User Task Matrix**, construido a partir de los *User Persona* que representan a los tres segmentos clave identificados:
+
+- **Segmento 1:** Pacientes amputados (representado por Carlos Mendoza).
+- **Segmento 2:** Clínicas de rehabilitación (representado por Valeria Ríos).
+- **Segmento 3:** Centros ortopédicos (representado por Miguel Torres).
+
+Las tareas fueron identificadas a partir del análisis cualitativo de entrevistas, y cada una fue evaluada según su frecuencia y nivel de importancia para los respectivos perfiles.
+
+| Tarea / Task | Carlos Mendoza (Paciente) - Frecuencia | Carlos Mendoza (Paciente) - Importancia | Valeria Ríos (Clínica) - Frecuencia | Valeria Ríos (Clínica) - Importancia | Miguel Torres (Ortopedia) - Frecuencia | Miguel Torres (Ortopedia) - Importancia |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| Colocación y ajuste del socket de la prótesis | Alta | Alta | Baja | Media | Media | Alta |
+| Ejecutar rutinas de ejercicios prescritos en el hogar | Alta | Alta | - | - | - | - |
+| Monitorear sensaciones de dolor, fatiga o roce en el muñón | Alta | Alta | Media | Media | - | - |
+| Prescribir y estructurar planes de rehabilitación física | - | - | Alta | Alta | - | - |
+| Evaluar la marcha, simetría y postura del paciente | Media | Media | Alta | Alta | Media | Media |
+| Detectar y corregir vicios posturales o compensaciones | Media | Media | Alta | Alta | Baja | Media |
+| Registrar evolución clínica y cumplimiento terapéutico | - | - | Alta | Alta | - | - |
+| Alinear componentes mecánicos de la prótesis | Baja | Media | Baja | Media | Alta | Alta |
+| Inspeccionar desgaste físico y holgura de componentes | Baja | Media | Baja | Baja | Alta | Alta |
+| Programar calendario de mantenimiento preventivo | Baja | Media | Baja | Baja | Media | Alta |
+| Realizar reparaciones correctivas o ajustes de emergencia | Baja | Alta | - | - | Alta | Alta |
+| Coordinar información técnica entre clínica y ortopedia | - | - | Media | Alta | Media | Alta |
+| Comunicar dudas sobre uso o reportar desperfectos | Media | Alta | Alta | Media | Media | Media |
+
+#### Análisis:
+A través del **User Task Matrix**, podemos identificar las frecuencias e importancias entre los diferentes segmentos que presentamos y usar esta información como guía.
+
+Las tareas clave con mayor frecuencia e importancia para **Carlos Mendoza** son la colocación y ajuste del socket, la ejecución diaria de ejercicios y el monitoreo de sensaciones de molestia o dolor en el muñón, lo que refleja su necesidad constante de seguridad y autonomía durante la rehabilitación en casa.
+
+Por su parte, **Valeria Ríos** prioriza con alta frecuencia e importancia la prescripción de rutinas, la evaluación de la marcha y la detección temprana de compensaciones posturales para asegurar la efectividad del tratamiento clínico.
+
+En contraste, **Miguel Torres** enfoca su labor en tareas de alta relevancia técnica como la alineación de piezas, la inspección de desgaste de componentes y la programación de mantenimientos preventivos.
+
+A pesar de sus distintos roles operativos, los tres grupos coinciden en la importancia crítica de la correcta adaptación física de la prótesis y la necesidad de una comunicación técnica fluida ante desperfectos. Esto evidencia una oportunidad integral para centralizar el monitoreo de la marcha, anticipar fallas mecánicas y asegurar un seguimiento continuo y coordinado entre el hogar, la clínica y el taller ortopédico.
