@@ -737,3 +737,10 @@ Para mantener la organización, las historias se agruparon en épicas según sus
 </table>
 
 ---
+## 3.2. Impact Mapping.
+
+El equipo desarrolló un Impact Mapping en colaboración utilizando la herramienta UXPressia. Este mapa se creó para conectar los objetivos de negocio directamente con los requisitos funcionales de la plataforma.
+
+![Impact Mapping](../assets/ImpactMap.png)
+
+
