@@ -90,3 +90,12 @@ En cuanto a la tipografía, dado que Prothia gestiona datos biomecánicos, histo
     *   Estándar de espaciado basado en múltiplos de 8px para mantener un ritmo visual coherente y ordenado.
 
 ---
+## 4.2. Information Architecture
+
+### 4.2.1. Organization Systems
+
+Para estructurar la gran cantidad de datos médicos y de sensores, Prothia utiliza los siguientes sistemas de organización:
+
+*   **Organización Jerárquica:** Utilizada en los dashboards principales, donde se prioriza mostrar en la parte superior las alertas críticas (posturas incorrectas o mantenimientos urgentes), seguidas por los resúmenes de progreso biomecánico y, finalmente, los historiales detallados.
+*   **Organización Secuencial:** Aplicada en los flujos de tareas paso a paso, como el registro de los datos clínicos de un paciente, la asociación de una prótesis a un usuario o la asignación de un plan de ejercicios.
+*   **Organización Matricial:** Empleada en las vistas de analítica, permitiendo a los profesionales de rehabilitación cruzar datos de adherencia a los ejercicios con métricas de simetría de apoyo o cadencia a lo largo del tiempo.
