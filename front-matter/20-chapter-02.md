@@ -343,3 +343,36 @@ En esta sección se presenta el trabajo realizado durante la sesión de Big Pict
 ![Big Picture EventStorming](../assets/BigPictureEventStroming.png)
 
 <https://miro.com/app/board/uXjVGbuSqec=/?share_link_id=610103626578>
+---
+## 2.5. Ubiquitous Language
+
+El Ubiquitous Language reúne los términos principales del dominio de Prothia para que el equipo utilice un mismo significado durante el análisis, diseño e implementación. Los términos se mantienen en inglés y sus definiciones se presentan en español.
+
+| Término | Definición |
+|---|---|
+| **Amputee Patient** | Persona que ha sufrido una amputación, utiliza una prótesis y participa en un proceso de adaptación y rehabilitación. |
+| **Rehabilitation Clinic** | Institución o equipo profesional responsable de evaluar, planificar y realizar seguimiento al proceso de rehabilitación del paciente. |
+| **Orthopedic Center** | Establecimiento especializado en la fabricación, adaptación, revisión y mantenimiento de prótesis. |
+| **Prosthesis** | Dispositivo utilizado por el paciente para sustituir total o parcialmente una extremidad y apoyar su movilidad. |
+| **Rehabilitation Plan** | Conjunto de objetivos y actividades definidas para acompañar la recuperación y adaptación del paciente. |
+| **Exercise Plan** | Conjunto de ejercicios asignados a un paciente, incluyendo frecuencia y repeticiones esperadas. |
+| **Exercise Completion** | Registro que indica que un paciente realizó un ejercicio perteneciente a su plan vigente. |
+| **Adherence** | Nivel de cumplimiento del paciente respecto de los ejercicios y actividades indicadas en su plan de rehabilitación. |
+| **Biomechanical Data** | Información obtenida durante el movimiento o uso de la prótesis y utilizada para analizar el desempeño del paciente. |
+| **Biomechanical Session** | Periodo de actividad durante el cual se recopilan y procesan datos biomecánicos relacionados con un paciente. |
+| **Posture Assessment** | Evaluación del movimiento o postura del paciente a partir de datos biomecánicos y parámetros establecidos. |
+| **Biomechanical History** | Conjunto cronológico de registros biomecánicos asociados a un paciente. |
+| **Rehabilitation Progress** | Evolución del paciente a partir del cumplimiento de ejercicios y la información registrada durante su rehabilitación. |
+| **Clinical Alert** | Aviso generado cuando se identifica una condición biomecánica que requiere la revisión de un profesional de la clínica. |
+| **Alert Threshold** | Valor o rango configurado para determinar cuándo un indicador biomecánico debe generar una alerta. |
+| **Technical History** | Registro de intervenciones, revisiones y observaciones realizadas sobre una prótesis. |
+| **Maintenance** | Actividad de revisión, ajuste o intervención realizada para conservar el funcionamiento adecuado de una prótesis. |
+| **Preventive Maintenance** | Mantenimiento programado antes de la aparición de una falla, según fecha o condiciones de uso. |
+| **Maintenance Alert** | Aviso dirigido al centro ortopédico cuando una prótesis alcanza una condición que requiere revisión o mantenimiento. |
+| **Patient Information Sharing** | Acción mediante la cual la clínica habilita información relevante del paciente al centro ortopédico responsable de su prótesis. |
+| **Subscription** | Modalidad de acceso anual utilizada por una clínica para utilizar Prothia. |
+| **Software License** | Modalidad de acceso utilizada por un centro ortopédico para emplear las funcionalidades de Prothia. |
+| **Demo Request** | Solicitud realizada por un visitante interesado en conocer el funcionamiento de Prothia antes de una posible contratación. |
+| **Biomechanical Monitoring** | Seguimiento de información biomecánica generada durante el uso de la prótesis y las actividades de rehabilitación. |
+| **Prosthesis Usage** | Información relacionada con el uso acumulado y condiciones de utilización de una prótesis. |
+| **B2B** | B2B (Business-to-Business) es un modelo de negocio en el que una empresa vende productos, servicios o soluciones a otras empresas en lugar de hacerlo al consumidor final. |
