@@ -246,4 +246,24 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 
 ### 2.2.2. Registro de entrevistas.
 ### 2.2.3. Análisis de entrevistas.
+---
+
+## 2.3. Needfinding. 
+
+### 2.3.1. User Personas. 
+En esta sección se presentan las fichas de User Personas construidas a partir de los datos recolectados del análisis de entrevistas a nuestros segmentos objetivos. Estas fichas permiten representar de forma clara y estratégica los perfiles de cada segmento objetivo, considerando sus metas, habilidades, motivaciones y dificultades. De esta manera se integra la perspectiva del usuario y tendencias del sector para identificar oportunidades en el mercado y ofrecer una solución alineada a lo que el usuario necesita.
+
+**Segmento Objetivo 1: Paciente Amputado**
+
+![User Personas Marcelo Arias](../assets/User%20Personas_Marcelo%20Arias.png)
+
+**Segmento Objetivo 2: Clínica de Rehabilitación**
+
+![User Personas Valeria Ríos](../assets/User%20Personas_Valeria%20Ríos.png)
+
+**Segmento Objetivo 3: Centro Ortopédico**
+
+![User Personas Miguel Torres](../assets/User%20Personas_Miguel%20Torres.png)
+
+---
 
