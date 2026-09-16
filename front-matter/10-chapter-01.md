@@ -115,3 +115,29 @@ Sabremos que hemos tenido éxito cuando observemos:
 - Creemos que las **Alertas** permitirán identificar patrones o comportamientos que puedan requerir una revisión por parte del profesional.
 - Creemos que el **Historial de Uso** permitirá a los centros ortopédicos consultar información relevante sobre el uso de las prótesis para facilitar su mantenimiento.
 - Creemos que el **Acceso Diferenciado** permitirá mostrar información y funcionalidades específicas según si el usuario es paciente, profesional de una clínica o especialista de una ortopedia.
+
+#### 1.2.2.3 Lean UX Hypothesis Statements
+
+**Monitoreo de la Rehabilitación**
+
+**Creemos que** al recopilar y procesar datos biomecánicos relacionados con los movimientos y posturas de los pacientes amputados para los profesionales de rehabilitación, estos podrán realizar un seguimiento más continuo del proceso de adaptación a la prótesis, mejorando la visibilidad de los profesionales sobre el desempeño del paciente fuera de las sesiones presenciales.
+
+**Sabremos que** tenemos razón **cuando** los profesionales de las clínicas de rehabilitación indiquen que la información recopilada por la plataforma les permite comprender mejor el comportamiento y progreso del paciente durante su rehabilitación, y cuando se observe un uso recurrente de la plataforma para consultar y realizar seguimiento del progreso de los pacientes.
+
+**Detección de Movimientos y Posturas Inadecuadas**
+
+**Creemos que** al recopilar y procesar datos biomecánicos relacionados con los movimientos y posturas del paciente amputado para los profesionales de rehabilitación, estos podrán identificar posibles patrones inadecuados durante el proceso de adaptación a la prótesis, logrando detectar oportunamente situaciones que requieran una evaluación o intervención profesional.
+
+**Sabremos que** tenemos razón **cuando** los profesionales consideren útil la información biomecánica presentada por la plataforma y cuando puedan identificar comportamientos que anteriormente no podían observar durante las actividades realizadas fuera de la clínica.
+
+**Comunicación entre Actores**
+
+**Creemos que** al centralizar la información del paciente y del uso de la prótesis en una única plataforma para pacientes, clínicas de rehabilitación y centros ortopédicos, estos actores podrán compartir información de manera más eficiente, logrando reducir la brecha de comunicación y mejorar la coordinación durante el proceso de rehabilitación y adaptación.
+
+**Sabremos que** tenemos razón cuando los usuarios indiquen que pueden acceder a la información que necesitan sin depender exclusivamente de comunicaciones manuales y cuando se observe un uso frecuente de la plataforma por parte de los diferentes actores.
+
+**Seguimiento y Mantenimiento de la Prótesis**
+
+**Creemos que** al proporcionar a los centros ortopédicos información relacionada con el uso y comportamiento de las prótesis, los especialistas responsables de su fabricación, adaptación y mantenimiento podrán realizar un seguimiento más informado de las condiciones de uso de los dispositivos, facilitando la identificación de posibles necesidades de mantenimiento y mejorando la gestión de las prótesis.
+
+**Sabremos que** tenemos razón cuando los especialistas consideren útil la información de uso proporcionada por la plataforma para realizar el seguimiento de las prótesis y utilicen estos datos como apoyo para sus decisiones relacionadas con el mantenimiento y la atención de los dispositivos.
