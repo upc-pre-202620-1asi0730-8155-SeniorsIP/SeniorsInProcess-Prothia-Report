@@ -45,3 +45,21 @@ El problema se presenta porque los datos sobre el uso de la prótesis, los movim
 **How Much / ¿CUÁNTO?**
 
 La magnitud del problema se relaciona con la cantidad de tiempo que el paciente realiza su rehabilitación fuera de la clínica, durante el cual los profesionales cuentan con información limitada sobre su desempeño. Esta falta de visibilidad puede generar un seguimiento discontinuo y dificultar la detección temprana de problemas de adaptación, posturas incorrectas o un uso inadecuado de la prótesis. Para establecer un porcentaje o valor cuantitativo específico, será necesario realizar una validación con pacientes, clínicas y centros ortopédicos.
+
+### 1.2.2 Lean UX Process
+
+#### 1.2.2.1 Lean UX Problem Statements
+
+El estado actual del proceso de rehabilitación y seguimiento post-protésico de pacientes amputados se ha enfocado principalmente en evaluaciones presenciales puntuales dentro de clínicas de rehabilitación, donde la recopilación de datos biomecánicos y el control de los ejercicios están limitados al tiempo de consulta.
+
+Lo que los productos y servicios existentes no logran abordar es la falta de visibilidad continua sobre el desempeño del paciente en el hogar y la ausencia de una comunicación integrada y centralizada en tiempo real entre los tres actores clave del ecosistema: el paciente, la clínica de rehabilitación y el centro ortopédico. Esto genera un seguimiento discontinuo, incertidumbre sobre la ejecución correcta de las rutinas cotidianas y decisiones de ajuste protésico basadas en percepciones subjetivas en lugar de datos objetivos.
+
+Nuestra plataforma Prothia abordará esta brecha mediante una solución web centralizada que recopila, procesa y visualiza información biomecánica y métricas de uso de prótesis en tiempo real, conectando el monitoreo en el hogar con la supervisión profesional. Nuestro enfoque inicial estará dirigido a pacientes amputados en etapa de rehabilitación doméstica, clínicas de rehabilitación física que requieren monitorear el progreso del paciente y centros ortopédicos encargados del diseño y ajuste técnico de la prótesis.
+
+Sabremos que hemos tenido éxito cuando observemos:
+
+1. **En los pacientes:** Un incremento en la adherencia y correcta ejecución de sus ejercicios de rehabilitación en el hogar, reflejado en un uso continuo del dispositivo.
+
+2. **En las clínicas de rehabilitación:** Una reducción en los tiempos de evaluación y una toma de decisiones terapéuticas basada en reportes biomecánicos objetivos.
+
+3. **En los centros ortopédicos:** Una optimización en la comunicación e intercambio de datos para la calibración y ajuste preciso de las prótesis.
