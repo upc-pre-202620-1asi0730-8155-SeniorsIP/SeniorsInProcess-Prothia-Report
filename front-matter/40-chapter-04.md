@@ -132,3 +132,18 @@ Dado que las clínicas y los centros ortopédicos manejarán múltiples paciente
     *   **Filtro por rango de fechas:** Esencial para consultar el historial de datos biomecánicos o el historial de uso en periodos específicos.
 *   **Apariencia de los resultados:**
     *   Los resultados mostrarán tarjetas de resumen con el nombre del paciente, el tipo de prótesis vinculada y un indicador visual de su estado actual (ej. verde para estable, rojo para alerta de postura).
+### 4.2.5. Navigation Systems
+
+La navegación de Prothia se adapta al acceso diferenciado según el rol del usuario (paciente, profesional clínico o técnico ortopédico), asegurando que cada uno vea solo la información pertinente a sus objetivos.
+
+*   **Páginas principales (Landing Page):**
+    *   **Inicio:** Hero section con la propuesta de valor integradora de Prothia.
+    *   **Beneficios:** Explicación de ventajas para los tres segmentos (visibilidad clínica, trazabilidad de mantenimiento, recuperación segura).
+    *   **Contacto/Demo:** Formularios de captación (Leads) para clínicas y talleres.
+*   **Estructura de la Aplicación Web (Acceso diferenciado):**
+    *   **Vista Paciente:** Menú simplificado centrado en "Mi Progreso", "Mis Ejercicios" y un acceso directo a "Mensajes" con su clínica.
+    *   **Vista Clínica:** Menú lateral (Sidebar) expansible con acceso al "Dashboard Biomecánico", "Directorio de Pacientes", "Planes de Ejercicio" y "Alertas".
+    *   **Vista Centro Ortopédico:** Menú centrado en "Inventario de Prótesis", "Historial Técnico", "Mantenimientos Programados" y "Alertas de Desgaste".
+*   **Búsqueda y navegación contextual:**
+    *   Uso de *Breadcrumbs* (migas de pan) en las vistas profundas (ej. *Inicio > Pacientes > Marcelo Arias > Datos Biomecánicos*) para que el usuario no pierda el contexto.
+    *   Iconografía clara en el menú lateral (ej. un icono de advertencia para las alertas y una silueta humana para los perfiles de pacientes).
