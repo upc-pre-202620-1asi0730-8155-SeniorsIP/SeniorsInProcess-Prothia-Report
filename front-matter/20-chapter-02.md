@@ -302,3 +302,21 @@ Por su parte, **Valeria Ríos** prioriza con alta frecuencia e importancia la pr
 En contraste, **Miguel Torres** enfoca su labor en tareas de alta relevancia técnica como la alineación de piezas, la inspección de desgaste de componentes y la programación de mantenimientos preventivos.
 
 A pesar de sus distintos roles operativos, los tres grupos coinciden en la importancia crítica de la correcta adaptación física de la prótesis y la necesidad de una comunicación técnica fluida ante desperfectos. Esto evidencia una oportunidad integral para centralizar el monitoreo de la marcha, anticipar fallas mecánicas y asegurar un seguimiento continuo y coordinado entre el hogar, la clínica y el taller ortopédico.
+---
+
+### 2.3.3. User Journey Mapping. 
+En esta sección se presentan los User Journey Maps de los tres segmentos objetivo. Cada mapa refleja el recorrido actual que estos usuarios realizan para cumplir sus objetivos sin contar aún con una solución tecnológica integrada, mostrando los puntos críticos, emociones, tareas clave y oportunidades de mejora. Estos recorridos nos permiten entender los desafíos que enfrentan los usuarios día a día.
+
+**Segmento Objetivo 1: Paciente Amputado**
+
+![journey map Marcelo Arias](../assets/journey%20map_Marcelo%20Arias.png)
+
+**Segmento Objetivo 2: Clínica de Rehabilitación**
+
+![journey map Valeria Ríos](../assets/journey%20map_Valeria%20Ríos.png)
+
+**Segmento Objetivo 3: Centro Ortopédico**
+
+![journey map Miguel Torres](../assets/journey%20map_Miguel%20Torres.png)
+
+---
