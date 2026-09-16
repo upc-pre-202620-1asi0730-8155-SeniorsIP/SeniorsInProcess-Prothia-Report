@@ -120,3 +120,15 @@ Para asegurar el posicionamiento de la Landing Page de Prothia y captar a los se
 *   **Meta Description:** Conecta a pacientes amputados, clínicas de rehabilitación y centros ortopédicos. Optimiza el seguimiento remoto, analiza datos biomecánicos en tiempo real y gestiona el mantenimiento de prótesis con Prothia.
 *   **Meta Keywords:** telerehabilitación, monitoreo biomecánico, pacientes amputados, prótesis, software clínico, mantenimiento ortopédico, salud digital.
 *   **Meta Author:** SeniorsInProcess.
+### 4.2.4. Searching Systems
+
+Dado que las clínicas y los centros ortopédicos manejarán múltiples pacientes y dispositivos, el sistema de búsqueda es fundamental para la eficiencia operativa:
+
+*   **Opciones de Búsqueda:**
+    *   **Barra de búsqueda global:** Permite ingresar nombres de pacientes, números de serie de prótesis o DNI para un acceso directo.
+*   **Filtros disponibles:**
+    *   **Por rol o entidad:** Filtrado exclusivo según los pacientes asignados a una clínica o las prótesis fabricadas por un taller ortopédico.
+    *   **Por estado de rehabilitación:** Pacientes con "Alertas activas", "Mantenimiento requerido" o "Rutina completada".
+    *   **Filtro por rango de fechas:** Esencial para consultar el historial de datos biomecánicos o el historial de uso en periodos específicos.
+*   **Apariencia de los resultados:**
+    *   Los resultados mostrarán tarjetas de resumen con el nombre del paciente, el tipo de prótesis vinculada y un indicador visual de su estado actual (ej. verde para estable, rojo para alerta de postura).
