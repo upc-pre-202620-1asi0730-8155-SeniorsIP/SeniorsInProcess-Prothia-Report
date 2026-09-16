@@ -112,3 +112,11 @@ El sistema de etiquetado en Prothia está diseñado para reducir la carga cognit
     *   **Gestión de rehabilitación (Clínicas):** Asignar plan, Progreso de rehabilitación, Historial biomecánico.
     *   **Gestión técnica (Ortopedias):** Historial de uso, Programar mantenimiento, Estado del dispositivo.
     *   **Acciones del usuario:** Registrar paciente, Asociar prótesis, Generar reporte, Enviar mensaje, Configurar umbrales.
+### 4.2.3. SEO Tags and Meta Tags
+
+Para asegurar el posicionamiento de la Landing Page de Prothia y captar a los segmentos objetivo corporativos (clínicas y ortopedias), se han definido las siguientes etiquetas SEO:
+
+*   **Title:** Prothia | Plataforma de Monitoreo Biomecánico y Rehabilitación
+*   **Meta Description:** Conecta a pacientes amputados, clínicas de rehabilitación y centros ortopédicos. Optimiza el seguimiento remoto, analiza datos biomecánicos en tiempo real y gestiona el mantenimiento de prótesis con Prothia.
+*   **Meta Keywords:** telerehabilitación, monitoreo biomecánico, pacientes amputados, prótesis, software clínico, mantenimiento ortopédico, salud digital.
+*   **Meta Author:** SeniorsInProcess.
