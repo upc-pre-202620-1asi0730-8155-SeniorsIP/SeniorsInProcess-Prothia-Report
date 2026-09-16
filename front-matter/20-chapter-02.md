@@ -336,3 +336,10 @@ En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender
 ![Empathy Mapping Miguel Torres](../assets/Empathy%20Mapping_Miguel%20Torres.png)
 
 ---
+## 2.4. Big Picture EventStorming
+
+En esta sección se presenta el trabajo realizado durante la sesión de Big Picture Event Storming, enfocada en comprender el dominio general del negocio. Para ello se utilizaron post-its en Miro para mapear los eventos significativos que ocurren en el flujo operativo actual. Ello nos permitió identificar procesos clave, actores involucrados, relaciones entre eventos, y oportunidades de mejora para el desarrollo de nuestra solución.
+
+![Big Picture EventStorming](../assets/BigPictureEventStroming.png)
+
+<https://miro.com/app/board/uXjVGbuSqec=/?share_link_id=610103626578>
