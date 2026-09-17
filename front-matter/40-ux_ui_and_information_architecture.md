@@ -143,7 +143,7 @@ Para asegurar el posicionamiento orgánico del ecosistema de Prothia en motores 
         *   `og:title`: Prothia App | Clinical Telemetry & Prosthetic Management
         *   `og:description`: Secure access to clinical telemetry, exercise prescriptions, and prosthetic lifecycle tracking.
         *   `og:image`: https://app.prothia.tech/assets/Logo.png
-        
+
 ### 4.2.4. Searching Systems
 
 Dentro de la plataforma Prothia, los sistemas de búsqueda han sido diseñados para facilitar el acceso rápido y eficiente a la información relacionada con la rehabilitación biomecánica y el seguimiento de prótesis. Debido al manejo constante de datos vinculados con pacientes, prótesis, alertas posturales, historiales de marcha y registros técnicos, se contempla un sistema de búsqueda que permita a los usuarios localizar información relevante de manera inmediata y mantener un control ordenado de sus actividades. El sistema permitirá realizar búsquedas dentro de los distintos módulos de la plataforma mediante:
@@ -165,19 +165,31 @@ Una vez realizada la búsqueda, los resultados se mostrarán de forma estructura
 
 ### 4.2.5. Navigation Systems
 
-La navegación de Prothia se adapta al acceso diferenciado según el rol del usuario (paciente, profesional clínico o técnico ortopédico), asegurando que cada uno vea solo la información pertinente a sus objetivos.
+Para el sistema de navegación otorgamos libertad y facilidad al usuario dentro de la plataforma con diversas interfaces de navegación:
 
-*   **Páginas principales (Landing Page):**
-    *   **Inicio:** Hero section con la propuesta de valor integradora de Prothia.
-    *   **Beneficios:** Explicación de ventajas para los tres segmentos (visibilidad clínica, trazabilidad de mantenimiento, recuperación segura).
-    *   **Contacto/Demo:** Formularios de captación (Leads) para clínicas y talleres.
-*   **Estructura de la Aplicación Web (Acceso diferenciado):**
-    *   **Vista Paciente:** Menú simplificado centrado en "Mi Progreso", "Mis Ejercicios" y un acceso directo a "Mensajes" con su clínica.
-    *   **Vista Clínica:** Menú lateral (Sidebar) expansible con acceso al "Dashboard Biomecánico", "Directorio de Pacientes", "Planes de Ejercicio" y "Alertas".
-    *   **Vista Centro Ortopédico:** Menú centrado en "Inventario de Prótesis", "Historial Técnico", "Mantenimientos Programados" y "Alertas de Desgaste".
-*   **Búsqueda y navegación contextual:**
-    *   Uso de *Breadcrumbs* (migas de pan) en las vistas profundas (ej. *Inicio > Pacientes > Marcelo Arias > Datos Biomecánicos*) para que el usuario no pierda el contexto.
-    *   Iconografía clara en el menú lateral (ej. un icono de advertencia para las alertas y una silueta humana para los perfiles de pacientes).
+***PRIMERA NAVEGACIÓN:*** Acceso a apartados para cada tipo de usuario, herramientas de registro y cambio de idioma. Este navegador global se encuentra fijado en la parte superior de la pantalla (*sticky header*), permitiendo que el visitante pueda acceder en todo momento a las funciones y secciones principales del sitio (Home, The Challenge, Solutions, Features, Plans, About Us, FAQ, Contact), alternar el idioma (EN / ES) e interactuar directamente con el botón de registro (Register Now) sin la necesidad de hacer scroll de retorno.
+
+<div align="center">
+  <img src="../assets/Primera-Navegacion.png" alt="Primera Navegacion" >
+</div>
+
+*Fuente: Propia.*
+
+***SEGUNDA NAVEGACIÓN:*** Pantalla principal (Hero Section) con llamado a la acción directo. Esta sección, ubicada inmediatamente después del encabezado, presenta la propuesta de valor de Prothia orientada a la telemetría biomecánica y cuenta con el botón principal "Register Now", el cual guía al visitante directamente hacia el formulario de registro y contacto tras captar su interés con la presentación del producto.
+
+<div align="center">
+  <img src="../assets/Segunda-Navegacion.png" alt="Primera Navegacion" >
+</div>
+
+*Fuente: Propia.*
+
+***TERCERA NAVEGACIÓN:*** Pie de página con información complementaria. Esta sección reúne enlaces de interés organizados por categorías (Plataforma, Aspectos Legales y Seguridad, y Centro de Innovación), permitiendo que los usuarios que llegaron al final del sitio continúen navegando fácilmente, consulten políticas de privacidad y normativas de seguridad médica (AES-256 y WCAG 2.1 AA) sin necesidad de regresar al inicio.
+
+<div align="center">
+  <img src="../assets/Tercera-Navegacion.png" alt="Primera Navegacion" >
+</div>
+
+*Fuente: Propia.*
 
 ## 4.6.2. Software Architecture Context Diagram
 
