@@ -16,6 +16,55 @@ El modelo de negocio de SeniorsInProcess se basa principalmente en una suscripci
 
 De esta manera, SeniorsInProcess busca generar valor para cada uno de sus segmentos objetivo: pacientes amputados, clínicas de rehabilitación y centros ortopédicos, proporcionando información que facilite la toma de decisiones, mejore el seguimiento de la rehabilitación y permita una gestión más eficiente de las prótesis.
 
+### 1.1.2. Perfiles de integrantes del equipo
+
+
+| **Integrante**            | **Ana Camila Patricio Farias**        									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** | u20241i469                                   										|
+| **Carrera**               | Ingeniería de Software                       										|
+| **Descripción**           | Mi nombre es Camila Patricio. Tengo 20 años, soy estudiante de Ingeniería de Software y considero que mis principales fortalezas son la responsabilidad, el compromiso y la disposición para aprender constantemente. Puedo aportar a mi grupo habilidades en programación, análisis de problemas y búsqueda de soluciones creativas. Además, me caracterizo por trabajar en equipo de manera colaborativa y organizada. Mi propósito es aportar mis conocimientos y esfuerzo para que logremos juntos los objetivos de nuestro proyecto.   												|
+| **Foto**                  | <img src="../assets/AnaCamila.png" alt="" width="200" height="240"> |
+
+---
+| **Integrante**            | **Oscar Diego Checa Burga**        									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                    										|
+| **Carrera**               | Ingeniería de Software                       										|
+| **Descripción**           |    												|
+| **Foto**                  | <img src="../assets/" alt="" width="200" height="240"> |
+
+---
+| **Integrante**            | **Leonardo Felix Dextre Flores**        									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                    										|
+| **Carrera**               | Ingeniería de Software                       										|
+| **Descripción**           |   												|
+| **Foto**                  | <img src="../assets/" alt="" width="200" height="240"> |
+
+---
+| **Integrante**            | **Carlos Mathhew Salcedo Correa**        									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                    										|
+| **Carrera**               | Ingeniería de Software                       										|
+| **Descripción**           |    												|
+| **Foto**                  | <img src="../assets/" alt="" width="200" height="240"> |
+
+---
+| **Integrante**            | **Rafael Barrenechea Bustamante**        									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** |                                    										|
+| **Carrera**               | Ingeniería de Software                       										|
+| **Descripción**           |    												|
+| **Foto**                  | <img src="../assets/" alt="" width="200" height="240"> |
+
+---
+
+
+
+
+
+
 ### 1.2.1 Antecedentes y Problemática
 
 **What / ¿QUÉ?**
