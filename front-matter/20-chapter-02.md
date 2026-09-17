@@ -264,7 +264,7 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 * **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQA4Y6sSavVkQJHK0xa8PFadASZ2VAnlsnRKd5NUOaA3Mi8?e=QFKKzj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 <div align="center">
-          <img src="../assets/Entrevista_Segmento1.png" alt="escala" width="250">
+          <img src="../assets/Entrevista_Segmento1.png" alt="escala" >
         </div>
 
 ### Resumen de la entrevista
@@ -276,6 +276,37 @@ A esto se suma la dificultad para cumplir con sus ejercicios diarios de rehabili
 De personalidad práctica y celoso de su privacidad, Enrique es un usuario estrictamente Mobile-First que utiliza un smartphone Android, pero es muy cauto con el consumo de datos, batería y espacio de almacenamiento. Actualmente evita las aplicaciones de salud por percibirlas complejas, pesadas o intrusivas, prefiriendo organizar sus citas de forma analógica y comunicarse con su ortopedia a través de WhatsApp.
 
 Cualquier solución tecnológica orientada a él debe ser sumamente intuitiva, ligera y estar enfocada en ahorrarle gastos y traslados innecesarios. Es fundamental que la herramienta respete su independencia y tranquilidad mental; no debe generarle ansiedad mediante notificaciones excesivas ni transmitirle la sensación de un monitoreo constante que lo haga sentir evaluado o vigilado.
+
+
+## Entrevista 2 – Juan Ramirez
+
+### Datos Generales
+* **Nombres y Apellidos:** Juan Ramirez
+* **Edad:** 30 años
+* **Distrito de Residencia:** San Miguel (Lima)
+* **Estado Civil:** Soltero
+* **Ocupación:** Desarrollador de software freelance
+* **Condición Médica:** Amputación transtibial en la pierna izquierda.
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 08/09/2026
+* **Inicio de la entrevista:** 0:05
+* **Duración de la entrevista:** 7:04
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAzHTWm8DPMQr6fwiwnHtPBAbVV96Ay50rhZqgU8XjvNWU?e=UumKiW)
+
+<div align="center">
+          <img src="../assets/PacienteAmputado-imagen.jpeg" alt="escala">
+        </div>
+
+### Resumen de la entrevista
+
+Juan Ramirez es un paciente residente en Lima San Miguel que cuenta con una amputación de tipo transtibial en una de sus extremidades inferiores, manteniendo intacta la articulación de la rodilla y utilizando una prótesis mecánica con respuesta dinámica para desplazarse. Convive estrechamente con su familia y su principal meta es recuperar plenamente la independencia motriz, buscando volver a caminar con firmeza y seguridad en su entorno cotidiano sin el temor constante a caídas o desbalances. Respecto a su rehabilitación, pasó de un esquema inicial intensivo presencial de varias veces por semana a controles espaciados de apenas una vez al mes, trasladando el peso de su adaptación motriz al hogar mediante ejercicios prescritos de equilibrio y fortalecimiento del muñón.
+
+En el desarrollo de sus terapias autónomas en casa, enfrenta una marcada sensación de incertidumbre y aislamiento clínico, ya que no cuenta con supervisión profesional continua y solo recibe retroalimentación médica durante sus breves consultas mensuales. Este distanciamiento le genera el temor constante a provocarse sobrecargas musculares, presión excesiva en el muñón, dolores lumbares compensatorios o microlesiones articulares por afianzar vicios posturales al caminar. Aunque ha recurrido por iniciativa propia a espejos de cuerpo completo y a grabarse videos caseros para enviárselos a su fisioterapeuta, experimenta una fuerte frustración al no tener certeza biomecánica inmediata de si se está inclinando hacia los lados o marchando de forma inadecuada.
+
+En cuanto a sus canales de interacción y comunicación médica, coordina sus dudas o eventuales malestares a través de mensajería y notas de voz por WhatsApp o llamadas telefónicas, reservando las citas presenciales únicamente para ajustes mecánicos del encaje protésico o dolores persistentes. En su rutina diaria muestra un manejo fluido y constante de entornos digitales y dispositivos como computadoras y smartphones a través de navegadores web como Google Chrome. Sin embargo, recalca que el proceso de rehabilitación se percibe lento y desmotivador al no disponer de herramientas accesibles que cuantifiquen su desempeño diario ni le confirmen objetivamente si su estabilidad y patrón de marcha están progresando.
+
+Por estas razones, Juan considera imprescindible una solución tecnológica que le brinde acompañamiento en tiempo real durante sus rutinas en el hogar, alertándolo mediante señales visuales o sonoras ante desviaciones posturales para corregirse al instante. Su mayor motivación es acceder a métricas claras y gráficos de progreso que midan día a día la evolución de su equilibrio, devolviéndole la confianza para dar pasos firmes. Finalmente, advierte que la plataforma debe estar optimizada para el uso cotidiano, señalando que procesos de calibración lentos, dificultades técnicas o notificaciones excesivamente invasivas provocarían el abandono inmediato de la herramienta.
 
 ## Segmento objetivo 2 - Clínicas de Rehabilitación
 
@@ -296,7 +327,7 @@ Cualquier solución tecnológica orientada a él debe ser sumamente intuitiva, l
 * **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417417_upc_edu_pe/IQDvLPFj-g2JTbIKiBEH2lV-AUU6a_4ASF_teV4sFwI9Q0A?e=2hwLvE)
 
 <div align="center">
-          <img src="../assets/Entrevista_Segmento2.png" alt="Entrevista Diego Salazar - Segmento Clínicas de Rehabilitación" width="250">
+          <img src="../assets/Entrevista_Segmento2.png" alt="Entrevista Diego Salazar - Segmento Clínicas de Rehabilitación" >
         </div>
 
 ### Resumen de la entrevista
@@ -314,6 +345,62 @@ La comunicación con los centros ortopédicos también se realiza principalmente
 Diego considera que una plataforma de seguimiento podría aportar valor a su trabajo al permitirle conocer lo que ocurre entre las sesiones, siempre que la información presentada sea fácil de interpretar. Entre las funcionalidades que considera indispensables se encuentran una ficha organizada del paciente, el plan de ejercicios, el seguimiento de su cumplimiento, una sección para revisar la evolución, el historial biomecánico y un sistema de alertas. También considera útil disponer de mecanismos para enviar observaciones al paciente y comunicarse con el centro ortopédico cuando sea necesario.
 
 Respecto a la adquisición de una suscripción anual, Diego señala que esta decisión correspondería principalmente a la administración de la clínica. Desde su posición como fisioterapeuta considera que podría recomendar una herramienta de este tipo, aunque primero necesitaría comprobar mediante su uso que funciona correctamente y que realmente proporciona información útil para el seguimiento de los pacientes.
+
+## Entrevista 2 – Ana Mercedes
+
+### Datos Generales
+* **Nombres y Apellidos:** Ana Mercedes
+* **Edad:** 38 años
+* **Distrito de Residencia:** Magdalena, Lima
+* **Estado Civil:** Soltera
+* **Ocupación:** Fisioterapeuta
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 08/09/2026
+* **Inicio de la entrevista:** 0:06
+* **Duración de la entrevista:** 6:12
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAtPUreiQjuQLqNalSOE_vFAYbEAznSdDj_Bniyhw4DBiM?e=Vx0kfU)
+
+<div align="center">
+          <img src="../assets/clinica-entrevista.jpeg" alt="Entrevista a Ana Mercedes" >
+        </div>
+
+### Resumen de la entrevista
+Ana Mercedes es una fisioterapeuta con amplia trayectoria clínica en Lima que atiende periódicamente a pacientes amputados y supervisa sus procesos de recuperación física y motriz. Durante la evaluación, la especialista enfatiza que el seguimiento extrahospitalario se coordina de manera rudimentaria mediante llamadas telefónicas y mensajería por WhatsApp, citando a los pacientes al centro únicamente ante alertas puntuales. Su principal motivación profesional radica en garantizar la eficacia clínica del tratamiento y prevenir recaídas o lesiones secundarias derivadas de una mala adaptación protésica, buscando elevar la calidad y el prestigio del servicio terapéutico que brinda su institución.
+
+Uno de sus mayores puntos de dolor y frustración es la evidente «ceguera clínica en el hogar», ya que la supervisión fuera de la consulta depende exclusivamente de lo que el paciente relata de memoria o de videos caseros ocasionales. Señala que no disponer de mediciones biomecánicas objetivas continuas ni de una plataforma centralizada propicia que los usuarios adopten vicios posturales, desvíos en la marcha y compensaciones musculares lesivas en otras partes del cuerpo, incrementando drásticamente el riesgo de deserción terapéutica. A su vez, denuncia una marcada falta de interoperabilidad con los centros ortopédicos externos, dependiendo de correos electrónicos, informes manuales o chats informales cuando se detecta la necesidad de calibrar o ajustar la prótesis.
+
+Respecto a las herramientas actuales, la profesional cuenta con un sólido conocimiento clínico y biomecánico, pero manifiesta una disponibilidad de tiempo administrativo muy reducida y un uso limitado de software médico, ya que la clínica solo maneja registros clínicos básicos sin capacidades de telemetría de marcha. Ante este panorama, considera fundamental contar con un dashboard centralizado que recolecte datos objetivos en tiempo real (como cadencia, simetría de apoyo, postura y horas de uso de la prótesis), acompañado de alertas automáticas tempranas ante movimientos erróneos. Esta solución permitiría intervenir a tiempo, priorizar a los pacientes críticos, automatizar la generación de reportes clínicos fundamentados y evitar tecnologías de laboratorio extranjeras que resultan costosas y poco aplicables a la cotidianidad del paciente.
+
+Por último, afirma que la institución vería viable la contratación de una suscripción anual siempre que la herramienta demuestre resultados clínicos medibles y mantenga una relación costo-beneficio coherente. En cuanto al ecosistema tecnológico de adopción, los profesionales operarían la plataforma primordialmente a través del navegador web (Chrome) en computadoras de escritorio o laptops de la clínica, valorando altamente una versión adaptable a tabletas para consultar datos durante las evaluaciones en sala. Por el contrario, interfaces complejas que exijan excesivo tiempo de carga operativa, fallos técnicos recurrentes o la falta de garantías en la privacidad de los datos constituirían barreras definitivas para el uso continuado del sistema.
+
+## Entrevista 3 – Carmen Salazar
+
+### Datos Generales
+* **Nombres y Apellidos:** Carmen Salazar
+* **Edad:** 70 años
+* **Distrito de Residencia:** Jesus Maria, Lima
+* **Estado Civil:** Casada
+* **Ocupación:** Médica especialista en Rehabilitación
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 10/09/2026
+* **Inicio de la entrevista:** 0:06
+* **Duración de la entrevista:** 6:12
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQCWxy6QvfuNSKu_7js1U36ZAd6DOtGrnOhD94BkyWLj0X4?e=XvFjy6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<div align="center">
+          <img src="../assets/Entrevista3_Segmento2.png" alt="Entrevista a Ana Mercedes" >
+        </div>
+
+### Resumen de la entrevista
+La Sra. Carmen es una médica especialista en Rehabilitación de 70 años que ejerce como Directora Médica en una clínica de Lima. Cuenta con más de 40 años de experiencia asistencial, caracterizándose por una personalidad sabia, observadora y pragmática, abierta a adoptar tecnología si esta respalda su criterio clínico tradicional con datos objetivos.
+
+En su día a día atiende periódicamente a pacientes amputados, pero enfrenta la dificultad de no saber cómo realizan los ejercicios en casa. La falta de este control provoca que los pacientes adopten malas posturas, sufran dolor lumbar o dejen de usar la prótesis, lo que complica la rehabilitación y satura la consulta presencial.
+
+En el aspecto tecnológico, es una usuaria tradicional de oficina: prefiere trabajar en computadoras de escritorio con navegadores web y pantallas grandes de letra clara, aunque entiende que sus terapeutas más jóvenes prefieran tabletas en el gimnasio. Sus canales de interacción actuales son la historia clínica digital del centro y la comunicación directa por teléfono o WhatsApp con los ortopedistas.
+
+Para que la clínica invierta en una suscripción anual, la solución debe ser simple y rápida de usar. Requiere un panel visual claro con sistema de semáforos (verde, amarillo y rojo), reportes exportables para la historia médica y métricas clave de horas de uso y alineación de la marcha, garantizando que el sistema ahorre tiempo y mejore la salud del paciente sin burocracia.
 
 ## Segmento objetivo 3 - Centros Ortopédicos
 
@@ -333,7 +420,7 @@ Respecto a la adquisición de una suscripción anual, Diego señala que esta dec
 * **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQDGRUcxI0alSJHZDbz9Bg3DAV4u6lDCnPcz6e3rXbwwUAM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYgj6s)
 
 <div align="center">
-          <img src="../assets/entrevista_Segmento3.png" alt="escala" width="250">
+          <img src="../assets/entrevista_Segmento3.png" alt="escala" >
         </div>
 
 ### Resumen de la entrevista
@@ -359,10 +446,10 @@ Cualquier solución digital dirigida a su taller debe ser directa, ágil y de al
 * **Fecha de entrevista:** 16/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 5:36
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBupHk2utw5R4eg3jkeRzJcAbA0gRfEZmGtE8kOBRssVUk?e=7WdpAs)
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBupHk2utw5R4eg3jkeRzJcAbA0gRfEZmGtE8kOBRssVUk?e=DDU3pI)
 
 <div align="center">
-          <img src="../assets/Entrevista2_Segmento3.png" alt="escala" width="250">
+          <img src="../assets/Entrevista2_Segmento3.png" alt="escala" >
         </div>
 
 ### Resumen de la entrevista
