@@ -494,6 +494,36 @@ En el ámbito tecnológico, maneja una dinámica mixta: emplea la computadora de
 
 Cualquier propuesta tecnológica viable debe ser ligera, intuitiva y ajustada a la realidad económica de un taller ortopédico local. Prioriza herramientas que incorporen registro de números de serie y caducidad técnica de piezas (liners, rodillas, pies), métricas de actividad (horas de uso e impactos) y alertas automáticas de calibración y mantenimiento preventivo. Estaría dispuesto a pagar una suscripción si la herramienta demuestra un retorno tangible: disminución de disputas por garantías, aumento en la recurrencia de servicios de mantenimiento programado y generación de reportes biomecánicos objetivos para fundamentar cambios de piezas ante aseguradoras y médicos.
 
+## Entrevista 3 – Jose Riveros Veliz
+
+### Datos Generales
+**Nombres y Apellidos:** Jose Riveros
+* **Edad:** 30 años
+* **Distrito de Residencia:** Lima (Centro ortopédico ubicado en Lima Metropolitana)
+* **Estado Civil:** Soltero
+* **Ocupación:** Técnico ortoprotesista (Encargado de taller)
+ **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBVJ0Uf4UxdT6TO0BUGfjbXAZCLztIVzE5Mr7f2d9GNNqM?e=KERokM)
+
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 16/09/2026
+* **Inicio de la entrevista:** 0:05
+* **Duración de la entrevista:** 4:20
+
+<div align="center">
+          <img src="../assets/Entrevista3_Segmento3.png" alt="escala" >
+        </div>
+
+### Resumen de la entrevista
+
+José Riveros Véliz es un técnico ortoprotesista de 30 años que se desempeña como encargado de taller en un centro ortopédico en Lima, especializado en el diseño, alineación y confección a medida de prótesis de miembros inferiores y superiores, con una producción regular de 4 a 6 dispositivos mensuales más servicios de ajuste y calibración. Muestra un perfil pragmático, técnico y con interés en la digitalización, combinando el trabajo manual de taller con la necesidad de profesionalizar la atención técnica posventa de sus pacientes.
+
+SSu principal limitación operativa es la falta de visibilidad objetiva sobre el esfuerzo mecánico, cadencia y volumen real de marcha al que los usuarios someten las prótesis en su vida diaria. Al no contar con telemetría de uso, depende exclusivamente de lo que el paciente relata y de agendas manuales o recordatorios de WhatsApp (programados a los 15 días, al mes y cada 6 meses), lo que convierte el mantenimiento en un proceso netamente reactivo que atiende fallas o desgastes críticos ya avanzados. Asimismo, la coordinación con los fisioterapeutas a cargo de la rehabilitación es informal y dispersa, careciendo de un canal centralizado donde cruzar la evolución motriz del usuario con los historiales técnicos de la prótesis.
+
+En el aspecto tecnológico, utiliza computadoras de escritorio y Excel para registrar números de serie y fechas de entrega, requiriendo además el soporte en smartphone para realizar consultas inmediatas durante las pruebas dinámicas de alineación. Aunque conoce herramientas Bluetooth para calibrar rodillas electrónicas de alta gama, critica que sean entornos cerrados e incompatibles con prótesis mecánicas multimarca. Considera viable pagar una licencia de software adaptada a la realidad económica local siempre que la herramienta aporte métricas de horas activas, inventario técnico, alertas automáticas de mantenimiento y un enlace directo con las clínicas tratantes para fidelizar pacientes y justificar recambios a tiempo.
+
+
+
 ### 2.2.3. Análisis de entrevistas.
 ---
 
