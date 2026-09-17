@@ -31,6 +31,7 @@ En esta sección se presenta la arquitectura de software de Prothia desde el enf
 <br>
 ![Level EventStorming5](../assets/ES-Rehabilitation%20Planning%20&%20Tracking.jpeg)
 
+Miro: https://miro.com/app/board/uXjVHm-Fti8=/?share_link_id=426808403513
 ## 4.6.2. Software Architecture Context Diagram
 
 El Context Diagram representa a Prothia como un único sistema de software y muestra a los principales actores y sistemas externos con los que interactúa. Los actores considerados son Visitor, Patient, Clinic User y Orthopedic Center User, de acuerdo con las interacciones principales representadas en la solución. Esta separación permite reflejar las responsabilidades relacionadas con la consulta pública del Landing Page, el seguimiento de rehabilitación, el monitoreo clínico y la gestión de prótesis y mantenimiento.
