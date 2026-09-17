@@ -29,10 +29,10 @@ De esta manera, SeniorsInProcess busca generar valor para cada uno de sus segmen
 ---
 | **Integrante**            | **Oscar Diego Checa Burga**        									    |
 | :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                    										|
+| **Código del Estudiante** |                                    				U20231E492					|
 | **Carrera**               | Ingeniería de Software                       										|
-| **Descripción**           |    												|
-| **Foto**                  | <img src="../assets/" alt="" width="200" height="240"> |
+| **Descripción**           |  Mi nombre es Oscar Diego Checa Burga con código de alumno u20231e492. Soy estudiante de la carrera de ingeniería de software de 5to ciclo, interesado en el desarrollo de soluciones tecnológicas. Destaco por mi trabajo en equipo y comunicación constante. Tengo conocimiento en base de datos, desarrollo de aplicaciones y programación. Me gusta ir adaptándome a las nuevas tecnologías y aprender de estas, para poder desarrollar más en el ámbito profesional.  												|
+| **Foto**                  | <img src="../assets/OscarCheca.jpg" alt="" width="200" height="240"> |
 
 ---
 | **Integrante**            | **Leonardo Felix Dextre Flores**        									    |
