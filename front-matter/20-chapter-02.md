@@ -308,6 +308,38 @@ En cuanto a sus canales de interacción y comunicación médica, coordina sus du
 
 Por estas razones, Juan considera imprescindible una solución tecnológica que le brinde acompañamiento en tiempo real durante sus rutinas en el hogar, alertándolo mediante señales visuales o sonoras ante desviaciones posturales para corregirse al instante. Su mayor motivación es acceder a métricas claras y gráficos de progreso que midan día a día la evolución de su equilibrio, devolviéndole la confianza para dar pasos firmes. Finalmente, advierte que la plataforma debe estar optimizada para el uso cotidiano, señalando que procesos de calibración lentos, dificultades técnicas o notificaciones excesivamente invasivas provocarían el abandono inmediato de la herramienta.
 
+## Entrevista 3 – Miguel Suarez
+
+### 1. Datos Generales del Entrevistado
+
+* **Nombres y Apellidos:** Miguel Suarez Casas
+* **Edad:** 25 años
+* **Distrito de Residencia:** San Martín de Porres (Lima)
+* **Estado Civil:** Soltero
+* **Ocupación:** Asistente administrativo (modalidad teletrabajo)
+* **Condición Médica:** Amputación transfemoral en la pierna derecha (uso de prótesis mecánica desde hace aproximadamente 3 años).
+
+### 2. Evidencia de la Entrevista
+
+* **Fecha de entrevista:** 08/09/2026
+* **Inicio de la entrevista:** 0:05
+* **Duración de la entrevista:** 5:10
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQDcJwa3IihEQbo5rw5gnjLHAVYwwPZr7M6qaR7dKiumAHQ?e=NnkykQ)
+
+<div align="center">
+          <img src="../assets/Entrevista_PacienteAmputado(3).png" alt="escala">
+        </div>
+
+### 3. Resumen de la Entrevista
+
+Miguel es un joven de 30 años que vive en San Martín de Porres junto a sus padres y hermano menor, y trabaja de manera remota como asistente administrativo. Hace aproximadamente tres años utiliza una prótesis mecánica debido a una amputación transfemoral (por encima de la rodilla) en la pierna derecha. Asiste a terapia física presencial una vez por semana, una frecuencia que él mismo considera insuficiente para corregir los problemas que aparecen en el día a día, pero que mantiene debido a las limitaciones de tiempo y a los gastos de traslado que implicaría ir con mayor regularidad.
+
+En casa, tiene la indicación de realizar diariamente ejercicios de fortalecimiento, equilibrio y adaptación a la prótesis, aunque en la práctica admite ejecutarlos entre tres y cuatro veces por semana. Al realizar estos movimientos o caminar de forma prolongada, experimenta fatiga, desbalances y la exigencia de prestar gran atención al movimiento de su rodilla protésica. Su mayor punto de dolor es la incertidumbre postural: intenta grabarse con el celular o apelar a su memoria para verificar sus ejercicios, pero desconoce si está ejecutando el movimiento de forma correcta o si está compensando perjudicialmente el peso con su otra pierna. Además, supedita sus consultas a WhatsApp o llamadas telefónicas con la clínica, enfrentando demoras en las respuestas y la dificultad natural de explicar molestias articulares mediante simples mensajes de texto.
+
+De perfil analítico, práctico y muy enfocado en la seguridad de su información, Miguel es un usuario Mobile-First en lo que respecta a su rehabilitación. Aunque utiliza la computadora constantemente para su trabajo, prefiere depender de su teléfono inteligente para temas de salud debido a su portabilidad durante las rutinas físicas. En la actualidad, su ecosistema digital de salud es muy básico: no lleva un registro estructurado de sus progresos y solo utiliza el celular para comunicarse con su terapeuta o consumir videos instructivos de ejercicios.
+
+Para que Miguel adopte una plataforma de seguimiento en tiempo real, esta debe ser sumamente precisa, fácil de usar y capaz de registrar su progreso histórico, garantizando en todo momento la privacidad de sus datos médicos. Los factores críticos que lo llevarían a abandonar (desinstalar) la solución incluye la imprecisión en las mediciones de sus movimientos, una saturación de falsas alarmas o notificaciones excesivas, un diseño complejo, y un alto consumo de batería o datos móviles. Finalmente, es un usuario orientado a resultados: si tras unas semanas no percibe un valor o mejora real en su rehabilitación, dejará de utilizar la plataforma.
+
 ## Segmento objetivo 2 - Clínicas de Rehabilitación
 
 ## Entrevista 1 – Diego Salazar
