@@ -308,6 +308,35 @@ En cuanto a tecnología e infraestructura, es un usuario de esquema mixto: utili
 
 Cualquier solución digital dirigida a su taller debe ser directa, ágil y de alto valor operativo. Requiere funcionalidades de trazabilidad de componentes (lote y números de serie), telemetría básica (horas de uso activo y nivel de carga) y un módulo de alertas automáticas para reajuste de pernos o lubricación. La plataforma debe permitirle transformar su taller en un centro de posventa preventivo, respaldar sus diagnósticos con reportes exportables para médicos o aseguradoras y justificar el pago de una licencia de software mediante el aumento de ingresos por mantenimiento técnico.
 
+## Entrevista 2 – Juan Carlos Salcedo
+
+### Datos Generales
+**Nombres y Apellidos:** Juan Carlos
+* **Edad:** 47 años
+* **Distrito de Residencia:** Lima (Centro ortopédico ubicado en Av. 28 de Julio)
+* **Estado Civil:** Casado
+* **Ocupación:** Técnico ortoprotesista
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 16/09/2026
+* **Inicio de la entrevista:** 0:05
+* **Duración de la entrevista:** 5:36
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBupHk2utw5R4eg3jkeRzJcAbA0gRfEZmGtE8kOBRssVUk?e=7WdpAs)
+
+<div align="center">
+          <img src="../assets/entrevista2_Segmento3.png" alt="escala" width="250">
+        </div>
+
+### Resumen de la entrevista
+
+Juan Carlos es un técnico ortoprotesista de 47 años que gestiona su centro ortopédico en la avenida 28 de Julio, en Lima, enfocado en el diseño, alineación y confección a medida de prótesis de miembro inferior y órtesis personalizadas, con una producción promedio de 6 a 10 dispositivos mensuales. Demuestra un perfil técnico, pragmático y orientado a la seguridad del paciente, combinando la precisión artesanal del taller con el interés por estandarizar la atención posventa y optimizar los flujos de servicio de su negocio independiente.
+
+Su principal cuello de botella operativo es la falta de certeza sobre el esfuerzo mecánico, ciclos de impacto y volumen real de marcha al que los usuarios someten las prótesis en su cotidianidad. Actualmente, depende de agendas manuales, recordatorios por WhatsApp y el testimonio subjetivo del paciente, lo que provoca que las revisiones sean reactivas y ocurran solo cuando los componentes ya presentan desgaste severo o desajustes críticos. Además, la comunicación técnica con fisioterapeutas y médicos tratantes es fragmentada y se limita a documentos físicos o mensajes dispersos, careciendo de un historial unificado sobre la evolución del muñón y la alineación.
+
+En el ámbito tecnológico, maneja una dinámica mixta: emplea la computadora de escritorio para el registro administrativo y hojas de cálculo, pero considera imprescindible el uso de smartphones en el taller y sala de marcha para capturar evidencia visual inmediata (fotos de alineación y estado de la piel). Si bien ha interactuado con aplicaciones Bluetooth puntuales para configurar rodillas o pies electrónicos específicos, no dispone de una plataforma integral que centralice telemetría ni historiales técnicos de vida útil de componentes.
+
+Cualquier propuesta tecnológica viable debe ser ligera, intuitiva y ajustada a la realidad económica de un taller ortopédico local. Prioriza herramientas que incorporen registro de números de serie y caducidad técnica de piezas (liners, rodillas, pies), métricas de actividad (horas de uso e impactos) y alertas automáticas de calibración y mantenimiento preventivo. Estaría dispuesto a pagar una suscripción si la herramienta demuestra un retorno tangible: disminución de disputas por garantías, aumento en la recurrencia de servicios de mantenimiento programado y generación de reportes biomecánicos objetivos para fundamentar cambios de piezas ante aseguradoras y médicos.
+
 ### 2.2.3. Análisis de entrevistas.
 ---
 
