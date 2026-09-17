@@ -257,10 +257,76 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 Los Web Applications Wireflow Diagrams son representaciones visuales de los flujos de navegación y la arquitectura de una aplicación web. Estos diagramas combinan elementos de wireframes y diagramas de flujo para proporcionar una vista general de cómo los usuarios navegarán a través de la aplicación y cómo interactuarán con ella.
 
 <div align="center">
-  <img src="../assets/Web-Applications-Wireflow-Diagrams.png" alt="App Web Wireframe 6" >
+  <img src="../assets/Web-Applications-Wireflow-Diagrams.png" alt="App Web Applications Wireflow" >
 </div>
 
 *Nota: Elaboración propia.*
+
+### 4.4.3. Web Applications Mock-ups
+
+#### Desktop Web Browser
+
+<div align="center">
+  <img src="../assets/AppWebMockup1.png" alt="App Web Mock-up 1" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup2.png" alt="App Web Mock-up 2" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup3.png" alt="App Web Mock-up 3" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup4.png" alt="App Web Mock-up 4" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup5.png" alt="App Web Mock-up 5" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup6.png" alt="App Web Mock-up 6" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup7.png" alt="App Web Mock-up 7" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup8.png" alt="App Web Mock-up 8" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup9.png" alt="App Web Mock-up 9" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup10.png" alt="App Web Mock-up 10" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup11.png" alt="App Web Mock-up 11" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup12.png" alt="App Web Mock-up 12" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup13.png" alt="App Web Mock-up 13" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup14.png" alt="App Web Mock-up 14" >
+</div>
+
+<div align="center">
+  <img src="../assets/AppWebMockup15.png" alt="App Web Mock-up 15" >
+</div>
+
+*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2*
 
 ## 4.6.2. Software Architecture Context Diagram
 
