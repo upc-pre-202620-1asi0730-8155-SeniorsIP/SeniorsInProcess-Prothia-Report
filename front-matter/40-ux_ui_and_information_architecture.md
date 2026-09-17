@@ -252,6 +252,16 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2*
 
+### 4.4.2. Web Applications Wireflow Diagrams
+
+Los Web Applications Wireflow Diagrams son representaciones visuales de los flujos de navegación y la arquitectura de una aplicación web. Estos diagramas combinan elementos de wireframes y diagramas de flujo para proporcionar una vista general de cómo los usuarios navegarán a través de la aplicación y cómo interactuarán con ella.
+
+<div align="center">
+  <img src="../assets/Web-Applications-Wireflow-Diagrams.png" alt="App Web Wireframe 6" >
+</div>
+
+*Nota: Elaboración propia.*
+
 ## 4.6.2. Software Architecture Context Diagram
 
 El Context Diagram representa a Prothia como un único sistema de software y muestra a los principales actores y sistemas externos con los que interactúa. Los actores considerados son Visitor, Patient, Clinic User y Orthopedic Center User, de acuerdo con las interacciones principales representadas en la solución. Esta separación permite reflejar las responsabilidades relacionadas con la consulta pública del Landing Page, el seguimiento de rehabilitación, el monitoreo clínico y la gestión de prótesis y mantenimiento.
