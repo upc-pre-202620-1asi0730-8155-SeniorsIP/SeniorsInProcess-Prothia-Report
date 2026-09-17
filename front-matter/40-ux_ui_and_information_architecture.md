@@ -328,6 +328,24 @@ Los Web Applications Wireflow Diagrams son representaciones visuales de los fluj
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2*
 
+### 4.4.4. Web Applications User Flow Diagrams
+
+El diagrama de flujo de usuario es una representación visual de los pasos que un usuario sigue al interactuar con una aplicación web. Muestra la secuencia de acciones que el usuario realiza para completar una tarea u objetivo específico, permitiendo identificar puntos de interacción clave y optimizar la experiencia de uso.
+
+<div align="center">
+  <img src="../assets/WebApplicationUserFlow1.png" alt="Web Application User 1" >
+</div>
+
+<div align="center">
+  <img src="../assets/WebApplicationUserFlow2.png" alt="Web Application User 2" >
+</div>
+
+<div align="center">
+  <img src="../assets/WebApplicationUserFlow3.png" alt="Web Application User 3" >
+</div>
+
+*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=121-3*
+
 ## 4.6.2. Software Architecture Context Diagram
 
 El Context Diagram representa a Prothia como un único sistema de software y muestra a los principales actores y sistemas externos con los que interactúa. Los actores considerados son Visitor, Patient, Clinic User y Orthopedic Center User, de acuerdo con las interacciones principales representadas en la solución. Esta separación permite reflejar las responsabilidades relacionadas con la consulta pública del Landing Page, el seguimiento de rehabilitación, el monitoreo clínico y la gestión de prótesis y mantenimiento.
