@@ -276,6 +276,38 @@ A esto se suma la dificultad para cumplir con sus ejercicios diarios de rehabili
 De personalidad práctica y celoso de su privacidad, Enrique es un usuario estrictamente Mobile-First que utiliza un smartphone Android, pero es muy cauto con el consumo de datos, batería y espacio de almacenamiento. Actualmente evita las aplicaciones de salud por percibirlas complejas, pesadas o intrusivas, prefiriendo organizar sus citas de forma analógica y comunicarse con su ortopedia a través de WhatsApp.
 
 Cualquier solución tecnológica orientada a él debe ser sumamente intuitiva, ligera y estar enfocada en ahorrarle gastos y traslados innecesarios. Es fundamental que la herramienta respete su independencia y tranquilidad mental; no debe generarle ansiedad mediante notificaciones excesivas ni transmitirle la sensación de un monitoreo constante que lo haga sentir evaluado o vigilado.
+
+## Segmento objetivo 3 - Centros Ortopédicos
+
+## Entrevista 1 – Miguel Sanchez
+
+### Datos Generales
+* **Nombres y Apellidos:** Miguel Sanchez Castillo
+* **Edad:** 57 años
+* **Distrito de Residencia:** Pueblo Libre (Lima)
+* **Estado Civil:** Casado
+* **Ocupación:** Protesista-ortesista
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 09/09/2026
+* **Inicio de la entrevista:** 0:07
+* **Duración de la entrevista:** 5:24
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQDGRUcxI0alSJHZDbz9Bg3DAV4u6lDCnPcz6e3rXbwwUAM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYgj6s)
+
+<div align="center">
+          <img src="../assets/entrevista_Segmento3.png" alt="escala" width="250">
+        </div>
+
+### Resumen de la entrevista
+
+Miguel es un protesista-ortesista de 57 años que dirige un taller ortopédico en Lima con más de 25 años de experiencia en la confección y alineación de prótesis mecánicas y mecatrónicas. Su personalidad es resolutiva, metódica y comercialmente enfocada: equilibra el rigor de la calibración técnica con la búsqueda de rentabilidad operativa y fidelización de sus clientes.
+
+Su principal problema operativo radica en la falta de trazabilidad del uso real de los dispositivos una vez entregados. Al no contar con métricas sobre fatiga de materiales o volumen de marcha, depende de lo que el paciente le relata o de visitas presenciales reactivas cuando la prótesis ya presenta ruidos, holguras graves o fallas estructurales. Esto dificulta la validación objetiva de garantías frente a los fabricantes y limita su capacidad para ofrecer mantenimientos preventivos programados.
+
+En cuanto a tecnología e infraestructura, es un usuario de esquema mixto: utiliza computadoras de escritorio en la recepción u oficina para el control de inventarios y fichas técnicas, y requiere laptops o tabletas en la pista de alineación para realizar calibraciones mientras observa al paciente caminar. Aunque utiliza software propietario de marcas internacionales para configurar componentes específicos, carece de un sistema unificado para la gestión posventa.
+
+Cualquier solución digital dirigida a su taller debe ser directa, ágil y de alto valor operativo. Requiere funcionalidades de trazabilidad de componentes (lote y números de serie), telemetría básica (horas de uso activo y nivel de carga) y un módulo de alertas automáticas para reajuste de pernos o lubricación. La plataforma debe permitirle transformar su taller en un centro de posventa preventivo, respaldar sus diagnósticos con reportes exportables para médicos o aseguradoras y justificar el pago de una licencia de software mediante el aumento de ingresos por mantenimiento técnico.
+
 ### 2.2.3. Análisis de entrevistas.
 ---
 
