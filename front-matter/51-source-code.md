@@ -1,0 +1,97 @@
+### 5.1.3. Source Code Style Guide & Conventions.
+
+El uso de un estilo de código unificado y una arquitectura bien definida es clave para asegurar la escalabilidad, la mantenibilidad y la colaboración efectiva en el desarrollo de **Prothia**. Para ello, el proyecto incorpora prácticas de programación y convenciones estructurales que promueven la calidad técnica, la claridad y la consistencia en cada módulo de la plataforma, tomando como referencia estándares reconocidos de la industria y metodologías actuales.
+
+#### Arquitectura y organización del sistema
+
+Prothia adopta el modelo C4 de Simon Brown, lo que permite visualizar el sistema en distintos niveles de abstracción (contexto, contenedor, componente y código). Este enfoque ofrece una representación clara y comprensible, facilitando la comunicación entre desarrolladores, diseñadores y testers. Además, la arquitectura se fundamenta en los principios de Domain-Driven Design (DDD) y Clean Architecture, lo que garantiza una separación rigurosa entre capas (presentación, aplicación, dominio e infraestructura). Gracias a ello, se reduce el acoplamiento, se incrementa la mantenibilidad y se fortalece la capacidad de realizar pruebas automatizadas de manera eficiente.
+
+#### Frontend: Vue.js
+
+En el frontend, se emplea Vue.js como framework principal, implementando una arquitectura centrada en componentes reutilizables, organizados en directorios específicos como components, views y store. La convención de nombres establece el uso de PascalCase para los componentes (por ejemplo, PatientCard.vue) y kebab-case para los archivos (patient-card.vue), en concordancia con las recomendaciones de la comunidad Vue. Asimismo, se aplican buenas prácticas de desarrollo, entre ellas:
+
+* Separación de lógica y presentación mediante el patrón container/presentational components.
+* Uso de props y emits para la comunicación clara entre componentes.
+* Implementación de lazy loading y code splitting para optimizar el rendimiento.
+* Internacionalización con vue-i18n, gestionando archivos JSON para cada idioma.
+
+#### Alineación con guías de estilo estándar
+
+La estructura y nomenclatura utilizadas en Prothia siguen convenciones reconocidas como la Vue Style Guide y lineamientos generales de HTML/CSS. Además, el uso del inglés en identificadores, clases y funciones garantiza coherencia en el trabajo colaborativo, simplifica la integración con librerías externas y favorece la comprensión del código por parte de equipos internacionales.
+
+# 5.1.4. Software Deployment Configuration
+
+Esta sección describe la configuración y los pasos necesarios para
+desplegar la Landing Page de Prothia a partir del repositorio de
+código fuente.
+
+**Repositorio:** <https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-LandingPage>\
+**URL publicada:** <https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage>/
+**Rama de producción:** `main`
+
+------------------------------------------------------------------------
+
+**Landing Page**
+
+**Stack:** HTML5 + CSS3 + JavaScript 
+**Plataforma de despliegue:** GitHub Pages
+
+
+**Pasos de despliegue**
+
+1.  Confirmar que la rama `main` contiene la versión estable de la
+    Landing Page y que `index.html` se encuentra en la raíz del
+    repositorio.
+2.  En el repositorio de GitHub, ir a **Settings → Pages**.
+3.  En la sección **Build and deployment**, configurar:
+    - **Source:** Deploy from a branch
+    - **Branch:** `main`
+    - **Folder:** `/ (root)`
+4.  Hacer clic en **Save**. GitHub Pages generará automáticamente la URL
+    pública.
+5.  Esperar entre 1 y 2 minutos y verificar que la página carga
+    correctamente en:
+    `https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/`
+6.  Comprobar que el diseño responde correctamente en desktop (≥
+    1025px), tablet (769--1024px) y móvil (≤ 768px).
+7.  Verificar que el toggle de idioma (EN \| ES) funciona correctamente
+    en todos los breakpoints. \### Actualizaciones posteriores
+
+Cada `git push` a la rama `main` desencadena un redespliegue
+automático en GitHub Pages. No se requiere ninguna acción manual
+adicional.
+
+``` bash
+# Flujo estándar para publicar cambios
+git add .
+git commit -m "feat: update hero section copy"
+git push origin main
+```
+
+GitHub Pages tomará los nuevos archivos y publicará la versión
+actualizada en aproximadamente 1 minuto.
+
+**Verificación post-despliegue**
+
+Tras cada despliegue se recomienda verificar los siguientes puntos:
+
+  -----------------------------------------------------------------------
+  Verificación                        Detalle
+  ----------------------------------- -----------------------------------
+  Carga de assets                     Logo, imágenes de cultivo y fotos
+                                      de testimonios visibles
+
+  Navegación                          Links del navbar redirigen a las
+                                      secciones correctas (`#features`,
+                                      `#plans`, `#audience`, `#demo`)
+
+  Toggle de idioma                    Cambia correctamente entre EN y ES
+                                      en todos los textos con `data-i18n`
+
+  Menú hamburguesa                    Se abre y cierra correctamente en
+                                      móvil; desaparece en desktop
+
+
+  Responsive                          Sin scroll horizontal en ningún
+                                      breakpoint
+  -----------------------------------------------------------------------
