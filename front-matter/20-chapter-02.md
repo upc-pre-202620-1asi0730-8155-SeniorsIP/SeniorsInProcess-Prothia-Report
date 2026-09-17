@@ -277,6 +277,44 @@ De personalidad práctica y celoso de su privacidad, Enrique es un usuario estri
 
 Cualquier solución tecnológica orientada a él debe ser sumamente intuitiva, ligera y estar enfocada en ahorrarle gastos y traslados innecesarios. Es fundamental que la herramienta respete su independencia y tranquilidad mental; no debe generarle ansiedad mediante notificaciones excesivas ni transmitirle la sensación de un monitoreo constante que lo haga sentir evaluado o vigilado.
 
+## Segmento objetivo 2 - Clínicas de Rehabilitación
+
+## Entrevista 1 – Diego Salazar
+
+### Datos Generales
+* **Nombres y Apellidos:** Diego Salazar Mendoza
+* **Edad:** 28 años
+* **Distrito de Residencia:** No indicado en la entrevista
+* **Estado Civil:** No indicado en la entrevista
+* **Ocupación:** Fisioterapeuta - Licenciado en Tecnología Médica en la especialidad de Terapia Física y Rehabilitación
+* **Centro de trabajo:** Centro de rehabilitación ubicado en Jesús María (Lima)
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 07/09/2026
+* **Inicio de la entrevista:** 0:06
+* **Duración de la entrevista:** 7:09
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417417_upc_edu_pe/IQDvLPFj-g2JTbIKiBEH2lV-AUU6a_4ASF_teV4sFwI9Q0A?e=2hwLvE)
+
+<div align="center">
+          <img src="../assets/Entrevista_Segmento2.png" alt="Entrevista Diego Salazar - Segmento Clínicas de Rehabilitación" width="250">
+        </div>
+
+### Resumen de la entrevista
+
+Diego es un fisioterapeuta de 28 años que trabaja en un centro de rehabilitación ubicado en Jesús María y cuenta con aproximadamente cinco años de experiencia profesional, de los cuales alrededor de tres han estado relacionados directamente con la atención de pacientes amputados. Actualmente supervisa personalmente entre 6 y 10 pacientes amputados, mientras que el centro puede atender aproximadamente entre 15 y 20 pacientes activos dependiendo de la etapa de rehabilitación en la que se encuentren.
+
+Durante las sesiones presenciales, los pacientes aprenden ejercicios de equilibrio, fortalecimiento, transferencia de peso y actividades relacionadas con la marcha, que posteriormente deben continuar realizando desde sus hogares. Para reforzar las indicaciones, los profesionales utilizan principalmente WhatsApp mediante fotografías, videos o instrucciones escritas.
+
+Una de las principales dificultades identificadas por Diego es la falta de información objetiva sobre lo que ocurre entre una sesión presencial y otra. El seguimiento depende principalmente de lo que el paciente comunica cuando regresa a la clínica o de los videos que algunos pacientes envían voluntariamente. Esto dificulta conocer con precisión si los ejercicios fueron realizados con la frecuencia indicada o si los movimientos fueron ejecutados correctamente.
+
+Dentro de la clínica se registran las sesiones realizadas, los ejercicios, las dificultades presentadas, el dolor y aspectos relacionados con la marcha. Sin embargo, fuera de la clínica se dispone de mucha menos información. Actualmente utilizan un sistema para registrar información clínica, Excel para algunos controles internos y herramientas como correo electrónico, teléfono y WhatsApp para comunicarse. No cuentan con una plataforma específica que permita monitorear información biomecánica de los pacientes amputados mientras realizan sus actividades de rehabilitación en casa.
+
+La comunicación con los centros ortopédicos también se realiza principalmente mediante llamadas, WhatsApp o informes. La clínica y el centro ortopédico manejan su información de manera independiente, por lo que actualmente no existe un sistema compartido que permita consultar de forma centralizada la información clínica y técnica relacionada con el paciente y su prótesis.
+
+Diego considera que una plataforma de seguimiento podría aportar valor a su trabajo al permitirle conocer lo que ocurre entre las sesiones, siempre que la información presentada sea fácil de interpretar. Entre las funcionalidades que considera indispensables se encuentran una ficha organizada del paciente, el plan de ejercicios, el seguimiento de su cumplimiento, una sección para revisar la evolución, el historial biomecánico y un sistema de alertas. También considera útil disponer de mecanismos para enviar observaciones al paciente y comunicarse con el centro ortopédico cuando sea necesario.
+
+Respecto a la adquisición de una suscripción anual, Diego señala que esta decisión correspondería principalmente a la administración de la clínica. Desde su posición como fisioterapeuta considera que podría recomendar una herramienta de este tipo, aunque primero necesitaría comprobar mediante su uso que funciona correctamente y que realmente proporciona información útil para el seguimiento de los pacientes.
+
 ## Segmento objetivo 3 - Centros Ortopédicos
 
 ## Entrevista 1 – Miguel Sanchez
