@@ -211,11 +211,46 @@ Los mock-ups de alta fidelidad aplican la identidad visual, paleta cromática, j
 
 
 <div align="center">
-  <img src="../assets/Mockup_-_Landing_Page.png" alt="Landing Page Wireframe" >
+  <img src="../assets/Mockup_-_Landing_Page.png" alt="Landing Page Mock-up" >
 </div>
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=19-3&t=cwyNHtJ3qwCys5Rq-4*
 
+## 4.4. Web Applications UX/UI Design
+
+La aplicación web de Prothia constituye el núcleo operativo de la plataforma, permitiendo la interacción coordinada entre los tres actores clave del ecosistema de rehabilitación protésica: pacientes con amputación de miembro inferior, especialistas clínicos en fisioterapia y centros ortopédicos / protesistas técnicos. El diseño de experiencia de usuario (UX) e interfaz de usuario (UI) se estructura para garantizar la visualización rigurosa de datos biomecánicos en tiempo real, la gestión centralizada de historias clínicas y la trazabilidad técnica y mantenimiento preventivo de las prótesis.
+
+### 4.4.1. Web Applications Wireframes
+
+Los wireframes de la aplicación web definen la disposición esquemática, la jerarquía de información y los flujos funcionales para entornos de escritorio (*Desktop Web Browser*).
+
+#### Desktop Web Browser
+
+<div align="center">
+  <img src="../assets/Wireframe-AppWeb1.png" alt="App Web Wireframe 1" >
+</div>
+
+<div align="center">
+  <img src="../assets/Wireframe-AppWeb2.png" alt="App Web Wireframe 2" >
+</div>
+
+<div align="center">
+  <img src="../assets/Wireframe-AppWeb3.png" alt="App Web Wireframe 3" >
+</div>
+
+<div align="center">
+  <img src="../assets/Wireframe-AppWeb4.png" alt="App Web Wireframe 4" >
+</div>
+
+<div align="center">
+  <img src="../assets/Wireframe-AppWeb5.png" alt="App Web Wireframe 5" >
+</div>
+
+<div align="center">
+  <img src="../assets/Wireframe-AppWeb6.png" alt="App Web Wireframe 6" >
+</div>
+
+*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2*
 
 ## 4.6.2. Software Architecture Context Diagram
 
