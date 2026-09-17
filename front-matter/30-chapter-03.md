@@ -737,6 +737,20 @@ Para mantener la organización, las historias se agruparon en épicas según sus
 </table>
 
 ---
+# Visitor Stories
+
+| ID | Visitor Story | User Story | Epic relacionada | Tipo | Justificación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **VS-01** | Como visitante, quiero visualizar la propuesta de valor y la problemática clínica que resuelve la plataforma, para evaluar rápidamente si responde a mis necesidades de rehabilitación biomecánica. | US-25 | EP-09 | Directamente evidenciada | Responde a la necesidad esencial del usuario de entender el propósito de la plataforma desde el primer contacto antes de decidir explorar en detalle. |
+| **VS-02** | Como visitante, quiero explorar las soluciones del sistema filtradas por mi perfil (paciente, clínica o centro ortopédico), para comprender los beneficios específicos aplicables a mi rol. | US-25 | EP-09 | Directamente evidenciada | Nace del requerimiento de comunicar valor diferenciado a los tres actores clave del ecosistema sin obligarlos a autenticarse. |
+| **VS-03** | Como visitante, quiero reproducir videos demostrativos y de validación clínica de la plataforma, para observar su funcionamiento operativo en entornos reales de rehabilitación. | US-25, US-26 | EP-09 | Directamente evidenciada | Surge de la necesidad de proveer evidencia visual y práctica del producto como paso previo a la solicitud de una demo formal. |
+| **VS-04** | Como visitante, quiero consultar los planes de acceso, modelos de licenciamiento y simular la facturación (mensual/anual), para estimar los costos de implementación en mi organización. | US-22, US-23, US-25 | EP-08, EP-09 | Directamente evidenciada | Requisito comercial clave para que administradores de clínicas y ortopedias evalúen la inversión antes de iniciar un proceso de compra. |
+| **VS-05** | Como visitante, quiero conocer la misión, visión, estándares de seguridad (cifrado) y al equipo de ingeniería detrás del proyecto, para validar la legitimidad, confiabilidad y soporte técnico de la solución. | US-25 | EP-09 | Directamente evidenciada | Necesidad de generar confianza institucional y respaldo académico/profesional en un sector crítico como la salud digital. |
+| **VS-06** | Como visitante, quiero leer testimonios y casos de éxito de pacientes y especialistas, para comprobar el impacto clínico y la satisfacción de usuarios previos. | US-25 | EP-09 | Directamente evidenciada | Requisito de prueba social fundamentado en dar certidumbre a nuevos adoptantes sobre la efectividad del sistema. |
+| **VS-07** | Como visitante, quiero consultar una sección de preguntas frecuentes con respuestas desplegables, para resolver dudas técnicas, operativas y de privacidad de forma autónoma e inmediata. | US-25 | EP-09 | Directamente evidenciada | Necesidad de autoatención para clarificar interrogantes comunes (hardware, conectividad, datos) sin fricción de contacto. |
+| **VS-08** | Como visitante, quiero consultar vías de contacto directo institucionales (correo, teléfono/WhatsApp, ubicación), para comunicarme de forma inmediata con el equipo ante consultas específicas. | US-25, US-26 | EP-09 | Directamente evidenciada | Necesidad de soporte y comunicación directa como alternativa para visitantes que no desean llenar formularios extensos. |
+| **VS-09** | Como visitante, quiero cambiar el idioma de visualización de la plataforma (EN / ES), para consumir toda la información técnica y comercial en mi lengua de preferencia. | US-25 | EP-09 | Inferida | Aunque la US-25 engloba la visualización de la información, un sistema de salud con proyección regional/internacional requiere soporte multilingüe en su capa pública. |
+---
 ## 3.2. Impact Mapping.
 
 El equipo desarrolló un Impact Mapping en colaboración utilizando la herramienta UXPressia. Este mapa se creó para conectar los objetivos de negocio directamente con los requisitos funcionales de la plataforma.
@@ -793,6 +807,15 @@ Para mantener el proyecto organizado, usamos la escala de Fibonacci (1, 2, 3, 5,
 | 8 | TS-07 | Mensajería entre actores vía API | Como developer, busco implementar los endpoints RESTful que permitan el envío y la consulta de mensajes entre pacientes, clínicas y centros ortopédicos. | 5 |
 | 9 | TS-10 | Generación de reportes y exportación de datos vía API | Como developer, busco implementar los endpoints RESTful que permitan generar reportes de progreso y exportar los datos históricos de los pacientes. | 5 |
 | 10 | TS-08 | Gestión de suscripciones y licencias vía API | Como developer, busco implementar los endpoints RESTful que permitan contratar, consultar y renovar suscripciones de clínicas y licencias de centros ortopédicos. | 8 |
+| 1 | **VS-01** | Visualización de propuesta de valor y problemática | Como visitante, quiero visualizar la propuesta de valor y la problemática clínica que resuelve la plataforma, para evaluar rápidamente si responde a mis necesidades de rehabilitación biomecánica. | 2 |
+| 2 | **VS-02** | Exploración de soluciones segmentadas por perfil | Como visitante, quiero explorar las soluciones del sistema filtradas por mi perfil (paciente, clínica o centro ortopédico), para comprender los beneficios específicos aplicables a mi rol. | 2 |
+| 4 | **VS-03** | Reproducción de videos demostrativos y validación | Como visitante, quiero reproducir videos demostrativos y de validación clínica de la plataforma, para observar su funcionamiento operativo en entornos reales de rehabilitación. | 2 |
+| 5 | **VS-06** | Consulta de testimonios y casos de éxito | Como visitante, quiero leer testimonios y casos de éxito de pacientes y especialistas, para comprobar el impacto clínico y la satisfacción de usuarios previos. | 1 |
+| 6 | **VS-05** | Consulta de información institucional y seguridad | Como visitante, quiero conocer la misión, visión, estándares de seguridad y al equipo de desarrollo, para validar la legitimidad y confiabilidad técnica de la solución. | 2 |
+| 7 | **VS-04** | Consulta de planes y simulación de facturación | Como visitante, quiero consultar los planes de acceso, modelos de licenciamiento y simular la facturación (mensual/anual), para estimar los costos de implementación en mi organización. | 3 |
+| 8 | **VS-07** | Consulta de preguntas frecuentes (FAQ) | Como visitante, quiero consultar una sección de preguntas frecuentes, para resolver dudas técnicas, de conectividad y de privacidad de forma autónoma. | 1 |
+| 9 | **VS-09** | Cambio de idioma del portal (EN / ES) | Como visitante, quiero cambiar el idioma de la plataforma (EN / ES), para consumir la información técnica y comercial en mi idioma de preferencia. | 3 |
+| 11 | **VS-08** | Consulta de canales de contacto directo | Como visitante, quiero consultar vías de contacto directo institucionales (correo, teléfono, ubicación), para comunicarme de forma inmediata con el equipo ante consultas específicas. | 1 |
 ---
 
 - **Tablero de Trello:** [Seniors in Process - Prothia](https://trello.com/invite/b/6aaa2414fe1250572c17b9fe/ATTIe7f0872c34d6ae28c8540edd005e015fC1DFC2EC/seniors-in-process-prothia)
