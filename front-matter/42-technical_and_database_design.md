@@ -72,3 +72,69 @@ Se utiliza lowercase_snake_case para tablas y columnas, UUID para identificadore
 
 Las relaciones internas de cada Bounded Context se representan mediante claves foráneas. Cuando una entidad necesita identificar información administrada por otro contexto, se conserva únicamente el identificador como referencia lógica, evitando introducir dependencias de persistencia que mezclen responsabilidades de dominio.
 
+### 4.8.1. Database Diagrams
+
+#### Identity & Access Management
+
+El modelo persiste cuentas de usuario, sesiones y solicitudes de recuperación de contraseña. El correo de cada cuenta y el hash de cada token de recuperación son únicos. Una cuenta puede originar múltiples sesiones y solicitudes de recuperación; las sesiones controlan su periodo de vigencia y las solicitudes conservan used_at en NULL mientras no hayan sido utilizadas.
+
+Database Diagram - Identity & Access Management.
+
+![Database Diagram Identity Access Management](../assets/database-diagram-identity-access-management.png)
+
+#### Rehabilitation Planning & Tracking
+
+El modelo persiste planes de rehabilitación, ejercicios, asignaciones de ejercicios, registros de cumplimiento, autorizaciones para compartir información, reportes clínicos, archivos generados y snapshots de indicadores de clínica. Cada plan contiene uno o más ejercicios mediante plan_exercise, donde la combinación de plan y ejercicio es única. Las frecuencias y repeticiones deben ser positivas y los rangos utilizados para reportes deben mantener una fecha final igual o posterior a la fecha inicial.
+
+Los identificadores de paciente, profesional, clínica y centro ortopédico se mantienen como referencias lógicas cuando pertenecen a responsabilidades administradas por otros contextos.
+
+Database Diagram - Rehabilitation Planning & Tracking.
+
+![Database Diagram Rehabilitation Planning Tracking](../assets/database-diagram-rehabilitation-planning-tracking.png)
+
+#### Service Execution & Biomechanical Monitoring
+
+El modelo persiste sesiones biomecánicas, mediciones capturadas, evaluaciones de marcha, reglas de umbral y alertas clínicas. Cada sesión contiene una o más mediciones y puede producir como máximo una evaluación de marcha. Las alertas clínicas mantienen la sesión que originó el evento, mientras que las reglas de umbral se configuran por paciente y tipo de métrica.
+
+Los límites configurados deben incluir al menos un valor mínimo o máximo y, cuando ambos existen, el máximo no puede ser menor que el mínimo.
+
+Database Diagram - Service Execution & Biomechanical Monitoring.
+
+![Database Diagram Service Execution Biomechanical Monitoring](../assets/database-diagram-service-execution-biomechanical-monitoring.png)
+
+#### Profiles & Asset Management
+
+El modelo persiste perfiles clínicos de pacientes, prótesis, programaciones de mantenimiento, intervenciones técnicas, resúmenes de uso y alertas de mantenimiento. Debido a que paciente y prótesis se administran dentro del mismo Bounded Context, la asociación entre ambos se representa mediante una clave foránea interna. La asociación es opcional mientras la prótesis permanezca disponible.
+
+La referencia de cada prótesis es única y el uso acumulado no admite valores negativos. Las programaciones, intervenciones y alertas permanecen vinculadas a la prótesis correspondiente.
+
+Database Diagram - Profiles & Asset Management.
+
+![Database Diagram Profiles Asset Management](../assets/database-diagram-profiles-asset-management.png)
+
+#### Subscriptions & Payment Management
+
+El modelo persiste planes de suscripción, suscripciones de clínicas, licencias de software y transacciones de pago. Cada suscripción referencia el plan contratado y cada transacción corresponde a una suscripción o a una licencia, pero no a ambas simultáneamente. Esta exclusión se controla mediante una restricción CHECK.
+
+Los importes deben ser positivos y las fechas de expiración deben ser posteriores al inicio del periodo contratado.
+
+Database Diagram - Subscriptions & Payment Management.
+
+![Database Diagram Subscriptions Payment Management](../assets/database-diagram-subscriptions-payment-management.png)
+
+#### Communication & Notification Support
+
+El módulo persiste mensajes y elementos de notificación. Los identificadores de emisor, destinatario y usuario se conservan como referencias lógicas a las cuentas administradas por Identity & Access Management. Las notificaciones pueden incluir una referencia lógica al evento o elemento que las originó y mantienen read_at en NULL hasta que el usuario las marque como leídas.
+
+Database Diagram - Communication & Notification Support.
+
+![Database Diagram Communication Notification Support](../assets/database-diagram-communication-notification-support.png)
+
+#### Public Lead Management
+
+El módulo persiste las solicitudes de demostración y las suscripciones al newsletter provenientes del Landing Page. Ambos procesos son independientes. Las solicitudes conservan la institución y los datos de contacto necesarios para su seguimiento, mientras que el correo utilizado para el newsletter mantiene una restricción de unicidad.
+
+Database Diagram - Public Lead Management.
+
+![Database Diagram Public Lead Management](../assets/database-diagram-public-lead-management.png)
+
