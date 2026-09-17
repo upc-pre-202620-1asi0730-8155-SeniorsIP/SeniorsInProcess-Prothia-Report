@@ -55,7 +55,7 @@ De esta manera, SeniorsInProcess busca generar valor para cada uno de sus segmen
 | :------------------------ | :-------------------------------------------------------------------------------- |
 | **Código del Estudiante** | u202417417                                   										|
 | **Carrera**               | Ingeniería de Software                       										|
-| **Descripción**           | Soy Rafael André Barrenechea Bustamante, estudiante del sexto ciclo de la carrera de Ingeniería de Software. Una de mis principales cualidades es la capacidad para diseñar experiencias de usuario intuitivas y desarrollar componentes tecnológicos adaptados a las necesidades del proyecto. En el equipo, contribuiré con mis conocimientos en tecnologías como Angular y TypeScript, así como en el prototipado de interfaces, trabajando eficientemente para cumplir con todos los objetivos que se demanden. |
+| **Descripción**           | Soy Rafael André Barrenechea Bustamante, estudiante del quinto ciclo de la carrera de Ingeniería de Software. Una de mis principales cualidades es la capacidad para diseñar experiencias de usuario intuitivas y desarrollar componentes tecnológicos adaptados a las necesidades del proyecto. En el equipo, contribuiré con mis conocimientos en tecnologías como C++, Python y TypeScript, así como en el prototipado de interfaces, trabajando eficientemente para cumplir con todos los objetivos que se demanden. |
 | **Foto**                  | <img src="../assets/RafaelBarrenechea.png" alt="" width="200" height="240"> |
 
 ---
