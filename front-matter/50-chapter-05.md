@@ -19,3 +19,63 @@ La gestión en **SeniorsInProcess (Prothia)** incluye el código fuente, documen
 | Software Testing | Gherkin | Lenguaje de especificación para definir escenarios de prueba BDD (Behavior-Driven Development) basados en historias de usuario (control remoto, automatizaciones por horario y alertas de consumo). | Estándar / DSL | https://cucumber.io/docs/gherkin/reference |
 | Software Documentation | GitHub | Repositorio central del proyecto para el control de versiones distribuido, registro de commits, trabajo colaborativo y alojamiento de la documentación del sistema. | SaaS | https://github.com |
 | Software Deployment | GitHub Pages | Servicio de alojamiento y despliegue continuo para la Landing Page pública del producto, permitiendo exponer la propuesta de valor de DomotiCore. | SaaS | https://pages.github.com |
+
+### 5.1.2 Source Code Management
+
+La gestión de código fuente del proyecto **Prothia (SeniorsInProcess)** se realiza mediante la plataforma **GitHub**, permitiendo un control de versiones en entorno de trabajo colaborativo. Se han definido repositorios independientes para cada producto digital.
+
+#### 5.1.2.1 Repositories
+
+| Product | Repository URL | Description |
+| :--- | :--- | :--- |
+| **Organization** | [SeniorsInProcess-Prothia-1ASI0729](https://github.com/SeniorsInProcess-Prothia-1ASI0729) --- [https://github.com/SeniorsInProcess-Prothia-1ASI0729] --- | Organización donde se ubican todos los repositorios del proyecto. |
+| **Landing Page** | [Prothia-Business-Web-Page](https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-LandingPage) --- [https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-LandingPage] --- | Repositorio de la Landing Page institucional del proyecto. |
+| **Frontend Web Application** | [Prothia-Front-End](https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend) --- [https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend] --- | Aplicación web para el monitoreo y seguimiento de la rehabilitación de pacientes amputados. |
+| **Backend Web Services** | [Prothia-Back-end](https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend) --- [https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend] --- | API REST y lógica de procesamiento de datos biomecánicos y de uso de prótesis. |
+| **Documentation Repository** | [Prothia-Report](https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Report/tree/develop) --- [https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Report/tree/develop] --- | Documentación técnica, reportes y entregables del proyecto. |
+---
+<div style="text-align:center;"><img src="imagenes/images_Cap5/Proyecto-Github-Organizacion.png" width="800" alt="GitHub Repository Structure"></div>
+
+#### 5.1.2.2 GitFlow Workflow
+
+El equipo adopta **GitFlow** como estrategia de branching para mantener la estabilidad.
+
+* **Main Branch**: Contiene únicamente versiones estables y aprobadas del proyecto listas para producción.
+    * `main`
+* **Develop Branch**: Rama principal de integración donde se consolidan las funcionalidades desarrolladas antes de integrarse en producción.
+    * `develop`
+* **Feature Branches**: Cada nueva funcionalidad se desarrolla en una rama independiente para evitar conflictos en el código base.
+    * **Naming Convention**: `feature/<feature-name>`
+    * **Examples**: `feature/patient-monitoring-dashboard`, `feature/biomechanical-data-tracking`
+* **Hotfix Branches**: Ramas de emergencia para corregir errores críticos detectados directamente en producción.
+    * **Naming Convention**: `hotfix/<issue-description>`
+
+#### 5.1.2.3 Semantic Versioning
+
+El proyecto utiliza **Semantic Versioning 2.0.0** para controlar las versiones de los productos digitales de Prothia.
+
+| Version | Description |
+| :--- | :--- |
+| **v1.0.0** | Primera versión estable y funcional del producto. |
+| **v1.1.0** | Incorporación de nuevas funcionalidades menores. |
+| **v1.1.1** | Corrección de errores menores. |
+| **v2.0.0** | Cambios mayores que incluyen modificaciones estructurales incompatibles. |
+
+#### 5.1.2.4 Conventional Commits
+
+Se adopta el estándar de **Conventional Commits** para mantener un historial de cambios limpio y fácil de verificar por el equipo.
+
+| Prefix | Purpose |
+| :--- | :--- |
+| **feat** | Implementación de nuevas funcionalidades. |
+| **fix** | Corrección de errores o bugs. |
+| **docs** | Actualizaciones en la documentación del repositorio. |
+| **style** | Cambios que no afectan la lógica (espaciados, formatos, CSS). |
+| **refactor** | Reestructuración del código existente sin cambiar su funcionalidad. |
+| **test** | Corrección de pruebas unitarias o de integración. |
+
+**Examples:**
+* `feat: implement patient rehabilitation dashboard`
+* `docs: update sprint 1 documentation`
+* `fix: correct biomechanical data sync error`
+* `style: improve clinic panel spacing`
