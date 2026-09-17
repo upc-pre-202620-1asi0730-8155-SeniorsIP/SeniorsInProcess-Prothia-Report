@@ -40,3 +40,14 @@ Como sistemas externos se consideran Payment Gateway, Email Service y Prosthesis
 C4 System Context Diagram de Prothia.
 
 ![C4 System Context Diagram Prothia](../assets/c4-system-context-diagram-prothia.png)
+
+## 4.6.3. Software Architecture Container Diagrams
+
+La solución se distribuye en cuatro containers principales: Landing Page, Web Application, RESTful API y Relational Database. La Landing Page utiliza HTML5, CSS3 y JavaScript para presentar el modelo de negocio y captar solicitudes públicas. La Web Application utiliza Vue 3, PrimeVue y JavaScript para proporcionar las experiencias autenticadas de los diferentes roles. El RESTful API utiliza ASP.NET Core, C# y Entity Framework Core para exponer servicios, aplicar reglas de negocio y coordinar persistencia e integraciones. La información relacional se almacena en PostgreSQL.
+
+Los CTA de la Landing Page redirigen hacia la Web Application. Tanto los formularios públicos como la Web Application se comunican con el RESTful API mediante HTTPS y JSON. El RESTful API es el único container que accede a la base de datos y a los servicios externos.
+
+C4 Container Diagram de Prothia.
+
+![C4 Container Diagram Prothia](../assets/c4-container-diagram-prothia.png)
+
