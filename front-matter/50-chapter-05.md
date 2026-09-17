@@ -145,3 +145,16 @@ link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
 Durante este Sprint 1, el esfuerzo del equipo se concentró de manera exclusiva en el desarrollo del Landing Page estático (HTML, CSS y JavaScript) y en establecer la identidad visual del producto. Dado que el alcance funcional de esta iteración no contempló aún el desarrollo del backend (RESTful API), no se cuenta con endpoints documentados mediante OpenAPI/Swagger para esta entrega. La documentación de servicios se abordará en los siguientes sprints, conforme se inicie la construcción de la API orientada a dominio de Prothia.
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Para asegurar el acceso público a la propuesta de Prothia, el Landing Page fue desplegado utilizando GitHub Pages. Se consolidó el código estático en la rama develop del repositorio SeniorsInProcess/Prothia-Landing-Page. Desde la sección Settings de GitHub, se configuró "Build and deployment" apuntando a la rama correspondiente. El despliegue generó exitosamente la URL pública, donde se verificó la correcta carga de estilos, scripts de internacionalización y assets visuales en todos los breakpoints.
+
+**Figura**
+*Evidencia de deployment 1*
+<div style="text-align:center;"><img src="../assets/github-pages.png" width="8000" alt="Github Page - Desktop"></div>
+
+*Nota. Elaboración propia.*
+
+**Figura**
+*Evidencia de deployment 2*
+<div style="text-align:center;"><img src="../assets/Execution-Evidence-Landing.png" width="800" alt="Landing Page - Desktop"></div>
