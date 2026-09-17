@@ -80,7 +80,7 @@ Se adopta el estándar de **Conventional Commits** para mantener un historial de
 * `fix: correct biomechanical data sync error`
 * `style: improve clinic panel spacing`
 
-#### 5.1.2.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
 Capturas de pantalla de la Landing Page implementada en vistas Desktop y Mobile, acompañadas del video demostrativo de navegación e interacción del sitio.
 <div style="text-align:center;"><img src="../assets/Execution-Evidence-Landing.png" width="800" alt="Landing Page - Desktop"></div>
