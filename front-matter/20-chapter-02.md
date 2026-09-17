@@ -374,6 +374,34 @@ Respecto a las herramientas actuales, la profesional cuenta con un sólido conoc
 
 Por último, afirma que la institución vería viable la contratación de una suscripción anual siempre que la herramienta demuestre resultados clínicos medibles y mantenga una relación costo-beneficio coherente. En cuanto al ecosistema tecnológico de adopción, los profesionales operarían la plataforma primordialmente a través del navegador web (Chrome) en computadoras de escritorio o laptops de la clínica, valorando altamente una versión adaptable a tabletas para consultar datos durante las evaluaciones en sala. Por el contrario, interfaces complejas que exijan excesivo tiempo de carga operativa, fallos técnicos recurrentes o la falta de garantías en la privacidad de los datos constituirían barreras definitivas para el uso continuado del sistema.
 
+## Entrevista 3 – Carmen Salazar
+
+### Datos Generales
+* **Nombres y Apellidos:** Carmen Salazar
+* **Edad:** 70 años
+* **Distrito de Residencia:** Jesus Maria, Lima
+* **Estado Civil:** Casada
+* **Ocupación:** Médica especialista en Rehabilitación
+
+### Detalles de la Entrevista
+* **Fecha de entrevista:** 10/09/2026
+* **Inicio de la entrevista:** 0:06
+* **Duración de la entrevista:** 6:12
+* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQCWxy6QvfuNSKu_7js1U36ZAd6DOtGrnOhD94BkyWLj0X4?e=XvFjy6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<div align="center">
+          <img src="../assets/Entrevista3_Segmento2.png" alt="Entrevista a Ana Mercedes" >
+        </div>
+
+### Resumen de la entrevista
+La Sra. Carmen es una médica especialista en Rehabilitación de 70 años que ejerce como Directora Médica en una clínica de Lima. Cuenta con más de 40 años de experiencia asistencial, caracterizándose por una personalidad sabia, observadora y pragmática, abierta a adoptar tecnología si esta respalda su criterio clínico tradicional con datos objetivos.
+
+En su día a día atiende periódicamente a pacientes amputados, pero enfrenta la dificultad de no saber cómo realizan los ejercicios en casa. La falta de este control provoca que los pacientes adopten malas posturas, sufran dolor lumbar o dejen de usar la prótesis, lo que complica la rehabilitación y satura la consulta presencial.
+
+En el aspecto tecnológico, es una usuaria tradicional de oficina: prefiere trabajar en computadoras de escritorio con navegadores web y pantallas grandes de letra clara, aunque entiende que sus terapeutas más jóvenes prefieran tabletas en el gimnasio. Sus canales de interacción actuales son la historia clínica digital del centro y la comunicación directa por teléfono o WhatsApp con los ortopedistas.
+
+Para que la clínica invierta en una suscripción anual, la solución debe ser simple y rápida de usar. Requiere un panel visual claro con sistema de semáforos (verde, amarillo y rojo), reportes exportables para la historia médica y métricas clave de horas de uso y alineación de la marcha, garantizando que el sistema ahorre tiempo y mejore la salud del paciente sin burocracia.
+
 ## Segmento objetivo 3 - Centros Ortopédicos
 
 ## Entrevista 1 – Miguel Sanchez
