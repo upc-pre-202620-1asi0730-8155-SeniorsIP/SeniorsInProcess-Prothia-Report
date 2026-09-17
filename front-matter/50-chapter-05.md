@@ -106,6 +106,19 @@ En esta sección se detalla la reunión de planificación del primer sprint, don
 | **Sprint 1 Velocity** | 6 |
 | **Sum of Story Points** | 6 |
 
+### 5.2.1.2. Aspect Leaders and Collaborators 
+
+A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados en este sprint.  
+
+| Team Member (Last Name, First Name) | GitHub Username | Landing Page (HTML/CSS/JS)<br>Leader (L) / Collaborator (C) | UX/UI & Prototyping<br>Leader (L) / Collaborator (C) | Project Documentation<br>Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: |
+| Barrenechea Bustamante, Rafael Andre | yafussssss | C | C | C |
+| Checa Burga, Oscar Diego | OscarCheca | C | C | L |
+| Dextre Dextre Flores, Leonardo | Leo-dex45 | C | C | C |
+| Patricio Farias, Ana Camila | anacamilapatricio-sketch | C | L | L |
+| Salcedo Correa, Carlos Mathhew | Matthewnhfe | L | L | C |
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 Capturas de pantalla de la Landing Page implementada en vistas Desktop y Mobile, acompañadas del video demostrativo de navegación e interacción del sitio.
