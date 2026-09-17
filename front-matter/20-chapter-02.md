@@ -525,7 +525,30 @@ En el aspecto tecnológico, utiliza computadoras de escritorio y Excel para regi
 
 
 ### 2.2.3. Análisis de entrevistas.
----
+
+#### Segmento objetivo 1: Pacientes amputados
+A partir de las entrevistas realizadas a Enrique Diaz, Juan Ramirez y Miguel Suarez, se identifican los siguientes patrones comunes:
+* El 100% (3/3) reside en Lima Metropolitana, trabaja bajo la modalidad de teletrabajo y utiliza una prótesis mecánica para miembro inferior (66.7% transtibial y 33.3% transfemoral).
+* El 100% (3/3) experimenta incertidumbre biomecánica y temor constante a sufrir caídas, sobrecargas o dolores lumbares al realizar sus rutinas en el hogar sin retroalimentación en tiempo real.
+* El 100% (3/3) intenta autoevaluarse mediante métodos caseros insuficientes (como mirarse al espejo o grabarse en video) y depende exclusivamente de WhatsApp y llamadas telefónicas para resolver dudas clínicas.
+* El 66.7% (2/3) señala que los traslados hacia el centro médico representan un desgaste físico y económico notable debido a la congestión vehicular y la necesidad de usar taxis.
+* El 100% (3/3) muestra un perfil digital estrictamente *Mobile-First* para temas de salud, buscando una herramienta ligera que consuma pocos datos o batería y proporcione métricas claras de progreso sin saturar con notificaciones invasivas.
+
+#### Segmento objetivo 2: Clínicas de rehabilitación
+A partir de las entrevistas realizadas a Diego Salazar, Ana Mercedes y Carmen Salazar, se identifican los siguientes patrones comunes:
+* El 100% (3/3) labora en centros de rehabilitación física en Lima y atiende de forma regular a pacientes amputados que deben continuar sus terapias motrices y de marcha en casa.
+* El 100% (3/3) coincide en que el principal obstáculo del tratamiento es la «ceguera clínica ambulatoria»: no tienen certeza de si los pacientes realizan los ejercicios domiciliarios ni si mantienen la técnica adecuada.
+* El 100% (3/3) afirma que la coordinación con los centros ortopédicos externos es dispersa e informal (vía WhatsApp, llamadas o recetas en papel), careciendo de un canal centralizado de información clínica y protésica.
+* El 100% (3/3) utiliza computadoras de escritorio y herramientas de registro estándar como Excel o historiales clínicos tradicionales, manifestando el 66.7% (2/3) la utilidad de emplear tabletas en sala de terapia.
+* El 100% (3/3) demanda un panel centralizado con reportes exportables y un sistema de alertas semaforizado para identificar anomalías de marcha, condicionando la contratación institucional a que la herramienta evidencie beneficio clínico real sin añadir sobrecarga administrativa.
+
+#### Segmento objetivo 3: Centros ortopédicos
+A partir de las entrevistas realizadas a Miguel Sanchez, Juan Carlos Salcedo y Jose Riveros Veliz, se identifican los siguientes patrones comunes:
+* El 100% (3/3) son técnicos y licenciados ortoprotesistas a cargo de talleres en Lima, dedicados al diseño, confección y calibración de prótesis con un volumen de entre 4 y 10 dispositivos mensuales.
+* El 100% (3/3) carece de visibilidad técnica objetiva sobre las horas de uso, la cadencia y los ciclos de impacto a los que son sometidas las prótesis una vez entregadas al usuario.
+* El 100% (3/3) mantiene un modelo de servicio técnico puramente reactivo, recibiendo los componentes para mantenimiento únicamente cuando ya presentan averías mecánicas avanzadas, desajustes o ruidos.
+* El 100% (3/3) gestiona las piezas y garantías de forma manual o en hojas de cálculo, utilizando una combinación operativa de computadoras de escritorio para inventario y smartphones para consultas rápidas en taller o pista de marcha.
+* El 100% (3/3) muestra interés en adoptar una plataforma con trazabilidad por número de serie, alertas de mantenimiento predictivo y métricas de uso que fundamenten renovaciones de piezas y garantías ante médicos y aseguradoras.
 
 ## 2.3. Needfinding. 
 
