@@ -324,7 +324,7 @@ Cualquier solución digital dirigida a su taller debe ser directa, ágil y de al
 * **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBupHk2utw5R4eg3jkeRzJcAbA0gRfEZmGtE8kOBRssVUk?e=7WdpAs)
 
 <div align="center">
-          <img src="../assets/entrevista2_Segmento3.png" alt="escala" width="250">
+          <img src="../assets/Entrevista2_Segmento3.png" alt="escala" width="250">
         </div>
 
 ### Resumen de la entrevista
