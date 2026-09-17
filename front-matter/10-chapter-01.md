@@ -37,10 +37,10 @@ De esta manera, SeniorsInProcess busca generar valor para cada uno de sus segmen
 ---
 | **Integrante**            | **Leonardo Felix Dextre Flores**        									    |
 | :------------------------ | :-------------------------------------------------------------------------------- |
-| **Código del Estudiante** |                                    										|
+| **Código del Estudiante** |  U202421823                                  										|
 | **Carrera**               | Ingeniería de Software                       										|
-| **Descripción**           | 											|
-| **Foto**                  | <img src="../assets/" alt="" width="200" height="240"> |
+| **Descripción**           | Soy Leonardo Dextre, tengo 23 años, actualmente estoy cursando el cuarto ciclo de mi carrera ingeniería de software en la UPC. Entre mis habilidades más destacadas es saber un poco de programación especialmente en C++ y un poco en Python. Además, tengo básico conocimiento en programas de Microsoft como el Excel. Mis pasatiempos son ver películas y jugar videojuegos. Mi objetivo con el curso es aprender más cosas acerca de mi carrera y poder aplicarlo en mi futuro laboral como profesional.			|
+| **Foto**                  | <img src="../assets/LeonardoDextre.png" alt="" width="200" height="240"> |
 
 ---
 | **Integrante**            | **Carlos Mathhew Salcedo Correa**        									    |
