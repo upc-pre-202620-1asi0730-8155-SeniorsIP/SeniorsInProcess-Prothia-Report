@@ -18,3 +18,80 @@ En el frontend, se emplea Vue.js como framework principal, implementando una arq
 #### Alineación con guías de estilo estándar
 
 La estructura y nomenclatura utilizadas en Prothia siguen convenciones reconocidas como la Vue Style Guide y lineamientos generales de HTML/CSS. Además, el uso del inglés en identificadores, clases y funciones garantiza coherencia en el trabajo colaborativo, simplifica la integración con librerías externas y favorece la comprensión del código por parte de equipos internacionales.
+
+# 5.1.4. Software Deployment Configuration
+
+Esta sección describe la configuración y los pasos necesarios para
+desplegar la Landing Page de Prothia a partir del repositorio de
+código fuente.
+
+**Repositorio:** <https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-LandingPage>\
+**URL publicada:** <https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage>/
+**Rama de producción:** `main`
+
+------------------------------------------------------------------------
+
+**Landing Page**
+
+**Stack:** HTML5 + CSS3 + JavaScript 
+**Plataforma de despliegue:** GitHub Pages
+
+
+**Pasos de despliegue**
+
+1.  Confirmar que la rama `main` contiene la versión estable de la
+    Landing Page y que `index.html` se encuentra en la raíz del
+    repositorio.
+2.  En el repositorio de GitHub, ir a **Settings → Pages**.
+3.  En la sección **Build and deployment**, configurar:
+    - **Source:** Deploy from a branch
+    - **Branch:** `main`
+    - **Folder:** `/ (root)`
+4.  Hacer clic en **Save**. GitHub Pages generará automáticamente la URL
+    pública.
+5.  Esperar entre 1 y 2 minutos y verificar que la página carga
+    correctamente en:
+    `https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/`
+6.  Comprobar que el diseño responde correctamente en desktop (≥
+    1025px), tablet (769--1024px) y móvil (≤ 768px).
+7.  Verificar que el toggle de idioma (EN \| ES) funciona correctamente
+    en todos los breakpoints. \### Actualizaciones posteriores
+
+Cada `git push` a la rama `main` desencadena un redespliegue
+automático en GitHub Pages. No se requiere ninguna acción manual
+adicional.
+
+``` bash
+# Flujo estándar para publicar cambios
+git add .
+git commit -m "feat: update hero section copy"
+git push origin main
+```
+
+GitHub Pages tomará los nuevos archivos y publicará la versión
+actualizada en aproximadamente 1 minuto.
+
+**Verificación post-despliegue**
+
+Tras cada despliegue se recomienda verificar los siguientes puntos:
+
+  -----------------------------------------------------------------------
+  Verificación                        Detalle
+  ----------------------------------- -----------------------------------
+  Carga de assets                     Logo, imágenes de cultivo y fotos
+                                      de testimonios visibles
+
+  Navegación                          Links del navbar redirigen a las
+                                      secciones correctas (`#features`,
+                                      `#plans`, `#audience`, `#demo`)
+
+  Toggle de idioma                    Cambia correctamente entre EN y ES
+                                      en todos los textos con `data-i18n`
+
+  Menú hamburguesa                    Se abre y cierra correctamente en
+                                      móvil; desaparece en desktop
+
+
+  Responsive                          Sin scroll horizontal en ningún
+                                      breakpoint
+  -----------------------------------------------------------------------
