@@ -178,7 +178,7 @@ Para el sistema de navegación otorgamos libertad y facilidad al usuario dentro 
 ***SEGUNDA NAVEGACIÓN:*** Pantalla principal (Hero Section) con llamado a la acción directo. Esta sección, ubicada inmediatamente después del encabezado, presenta la propuesta de valor de Prothia orientada a la telemetría biomecánica y cuenta con el botón principal "Register Now", el cual guía al visitante directamente hacia el formulario de registro y contacto tras captar su interés con la presentación del producto.
 
 <div align="center">
-  <img src="../assets/Segunda-Navegacion.png" alt="Primera Navegacion" >
+  <img src="../assets/Segunda-Navegacion.png" alt="Segunda Navegacion" >
 </div>
 
 *Fuente: Propia.*
@@ -186,10 +186,26 @@ Para el sistema de navegación otorgamos libertad y facilidad al usuario dentro 
 ***TERCERA NAVEGACIÓN:*** Pie de página con información complementaria. Esta sección reúne enlaces de interés organizados por categorías (Plataforma, Aspectos Legales y Seguridad, y Centro de Innovación), permitiendo que los usuarios que llegaron al final del sitio continúen navegando fácilmente, consulten políticas de privacidad y normativas de seguridad médica (AES-256 y WCAG 2.1 AA) sin necesidad de regresar al inicio.
 
 <div align="center">
-  <img src="../assets/Tercera-Navegacion.png" alt="Primera Navegacion" >
+  <img src="../assets/Tercera-Navegacion.png" alt="Tercera Navegacion" >
 </div>
 
 *Fuente: Propia.*
+
+## 4.3. Landing Page UI Design
+
+La Landing Page funciona como punto de entrada público a Prothia. Su propósito es comunicar la propuesta de valor, presentar el monitoreo biomecánico continuo para la rehabilitación protésica y conectar a los tres actores del sistema (pacientes amputados, clínicas de rehabilitación y centros ortopédicos), facilitando el acceso a la Web Application y la captación de solicitudes de demostración.
+
+### 4.3.1. Landing Page Wireframe
+
+Para la Landing Page se diseñó el wireframe completo en Figma, priorizando la estructura informativa, la jerarquía de contenidos y el flujo de conversión antes de aplicar la paleta cromática y el detalle visual definitivo. El wireframe integra las secciones de encabezado con navegación global, presentación de la propuesta de valor con métricas de impacto, antecedentes del problema clínico, soluciones por segmento con pestañas interactivas, capacidades técnicas de la plataforma, bloque audiovisual demostrativo, planes de acceso, perfil institucional, testimonios clínicos, preguntas frecuentes y formulario de contacto.
+
+<div align="center">
+  <img src="../assets/Wireframe_-_Landing_Page.png" alt="Landing Page Wireframe" >
+</div>
+
+*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=0-1*
+
+
 
 ## 4.6.2. Software Architecture Context Diagram
 
