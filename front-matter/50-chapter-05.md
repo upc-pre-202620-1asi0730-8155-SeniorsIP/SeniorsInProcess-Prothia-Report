@@ -80,6 +80,14 @@ Se adopta el estándar de **Conventional Commits** para mantener un historial de
 * `fix: correct biomechanical data sync error`
 * `style: improve clinic panel spacing`
 
+## 5.2. Landing Page, Services & Applications Implementation
+
+### 5.2.1. Sprint 1
+
+Durante este primer sprint, el equipo se enfocó en la implementación de la Landing Page de Prothia, estableciendo el principal canal de comunicación pública y captación para la plataforma biomecánica.  
+
+
+
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 Capturas de pantalla de la Landing Page implementada en vistas Desktop y Mobile, acompañadas del video demostrativo de navegación e interacción del sitio.
