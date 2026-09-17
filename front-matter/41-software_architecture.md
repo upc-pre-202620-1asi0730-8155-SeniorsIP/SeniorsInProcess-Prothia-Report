@@ -51,3 +51,46 @@ C4 Container Diagram de Prothia.
 
 ![C4 Container Diagram Prothia](../assets/c4-container-diagram-prothia.png)
 
+## 4.6.4. Software Architecture Components Diagrams
+
+### Landing Page Components
+
+La Landing Page se descompone en Navigation & Segment CTAs, Segment Content, Demo Request Form, Newsletter Form, Landing API Client e Internationalization & Accessibility. Los CTA dirigen a los visitantes hacia la experiencia correspondiente de la Web Application, mientras que Demo Request Form y Newsletter Form utilizan Landing API Client para registrar información mediante el RESTful API.
+
+C4 Component Diagram - Landing Page.
+
+![C4 Component Diagram Landing Page](../assets/c4-component-diagram-landing-page.png)
+
+### Web Application Components
+
+La Web Application separa Authentication & Access UI, Patient Experience, Clinic Experience, Orthopedic Experience y Subscription & License UI. Todas estas experiencias utilizan un API Client centralizado y comparten recursos de Internationalization & Accessibility, manteniendo una única vía de comunicación con el RESTful API.
+
+C4 Component Diagram - Web Application.
+
+![C4 Component Diagram Web Application](../assets/c4-component-diagram-web-application.png)
+
+### RESTful API Components
+
+El RESTful API organiza sus componentes principales de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming: Identity & Access Management, Rehabilitation Planning & Tracking, Service Execution & Biomechanical Monitoring, Profiles & Asset Management y Subscriptions & Payment Management.
+
+Identity & Access Management API concentra registro, autenticación, sesiones y recuperación de contraseña. Rehabilitation Planning & Tracking API gestiona planes de rehabilitación, cumplimiento de ejercicios, progreso, compartición autorizada de información, reportes, exportaciones e indicadores de clínica. Service Execution & Biomechanical Monitoring API procesa telemetría, sesiones biomecánicas, evaluaciones de marcha, umbrales y alertas clínicas. Profiles & Asset Management API administra perfiles de paciente, prótesis, asociación paciente-prótesis, historial técnico y mantenimiento. Subscriptions & Payment Management API gestiona planes, suscripciones, licencias, pagos y vigencia de acceso institucional.
+
+Además, Communication & Notification Support mantiene la mensajería y la bandeja general de notificaciones requeridas por las User Stories, mientras que Public Lead Management API soporta las solicitudes de demostración y las suscripciones al newsletter del Landing Page. Estos dos componentes actúan como módulos de soporte y no introducen Bounded Contexts adicionales.
+
+Persistence Layer concentra el acceso mediante Entity Framework Core hacia PostgreSQL y External Integrations encapsula la comunicación con Payment Gateway, Email Service y Prosthesis Biomechanical Sensors (IMU).
+
+C4 Component Diagram - RESTful API.
+
+![C4 Component Diagram Restful Api](../assets/c4-component-diagram-restful-api.png)
+
+### Relational Database Components
+
+El container Relational Database se organiza mediante separación lógica de datos. Los esquemas identity_access, rehabilitation_tracking, biomechanical_monitoring, profiles_asset y subscriptions_payments corresponden a los cinco Bounded Contexts identificados. Los esquemas communication_notifications y public_leads mantienen la persistencia requerida por los módulos de soporte de comunicación y captación pública.
+
+Esta organización permite conservar límites de responsabilidad a nivel de persistencia aun cuando PostgreSQL sea desplegado inicialmente como una única instancia.
+
+C4 Component Diagram - Relational Database.
+
+![C4 Component Diagram Relational Database](../assets/c4-component-diagram-relational-database.png)
+
+
