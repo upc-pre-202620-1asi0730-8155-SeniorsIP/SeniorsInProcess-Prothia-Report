@@ -346,6 +346,17 @@ El diagrama de flujo de usuario es una representación visual de los pasos que u
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=121-3*
 
+
+## 4.5. Web Applications Prototyping
+
+Prototipo de la aplicación web Prothia en figma: [Prototipo-Prothia](https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2)
+<div align="center">
+  <img src="../assets/AppWebMockup11.png" alt="Prototipo App" >
+</div>
+
+Video del flujo del prototipo:[FLUJO-PROTOTIPO-PROTHIA.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQDKAxgImmvjTbQuUvzCjRSjAUaJwT05Xg1PiKzDOQW-f3E?e=RgxLPk)
+
+
 ## 4.6.2. Software Architecture Context Diagram
 
 El Context Diagram representa a Prothia como un único sistema de software y muestra a los principales actores y sistemas externos con los que interactúa. Los actores considerados son Visitor, Patient, Clinic User y Orthopedic Center User, de acuerdo con las interacciones principales representadas en la solución. Esta separación permite reflejar las responsabilidades relacionadas con la consulta pública del Landing Page, el seguimiento de rehabilitación, el monitoreo clínico y la gestión de prótesis y mantenimiento.
