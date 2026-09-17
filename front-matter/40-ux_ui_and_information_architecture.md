@@ -205,6 +205,16 @@ Para la Landing Page se diseñó el wireframe completo en Figma, priorizando la 
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=0-1*
 
+### 4.3.2. Landing Page Mock-up
+
+Los mock-ups de alta fidelidad aplican la identidad visual, paleta cromática, jerarquía tipográfica y componentes interactivos definidos para Prothia, consolidando una experiencia limpia, profesional y orientada al rigor médico y la biomecánica.
+
+
+<div align="center">
+  <img src="../assets/Mockup_-_Landing_Page.png" alt="Landing Page Wireframe" >
+</div>
+
+*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=19-3&t=cwyNHtJ3qwCys5Rq-4*
 
 
 ## 4.6.2. Software Architecture Context Diagram
