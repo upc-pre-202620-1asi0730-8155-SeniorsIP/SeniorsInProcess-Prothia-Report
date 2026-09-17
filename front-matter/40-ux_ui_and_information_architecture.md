@@ -143,18 +143,26 @@ Para asegurar el posicionamiento orgánico del ecosistema de Prothia en motores 
         *   `og:title`: Prothia App | Clinical Telemetry & Prosthetic Management
         *   `og:description`: Secure access to clinical telemetry, exercise prescriptions, and prosthetic lifecycle tracking.
         *   `og:image`: https://app.prothia.tech/assets/Logo.png
+        
 ### 4.2.4. Searching Systems
 
-Dado que las clínicas y los centros ortopédicos manejarán múltiples pacientes y dispositivos, el sistema de búsqueda es fundamental para la eficiencia operativa:
+Dentro de la plataforma Prothia, los sistemas de búsqueda han sido diseñados para facilitar el acceso rápido y eficiente a la información relacionada con la rehabilitación biomecánica y el seguimiento de prótesis. Debido al manejo constante de datos vinculados con pacientes, prótesis, alertas posturales, historiales de marcha y registros técnicos, se contempla un sistema de búsqueda que permita a los usuarios localizar información relevante de manera inmediata y mantener un control ordenado de sus actividades. El sistema permitirá realizar búsquedas dentro de los distintos módulos de la plataforma mediante:
 
-*   **Opciones de Búsqueda:**
-    *   **Barra de búsqueda global:** Permite ingresar nombres de pacientes, números de serie de prótesis o DNI para un acceso directo.
-*   **Filtros disponibles:**
-    *   **Por rol o entidad:** Filtrado exclusivo según los pacientes asignados a una clínica o las prótesis fabricadas por un taller ortopédico.
-    *   **Por estado de rehabilitación:** Pacientes con "Alertas activas", "Mantenimiento requerido" o "Rutina completada".
-    *   **Filtro por rango de fechas:** Esencial para consultar el historial de datos biomecánicos o el historial de uso en periodos específicos.
-*   **Apariencia de los resultados:**
-    *   Los resultados mostrarán tarjetas de resumen con el nombre del paciente, el tipo de prótesis vinculada y un indicador visual de su estado actual (ej. verde para estable, rojo para alerta de postura).
+* **Palabras clave** (nombre de pacientes, tipo o modelo de prótesis, clínica tratante, profesional responsable o descripciones biomecánicas relacionadas).
+* **Filtros por fechas** (sesiones telemétricas de marcha, consultas de seguimiento, mantenimientos técnicos o rangos de fechas específicos).
+* **Estados del registro** (activo, en rehabilitación, rutina completada, pendiente de revisión o en mantenimiento).
+* **Búsqueda por nombres de pacientes e identificadores internos** (DNI, código de historia clínica, número de serie de prótesis o identificadores de sensores).
+* **Filtros por categoría** (directorio de pacientes, inventario de prótesis, registro de alertas o perfiles de usuario).
+
+Este sistema será especialmente útil para:
+
+* Ahorrar tiempo en la localización de pacientes, prótesis o registros específicos sin necesidad de navegar manualmente entre módulos.
+* Encontrar rápidamente información relacionada con historiales biomecánicos, alertas de postura emitidas o datos de mantenimiento.
+* Mejorar la organización operativa mediante el acceso inmediato a la información previamente registrada por las clínicas y centros ortopédicos.
+* Facilitar la gestión diaria del personal de salud y los pacientes al mantener una navegación más ágil y ordenada dentro de la plataforma.
+
+Una vez realizada la búsqueda, los resultados se mostrarán de forma estructurada dentro de listas, tablas o tarjetas interactivas según el módulo correspondiente, permitiendo visualizar el estado del paciente o del dispositivo (con indicadores visuales o semáforos de estado), editar la información o acceder a su ficha detallada de acuerdo con los permisos asignados al usuario.
+
 ### 4.2.5. Navigation Systems
 
 La navegación de Prothia se adapta al acceso diferenciado según el rol del usuario (paciente, profesional clínico o técnico ortopédico), asegurando que cada uno vea solo la información pertinente a sus objetivos.
