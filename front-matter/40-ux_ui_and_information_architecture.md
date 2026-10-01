@@ -256,8 +256,58 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 
 Los Web Applications Wireflow Diagrams son representaciones visuales de los flujos de navegación y la arquitectura de una aplicación web. Estos diagramas combinan elementos de wireframes y diagramas de flujo para proporcionar una vista general de cómo los usuarios navegarán a través de la aplicación y cómo interactuarán con ella.
 
+Paciente amputado
+
 <div align="center">
-  <img src="../assets/Web-Applications-Wireflow-Diagrams.png" alt="App Web Applications Wireflow" >
+  <img src="../assets/wire1.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire2.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire3.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire4.png" alt="App Web Applications Wireflow" >
+</div>
+
+Profesionales de Terapia Física y Rehabilitación
+
+<div align="center">
+  <img src="../assets/wire5.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire6.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire7.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire8.png" alt="App Web Applications Wireflow" >
+</div>
+
+Técnicos Ortoprotesistas
+
+<div align="center">
+  <img src="../assets/wire9.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire10.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire11.png" alt="App Web Applications Wireflow" >
+</div>
+
+<div align="center">
+  <img src="../assets/wire12.png" alt="App Web Applications Wireflow" >
 </div>
 
 *Nota: Elaboración propia.*
