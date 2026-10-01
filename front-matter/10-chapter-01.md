@@ -202,7 +202,7 @@ con **una vista de progreso personal dentro de la plataforma**.
  
 ### Historial de uso de la prótesis
  
-Creemos que lograremos **un crecimiento sostenible mediante la contratación y renovación de licencias por parte de los centros ortopédicos (B5)**
+Creemos que lograremos **un crecimiento sostenible mediante la contratación y renovación de licencias por parte de los centros ortopédicos**
 si **los técnicos y especialistas de centros ortopédicos**
 alcanzan **la capacidad de anticipar mantenimiento y ajustes a partir del uso real de cada prótesis**
 con **un historial de uso de la prótesis**.
@@ -216,17 +216,103 @@ con **acceso diferenciado por tipo de usuario**.
 
 #### 1.2.2.4 Lean UX Canvas
 
-| Business Problem | Solutions | Business Outcomes |
-|---|---|---|
-| El proceso actual de rehabilitación de pacientes amputados presenta una limitada visibilidad sobre el desempeño del paciente fuera de las sesiones presenciales. Después de recibir la prótesis, los pacientes realizan gran parte de su adaptación y ejercicios en el hogar, donde los profesionales de las clínicas no pueden observar continuamente si los ejercicios se realizan correctamente, cómo se utiliza la prótesis o si existen posturas y movimientos inadecuados. Asimismo, la información relacionada con la rehabilitación, el uso y el mantenimiento de la prótesis puede encontrarse dispersa entre el paciente, la clínica y el centro ortopédico. Prothia busca resolver esta problemática mediante una plataforma web que recopila, procesa y presenta datos biomecánicos y de uso de la prótesis, permitiendo mejorar el seguimiento del paciente y la comunicación entre los diferentes actores involucrados. | • **Dashboard de monitoreo:** Visualización centralizada de información sobre el progreso del paciente, uso de la prótesis y datos biomecánicos. • **Monitoreo biomecánico:** Recopilación de información relacionada con movimientos, posturas y desempeño del paciente durante sus actividades. • **Seguimiento de rehabilitación:** Registro y visualización de la evolución del paciente durante el proceso de adaptación a la prótesis. • **Alertas:** Identificación de patrones o situaciones que puedan requerir una revisión por parte del profesional. • **Historial de uso:** Registro de información relacionada con el uso de la prótesis para facilitar su seguimiento y mantenimiento. • **Acceso diferenciado:** Funcionalidades e información adaptadas a pacientes, clínicas de rehabilitación y centros ortopédicos. | • Mejorar la visibilidad de las clínicas sobre el proceso de rehabilitación realizado fuera de sus instalaciones. • Facilitar la identificación oportuna de posibles movimientos o posturas inadecuadas. • Mejorar la comunicación y el intercambio de información entre pacientes, clínicas y centros ortopédicos. • Facilitar el seguimiento del uso y mantenimiento de las prótesis. • Incrementar el valor percibido del servicio de rehabilitación mediante un seguimiento basado en datos. • Lograr la adopción de la plataforma por parte de clínicas y centros ortopédicos mediante un modelo de suscripción y licenciamiento. |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="30%" align="left" valign="top">Business Problem</th>
+      <th width="35%" align="left" valign="top">Solutions</th>
+      <th width="35%" align="left" valign="top">Business Outcomes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        El seguimiento y la rehabilitación de pacientes amputados se basa en evaluaciones presenciales puntuales y controles periódicos, por lo que hay poca visibilidad sobre el desempeño del paciente y el uso de la prótesis fuera de la clínica. Los profesionales no pueden observar si los ejercicios se realizan correctamente, cómo se utiliza la prótesis ni si existen posturas o movimientos inadecuados, y sus decisiones dependen del reporte subjetivo del paciente. Además, la información sobre rehabilitación, uso y mantenimiento se encuentra dispersa entre el paciente, la clínica y el centro ortopédico. Prothia busca resolver esta problemática mediante una plataforma web que recopila, procesa y presenta datos biomecánicos y de uso de la prótesis, conectando a los tres actores.
+      </td>
+      <td valign="top">
+        • <b>Dashboard centralizado de monitoreo:</b> visualización del progreso y desempeño de todos los pacientes en un solo lugar.<br><br>
+        • <b>Monitoreo biomecánico:</b> recopilación de datos sobre movimientos, posturas e indicadores de uso de la prótesis durante las actividades cotidianas.<br><br>
+        • <b>Seguimiento de rehabilitación:</b> evolución del paciente y comparación de su desempeño entre periodos.<br><br>
+        • <b>Alertas automáticas:</b> detección de patrones, posturas o movimientos que requieren revisión.<br><br>
+        • <b>Vista de progreso para el paciente:</b> acceso del paciente a su propio desempeño y uso de la prótesis.<br><br>
+        • <b>Historial de uso de la prótesis:</b> registro del uso real de cada dispositivo para programar revisiones y mantenimiento.<br><br>
+        • <b>Acceso diferenciado:</b> información y funcionalidades según el tipo de usuario.
+      </td>
+      <td valign="top">
+        • <b>Adopción inicial:</b> 3 a 5 instituciones completan pilotos en 6 meses y 50% o más continúa con suscripción o licencia.<br><br>
+        • <b>Incorporación al tratamiento:</b> 30% o más de los pacientes amputados de cada clínica piloto registrados y consulta de datos al menos una vez por semana por paciente activo.<br><br>
+        • <b>Uso sostenido de pacientes:</b> retención de uso a los 30 y 90 días y sesiones semanales de monitoreo fuera de la clínica.<br><br>
+        • <b>Retención de clínicas:</b> renovación anual de 80% o más.<br><br>
+        • <b>Crecimiento sostenible:</b> costo de adquisición por cliente, ingresos recurrentes y relación valor de vida/costo de adquisición.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| Users | User Outcomes & Benefits |
-|---|---|
-| • **Pacientes amputados:** *"Quiero realizar mi rehabilitación y adaptación a la prótesis de manera adecuada y contar con un seguimiento que permita a los profesionales conocer mi progreso incluso cuando estoy en casa."* • **Clínicas de rehabilitación:** *"Necesito conocer cómo evolucionan mis pacientes fuera de las sesiones presenciales para poder realizar un seguimiento más completo y tomar mejores decisiones durante su rehabilitación."* • **Centros ortopédicos:** *"Necesito conocer cómo se utiliza la prótesis para facilitar su seguimiento y mantenimiento y brindar un mejor servicio al paciente."* | • **Pacientes amputados:** Podrán contar con un seguimiento más continuo de su proceso de rehabilitación y adaptación a la prótesis. Beneficios: mayor acompañamiento, seguimiento personalizado y posibilidad de recibir una atención basada en información sobre su desempeño. • **Clínicas de rehabilitación:** Podrán acceder a información sobre el desempeño del paciente fuera de las sesiones presenciales. Beneficios: mayor visibilidad, mejor seguimiento, identificación de posibles problemas y toma de decisiones basada en datos. • **Centros ortopédicos:** Podrán consultar información relacionada con el uso de las prótesis. Beneficios: mejor seguimiento del dispositivo, apoyo para la gestión del mantenimiento y mayor conocimiento sobre las condiciones de uso. |
+<br>
 
-| Hypotheses | What's the most important thing we need to learn first? | What's the least amount of work we need to do to learn the next most important thing? |
-|---|---|---|
-| • Creemos que las clínicas de rehabilitación necesitan mayor visibilidad sobre el desempeño de sus pacientes fuera de las sesiones presenciales. • Creemos que los datos biomecánicos y de uso de la prótesis pueden proporcionar información relevante para mejorar el seguimiento de la rehabilitación. • Creemos que los pacientes estarán dispuestos a utilizar una solución de monitoreo como parte de su proceso de rehabilitación si esta no representa una dificultad adicional. • Creemos que los centros ortopédicos percibirán valor en acceder a información sobre el uso y mantenimiento de las prótesis. • Creemos que centralizar la información de los tres actores permitirá mejorar la comunicación y coordinación durante el proceso de rehabilitación. | • ¿Las clínicas consideran que la falta de información sobre el paciente fuera de las sesiones representa un problema relevante? • ¿Qué datos biomecánicos consideran más útiles los profesionales para realizar el seguimiento? • ¿Los pacientes aceptarían utilizar sensores o mecanismos de monitoreo durante sus actividades cotidianas? • ¿Qué información necesitan los centros ortopédicos para mejorar el seguimiento y mantenimiento de las prótesis? • ¿Los diferentes actores consideran útil contar con una plataforma centralizada para compartir información? | • Realizar entrevistas con profesionales de clínicas de rehabilitación y especialistas de centros ortopédicos para identificar sus principales necesidades de información. • Entrevistar a pacientes amputados para conocer sus dificultades durante la adaptación y rehabilitación en el hogar. • Diseñar un prototipo de alta fidelidad en Figma con dashboard, seguimiento de rehabilitación y visualización de datos biomecánicos. • Crear una simulación básica de datos biomecánicos para validar cómo se visualizaría la información en la plataforma. • Ejecutar pruebas de usabilidad con usuarios representativos de los tres segmentos para identificar dificultades y validar las funcionalidades principales. |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="50%" align="left" valign="top">Users</th>
+      <th width="50%" align="left" valign="top">User Outcomes &amp; Benefits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        • <b>Pacientes amputados:</b> <i>"Quiero realizar mi rehabilitación y adaptación a la prótesis de manera adecuada y saber que mi equipo clínico conoce mi progreso incluso cuando estoy fuera de la clínica."</i><br><br>
+        • <b>Profesionales de terapia física y rehabilitación (clínicas):</b> <i>"Necesito conocer cómo evolucionan mis pacientes entre sesiones para detectar problemas a tiempo y tomar decisiones basadas en datos objetivos."</i><br><br>
+        • <b>Técnicos ortoprotesistas (centros ortopédicos):</b> <i>"Necesito conocer cómo se utiliza realmente cada prótesis para programar ajustes y mantenimiento de forma oportuna y brindar un mejor servicio."</i>
+      </td>
+      <td valign="top">
+        • <b>Pacientes amputados:</b> rehabilitación más efectiva y con mayor autonomía. Beneficios: seguimiento continuo y personalizado, mayor conocimiento de su desempeño y del uso de la prótesis, corrección de hábitos y motivación.<br><br>
+        • <b>Profesionales de terapia física y rehabilitación:</b> acceso a información del desempeño del paciente fuera de las sesiones. Beneficios: detección temprana de problemas antes de que generen complicaciones, decisiones clínicas basadas en evidencia y mayor eficiencia del seguimiento.<br><br>
+        • <b>Técnicos ortoprotesistas:</b> acceso al uso real de cada prótesis. Beneficios: anticipar mantenimiento y ajustes, programar revisiones de forma oportuna y personalizada.<br><br>
+        • <b>Los tres actores:</b> comunicación e intercambio de información más fluidos, con menos pérdida de datos y duplicidad de esfuerzos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="36%" align="left" valign="top">Hypotheses</th>
+      <th width="32%" align="left" valign="top">What's the most important thing we need to learn first?</th>
+      <th width="32%" align="left" valign="top">What's the least amount of work we need to do to learn the next most important thing?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        • <b>H1 Dashboard:</b> lograremos que las clínicas incorporen el monitoreo al tratamiento si los profesionales pueden decidir con evidencia y priorizar pacientes con un dashboard centralizado.<br><br>
+        • <b>H2 Monitoreo biomecánico:</b> lograremos adopción inicial si los profesionales cuentan con datos objetivos del desempeño real del paciente.<br><br>
+        • <b>H3 Seguimiento:</b> lograremos alta retención de clínicas si pueden comparar la evolución del paciente entre periodos.<br><br>
+        • <b>H4 Alertas:</b> lograremos alta retención de clínicas si detectan a tiempo patrones o posturas que requieren atención.<br><br>
+        • <b>H5 Vista de progreso:</b> lograremos uso sostenido de los pacientes si conocen su desempeño y se mantienen motivados.<br><br>
+        • <b>H6 Historial de uso:</b> lograremos crecimiento sostenible si los técnicos ortoprotesistas anticipan mantenimiento y ajustes.<br><br>
+        • <b>H7 Acceso diferenciado:</b> lograremos adopción por los tres actores si cada uno ve solo lo relevante para su rol.
+      </td>
+      <td valign="top">
+        • ¿Los profesionales consideran que la falta de información fuera de las sesiones es un problema relevante y estarían dispuestos a pagar por resolverlo?<br><br>
+        • ¿Los pacientes aceptarían usar sensores durante sus actividades cotidianas y mantendrían el uso a 30 y 90 días?<br><br>
+        • ¿Qué datos biomecánicos consideran más útiles los profesionales para el seguimiento?<br><br>
+        • ¿Qué información sobre uso necesitan los técnicos ortoprotesistas para programar mantenimiento?<br><br>
+        • ¿Los tres actores consideran útil una plataforma centralizada para compartir información?
+      </td>
+      <td valign="top">
+        • Entrevistar a profesionales de clínicas y técnicos ortoprotesistas sobre sus necesidades de información y su disposición a pagar.<br><br>
+        • Entrevistar a pacientes amputados sobre sus dificultades en la rehabilitación fuera de la clínica y su aceptación de sensores.<br><br>
+        • Diseñar un prototipo de alta fidelidad en Figma con dashboard, seguimiento de rehabilitación y vista de progreso del paciente.<br><br>
+        • Crear una simulación básica de datos biomecánicos para validar cómo se visualizaría la información.<br><br>
+        • Ejecutar pruebas de usabilidad con usuarios representativos de los tres segmentos para validar las funcionalidades principales.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 1.3 Segmentos Objetivos
 
