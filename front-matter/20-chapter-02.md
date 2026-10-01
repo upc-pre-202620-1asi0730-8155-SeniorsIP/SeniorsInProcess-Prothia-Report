@@ -553,27 +553,26 @@ A partir de las entrevistas realizadas a Miguel Sanchez, Juan Carlos Salcedo y J
 ### 2.3.1. User Personas. 
 En esta sección se presentan las fichas de User Personas construidas a partir de los datos recolectados del análisis de entrevistas a nuestros segmentos objetivos. Estas fichas permiten representar de forma clara y estratégica los perfiles de cada segmento objetivo, considerando sus metas, habilidades, motivaciones y dificultades. De esta manera se integra la perspectiva del usuario y tendencias del sector para identificar oportunidades en el mercado y ofrecer una solución alineada a lo que el usuario necesita.
 
-**Segmento Objetivo 1: Paciente Amputado**
+**Carlos Mendoza: Asistente administrativo**
 
-![User Personas Carlos Mendoza](../assets/up_CarlosMendoza.png)
+![User Personas Carlos Mendoza](../assets/UP-Carlos%20Mendoza.png)
 
-**Segmento Objetivo 2: Clínica de Rehabilitación**
+**Valeria Rios: Jefa de Terapia Física y Rehabilitación**
 
-![User Personas Valeria Rios](../assets/up_Valeria%20Rios.png)
+![User Personas Valeria Rios](../assets/UP-Valeria%20Rios.png)
 
-**Segmento Objetivo 3: Centro Ortopédico**
+**Miguel Torres: Ortoprotésico**
 
-![User Personas Miguel Torres](../assets/up_Miguel%20Torres.png)
+![User Personas Miguel Torres](../assets/UP-Miguel%20Torres.png)
 
 ---
 ### 2.3.2. User Task Matrix
 
 En esta sección se presenta el **User Task Matrix**, construido a partir de los *User Persona* que representan a los tres segmentos clave identificados:
 
-- **Segmento 1:** Pacientes amputados (representado por Carlos Mendoza).
-- **Segmento 2:** Clínicas de rehabilitación (representado por Valeria Ríos).
-- **Segmento 3:** Centros ortopédicos (representado por Miguel Torres).
-
+- **Segmento 1:** Carlos Mendoza: Asistente administrativo.
+- **Segmento 2:** Valeria Rios: Jefa de Terapia Física y Rehabilitación.
+- **Segmento 3:** Miguel Torres: Ortoprotésico.
 Las tareas fueron identificadas a partir del análisis cualitativo de entrevistas, y cada una fue evaluada según su frecuencia y nivel de importancia para los respectivos perfiles.
 
 | Tarea / Task | Carlos Mendoza (Paciente) - Frecuencia | Carlos Mendoza (Paciente) - Importancia | Valeria Ríos (Clínica) - Frecuencia | Valeria Ríos (Clínica) - Importancia | Miguel Torres (Ortopedia) - Frecuencia | Miguel Torres (Ortopedia) - Importancia |
