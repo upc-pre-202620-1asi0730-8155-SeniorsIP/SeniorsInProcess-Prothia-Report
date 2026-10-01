@@ -288,13 +288,13 @@ con **acceso diferenciado por tipo de usuario**.
   <tbody>
     <tr>
       <td valign="top">
-        • <b>H1 Dashboard:</b> lograremos que las clínicas incorporen el monitoreo al tratamiento si los profesionales pueden decidir con evidencia y priorizar pacientes con un dashboard centralizado.<br><br>
-        • <b>H2 Monitoreo biomecánico:</b> lograremos adopción inicial si los profesionales cuentan con datos objetivos del desempeño real del paciente.<br><br>
-        • <b>H3 Seguimiento:</b> lograremos alta retención de clínicas si pueden comparar la evolución del paciente entre periodos.<br><br>
-        • <b>H4 Alertas:</b> lograremos alta retención de clínicas si detectan a tiempo patrones o posturas que requieren atención.<br><br>
-        • <b>H5 Vista de progreso:</b> lograremos uso sostenido de los pacientes si conocen su desempeño y se mantienen motivados.<br><br>
-        • <b>H6 Historial de uso:</b> lograremos crecimiento sostenible si los técnicos ortoprotesistas anticipan mantenimiento y ajustes.<br><br>
-        • <b>H7 Acceso diferenciado:</b> lograremos adopción por los tres actores si cada uno ve solo lo relevante para su rol.
+        • <b>Dashboard:</b> lograremos que las clínicas incorporen el monitoreo al tratamiento si los profesionales pueden decidir con evidencia y priorizar pacientes con un dashboard centralizado.<br><br>
+        • <b>Monitoreo biomecánico:</b> lograremos adopción inicial si los profesionales cuentan con datos objetivos del desempeño real del paciente.<br><br>
+        • <b>Seguimiento:</b> lograremos alta retención de clínicas si pueden comparar la evolución del paciente entre periodos.<br><br>
+        • <b>Alertas:</b> lograremos alta retención de clínicas si detectan a tiempo patrones o posturas que requieren atención.<br><br>
+        • <b>Vista de progreso:</b> lograremos uso sostenido de los pacientes si conocen su desempeño y se mantienen motivados.<br><br>
+        • <b>Historial de uso:</b> lograremos crecimiento sostenible si los técnicos ortoprotesistas anticipan mantenimiento y ajustes.<br><br>
+        • <b>Acceso diferenciado:</b> lograremos adopción por los tres actores si cada uno ve solo lo relevante para su rol.
       </td>
       <td valign="top">
         • ¿Los profesionales consideran que la falta de información fuera de las sesiones es un problema relevante y estarían dispuestos a pagar por resolverlo?<br><br>
