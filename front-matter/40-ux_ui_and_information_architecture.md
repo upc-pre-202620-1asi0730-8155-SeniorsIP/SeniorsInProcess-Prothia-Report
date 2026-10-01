@@ -332,14 +332,17 @@ Los Web Applications Wireflow Diagrams son representaciones visuales de los fluj
 
 El diagrama de flujo de usuario es una representación visual de los pasos que un usuario sigue al interactuar con una aplicación web. Muestra la secuencia de acciones que el usuario realiza para completar una tarea u objetivo específico, permitiendo identificar puntos de interacción clave y optimizar la experiencia de uso.
 
+USER FLOW 01: Registrar la realización de los ejercicios indicados para llevar constancia de su adherencia
 <div align="center">
   <img src="../assets/USER_FLOW_1.png" alt="Web Application User 1" >
 </div>
 
+USER FLOW 02: Visualizar un dashboard con los datos biomecánicos recientes de un paciente para evaluar su desempeño
 <div align="center">
   <img src="../assets/USER_FLOW_2.png" alt="Web Application User 2" >
 </div>
 
+USER FLOW 03: Programar una fecha de mantenimiento preventivo para una prótesis para anticiparse a posibles fallas
 <div align="center">
   <img src="../assets/USER_FLOW_3.png" alt="Web Application User 3" >
 </div>
