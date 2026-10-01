@@ -223,7 +223,7 @@ A nivel de causas específicas de amputación, un estudio del Instituto Nacional
 
 Este segmento se concentra principalmente en adultos y adultos mayores, dado que la edad avanzada es la principal causa de discapacidad motora reportada por el INEI, aunque también incluye a población económicamente activa afectada por accidentes de trabajo o de tránsito.
 
-### Segmento 2: Clínicas de Rehabilitación
+### Segmento 2: Profesionales de Terapia Física y Rehabilitación
 
 Corresponde al segmento principal al que se dirige el modelo de negocio de Prothia, conformado por clínicas y profesionales especializados en la rehabilitación de pacientes amputados. Estas instituciones son responsables de acompañar al paciente durante su proceso de adaptación y recuperación, pero presentan limitaciones para conocer su desempeño cuando este se encuentra fuera de las sesiones presenciales. Necesitan información que les permita realizar un seguimiento más completo, identificar posibles dificultades y evaluar la evolución del paciente durante el tratamiento.
 
@@ -235,7 +235,7 @@ En Lima existe una oferta amplia y fragmentada de centros de rehabilitación fí
 
 No se identificó un registro público centralizado que cuantifique con precisión el número total de clínicas de rehabilitación a nivel nacional especializadas en pacientes amputados, por lo que se recomienda validar esta cifra directamente mediante entrevistas con asociaciones del sector (Colegio Médico del Perú, Sociedad Peruana de Medicina Física y Rehabilitación) o mediante un registro del MINSA, como parte de la siguiente etapa de investigación.
 
-### Segmento 3: Centros Ortopédicos
+### Segmento 3: Técnicos Ortoprotesistas
 
 Corresponde a los establecimientos especializados en la fabricación, adaptación y mantenimiento de prótesis para pacientes amputados. Estos centros necesitan conocer las condiciones de uso de los dispositivos para facilitar su seguimiento y mantenimiento, así como contar con información que pueda contribuir a comprender el comportamiento de la prótesis durante las actividades cotidianas del usuario. Actualmente, parte de esta información puede depender de las observaciones realizadas durante las visitas del paciente o de la comunicación entre el usuario y el especialista.
 
