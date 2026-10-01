@@ -1,38 +1,47 @@
 <div align="center">
-<img src="../assets/Logo_UPC.png" alt="Logo-UPC" width="150">
+<img src="../assets/UPC_logo_transparente.png" alt="Logo-UPC" width="150">
   
 ## Universidad Peruana de Ciencias Aplicadas
 
-**Facultad:** Ingeniería
+**1ASI030** 
 
-**Ingeniería de Software**
+**Aplicaciones Web**
 
-**Ciclo:** 2026-2
- 
-1ASI0729 - Aplicaciones Web 
+NRC
 
-**NRC:** 8155
+8155
 
-**Profesor:** Velasquez Nuñez, Angel Augusto 
+## Informe del Trabajo Final
 
-### Informe de Trabajo Final
+Docente
 
-**Nombre del startup:** SeniorsInProcess
+**Velasquez Nuñez, Angel Augusto**
 
-**Nombre del producto:** Prothia
+Equipo
 
-#### Relación de integrantes
+**SeniorsInProcess**
 
-| Integrante                           | Código     |
-| ------------------------------------ | ---------- |
-| Checa Burga, Oscar Diego             | U20231E492 |
-| Dextre Flores, Leonardo Felix        | U202421823 |
-| Salcedo Correa, Carlos Mathhew       | U202421065 |
-| Patricio Farias, Ana Camila          | U20241I469 |
-| Barrenechea Bustamante, Rafael       | U202417417 |
+Proyecto
+
+**Prothia** 
+
+Integrantes
+
+Codigo Apellidos y Nombres
+U202421823 Dextre Flores, Leonardo Felix 
+
+U20231E492 Checa Burga, Oscar Diego 
+
+U202421065 Salcedo Correa, Carlos Mathhew 
+
+U20241I469 Patricio Farias, Ana Camila 
+
+U202417417 Barrenechea Bustamante, Rafael
 
 
-**Mes y Año**: Septiembre 2026
+**Período 202620** 
+
+**Septiembre 2026**
 
 ---
 
