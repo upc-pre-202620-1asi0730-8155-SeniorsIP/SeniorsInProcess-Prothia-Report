@@ -261,7 +261,7 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 7:16
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQA4Y6sSavVkQJHK0xa8PFadASZ2VAnlsnRKd5NUOaA3Mi8?e=QFKKzj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQA4Y6sSavVkQJHK0xa8PFadASZ2VAnlsnRKd5NUOaA3Mi8?e=QFKKzj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 <div align="center">
           <img src="../assets/Entrevista_Segmento1.png" alt="escala" >
@@ -292,7 +292,7 @@ Cualquier solución tecnológica orientada a él debe ser sumamente intuitiva, l
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 7:04
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAzHTWm8DPMQr6fwiwnHtPBAbVV96Ay50rhZqgU8XjvNWU?e=UumKiW)
+* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAzHTWm8DPMQr6fwiwnHtPBAbVV96Ay50rhZqgU8XjvNWU?e=UumKiW
 
 <div align="center">
           <img src="../assets/PacienteAmputado-imagen.jpeg" alt="escala">
@@ -324,7 +324,7 @@ Por estas razones, Juan considera imprescindible una solución tecnológica que 
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 5:10
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQDcJwa3IihEQbo5rw5gnjLHAVYwwPZr7M6qaR7dKiumAHQ?e=NnkykQ)
+* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQDcJwa3IihEQbo5rw5gnjLHAVYwwPZr7M6qaR7dKiumAHQ?e=NnkykQ
 
 <div align="center">
           <img src="../assets/Entrevista_PacienteAmputado(3).png" alt="escala">
@@ -356,7 +356,7 @@ Para que Miguel adopte una plataforma de seguimiento en tiempo real, esta debe s
 * **Fecha de entrevista:** 07/09/2026
 * **Inicio de la entrevista:** 0:06
 * **Duración de la entrevista:** 7:09
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417417_upc_edu_pe/IQDvLPFj-g2JTbIKiBEH2lV-AUU6a_4ASF_teV4sFwI9Q0A?e=2hwLvE)
+* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417417_upc_edu_pe/IQDvLPFj-g2JTbIKiBEH2lV-AUU6a_4ASF_teV4sFwI9Q0A?e=2hwLvE
 
 <div align="center">
           <img src="../assets/Entrevista_Segmento2.png" alt="Entrevista Diego Salazar - Segmento Clínicas de Rehabilitación" >
@@ -391,7 +391,7 @@ Respecto a la adquisición de una suscripción anual, Diego señala que esta dec
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:06
 * **Duración de la entrevista:** 6:12
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAtPUreiQjuQLqNalSOE_vFAYbEAznSdDj_Bniyhw4DBiM?e=Vx0kfU)
+* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAtPUreiQjuQLqNalSOE_vFAYbEAznSdDj_Bniyhw4DBiM?e=Vx0kfU
 
 <div align="center">
           <img src="../assets/clinica-entrevista.jpeg" alt="Entrevista a Ana Mercedes" >
@@ -419,7 +419,7 @@ Por último, afirma que la institución vería viable la contratación de una su
 * **Fecha de entrevista:** 10/09/2026
 * **Inicio de la entrevista:** 0:06
 * **Duración de la entrevista:** 6:12
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQCWxy6QvfuNSKu_7js1U36ZAd6DOtGrnOhD94BkyWLj0X4?e=XvFjy6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQCWxy6QvfuNSKu_7js1U36ZAd6DOtGrnOhD94BkyWLj0X4?e=XvFjy6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 <div align="center">
           <img src="../assets/Entrevista3_Segmento2.png" alt="Entrevista a Ana Mercedes" >
@@ -449,7 +449,7 @@ Para que la clínica invierta en una suscripción anual, la solución debe ser s
 * **Fecha de entrevista:** 09/09/2026
 * **Inicio de la entrevista:** 0:07
 * **Duración de la entrevista:** 5:24
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQDGRUcxI0alSJHZDbz9Bg3DAV4u6lDCnPcz6e3rXbwwUAM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYgj6s)
+* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQDGRUcxI0alSJHZDbz9Bg3DAV4u6lDCnPcz6e3rXbwwUAM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYgj6s
 
 <div align="center">
           <img src="../assets/entrevista_Segmento3.png" alt="escala" >
@@ -478,7 +478,7 @@ Cualquier solución digital dirigida a su taller debe ser directa, ágil y de al
 * **Fecha de entrevista:** 16/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 5:36
-* **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBupHk2utw5R4eg3jkeRzJcAbA0gRfEZmGtE8kOBRssVUk?e=DDU3pI)
+* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBupHk2utw5R4eg3jkeRzJcAbA0gRfEZmGtE8kOBRssVUk?e=DDU3pI
 
 <div align="center">
           <img src="../assets/Entrevista2_Segmento3.png" alt="escala" >
@@ -502,7 +502,7 @@ Cualquier propuesta tecnológica viable debe ser ligera, intuitiva y ajustada a 
 * **Distrito de Residencia:** Lima (Centro ortopédico ubicado en Lima Metropolitana)
 * **Estado Civil:** Soltero
 * **Ocupación:** Técnico ortoprotesista (Encargado de taller)
- **Enlace:** [Ver grabación en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBVJ0Uf4UxdT6TO0BUGfjbXAZCLztIVzE5Mr7f2d9GNNqM?e=KERokM)
+ **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBVJ0Uf4UxdT6TO0BUGfjbXAZCLztIVzE5Mr7f2d9GNNqM?e=KERokM
 
 
 ### Detalles de la Entrevista
