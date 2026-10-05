@@ -215,7 +215,7 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 13. En su opinión, ¿qué características o funciones son indispensables para que usted decida usar diariamente esta plataforma? 
 14. ¿Qué factores o situaciones harían que usted se desmotive o deje de utilizar una aplicación de seguimiento de su prótesis?
 
-**Preguntas para el Segmento Objetivo 2 – Clínicas de Rehabilitación:**
+**Preguntas para el Segmento Objetivo 2 – Profesionales de Terapia Física y Rehabilitación:**
 1. ¿Cuál es su edad, profesión o cargo en la institución y en qué ciudad labora?
 2. ¿Hace cuántos años trabaja en el área de rehabilitación física y cuántos pacientes amputados atienden periódicamente en su centro? 
 3. ¿Cómo estructuran y coordinan actualmente el plan de rehabilitación y adaptación protésica fuera de las consultas presenciales? 
@@ -230,7 +230,7 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 12. ¿A través de qué dispositivos preferirían los profesionales de su centro acceder a la plataforma (navegador web en PC, laptops, tabletas)? 
 13. ¿Qué barreras o problemas operativos podrían desincentivar el uso continuado de este software en su institución? 
 
-**Preguntas para el Segmento Objetivo 3 – Centros Ortopédicos:**
+**Preguntas para el Segmento Objetivo 3 – Técnicos Ortoprotesistas:**
 1. ¿Cuál es su edad, especialidad técnica o cargo y en qué ciudad opera su centro ortopédico?
 2. ¿A qué se dedica específicamente su taller y cuántas prótesis adaptan o fabrican mensualmente? 
 3. ¿Cómo organizan actualmente el calendario de ajustes, revisiones periódicas y mantenimiento de las prótesis entregadas? 
@@ -549,15 +549,15 @@ A partir de las entrevistas realizadas a Miguel Sanchez, Juan Carlos Salcedo y J
 ### 2.3.1. User Personas. 
 En esta sección se presentan las fichas de User Personas construidas a partir de los datos recolectados del análisis de entrevistas a nuestros segmentos objetivos. Estas fichas permiten representar de forma clara y estratégica los perfiles de cada segmento objetivo, considerando sus metas, habilidades, motivaciones y dificultades. De esta manera se integra la perspectiva del usuario y tendencias del sector para identificar oportunidades en el mercado y ofrecer una solución alineada a lo que el usuario necesita.
 
-**Carlos Mendoza: Asistente administrativo**
+**Segmento 1:** Carlos Mendoza: Asistente administrativo.
 
 ![User Personas Carlos Mendoza](../assets/UP-Carlos%20Mendoza.png)
 
-**Valeria Rios: Jefa de Terapia Física y Rehabilitación**
+ **Segmento 2:** Valeria Rios: Jefa de Terapia Física y Rehabilitación.
 
 ![User Personas Valeria Rios](../assets/UP-Valeria%20Rios.png)
 
-**Miguel Torres: Técnicos Ortoprotesistas**
+**Segmento 3:** Miguel Torres: Ortoprotésico.
 
 ![User Personas Miguel Torres](../assets/UP-Miguel%20Torres.png)
 
@@ -602,15 +602,15 @@ A pesar de sus distintos roles operativos, los tres grupos coinciden en la impor
 ### 2.3.3. User Journey Mapping. 
 En esta sección se presentan los User Journey Maps de los tres segmentos objetivo. Cada mapa refleja el recorrido actual que estos usuarios realizan para cumplir sus objetivos sin contar aún con una solución tecnológica integrada, mostrando los puntos críticos, emociones, tareas clave y oportunidades de mejora. Estos recorridos nos permiten entender los desafíos que enfrentan los usuarios día a día.
 
-**Segmento Objetivo 1: Paciente Amputado**
+**Segmento Objetivo 1:** Carlos Mendoza: Asistente administrativo.
 
 ![journey map Carlos Mendoza](../assets/jm_CarlosMendoza.png)
 
-**Segmento Objetivo 2: Profesionales de Terapia Física y Rehabilitación**
+**Segmento Objetivo 2:** Valeria Rios: Jefa de Terapia Física y Rehabilitación.
 
 ![journey map Valeria Ríos](../assets/journey%20map_Valeria%20Ríos.png)
 
-**Segmento Objetivo 3: Técnicos Ortoprotesistas**
+**Segmento Objetivo 3:** Miguel Torres: Ortoprotésico.
 
 ![journey map Miguel Torres](../assets/journey%20map_Miguel%20Torres.png)
 
@@ -618,15 +618,15 @@ En esta sección se presentan los User Journey Maps de los tres segmentos objeti
 ### 2.3.4. Empathy Mapping. 
 En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender las experiencias, emociones y pensamientos que expresan los usuarios de cada segmento objetivo.
 
-**Segmento Objetivo 1: Paciente Amputado**
+**Segmento Objetivo 1:** Carlos Mendoza: Asistente administrativo.
 
 ![Empathy Mapping Carlos Mendoza](../assets/Empathy%20Mapping_Carlos%20Mendoza.png)
 
-**Segmento objetivo 2: Profesionales de Terapia Física y Rehabilitación**
+**Segmento Objetivo 2:** Valeria Rios: Jefa de Terapia Física y Rehabilitación.
 
 ![Empathy Mapping Valeria Ríos](../assets/Empathy%20Mapping_Valeria%20Ríos.png)
 
-**Segmento Objetivo 3: Técnicos Ortoprotesistas**
+**Segmento Objetivo 3:** Miguel Torres: Ortoprotésico.
 
 ![Empathy Mapping Miguel Torres](../assets/Empathy%20Mapping_Miguel%20Torres.png)
 
