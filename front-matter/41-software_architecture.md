@@ -2,36 +2,26 @@
 ### 4.6.1. Design-Level EventStorming
 En esta sección se presenta la arquitectura de software de Prothia desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente.
 
-**Identity & Access Management**
-<br>
-<br>
-![Level EventStorming2](../assets/ES-Identity%20&%20Access%20Management.jpeg)
-<br>
-<br>
-**Subscriptions & Payment Management**
-<br>
-<br>
-![Level EventStorming2](../assets/ES-Subscriptions%20&%20Payment%20Management.jpeg)
-<br>
-<br>
-**Profiles & Asset Management**
-<br>
-<br>
-![Level EventStorming3](../assets/ES-Profiles%20&%20Asset%20Management.jpeg)
-<br>
-<br>
-**Service Execution & Biomechanical Monitoring**
-<br>
-<br>
-![Level EventStorming4](../assets/ES-Service%20Execution%20&%20Biomechanical%20Monitoring.jpeg)
-<br>
-<br>
-**Rehabilitation Planning & Tracking**
-<br>
-<br>
-![Level EventStorming5](../assets/ES-Rehabilitation%20Planning%20&%20Tracking.jpeg)
+#### Vista General del Landscape (Design-Level)
+![Design-Level Overview](../assets/desing-level-overview.png)
+
+#### Detalle por Bounded Context
+
+##### 1. Identity & Access Management (IAM)
+![IAM Context](../assets/bc-iam.png)
+
+##### 2. Clinical & Prescription Management
+![Clinical Context](../assets/bc-clinical.png)
+
+##### 3. Patient Portal & Telemetry Monitoring
+![Monitoring Context](../assets/bc-monitoring.png)
+
+##### 4. Workshop & Asset Management
+![Workshop Context](../assets/bc-workshop.png)
+
 
 Miro: https://miro.com/app/board/uXjVHm-Fti8=/?share_link_id=426808403513
+
 ## 4.6.2. Software Architecture Context Diagram
 
 El Context Diagram representa a Prothia como un único sistema de software y muestra a los principales actores y sistemas externos con los que interactúa. Los actores considerados son Visitor, Patient, Clinic User y Orthopedic Center User, de acuerdo con las interacciones principales representadas en la solución. Esta separación permite reflejar las responsabilidades relacionadas con la consulta pública del Landing Page, el seguimiento de rehabilitación, el monitoreo clínico y la gestión de prótesis y mantenimiento.
