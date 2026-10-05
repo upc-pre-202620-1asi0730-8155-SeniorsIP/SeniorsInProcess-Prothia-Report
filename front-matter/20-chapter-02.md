@@ -262,7 +262,7 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 7:16
-* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQA4Y6sSavVkQJHK0xa8PFadASZ2VAnlsnRKd5NUOaA3Mi8?e=QFKKzj&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* **Enlace:** https://tinyurl.com/2ezssk23
 
 <div align="center">
           <img src="../assets/Entrevista_Segmento1.png" alt="escala" >
@@ -290,7 +290,7 @@ En cuanto a dispositivos y conectividad, su herramienta primordial y de uso perm
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 7:04
-* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAzHTWm8DPMQr6fwiwnHtPBAbVV96Ay50rhZqgU8XjvNWU?e=UumKiW
+* **Enlace:** https://tinyurl.com/3p23ymt4
 
 <div align="center">
           <img src="../assets/PacienteAmputado-imagen.jpeg" alt="escala">
@@ -320,7 +320,7 @@ Respecto a su círculo de influencia, su fisioterapeuta representa su máxima fi
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 5:10
-* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421823_upc_edu_pe/IQDcJwa3IihEQbo5rw5gnjLHAVYwwPZr7M6qaR7dKiumAHQ?e=NnkykQ
+* **Enlace:** https://tinyurl.com/23hvbfxw
 
 <div align="center">
           <img src="../assets/Entrevista_PacienteAmputado(3).png" alt="escala">
@@ -350,7 +350,7 @@ Frente al entorno de hardware, el entrevistado reserva la computadora exclusivam
 * **Fecha de entrevista:** 07/09/2026
 * **Inicio de la entrevista:** 0:06
 * **Duración de la entrevista:** 7:09
-* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417417_upc_edu_pe/IQDvLPFj-g2JTbIKiBEH2lV-AUU6a_4ASF_teV4sFwI9Q0A?e=2hwLvE
+* **Enlace:** https://tinyurl.com/mwx4b4s6
 
 <div align="center">
           <img src="../assets/Entrevista_Segmento2.png" alt="Entrevista Diego Salazar - Segmento Clínicas de Rehabilitación" >
@@ -377,7 +377,7 @@ En el aspecto subjetivo, analítico y actitudinal, Diego muestra un perfil profe
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:06
 * **Duración de la entrevista:** 6:12
-* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQAtPUreiQjuQLqNalSOE_vFAYbEAznSdDj_Bniyhw4DBiM?e=Vx0kfU
+* **Enlace:** https://tinyurl.com/44yuywb7
 
 <div align="center">
           <img src="../assets/clinica-entrevista.jpeg" alt="Entrevista a Ana Mercedes" >
@@ -403,7 +403,7 @@ En cuanto a requerimientos funcionales y entorno de hardware, considera estricta
 * **Fecha de entrevista:** 10/09/2026
 * **Inicio de la entrevista:** 0:06
 * **Duración de la entrevista:** 6:12
-* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQDGRUcxI0alSJHZDbz9Bg3DAe2AMEQ2vLVmv0jUGXlu7iQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3YWllV
+* **Enlace:** https://tinyurl.com/5xxj6njv
 
 <div align="center">
           <img src="../assets/Entrevista3_Segmento2.png" alt="Entrevista a Ana Mercedes" >
@@ -442,7 +442,7 @@ Para Carmen, el verdadero valor de la solución no estaría únicamente en incor
 * **Fecha de entrevista:** 09/09/2026
 * **Inicio de la entrevista:** 0:07
 * **Duración de la entrevista:** 5:24
-* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQDGRUcxI0alSJHZDbz9Bg3DAV4u6lDCnPcz6e3rXbwwUAM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SYgj6s
+* **Enlace:** https://tinyurl.com/2asw539n
 
 <div align="center">
           <img src="../assets/entrevista_Segmento3.png" alt="escala" >
@@ -469,7 +469,7 @@ En cuanto a los requisitos funcionales y especificaciones de hardware, considera
 * **Fecha de entrevista:** 16/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 5:36
-* **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBupHk2utw5R4eg3jkeRzJcAbA0gRfEZmGtE8kOBRssVUk?e=DDU3pI
+* **Enlace:** https://tinyurl.com/bdhm2vcm
 
 <div align="center">
           <img src="../assets/Entrevista2_Segmento3.png" alt="escala" >
@@ -491,7 +491,7 @@ Frente a la conceptualización de una herramienta tecnológica especializada par
 * **Distrito de Residencia:** Lima (Centro ortopédico ubicado en Lima Metropolitana)
 * **Estado Civil:** Soltero
 * **Ocupación:** Técnico ortoprotesista (Encargado de taller)
- **Enlace:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBVJ0Uf4UxdT6TO0BUGfjbXAZCLztIVzE5Mr7f2d9GNNqM?e=KERokM
+ **Enlace:** https://tinyurl.com/2p4uysyj
 
 
 ### Detalles de la Entrevista
