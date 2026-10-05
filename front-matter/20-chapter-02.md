@@ -335,7 +335,7 @@ De perfil analítico, práctico y muy enfocado en la seguridad de su informació
 
 Para que Miguel adopte una plataforma de seguimiento en tiempo real, esta debe ser sumamente precisa, fácil de usar y capaz de registrar su progreso histórico, garantizando en todo momento la privacidad de sus datos médicos. Los factores críticos que lo llevarían a abandonar (desinstalar) la solución incluye la imprecisión en las mediciones de sus movimientos, una saturación de falsas alarmas o notificaciones excesivas, un diseño complejo, y un alto consumo de batería o datos móviles. Finalmente, es un usuario orientado a resultados: si tras unas semanas no percibe un valor o mejora real en su rehabilitación, dejará de utilizar la plataforma.
 
-## Segmento objetivo 2 - Clínicas de Rehabilitación
+## Segmento objetivo 2 - Profesionales de Terapia Física y Rehabilitación
 
 ## Entrevista 1 – Diego Salazar
 
@@ -429,7 +429,7 @@ En el aspecto tecnológico, es una usuaria tradicional de oficina: prefiere trab
 
 Para que la clínica invierta en una suscripción anual, la solución debe ser simple y rápida de usar. Requiere un panel visual claro con sistema de semáforos (verde, amarillo y rojo), reportes exportables para la historia médica y métricas clave de horas de uso y alineación de la marcha, garantizando que el sistema ahorre tiempo y mejore la salud del paciente sin burocracia.
 
-## Segmento objetivo 3 - Centros Ortopédicos
+## Segmento objetivo 3 - Técnicos Ortoprotesistas
 
 ## Entrevista 1 – Miguel Sanchez
 
@@ -529,7 +529,7 @@ A partir de las entrevistas realizadas a Enrique Diaz, Juan Ramirez y Miguel Sua
 * El 66.7% (2/3) señala que los traslados hacia el centro médico representan un desgaste físico y económico notable debido a la congestión vehicular y la necesidad de usar taxis.
 * El 100% (3/3) muestra un perfil digital estrictamente *Mobile-First* para temas de salud, buscando una herramienta ligera que consuma pocos datos o batería y proporcione métricas claras de progreso sin saturar con notificaciones invasivas.
 
-#### Segmento objetivo 2: Clínicas de rehabilitación
+#### Segmento objetivo 2: Profesionales de Terapia Física y Rehabilitación
 A partir de las entrevistas realizadas a Diego Salazar, Ana Mercedes y Carmen Salazar, se identifican los siguientes patrones comunes:
 * El 100% (3/3) labora en centros de rehabilitación física en Lima y atiende de forma regular a pacientes amputados que deben continuar sus terapias motrices y de marcha en casa.
 * El 100% (3/3) coincide en que el principal obstáculo del tratamiento es la «ceguera clínica ambulatoria»: no tienen certeza de si los pacientes realizan los ejercicios domiciliarios ni si mantienen la técnica adecuada.
@@ -537,7 +537,7 @@ A partir de las entrevistas realizadas a Diego Salazar, Ana Mercedes y Carmen Sa
 * El 100% (3/3) utiliza computadoras de escritorio y herramientas de registro estándar como Excel o historiales clínicos tradicionales, manifestando el 66.7% (2/3) la utilidad de emplear tabletas en sala de terapia.
 * El 100% (3/3) demanda un panel centralizado con reportes exportables y un sistema de alertas semaforizado para identificar anomalías de marcha, condicionando la contratación institucional a que la herramienta evidencie beneficio clínico real sin añadir sobrecarga administrativa.
 
-#### Segmento objetivo 3: Centros ortopédicos
+#### Segmento objetivo 3: Técnicos Ortoprotesistas
 A partir de las entrevistas realizadas a Miguel Sanchez, Juan Carlos Salcedo y Jose Riveros Veliz, se identifican los siguientes patrones comunes:
 * El 100% (3/3) son técnicos y licenciados ortoprotesistas a cargo de talleres en Lima, dedicados al diseño, confección y calibración de prótesis con un volumen de entre 4 y 10 dispositivos mensuales.
 * El 100% (3/3) carece de visibilidad técnica objetiva sobre las horas de uso, la cadencia y los ciclos de impacto a los que son sometidas las prótesis una vez entregadas al usuario.
@@ -558,7 +558,7 @@ En esta sección se presentan las fichas de User Personas construidas a partir d
 
 ![User Personas Valeria Rios](../assets/UP-Valeria%20Rios.png)
 
-**Miguel Torres: Ortoprotésico**
+**Miguel Torres: Técnicos Ortoprotesistas**
 
 ![User Personas Miguel Torres](../assets/UP-Miguel%20Torres.png)
 
@@ -607,11 +607,11 @@ En esta sección se presentan los User Journey Maps de los tres segmentos objeti
 
 ![journey map Carlos Mendoza](../assets/jm_CarlosMendoza.png)
 
-**Segmento Objetivo 2: Clínica de Rehabilitación**
+**Segmento Objetivo 2: Profesionales de Terapia Física y Rehabilitación**
 
 ![journey map Valeria Ríos](../assets/journey%20map_Valeria%20Ríos.png)
 
-**Segmento Objetivo 3: Centro Ortopédico**
+**Segmento Objetivo 3: Técnicos Ortoprotesistas**
 
 ![journey map Miguel Torres](../assets/journey%20map_Miguel%20Torres.png)
 
@@ -623,11 +623,11 @@ En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender
 
 ![Empathy Mapping Carlos Mendoza](../assets/Empathy%20Mapping_Carlos%20Mendoza.png)
 
-**Segmento objetivo 2:**
+**Segmento objetivo 2: Profesionales de Terapia Física y Rehabilitación**
 
 ![Empathy Mapping Valeria Ríos](../assets/Empathy%20Mapping_Valeria%20Ríos.png)
 
-**Segmento Objetivo 3: Centro Ortopédico**
+**Segmento Objetivo 3: Técnicos Ortoprotesistas**
 
 ![Empathy Mapping Miguel Torres](../assets/Empathy%20Mapping_Miguel%20Torres.png)
 
