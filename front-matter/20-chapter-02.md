@@ -634,9 +634,50 @@ En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender
 ---
 ## 2.4. Big Picture EventStorming
 
-En esta sección se presenta el trabajo realizado durante la sesión de Big Picture Event Storming, enfocada en comprender el dominio general del negocio. Para ello se utilizaron post-its en Miro para mapear los eventos significativos que ocurren en el flujo operativo actual. Ello nos permitió identificar procesos clave, actores involucrados, relaciones entre eventos, y oportunidades de mejora para el desarrollo de nuestra solución.
+**1- Colocación de eventos del dominio**
 
-![Big Picture EventStorming](../assets/BigPictureEventStroming.png)
+En esta primera fase los integrantes del equipo colocaron eventos que se relacionan al dominio del negocio, denotados por tarjetas naranjas
+
+![Big Picture EventStorming](../assets/fase1.png)
+
+**2- Ordenamiento de los eventos**
+
+En esta fase los integrantes del equipo ordenaron los eventos hasta formar una secuencia cronológica.
+
+![Big Picture EventStorming](../assets/fase2.png)
+
+**3- Colocación de actores y sistemas externos**
+
+En esta fase los integrantes del grupo agregaron a los eventos unas tarjetas de color amarillo que representan a los actores de algunas series de eventos y otras tarjetas azules que representan a los sistemas externos involucrados.
+
+![Big Picture EventStorming](../assets/fase3.png)
+
+**4- Identificación de problemas en la secuencia**
+
+En esta última fase los integrantes identificaron problemas que podrían ocurrir durante la secuencia de eventos y representaron tales problemas mediante tarjetas rosadas.
+
+![Big Picture EventStorming](../assets/fase4.png)
+
+A partir de este proceso, identificamos lo siguiente:
+
+**Procesos clave:**
+* Fabricación y entrega de la prótesis al paciente.
+* Evaluación clínica y prescripción de rutinas de rehabilitación.
+* Ejecución de ejercicios en el hogar y comunicación de dudas.
+* Detección de daños estructurales y ejecución de mantenimiento correctivo.
+
+**Problemas:**
+* Existe una "ceguera clínica" debido a la imposibilidad de supervisar la postura del paciente durante los ejercicios domiciliarios.
+* La comunicación de dolores o dudas se realiza por canales informales (WhatsApp), lo que dificulta un seguimiento médico estructurado.
+* El mantenimiento actual es puramente reactivo, ya que el desgaste de los componentes se ignora hasta que ocurre un daño físico en la prótesis.
+* Los datos clínicos y técnicos se encuentran aislados entre las clínicas de rehabilitación y los centros ortopédicos.
+
+**Oportunidades:**
+* Integrar sensores biomecánicos para capturar datos telemétricos en tiempo real durante la rutina domiciliaria.
+* Generar alertas clínicas tempranas cuando el sistema detecte patrones de marcha anormales o vicios posturales.
+* Digitalizar y unificar el historial de uso de la prótesis para permitir a los centros ortopédicos programar mantenimientos preventivos.
+* Crear un ecosistema interoperable que conecte a pacientes, clínicas y técnicos ortopédicos en un solo flujo de información.
+
 
 <https://miro.com/app/board/uXjVGbuSqec=/?share_link_id=610103626578>
 ---
