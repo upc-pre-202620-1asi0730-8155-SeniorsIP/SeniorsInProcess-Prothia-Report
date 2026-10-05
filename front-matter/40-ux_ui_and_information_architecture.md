@@ -402,9 +402,9 @@ USER FLOW 03: Programar una fecha de mantenimiento preventivo para una prótesis
 
 ## 4.5. Web Applications Prototyping
 
-Prototipo de la aplicación web Prothia en figma: [Prototipo-Prothia](https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2)
+Prototipo de la aplicación web Prothia en figma: (https://tinyurl.com/2x48v884)
 <div align="center">
   <img src="../assets/AppWebMockup11.png" alt="Prototipo App" >
 </div>
 
-Video del flujo del prototipo:[FLUJO-PROTOTIPO-PROTHIA.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQDKAxgImmvjTbQuUvzCjRSjAUaJwT05Xg1PiKzDOQW-f3E?e=RgxLPk)
+Video del flujo del prototipo:(https://tinyurl.com/mtpua6jk)
