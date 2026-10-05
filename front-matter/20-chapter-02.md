@@ -707,9 +707,6 @@ El Ubiquitous Language reúne los términos principales del dominio de Prothia p
 | **Preventive Maintenance** | Mantenimiento programado antes de la aparición de una falla, según fecha o condiciones de uso. |
 | **Maintenance Alert** | Aviso dirigido al centro ortopédico cuando una prótesis alcanza una condición que requiere revisión o mantenimiento. |
 | **Patient Information Sharing** | Acción mediante la cual la clínica habilita información relevante del paciente al centro ortopédico responsable de su prótesis. |
-| **Subscription** | Modalidad de acceso anual utilizada por una clínica para utilizar Prothia. |
-| **Software License** | Modalidad de acceso utilizada por un centro ortopédico para emplear las funcionalidades de Prothia. |
-| **Demo Request** | Solicitud realizada por un visitante interesado en conocer el funcionamiento de Prothia antes de una posible contratación. |
 | **Biomechanical Monitoring** | Seguimiento de información biomecánica generada durante el uso de la prótesis y las actividades de rehabilitación. |
 | **Prosthesis Usage** | Información relacionada con el uso acumulado y condiciones de utilización de una prótesis. |
-| **B2B** | B2B (Business-to-Business) es un modelo de negocio en el que una empresa vende productos, servicios o soluciones a otras empresas en lugar de hacerlo al consumidor final. |
+
