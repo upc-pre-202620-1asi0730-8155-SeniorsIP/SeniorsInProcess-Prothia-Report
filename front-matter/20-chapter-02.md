@@ -654,15 +654,15 @@ En esta sección se presentan los User Journey Maps de los tres segmentos objeti
 
 **Segmento Objetivo 1:** Carlos Mendoza: Asistente administrativo.
 
-![journey map Carlos Mendoza](../assets/jm_CarlosMendoza.png)
+![journey map Carlos Mendoza](../assets/JM-Carlos%20Mendoza.png)
 
 **Segmento Objetivo 2:** Valeria Rios: Jefa de Terapia Física y Rehabilitación.
 
-![journey map Valeria Ríos](../assets/journey%20map_Valeria%20Ríos.png)
+![journey map Valeria Ríos](../assets/JM-Valeria%20Rios.png)
 
 **Segmento Objetivo 3:** Miguel Torres: Ortoprotésico.
 
-![journey map Miguel Torres](../assets/journey%20map_Miguel%20Torres.png)
+![journey map Miguel Torres](../assets/JM-Miguel%20Torres.png)
 
 ---
 ### 2.3.4. Empathy Mapping. 
