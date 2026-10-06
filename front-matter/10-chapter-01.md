@@ -99,120 +99,70 @@ La magnitud del problema se relaciona con la cantidad de tiempo que el paciente 
 
 #### 1.2.2.1 Lean UX Problem Statements
 
-El estado actual del seguimiento y la rehabilitación de pacientes amputados se ha enfocado principalmente en evaluaciones presenciales puntuales dentro de clínicas de rehabilitación y en controles periódicos en centros ortopédicos. En ese esquema, la recopilación de datos biomecánicos, la supervisión de los ejercicios y la evaluación del uso de la prótesis dependen del tiempo de consulta y del reporte subjetivo del paciente.
-Lo que los productos y servicios existentes no logran abordar es la falta de visibilidad continua sobre el desempeño del paciente y el uso de su prótesis fuera de la clínica, así como la ausencia de una plataforma integrada que conecte al paciente, a la clínica de rehabilitación y al centro ortopédico. Esto genera un seguimiento discontinuo, incertidumbre sobre la correcta ejecución de las rutinas cotidianas y decisiones de rehabilitación, ajuste y mantenimiento protésico basadas en percepciones subjetivas y no en datos objetivos.
-Nuestra plataforma Prothia abordará esta brecha mediante una solución web centralizada que recopila, procesa y visualiza datos biomecánicos y de uso de la prótesis, conectando el monitoreo durante las actividades cotidianas del paciente con la supervisión de los profesionales de rehabilitación y de los especialistas ortopédicos. Nuestro enfoque inicial estará dirigido a tres segmentos: pacientes amputados en proceso de adaptación y rehabilitación, clínicas de rehabilitación que requieren monitorear su progreso y centros ortopédicos encargados de la fabricación, adaptación y mantenimiento de las prótesis.
-Sabremos que hemos tenido éxito cuando observemos:
-1.	**En los pacientes:** Un uso sostenido de la plataforma y de la prótesis fuera de la clínica, reflejado en la continuidad del uso a los 30 y 90 días y en sesiones de monitoreo registradas de forma regular cada semana.
-2.	**Profesionales de Terapia Fisica y Rehabilitación:** Que los profesionales consulten con regularidad los datos de sus pacientes entre controles presenciales (por ejemplo, al menos una vez por semana por paciente activo), que incorporen el monitoreo como parte habitual del tratamiento y que basen sus decisiones terapéuticas en reportes biomecánicos objetivos.
-3.	**Técnicos Ortoprotesistas:** Que utilicen la información de uso de las prótesis para programar ajustes, revisiones y mantenimiento, y que intercambien datos con las clínicas a través de la plataforma.
+Actualmente, el seguimiento y la rehabilitación de pacientes amputados se centran en evaluaciones presenciales puntuales en clínicas de rehabilitación y en controles periódicos en centros ortopédicos, por lo que la supervisión de los ejercicios y la evaluación del uso de la prótesis dependen del tiempo de consulta y del reporte subjetivo del paciente. Los productos y servicios existentes no logran dar visibilidad continua sobre el desempeño del paciente y el uso de su prótesis fuera de la clínica, ni conectar en una misma plataforma al paciente, la clínica y el centro ortopédico, lo que genera un seguimiento discontinuo y decisiones de rehabilitación, ajuste y mantenimiento basadas en percepciones y no en datos objetivos. Prothia busca cubrir esta necesidad mediante una plataforma web que recopile, procese y visualice datos biomecánicos y de uso de la prótesis, y que conecte el monitoreo durante las actividades cotidianas del paciente con la supervisión de los profesionales de rehabilitación y de los especialistas ortopédicos. Nuestro enfoque inicial estará dirigido a pacientes amputados en proceso de adaptación y rehabilitación, Profesionales de Terapia Física y Rehabilitación; y Técnicos Ortoprotesistas. Sabremos que la solución es exitosa cuando los pacientes mantengan el uso de la plataforma y de la prótesis a los 30 y 90 días con sesiones de monitoreo cada semana, los profesionales consulten los datos de cada paciente activo al menos una vez por semana y basen sus decisiones en reportes biomecánicos objetivos, y los técnicos ortoprotesistas programen ajustes, revisiones y mantenimiento a partir del uso real de las prótesis.
+
 
 
 #### 1.2.2.2 Lean UX Assumptions
 
 **A. Business Assumptions**
 
-- **Creemos que nuestros clientes necesitan:** Información objetiva y centralizada sobre la rehabilitación y el uso de las prótesis fuera de las sesiones presenciales, ya que hoy el seguimiento depende de controles periódicos y del reporte subjetivo del paciente.
-- **Creemos que este problema representa una oportunidad de mercado porque:** Las clínicas y los centros ortopédicos carecen de herramientas que conecten el desempeño real del paciente con el seguimiento clínico y el mantenimiento de la prótesis, un espacio poco atendido en mercados emergentes como el latinoamericano.
-- **Creemos que esta necesidad se resolverá mediante:** Una plataforma web que recopile datos biomecánicos y de uso de la prótesis, los procese y los presente de forma comprensible.
-- **Creemos que nuestros primeros clientes serán, y los adquiriremos mediante:** Clínicas de rehabilitación que atienden pacientes amputados y centros ortopédicos, priorizando los de mayor volumen y apertura a la innovación, a través de contacto directo, demostraciones, validación con profesionales de salud y pruebas piloto que sirvan como casos de éxito.
-- **Creemos que el principal valor para nuestros clientes y usuarios será:** Mejorar la calidad y la eficiencia del seguimiento clínico, con decisiones mejor informadas, detección temprana de problemas, menos consultas innecesarias, mejor comunicación entre los tres actores y mayor diferenciación del servicio.
-- **Creemos que nuestro modelo de ingresos y la viabilidad del negocio serán:** Una suscripción anual para clínicas y licencias de software para centros ortopédicos, cuyos ingresos recurrentes cubrirán los costos de operación y desarrollo, asumiendo que pagarán si el servicio demuestra mejoras medibles en el seguimiento y la eficiencia operativa.
-- **Creemos que nuestra ventaja competitiva frente a los competidores será:** Integrar en una misma plataforma a pacientes, clínicas y centros ortopédicos, frente a soluciones de monitoreo, sistemas de seguimiento y tecnologías de fabricantes de prótesis que suelen ser herramientas aisladas, lo que genera valor para toda la cadena de atención y dificulta el cambio de solución.
-- **Creemos que contamos con las capacidades, enfrentaremos riesgos y los mitigaremos así:** Un equipo con competencias en software, análisis de datos biomecánicos y sector salud, respaldado por alianzas que aporten validación clínica y acceso al mercado. Los mayores riesgos son la integración de sensores con distintas prótesis y la adopción por parte de clínicas y pacientes, que mitigaremos con desarrollo progresivo, pruebas piloto, compatibilidad con distintos dispositivos y una plataforma intuitiva.
+### Business Assumptions
+
+- **Creemos que** las clínicas de rehabilitación y los centros ortopédicos que atienden pacientes amputados carecen de información objetiva sobre el desempeño del paciente y el uso de la prótesis fuera de la consulta, y que adoptarían una solución digital si se integra a su rutina de seguimiento.
+- **Creemos que** un modelo de suscripción anual para clínicas y licencias de software para centros ortopédicos es viable, siempre que el servicio demuestre mejoras medibles en el seguimiento y la eficiencia operativa.
+- **Creemos que** nuestra ventaja será integrar en una sola plataforma a pacientes, clínicas y centros ortopédicos, frente a herramientas aisladas de monitoreo, seguimiento o de fabricantes de prótesis.
+- **Creemos que** nuestro equipo, con competencias en software, análisis de datos biomecánicos y sector salud, podrá construir y dar soporte a la solución, y que las alianzas con clínicas y centros ortopédicos que validen el uso clínico y faciliten el acceso al mercado permitirán mitigar los mayores riesgos: la integración de sensores con distintas prótesis y la adopción por parte de clínicas y pacientes.
 
 **B. Business Outcome Assumptions**
 
--	**Creemos que** lograremos una adopción inicial de la plataforma, medido por: El número de clínicas y centros ortopédicos que completan programas piloto (por ejemplo, 3 a 5 instituciones en los primeros 6 meses) y el porcentaje que decide continuar con una suscripción o licencia al finalizar el piloto (por ejemplo, 50% o más).
--	**Creemos que** las clínicas incorporarán el monitoreo como parte de su tratamiento, medido por: El porcentaje de pacientes amputados de cada clínica piloto registrados en la plataforma (por ejemplo, 30% o más) y la frecuencia con la que los profesionales consultan los datos (por ejemplo, al menos una vez por semana por paciente activo).
--	**Creemos que** los pacientes usarán la plataforma de forma sostenida, medido por: El porcentaje de pacientes que mantiene el uso después de 30 y 90 días y el número promedio de sesiones de monitoreo registradas por semana fuera de la clínica.
--	**Creemos que** lograremos una alta retención de clínicas, medido por: Una tasa de renovación anual mínima (por ejemplo, 80% o más) y una baja tasa de cancelación durante el primer año.
--	**Creemos que** lograremos un crecimiento sostenible, medido por: El costo de adquisición por cliente, los ingresos recurrentes mensuales o anuales, y la relación entre el valor de vida del cliente y su costo de adquisición.
+• **Creemos que** lograremos una adopción inicial de la plataforma, con 3 a 5 instituciones que completan el piloto en los primeros 6 meses y 50% o más que decide continuar con una suscripción o licencia, si las clínicas y los centros ortopédicos perciben mejoras concretas en su seguimiento durante el piloto.
+• **Creemos que** lograremos que los profesionales de terapia física y rehabilitación incorporen el monitoreo como parte de su tratamiento, con 30% o más de sus pacientes amputados registrados y al menos una consulta semanal de datos por paciente activo, si los profesionales perciben que los datos les ayudan a decidir mejor.
+• **Creemos que** lograremos que los pacientes usen la plataforma de forma sostenida, con retención de uso a los 30 y 90 días, si perciben avances en su rehabilitación y en el uso de su prótesis durante las primeras semanas.
+• **Creemos que** lograremos una alta retención de clínicas, con una renovación anual de 80% o más, si el servicio demuestra mejoras medibles en el seguimiento clínico y en la eficiencia operativa.
+• **Creemos que** podemos alcanzar la sostenibilidad financiera si logramos consolidar una base de clínicas y centros ortopédicos con suscripciones y licencias recurrentes, y mantener un costo de adquisición bajo gracias a los casos de éxito de los pilotos.
 
 **C. User Assumptions**
 
-- **Creemos que los usuarios serán:**
-  - Pacientes amputados en proceso de adaptación y rehabilitación, con distintos niveles de familiaridad con la tecnología.
-  - Profesionales de clínicas de rehabilitación (fisioterapeutas, médicos fisiatras), responsables del seguimiento clínico.
-  - Técnicos y especialistas de centros ortopédicos, responsables de la adaptación y el mantenimiento de las prótesis.
-- **Creemos que el producto formará parte de:** El proceso de rehabilitación, seguimiento y adaptación del paciente a su prótesis, complementando las sesiones presenciales con el monitoreo durante las actividades cotidianas.
-- **Creemos que el principal problema que desean resolver es:** La falta de información continua y objetiva sobre el desempeño del paciente y el uso de la prótesis fuera de la clínica. Cada actor lo vive distinto: el paciente no sabe si progresa correctamente, el profesional no ve lo que ocurre entre sesiones y el técnico no sabe cómo se usa realmente la prótesis.
-- **Creemos que el uso más frecuente del producto será:**
-  - **Pacientes:** consultar su progreso y revisar su uso de la prótesis.
-  - **Profesionales de rehabilitación:** revisar datos biomecánicos, identificar movimientos o posturas inadecuadas y consultar la evolución entre controles.
-  - **Centros ortopédicos:** consultar el historial de uso y la información de mantenimiento.
-- **Creemos que las características más importantes para los usuarios serán:** Un dashboard de monitoreo, visualización de datos biomecánicos, seguimiento del progreso, historial de uso de la prótesis, alertas y acceso diferenciado según el tipo de usuario.
-- **Creemos que los usuarios esperarán una interfaz:** Clara, intuitiva, accesible y fácil de utilizar, que permita comprender la información sin conocimientos técnicos avanzados. Para los pacientes, se espera una experiencia simple y motivadora, y para los profesionales, una vista rápida que se integre a su rutina de consulta.
+• **Creemos que** cada clínica de rehabilitación cuenta con profesionales (fisioterapeutas, médicos fisiatras) responsables del seguimiento de los pacientes, y que cada centro ortopédico cuenta con técnicos ortoprotesistas responsables de adaptar y mantener las prótesis. Junto con los pacientes amputados, son los principales usuarios de Prothia.
+• **Creemos que** estos usuarios necesitan acceder a información actualizada sobre el desempeño del paciente y el uso de la prótesis entre los controles presenciales.
+• **Creemos que** actualmente el seguimiento depende de la consulta y del reporte subjetivo del paciente, y que la información de clínicas y centros ortopédicos está separada, lo que dificulta su análisis y seguimiento.
+• **Creemos que** quienes pagarán serán las clínicas y los centros ortopédicos, mientras que el paciente será quien use la plataforma con más frecuencia, y que el técnico ortoprotesista instalará y vinculará los sensores a la prótesis (por validar).
+• **Creemos que** los usuarios pueden adaptarse a una plataforma web, incluso con distintos niveles de familiaridad con la tecnología, siempre que la interfaz sea simple, clara y accesible.
 
 **D. User Outcome & Benefit Assumptions**
 
-- **Creemos que los pacientes querrán lograr una rehabilitación más efectiva y con mayor autonomía, y que obtendrán el beneficio de:** Un seguimiento continuo y personalizado, con la tranquilidad de que su progreso es observado por su equipo clínico incluso fuera de las sesiones presenciales.
-- **Creemos que los pacientes querrán entender su propio progreso, y que obtendrán el beneficio de:** Mayor conocimiento sobre su desempeño y sobre el uso de la prótesis durante sus actividades cotidianas, lo que les permite corregir hábitos y mantenerse motivados.
-- **Creemos que los profesionales de rehabilitación querrán detectar a tiempo los problemas de sus pacientes, y que obtendrán el beneficio de:** Identificar con mayor facilidad posturas, movimientos o patrones de uso que requieren atención profesional, antes de que generen complicaciones o retrasos en la recuperación.
-- **Creemos que los profesionales de rehabilitación querrán decidir con evidencia, y que obtendrán el beneficio de:** Tomar decisiones clínicas basadas en datos objetivos recopilados durante las actividades reales del paciente, y no solo en lo observado en consulta o en el reporte subjetivo.
-- **Creemos que los técnicos y centros ortopédicos querrán anticipar el mantenimiento y los ajustes de las prótesis, y que obtendrán el beneficio de:** Acceder a información sobre el uso real de cada prótesis para programar revisiones y mantenimiento de forma oportuna y personalizada.
-- **Creemos que pacientes, clínicas y centros ortopédicos querrán coordinarse mejor, y que obtendrán el beneficio de:** Una comunicación e intercambio de información más fluidos mediante una plataforma centralizada, con menos pérdida de datos y menos duplicidad de esfuerzos.
+• **Creemos que** los pacientes podrán conocer su progreso y el uso de su prótesis en sus actividades cotidianas, corregir hábitos y mantenerse motivados, con la tranquilidad de que su equipo clínico observa su avance incluso fuera de las sesiones presenciales.
+• **Creemos que** los profesionales de rehabilitación podrán identificar a tiempo posturas, movimientos o patrones de uso que requieren atención, y tomar decisiones clínicas basadas en datos objetivos y no solo en lo observado en consulta.
+• **Creemos que** los técnicos ortoprotesistas podrán anticipar el mantenimiento y los ajustes de las prótesis a partir de su uso real, y programar revisiones de forma oportuna.
+• **Creemos que** pacientes, clínicas y centros ortopédicos percibirán una comunicación más fluida, con menos pérdida de datos y menos duplicidad de esfuerzos, al compartir la información en una plataforma centralizada.
 
 **E. Feature Assumptions**
 
-- **Creemos que un dashboard centralizado de monitoreo** permitirá a los profesionales de las clínicas visualizar el progreso y el desempeño de todos sus pacientes en un solo lugar, y priorizar la atención de quienes más la necesitan.
-- **Creemos que el monitoreo biomecánico** permitirá recopilar datos objetivos sobre movimientos, posturas y otros indicadores de uso de la prótesis durante las actividades cotidianas del paciente, y así cubrir la falta de información entre sesiones presenciales.
-- **Creemos que el seguimiento de rehabilitación** permitirá a los profesionales revisar la evolución de cada paciente y comparar su desempeño entre distintos periodos, para ajustar el tratamiento con base en evidencia.
-- **Creemos que las alertas automáticas** permitirán a los profesionales detectar a tiempo patrones de uso, posturas o movimientos que requieran revisión, antes de que generen complicaciones o retrasos en la recuperación.
-- **Creemos que una vista de progreso para el paciente** permitirá a los pacientes conocer su propio desempeño y el uso de su prótesis, corregir hábitos y mantenerse motivados durante la rehabilitación.
-- **Creemos que el historial de uso de la prótesis** permitirá a los técnicos y centros ortopédicos consultar cómo se utiliza cada dispositivo, para programar revisiones, ajustes y mantenimiento de forma oportuna.
-- **Creemos que el acceso diferenciado por tipo de usuario** permitirá mostrar a pacientes, profesionales de clínicas y especialistas de ortopedias solo la información y las funcionalidades relevantes para su rol, y facilitar así la adopción de la plataforma y el intercambio de información entre los tres actores.
+• **Creemos que** lograremos que las clínicas consulten los datos al menos una vez por semana por paciente activo si los profesionales de rehabilitación logran visualizar el progreso de todos sus pacientes y priorizar la atención de quienes más la necesitan con un dashboard centralizado de monitoreo.
+• **Creemos que** lograremos una adopción inicial de 3 a 5 instituciones piloto, con 50% o más que continúa, si los profesionales logran contar con datos objetivos sobre el desempeño del paciente en sus actividades reales con un módulo de monitoreo biomecánico que registre movimientos, posturas e indicadores de uso de la prótesis mediante sensores o dispositivos portátiles compatibles con distintas prótesis.
+• **Creemos que** lograremos una renovación anual de clínicas de 80% o más si los profesionales logran revisar la evolución de cada paciente y comparar su desempeño entre periodos con un módulo de seguimiento de rehabilitación.
+• **Creemos que** lograremos que al menos 70% de las alertas sean revisadas por el profesional en 48 horas (propuesta) si los profesionales logran detectar a tiempo patrones de uso, posturas o movimientos que requieren atención con alertas automáticas con umbrales definidos por el profesional.
+• **Creemos que** lograremos retención de uso de los pacientes a los 30 y 90 días, con sesiones semanales de monitoreo fuera de la clínica, si los pacientes logran conocer su propio desempeño y el uso de su prótesis con una vista de progreso personal.
+• **Creemos que** lograremos que los centros ortopédicos contraten y renueven licencias si los técnicos ortoprotesistas logran anticipar mantenimiento y ajustes con un historial de uso de la prótesis que permita agendar revisiones.
+• **Creemos que** lograremos que los tres actores estén activos en cada institución piloto si pacientes, profesionales y técnicos logran ver solo lo relevante para su rol e intercambiar información con un acceso diferenciado por tipo de usuario.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
-### Dashboard centralizado de monitoreo
- 
-Creemos que lograremos **que las clínicas incorporen el monitoreo como parte de su tratamiento, con consultas semanales de datos por paciente activo**
-si **los profesionales de rehabilitación**
-alcanzan **la capacidad de decidir con evidencia y priorizar la atención de los pacientes que más la necesitan**
-con **un dashboard centralizado de monitoreo**.
- 
-### Monitoreo biomecánico
- 
-Creemos que lograremos **una adopción inicial de la plataforma mediante programas piloto, con al menos 50% de las instituciones continuando tras el piloto**
-si **los profesionales de rehabilitación**
-alcanzan **datos objetivos sobre el desempeño del paciente durante sus actividades reales, y no solo lo observado en consulta o el reporte subjetivo**
-con **el monitoreo biomecánico de movimientos, posturas e indicadores de uso de la prótesis**.
- 
-### Seguimiento de rehabilitación
- 
-Creemos que lograremos **una alta retención de clínicas, con una renovación anual de 80% o más**
-si **los profesionales de rehabilitación**
-alcanzan **la capacidad de revisar la evolución de cada paciente y comparar su desempeño entre periodos para ajustar el tratamiento con base en evidencia**
-con **el módulo de seguimiento de rehabilitación**.
- 
-### Alertas automáticas
- 
-Creemos que lograremos **una alta retención de clínicas, al demostrar valor medible en la detección temprana de problemas**
-si **los profesionales de rehabilitación**
-alcanzan **la detección oportuna de patrones de uso, posturas o movimientos que requieren atención, antes de que generen complicaciones o retrasos**
-con **alertas automáticas**.
- 
-### Vista de progreso para el paciente
- 
-Creemos que lograremos **un uso sostenido de la plataforma por parte de los pacientes, con retención de uso a 30 y 90 días y sesiones semanales de monitoreo fuera de la clínica**
-si **los pacientes amputados en proceso de rehabilitación**
-alcanzan **mayor conocimiento de su propio desempeño y del uso de su prótesis, que les permita corregir hábitos y mantenerse motivados**
-con **una vista de progreso personal dentro de la plataforma**.
- 
-### Historial de uso de la prótesis
- 
-Creemos que lograremos **un crecimiento sostenible mediante la contratación y renovación de licencias por parte de los centros ortopédicos**
-si **los técnicos y especialistas de centros ortopédicos**
-alcanzan **la capacidad de anticipar mantenimiento y ajustes a partir del uso real de cada prótesis**
-con **un historial de uso de la prótesis**.
- 
-### Acceso diferenciado por tipo de usuario
- 
-Creemos que lograremos **una adopción inicial de la plataforma y su uso por los tres actores, con pacientes, profesionales y centros ortopédicos activos en cada institución piloto**
-si **pacientes, profesionales de clínicas y especialistas de ortopedias**
-alcanzan **una comunicación e intercambio de información más fluidos, viendo solo lo relevante para su rol**
-con **acceso diferenciado por tipo de usuario**.
+- **Creemos que** lograremos que las clínicas incorporen el monitoreo como parte habitual de su tratamiento, con al menos 1 consulta semanal de datos por paciente activo y 30% o más de los pacientes amputados de cada clínica piloto registrados, si los profesionales de rehabilitación logran visualizar el progreso y el desempeño de todos sus pacientes en un solo lugar, priorizar la atención de quienes más la necesitan y decidir con evidencia, con un dashboard centralizado de monitoreo que muestre el estado y la evolución de cada paciente.
+
+- **Creemos que** lograremos una adopción inicial de la plataforma, con 3 a 5 instituciones que completan el piloto en 6 meses y 50% o más que continúa con suscripción o licencia, si los profesionales de rehabilitación logran contar con datos objetivos sobre el desempeño del paciente durante sus actividades reales, y no solo con lo observado en consulta o el reporte subjetivo, con un módulo de monitoreo biomecánico que, mediante sensores o dispositivos portátiles compatibles con distintas prótesis, registre movimientos, posturas e indicadores de uso de la prótesis.
+
+- **Creemos que** lograremos una alta retención de clínicas, con una renovación anual de 80% o más y baja cancelación en el primer año, si los profesionales de rehabilitación logran revisar la evolución de cada paciente, comparar su desempeño entre periodos y ajustar el tratamiento con base en evidencia, con un módulo de seguimiento de rehabilitación que permita consultar el historial de cada paciente y comparar periodos.
+
+- **Creemos que** lograremos una alta retención de clínicas, al demostrar valor medible en la detección temprana de problemas (propuesta: al menos 70% de las alertas revisadas por el profesional en 48 horas), si los profesionales de rehabilitación logran detectar a tiempo patrones de uso, posturas o movimientos que requieren atención, antes de que generen complicaciones o retrasos, con un sistema de alertas automáticas con umbrales definidos por el profesional.
+H5. Vista de progreso para el paciente
+
+- **Creemos que** lograremos un uso sostenido de la plataforma por parte de los pacientes, con retención de uso a los 30 y 90 días (propuesta: 60% y 40%) y sesiones semanales de monitoreo fuera de la clínica (propuesta: al menos 3), si los pacientes amputados en proceso de rehabilitación logran un mayor conocimiento de su propio desempeño y del uso de su prótesis, que les permita corregir hábitos y mantenerse motivados, con una vista de progreso personal que muestre su desempeño y el uso de su prótesis en sus actividades cotidianas.
+
+- **Creemos que** lograremos un crecimiento sostenible mediante la contratación y renovación de licencias por parte de los centros ortopédicos (propuesta: renovación de 80% o más), si los técnicos ortoprotesistas logran anticipar mantenimiento y ajustes a partir del uso real de cada prótesis, con un historial de uso de la prótesis que permita consultar cómo se utiliza cada dispositivo, agendar revisiones y registrar el mantenimiento.
+
+- **Creemos que** lograremos una adopción inicial de la plataforma y su uso por los tres actores (propuesta: al menos un usuario activo por semana de cada rol en el 100% de las instituciones piloto), si pacientes, profesionales de clínicas y técnicos ortoprotesistas logran una comunicación e intercambio de información más fluidos, viendo solo lo relevante para su rol, con un acceso diferenciado por tipo de usuario que muestre a cada rol solo la información y las funcionalidades pertinentes y permita el intercambio de datos entre clínicas y centros.
 
 #### 1.2.2.4 Lean UX Canvas
 
