@@ -311,3 +311,36 @@ Durante la revisión del Sprint 2 se verificó el funcionamiento operativo de lo
 * **Enlace al video de demostración y navegación de ejecución (Sprint 2):**  
   `[Enlace a video en Microsoft Stream / SharePoint]`
 
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Para este Sprint 2 se implementaron y documentaron los primeros servicios del backend utilizando **ASP.NET Core** y **C#**, estructurados según los principios del estilo arquitectónico RESTful y documentados mediante la especificación **OpenAPI (Swagger UI)**.
+
+De acuerdo con las pautas del Statement (pág. 26), en sprints previos al despliegue de Web Services en la nube (el cual se consuma formalmente en el hito AV2), la documentación interactiva se verifica mediante su URL de ejecución local.
+
+* **URL del repositorio de Web Services:**  
+  https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend
+* **URL de la documentación interactiva OpenAPI (Swagger Local):**  
+  `https://localhost:7071/swagger/index.html` *(o `http://localhost:5000/swagger`)*
+* **Identificadores de commits vinculados a documentación:** `3f92c18`, `9c41d87`, `5e80d21`, `2b11e74`.
+
+A continuación, se detalla la relación de endpoints implementados, sus sintaxis de llamada, parámetros requeridos y modelos de respuesta:
+
+| Endpoint / Recurso | Verbo HTTP | Sintaxis de Llamada | Parámetros (Query / Route / Body) | Ejemplo y Explicación del Response | Código de Estado |
+| :--- | :--- | :--- | :--- | :--- | :---: |
+| **Autenticación de Usuario** | `POST` | `/api/v1/auth/sign-in` | **Body (JSON):**<br>`{ "email": "diego.salazar@rehabsur.pe", "password": "Password123*", "role": "HEALTHCARE_PROFESSIONAL" }` | Retorna token de sesión e información básica del usuario:<br>`{ "token": "eyJhbGciOiJIUzI1NiIsIn...", "userId": "a1b2c3d4-...", "role": "HEALTHCARE_PROFESSIONAL" }`<br>*Permite autenticar y autorizar accesos por rol.* | `200 OK` |
+| **Registrar Paciente** | `POST` | `/api/v1/patients` | **Body (JSON):**<br>`{ "fullName": "Carlos Mendoza Arias", "identificationNumber": "45892104", "amputationLevel": "Transtibial", "affectedSide": "Derecha", "clinicId": "3fa85f64-..." }` | Retorna el recurso creado con su identificador:<br>`{ "id": "b1a2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d", "fullName": "Carlos Mendoza Arias", "status": "ACTIVE", "createdAt": "2026-09-24T15:30:00Z" }`<br>*Confirma el alta del paciente en la clínica.* | `201 Created` |
+| **Consultar Expediente del Paciente** | `GET` | `/api/v1/patients/{id}` | **Route:**<br>`id` (UUID): Identificador único del paciente. | Retorna la ficha clínica con prótesis vinculada:<br>`{ "id": "b1a2c3d4-...", "fullName": "Carlos Mendoza Arias", "identificationNumber": "45892104", "amputationLevel": "Transtibial", "prosthesis": { "serialNumber": "PR-2026-TT-084", "type": "Transtibial Carbono" } }`<br>*Facilita la consulta de datos del paciente.* | `200 OK` |
+| **Registrar Prótesis** | `POST` | `/api/v1/prostheses` | **Body (JSON):**<br>`{ "serialNumber": "PR-2026-TT-084", "type": "Transtibial Carbono", "orthopedicCenterId": "5c6d7e8f-..." }` | Retorna la prótesis dada de alta en el inventario:<br>`{ "id": "f9e8d7c6-...", "serialNumber": "PR-2026-TT-084", "status": "AVAILABLE" }`<br>*Registra el componente protésico.* | `201 Created` |
+| **Asociar Prótesis a Paciente** | `POST` | `/api/v1/prostheses/{id}/assignments` | **Route:**<br>`id` (UUID): ID de la prótesis.<br>**Body (JSON):**<br>`{ "patientId": "b1a2c3d4-..." }` | Retorna la confirmación del enlace:<br>`{ "prosthesisId": "f9e8d7c6-...", "patientId": "b1a2c3d4-...", "status": "ASSIGNED", "assignedAt": "2026-09-27T11:00:00Z" }`<br>*Asocia unívocamente la prótesis con el paciente.* | `200 OK` |
+
+**Figura**  
+*Vista general de endpoints documentados en Swagger UI (OpenAPI)*
+<div style="text-align:center;"><img src="../assets/swagger-documentation1-sprint2.png" width="800" alt="Vista general de endpoints documentados en Swagger UI"></div>
+
+*Nota. Catálogo estructurado de endpoints RESTful para autenticación, gestión de pacientes y prótesis bajo la especificación OpenAPI.*
+
+**Figura**  
+*Interacción y ejecución de endpoints con datos de muestra y respuesta HTTP (Swagger UI)*
+<div style="text-align:center;"><img src="../assets/swagger-documentation2-sprint2.png" width="800" alt="Ejecución interactiva de endpoints en Swagger UI"></div>
+
+*Nota. Prueba de ejecución interactiva del endpoint de registro de pacientes mostrando datos de entrada en JSON y respuesta HTTP 201 Created.*
