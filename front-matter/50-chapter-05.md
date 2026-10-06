@@ -196,3 +196,14 @@ En esta sección se especifican los aspectos principales del Sprint Planning Mee
 | **Sprint 2 Velocity** | 21 Story Points |
 | **Sum of Story Points** | 21 Story Points |
 
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+Para asegurar una adecuada organización interna y efectividad en la comunicación, se estructuró la matriz **LACX** (*Leadership-and-Collaboration Matrix*), estableciendo el líder (L) y los colaboradores (C) por cada aspecto técnico abordado en este Sprint 2:
+
+| Team Member (Last Name, First Name) | GitHub Username | Frontend Web Application (Vue 3 / PrimeVue)<br>Leader (L) / Collaborator (C) | Backend RESTful Services (ASP.NET Core)<br>Leader (L) / Collaborator (C) | Landing Page v2.0 (HTML/CSS/JS)<br>Leader (L) / Collaborator (C) | Project Documentation & Testing<br>Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: | :---: |
+| **Patricio Farias, Ana Camila** | `anacamilapatricio-sketch` | **L** | C | C | **L** |
+| **Checa Burga, Oscar Diego** | `OscarCheca` | C | **L** | C | C |
+| **Dextre Flores, Leonardo Felix** | `Leo-dex45` | C | C | C | **L** |
+| **Salcedo Correa, Carlos Mathhew** | `Matthewnhfe` | C | C | **L** | C |
+| **Barrenechea Bustamante, Rafael Andre** | `yafussssss` | C | **L** | C | C |
