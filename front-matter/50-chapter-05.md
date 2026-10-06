@@ -241,3 +241,20 @@ https://trello.com/invite/b/6ac4c443ac48cfe5f3483422/ATTI5559667781037e2f809ea13
 | **TS-02** | Gestión de pacientes y prótesis vía API | TSK-214 | Controladores de pacientes y activos protésicos | Implementar PatientsController y ProsthesesController con modelos y esquemas OpenAPI. | 4 | Barrenechea Bustamante, Rafael Andre | In-Process |
 
 * Total de horas invertidas: 50 horas de trabajo colaborativo.
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+A continuación, se resume el registro de commits representativos generados durante la implementación del Sprint 2, aplicando el estándar **Conventional Commits** y el modelo de ramificación **GitFlow** sobre los repositorios de la organización.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `SeniorsInProcess-Prothia-Frontend` | `feature/auth-views` | `7d1a29c` | `feat(auth): implement login view with multi-role selector and form validation` | Añade la vista de autenticación diferenciada para pacientes, clínicas y centros ortopédicos con PrimeVue. | 22/09/2026 |
+| `SeniorsInProcess-Prothia-Frontend` | `feature/patient-registration` | `4b83f10` | `feat(patients): create clinical registration form and state management` | Implementa el formulario de admisión de pacientes con gestión reactiva de datos y validaciones de DNI. | 25/09/2026 |
+| `SeniorsInProcess-Prothia-Frontend` | `feature/prosthesis-linking` | `8e20a44` | `feat(prosthesis): add prosthesis assignment modal for orthopedic technicians` | Agrega diálogo interactivo para vincular dispositivos protésicos disponibles al expediente del paciente. | 28/09/2026 |
+| `SeniorsInProcess-Prothia-Frontend` | `feature/patient-card` | `1a59b32` | `feat(patients): render patient 360 medical profile overview card` | Diseña la tarjeta clínica integral del paciente con datos de dispositivo asociado y terapeuta a cargo. | 01/10/2026 |
+| `SeniorsInProcess-Prothia-Backend` | `feature/auth-service` | `3f92c18` | `feat(auth): add authentication endpoints and token verification logic` | Expone endpoints de inicio de sesión bajo ASP.NET Core con autorización basada en roles (RBAC). | 21/09/2026 |
+| `SeniorsInProcess-Prothia-Backend` | `feature/patients-api` | `9c41d87` | `feat(patients): implement CRUD endpoints and repository for patient records` | Desarrolla controladores RESTful para dar de alta y consultar pacientes vinculados a clínicas. | 24/09/2026 |
+| `SeniorsInProcess-Prothia-Backend` | `feature/prostheses-api` | `5e80d21` | `feat(prosthesis): add prosthesis registration and patient assignment endpoint` | Incorpora endpoint para asignar prótesis a pacientes con validación de disponibilidad y unicidad. | 27/09/2026 |
+| `SeniorsInProcess-Prothia-Backend` | `feature/swagger-docs` | `2b11e74` | `docs(api): configure OpenAPI Swagger documentation for patient and prosthesis endpoints` | Configura anotaciones XML y esquemas de respuesta OpenAPI en Swagger UI para todos los endpoints creados. | 30/09/2026 |
+| `SeniorsInProcess-Prothia-LandingPage` | `feature/pricing-simulation` | `6a43f89` | `feat(pricing): add interactive monthly and annual billing switcher` | Añade el selector interactivo de tarifas con actualización de precios y ahorro anual en tiempo real. | 23/09/2026 |
+| `SeniorsInProcess-Prothia-LandingPage` | `feature/app-cta-links` | `0d72c15` | `feat(nav): connect landing page action buttons to web application routes` | Vincula los botones "Register Now" y accesos por segmento directamente con la aplicación web desplegada. | 26/09/2026 |
