@@ -258,3 +258,56 @@ A continuación, se resume el registro de commits representativos generados dura
 | `SeniorsInProcess-Prothia-Backend` | `feature/swagger-docs` | `2b11e74` | `docs(api): configure OpenAPI Swagger documentation for patient and prosthesis endpoints` | Configura anotaciones XML y esquemas de respuesta OpenAPI en Swagger UI para todos los endpoints creados. | 30/09/2026 |
 | `SeniorsInProcess-Prothia-LandingPage` | `feature/pricing-simulation` | `6a43f89` | `feat(pricing): add interactive monthly and annual billing switcher` | Añade el selector interactivo de tarifas con actualización de precios y ahorro anual en tiempo real. | 23/09/2026 |
 | `SeniorsInProcess-Prothia-LandingPage` | `feature/app-cta-links` | `0d72c15` | `feat(nav): connect landing page action buttons to web application routes` | Vincula los botones "Register Now" y accesos por segmento directamente con la aplicación web desplegada. | 26/09/2026 |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante la revisión del Sprint 2 se verificó el funcionamiento operativo de los siguientes componentes:
+
+1. **Landing Page (v2.0):**
+   * **Simulador de Facturación (VS-04):** El visitante puede alternar entre planes mensuales y anuales mediante un conmutador animado, recalculando los costos y destacando el 20% de ahorro anual en las tarifas de clínicas y centros ortopédicos.
+   * **Conexión Directa a la Web Application:** Los botones Register Now y los llamados a la acción de cada segmento objetivo redirigen hacia la aplicación web en producción.
+   * **Soporte Bilingüe Completo (VS-09):** Alternancia inmediata de idioma (EN/ES) en todo el contenido estático.
+
+2. **Frontend Web Application (v1.0 - Vue 3 / PrimeVue):**
+   * **Acceso y Selección de Perfil (US-02):** Pantalla de inicio de sesión con selector interactivo de rol (Paciente, Clínica y Centro Ortopédico).
+   * **Admisión de Pacientes Amputados (US-04):** Formulario para profesionales de la salud con campos validados para datos de filiación, diagnóstico clínico y nivel de amputación.
+   * **Asociación de Prótesis (US-05):** Panel del técnico ortopédico donde se visualiza el inventario de prótesis y se realiza la asignación a un paciente activo.
+   * **Ficha de Consulta Integral (US-06):** Vista del expediente clínico con los detalles personales del paciente, la prótesis vinculada y el estado de su rehabilitación.
+
+**Figura**  
+*Conmutador de planes y la conexión a la aplicación web en Landing Page v2.0*
+<div style="text-align:center;"><img src="../assets/execution-landing-v2.png" width="800" alt="Conmutador de planes y conexión a la aplicación web en Landing Page v2.0"></div>
+
+*Nota. Vista de la Landing Page v2.0 evidenciando el conmutador interactivo de planes en facturación mensual y anual.*
+
+**Figura**  
+*Autenticación y selección de roles en la aplicación web*
+<div style="text-align:center;"><img src="../assets/execution-webapp-login.png" width="800" alt="Autenticación y selección de roles en la aplicación web"></div>
+
+*Nota. Pantalla de inicio de sesión con selector de roles para pacientes, clínicas y centros ortopédicos.*
+
+**Figura**  
+*Formulario interactivo de registro clínico de pacientes amputados implementado con componentes PrimeVue*
+<div style="text-align:center;"><img src="../assets/execution-webapp-patient-register.png" width="800" alt="Formulario interactivo de registro clínico de pacientes amputados"></div>
+
+*Nota. Formulario de admisión clínica desarrollado con PrimeVue para el registro estructurado de pacientes.*
+
+**Figura**  
+*Diálogo de asignación de dispositivos protésicos disponible para el perfil del técnico ortopédico*
+<div style="text-align:center;"><img src="../assets/execution-webapp-prosthesis-assign.png" width="800" alt="Diálogo de asignación de dispositivos protésicos"></div>
+
+*Nota. Interfaz modal que permite al técnico ortopédico vincular prótesis disponibles al paciente seleccionado.*
+
+**Figura**  
+*Panel principal del paciente amputado (Mi Día) con métricas telemétricas y plan de ejercicios*
+<div style="text-align:center;"><img src="../assets/execution-webapp-patient-myday.png" width="800" alt="Panel principal del paciente amputado en Web Application"></div>
+
+*Nota. Vista del portal del paciente mostrando el saludo personalizado, indicadores de simetría y cadencia de marcha, y el seguimiento de ejercicios prescritos en el hogar.*
+
+* **Enlace a la Landing Page desplegada (v2.0):**  
+  https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
+* **Enlace a la Web Application desplegada (v1.0):**  
+  https://seniorsinprocess-prothia-app.netlify.app/
+* **Enlace al video de demostración y navegación de ejecución (Sprint 2):**  
+  `[Enlace a video en Microsoft Stream / SharePoint]`
+
