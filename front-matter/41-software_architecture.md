@@ -1,23 +1,19 @@
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Design-Level EventStorming
-En esta sección se presenta la arquitectura de software de Prothia desde el enfoque de Domain-Driven Design, tomando como base el Big Picture Event Storming desarrollado previamente.
 
-#### Vista General del Landscape (Design-Level)
-![Design-Level Overview](../assets/desing-level-overview.png)
+Para pasar del entendimiento general del negocio al diseño de la arquitectura del software, se desarrolló un Design-Level Event Storming. Este proceso se llevó a cabo en tres etapas consecutivas: identificación de Pivotal Points, definición de Aggregates y delimitación de Bounded Contexts.
 
-#### Detalle por Bounded Context
+#### Paso 1: Identificación de Eventos Clave y los Pivotal Points
 
-##### 1. Identity & Access Management (IAM)
-![IAM Context](../assets/bc-iam.png)
+![Pivotal Points](../assets/Pivotal%20Points.jpg)
 
-##### 2. Clinical & Prescription Management
-![Clinical Context](../assets/bc-clinical.png)
+##### Paso 2: Modelado de Agregados y Comandos
 
-##### 3. Patient Portal & Telemetry Monitoring
-![Monitoring Context](../assets/bc-monitoring.png)
+![Aggregates](../assets/Aggregates.jpg)
 
-##### 4. Workshop & Asset Management
-![Workshop Context](../assets/bc-workshop.png)
+##### Paso 3: Delimitación de Contextos e Integraciones
+
+![Bounded Contexts ](../assets/Bounded%20Contexts.jpg)
 
 
 Miro: https://miro.com/app/board/uXjVHm-Fti8=/?share_link_id=426808403513
