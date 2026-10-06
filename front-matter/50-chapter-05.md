@@ -122,9 +122,11 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 Para organizar el flujo de trabajo, las tareas se gestionaron mediante **Trello**. A continuación se desglosan las historias de usuario priorizadas de la épica EP-09 y sus respectivas tareas. 
 
 **Figura**
-<div style="text-align:center;"><img src="../assets/trello Spring Backlog.png" width="800" alt="Github Page - Desktop"></div>
+
+<div style="text-align:center;"><img src="../assets/spring1.png" width="800" alt="Trello"></div>
 
 **Enlace del tablero de Trello:** 
+
 https://trello.com/invite/b/6aabb55b023122d8fe598ee0/ATTI98b4a9da9fc821f35855872e0885a87cFED1E6E2/seniorsinprocess-prothia-sprint-1
 
 
