@@ -207,3 +207,37 @@ Para asegurar una adecuada organización interna y efectividad en la comunicaci�
 | **Dextre Flores, Leonardo Felix** | `Leo-dex45` | C | C | C | **L** |
 | **Salcedo Correa, Carlos Mathhew** | `Matthewnhfe` | C | C | **L** | C |
 | **Barrenechea Bustamante, Rafael Andre** | `yafussssss` | C | **L** | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es poner en operación la primera versión de la aplicación web y optimizar la experiencia interactiva del Landing Page. Para el seguimiento ágil de las historias de usuario y tareas de desarrollo, se utilizó la herramienta **Trello**. A continuación, se presenta la evidencia del tablero del sprint y la tabla de control de estado correspondiente.
+
+**Figura**  
+*Tablero de control de tareas en Trello para el Sprint 2*
+<div style="text-align:center;"><img src="../assets/trello-sprint-2-backlog.png" width="800" alt="Tablero de control de tareas en Trello para el Sprint 2"></div>
+
+*Nota. Captura del tablero en Trello mostrando la distribución de historias de usuario entre las columnas To-Do, Doing y Done.*
+
+**Enlace del tablero de Trello:**  
+https://trello.com/invite/b/6ac4c443ac48cfe5f3483422/ATTI5559667781037e2f809ea13a3cfc44a317501C04/seniorsinprocess-prothia-sprint-backlog-2
+
+| Sprint # | Sprint 2 | | | | | | |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **User Story** | | **Work-Item / Task** | | | | | |
+| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| **US-01** | Registro de paciente amputado | TSK-201 | Formulario de registro de usuario paciente | Diseñar e implementar en Vue 3 el formulario de registro para pacientes con validación de credenciales. | 3 | Patricio Farias, Ana Camila | Done |
+| | | TSK-202 | Vinculación con almacenamiento de cuenta | Configurar el almacenamiento local del perfil y estado de registro mediante Pinia. | 2 | Dextre Flores, Leonardo Felix | Done |
+| **US-02** | Inicio de sesión con acceso diferenciado por rol | TSK-203 | Diseño de interfaz de inicio de sesión y selector de rol | Crear el componente LoginView.vue en Vue 3 con pestañas para Paciente, Clínica y Ortopedia con PrimeVue. | 4 | Patricio Farias, Ana Camila | Done |
+| | | TSK-204 | Configuración de Vue Router y guardias de navegación | Implementar las rutas protegidas en router/index.js según el rol seleccionado. | 4 | Dextre Flores, Leonardo Felix | Done |
+| **US-04** | Registro de datos del paciente en la clínica | TSK-205 | Maquetación del formulario de alta clínica de paciente | Diseñar e implementar PatientRegisterView.vue para registrar datos clínicos, nivel de amputación y lado afectado. | 5 | Patricio Farias, Ana Camila | Done |
+| | | TSK-206 | Lógica de validación de campos obligatorios | Programar reglas de validación en frontend para DNI, fecha de nacimiento y asignación de terapeuta. | 3 | Dextre Flores, Leonardo Felix | Done |
+| **US-05** | Asociación de prótesis a un paciente | TSK-207 | Componente de vinculación de prótesis para ortopedias | Construir el diálogo modal ProsthesisAssignDialog.vue para seleccionar pacientes y prótesis disponibles. | 4 | Salcedo Correa, Carlos Mathhew | Done |
+| | | TSK-208 | Validación de disponibilidad del activo protésico | Programar regla de control para evitar la asignación de dispositivos previamente vinculados. | 3 | Checa Burga, Oscar Diego | Done |
+| **US-06** | Consulta de ficha del paciente | TSK-209 | Vista de Expediente Clínico 360 del paciente | Crear la vista PatientProfileView.vue con datos de filiación, prótesis vinculada y estado de rehabilitación. | 5 | Patricio Farias, Ana Camila | Done |
+| | | TSK-210 | Formateo y renderizado de datos clínicos | Implementar tarjetas informativas de PrimeVue para el resumen clínico del paciente. | 3 | Barrenechea Bustamante, Rafael Andre | Done |
+| **VS-04** | Consulta de planes y simulación de facturación | TSK-211 | Conmutador dinámico mensual/anual en Landing Page | Desarrollar en JavaScript el switch interactivo en la sección de planes con recálculo automático del ahorro anual. | 3 | Salcedo Correa, Carlos Mathhew | Done |
+| **VS-09** | Cambio de idioma del portal (EN / ES) | TSK-212 | Actualización integral de diccionario de internacionalización | Enriquecer translations.js asegurando cobertura completa en inglés y español para todas las secciones. | 3 | Dextre Flores, Leonardo Felix | Done |
+| **TS-01** | Gestión de autenticación y cuentas vía API | TSK-213 | Controlador de autenticación en ASP.NET Core | Desarrollar AuthController con endpoints de inicio de sesión y emisión de token de prueba. | 4 | Checa Burga, Oscar Diego | In-Process |
+| **TS-02** | Gestión de pacientes y prótesis vía API | TSK-214 | Controladores de pacientes y activos protésicos | Implementar PatientsController y ProsthesesController con modelos y esquemas OpenAPI. | 4 | Barrenechea Bustamante, Rafael Andre | In-Process |
+
+* Total de horas invertidas: 50 horas de trabajo colaborativo.
