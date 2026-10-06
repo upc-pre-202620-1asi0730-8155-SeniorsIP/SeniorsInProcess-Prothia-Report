@@ -606,11 +606,11 @@ En esta sección se presentan las fichas de User Personas construidas a partir d
 
  **Segmento 2:** Valeria Rios: Jefa de Terapia Física y Rehabilitación.
 
-![User Personas Valeria Rios](../assets/UP-Valeria%20Rios.png)
+![User Personas Valeria Rios](../assets/Valeria%20Rios.png)
 
 **Segmento 3:** Miguel Torres: Ortoprotésico.
 
-![User Personas Miguel Torres](../assets/UP-Miguel%20Torres.png)
+![User Personas Miguel Torres](../assets/Miguel%20Torres.png)
 
 ---
 ### 2.3.2. User Task Matrix
