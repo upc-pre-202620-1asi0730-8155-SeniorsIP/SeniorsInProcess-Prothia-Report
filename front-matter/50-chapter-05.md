@@ -320,7 +320,7 @@ De acuerdo con las pautas del Statement (pág. 26), en sprints previos al despli
 * **URL del repositorio de Web Services:**  
   https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend
 * **URL de la documentación interactiva OpenAPI (Swagger Local):**  
-  `https://localhost:7071/swagger/index.html` *(o `http://localhost:5000/swagger`)*
+  `https://localhost:7071/swagger/index.html` 
 * **Identificadores de commits vinculados a documentación:** `3f92c18`, `9c41d87`, `5e80d21`, `2b11e74`.
 
 A continuación, se detalla la relación de endpoints implementados, sus sintaxis de llamada, parámetros requeridos y modelos de respuesta:
