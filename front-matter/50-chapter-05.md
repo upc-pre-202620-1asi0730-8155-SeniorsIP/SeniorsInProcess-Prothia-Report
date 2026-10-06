@@ -344,3 +344,36 @@ A continuación, se detalla la relación de endpoints implementados, sus sintaxi
 <div style="text-align:center;"><img src="../assets/swagger-documentation2-sprint2.png" width="800" alt="Ejecución interactiva de endpoints en Swagger UI"></div>
 
 *Nota. Prueba de ejecución interactiva del endpoint de registro de pacientes mostrando datos de entrada en JSON y respuesta HTTP 201 Created.*
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint 2 se realizaron las actividades de configuración y verificación de despliegue para los productos digitales del alcance de TB1, satisfaciendo los requerimientos de publicación en entornos productivos y cloud providers:
+
+##### 1. Despliegue de la Nueva Versión de la Landing Page (v2.0)
+* **Plataforma:** GitHub Pages.
+* **Repositorio y Rama de Despliegue:** `SeniorsInProcess-Prothia-LandingPage` (rama `main`).
+* **Procedimiento:** Las ramas `feature/pricing-simulation` y `feature/app-cta-links` fueron integradas en `develop` tras pruebas de renderizado en diferentes resoluciones. Posteriormente se generó un Pull Request hacia la rama `main`, la cual ejecuta el flujo automático de publicación de GitHub Pages desde la raíz (`/root`).
+* **URL Pública:**  
+  https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
+
+**Figura**  
+*Configuración de despliegue en GitHub Pages para Landing Page v2.0*
+<div style="text-align:center;"><img src="../assets/github-pages-v2-deployment.png" width="800" alt="Evidencia de despliegue en GitHub Pages"></div>
+
+*Nota. Panel de administración en GitHub Settings confirmando el despliegue exitoso de la versión 2.0 del Landing Page.*
+
+##### 2. Despliegue de la Primera Versión de la Frontend Web Application (v1.0)
+* **Plataforma:** Netlify Cloud Hosting Platform (Cloud Provider).
+* **Repositorio y Rama de Despliegue:** `SeniorsInProcess-Prothia-Frontend` (rama `main` / `dist`).
+* **Procedimiento:**
+  1. Se empaquetaron y compilaron los artefactos estáticos optimizados de la aplicación desarrollada en Vue 3 y Vite (`npm run build`), centralizados en la carpeta `dist`.
+  2. Se configuró el servicio de alojamiento bajo arquitectura Jamstack Cloud con soporte de aprovisionamiento de certificados SSL/TLS y compresión de recursos.
+  3. Se validó la carga de las vistas de selección de roles, admisión clínica de pacientes y paneles de control, comprobando que la aplicación responda de manera óptima tanto en navegadores de escritorio como móviles.
+* **URL Pública:**  
+  https://seniorsinprocess-prothia-app.netlify.app/
+
+**Figura**  
+*Panel de control de despliegue en la plataforma Cloud para la aplicación web*
+<div style="text-align:center;"><img src="../assets/webapp-deployment-evidence.png" width="800" alt="Panel de control de despliegue de la aplicación web"></div>
+
+*Nota. Evidencia de publicación y estado operativo de la primera versión funcional de la Web Application en la plataforma Cloud.*
