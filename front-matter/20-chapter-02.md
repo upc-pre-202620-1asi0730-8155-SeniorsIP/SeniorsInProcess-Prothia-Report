@@ -647,16 +647,6 @@ Las escalas empleadas para clasificar las tareas en la matriz son las siguientes
 | 15. Coordinación interinstitucional clínica–taller ortopédico | Baja | Media | Media | Alta | Media | Alta |
 | 16. Traslado físico hacia los centros de atención especializada | Media | Media | Rara vez | Baja | Rara vez | Baja |
 
-#### Análisis:
-A través del **User Task Matrix**, podemos identificar las frecuencias e importancias entre los diferentes segmentos que presentamos y usar esta información como guía.
-
-Las tareas clave con mayor frecuencia e importancia para **Carlos Mendoza** son la colocación y ajuste del socket, la ejecución diaria de ejercicios y el monitoreo de sensaciones de molestia o dolor en el muñón, lo que refleja su necesidad constante de seguridad y autonomía durante la rehabilitación en casa.
-
-Por su parte, **Valeria Ríos** prioriza con alta frecuencia e importancia la prescripción de rutinas, la evaluación de la marcha y la detección temprana de compensaciones posturales para asegurar la efectividad del tratamiento clínico.
-
-En contraste, **Miguel Torres** enfoca su labor en tareas de alta relevancia técnica como la alineación de piezas, la inspección de desgaste de componentes y la programación de mantenimientos preventivos.
-
-A pesar de sus distintos roles operativos, los tres grupos coinciden en la importancia crítica de la correcta adaptación física de la prótesis y la necesidad de una comunicación técnica fluida ante desperfectos. Esto evidencia una oportunidad integral para centralizar el monitoreo de la marcha, anticipar fallas mecánicas y asegurar un seguimiento continuo y coordinado entre el hogar, la clínica y el taller ortopédico.
 ---
 
 ### 2.3.3. User Journey Mapping. 
@@ -680,15 +670,15 @@ En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender
 
 **Segmento Objetivo 1:** Carlos Mendoza: Asistente administrativo.
 
-![Empathy Mapping Carlos Mendoza](../assets/Empathy%20Mapping_Carlos%20Mendoza.png)
+![Empathy Mapping Carlos Mendoza](../assets/EM-CarlosMendoza.png)
 
 **Segmento Objetivo 2:** Valeria Rios: Jefa de Terapia Física y Rehabilitación.
 
-![Empathy Mapping Valeria Ríos](../assets/Empathy%20Mapping_Valeria%20Ríos.png)
+![Empathy Mapping Valeria Ríos](../assets/EM-ValeriaRios.png)
 
 **Segmento Objetivo 3:** Miguel Torres: Ortoprotésico.
 
-![Empathy Mapping Miguel Torres](../assets/Empathy%20Mapping_Miguel%20Torres.png)
+![Empathy Mapping Miguel Torres](../assets/EM-MiguelTorres.png)
 
 ---
 ## 2.4. Big Picture EventStorming
