@@ -172,3 +172,27 @@ El trabajo en equipo durante el Sprint 1 fluyó de manera estructurada bajo el f
 <div style="text-align:center;"><img src="../assets/Github-Insights.png" width="800" alt="Landing Page - Desktop"></div>
 
 *Nota*. Elaboracion propia
+
+### 5.2.2. Sprint 2
+
+Durante el Sprint 2, el equipo de SeniorsInProcess concentró su trabajo en cumplir con los objetivos establecidos para el hito **TB1**: desplegar una nueva versión optimizada del sitio web estático (**Landing Page v2.0**), estructurar y desplegar la primera versión funcional de la aplicación web (**Frontend Web Application v1.0**) desarrollada con el framework Vue 3 y la biblioteca de componentes PrimeVue, y definir e implementar en entorno local los primeros servicios del **RESTful API** en ASP.NET Core, documentados bajo el estándar OpenAPI mediante Swagger UI.
+
+#### 5.2.2.1. Sprint Planning 2
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting correspondiente a la segunda iteración de desarrollo del proyecto.
+
+| Sprint # | Sprint 2 |
+| :--- | :--- |
+| **Sprint Planning Background** | Reunión de planificación para definir los compromisos del hito TB1. El equipo acordó actualizar y desplegar la versión 2.0 del Landing Page (integrando el simulador de facturación de planes, soporte de internacionalización completo y botones de acción que enlazan con la experiencia web) y construir la primera versión funcional de la Web Application (módulos de inicio de sesión por roles, admisión clínica de pacientes amputados y asignación inicial de prótesis), acompañada de la definición de los primeros servicios RESTful en ASP.NET Core. |
+| **Date** | 2026-09-18 |
+| **Time** | 20:00 |
+| **Location** | Microsoft Teams Group Call (Sesión Virtual Sincrónica) |
+| **Prepared By** | Patricio Farias, Ana Camila |
+| **Attendees (to planning meeting)** | Patricio Farias, Ana Camila / Checa Burga, Oscar Diego / Dextre Flores, Leonardo Felix / Salcedo Correa, Carlos Mathhew / Barrenechea Bustamante, Rafael Andre |
+| **Sprint n – 1 Review Summary** | Durante el Sprint 1 se concluyó y desplegó la versión 1.0 del Landing Page en GitHub Pages, logrando presentar la propuesta de valor, las métricas de impacto y la captación de prospectos. El Product Owner validó positivamente la coherencia estética con las guías de estilo, recomendando como prioridad para este segundo sprint vincular los llamados a la acción (call-to-action) directamente hacia las vistas de la Web Application e incorporar interactividad al comparador de planes. |
+| **Sprint n – 1 Retrospective Summary** | **Start:** Formalizar la revisión cruzada de código mediante Pull Requests obligatorios antes de integrar en la rama develop, asegurando el cumplimiento estricto de las convenciones de codificación en C# y Vue 3.<br>**Continue:** Mantener la comunicación fluida por Discord y la actualización continua del estado de las historias en el tablero de Trello.<br>**Stop:** Evitar postergar la redacción de la documentación OpenAPI y las pruebas de despliegue para el final de la iteración. |
+| **Sprint Goal & User Stories** | |
+| **Sprint 2 Goal** | *Our focus is on delivering an enhanced interactive Landing Page and deploying the first functional release of the Prothia Web Application for clinical patient onboarding and prosthetic asset association, backed by documented local RESTful API endpoints.*<br><br>*We believe it delivers a direct and cohesive transition from public discovery to active clinical management for rehabilitation professionals, while empowering orthopedic technicians with digital prosthesis tracking.*<br><br>*This will be confirmed when visitors can interactively simulate subscription billing and toggle languages on the Landing Page, clinical staff can register amputee patients and view their clinical cards in the deployed Web Application, orthopedic specialists can associate prosthetic devices to registered patients, and developers can execute documented endpoints in Swagger with successful 200/201 response status codes.* |
+| **Sprint 2 Velocity** | 21 Story Points |
+| **Sum of Story Points** | 21 Story Points |
+
