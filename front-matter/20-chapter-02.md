@@ -615,28 +615,37 @@ En esta sección se presentan las fichas de User Personas construidas a partir d
 ---
 ### 2.3.2. User Task Matrix
 
-En esta sección se presenta el **User Task Matrix**, construido a partir de los *User Persona* que representan a los tres segmentos clave identificados:
+El User Task Matrix permite mapear y categorizar de forma estructurada las actividades y tareas esenciales que llevan a cabo los distintos perfiles de usuario para alcanzar sus metas cotidianas, operativas y clínicas. Cabe precisar que estas tareas representan actividades reales del dominio del problema y son ejecutadas por los segmentos de manera agnóstica e independiente a la existencia o adopción de una plataforma de software específica.
 
-- **Segmento 1:** Carlos Mendoza: Asistente administrativo.
-- **Segmento 2:** Valeria Rios: Jefa de Terapia Física y Rehabilitación.
-- **Segmento 3:** Miguel Torres: Ortoprotésico.
-Las tareas fueron identificadas a partir del análisis cualitativo de entrevistas, y cada una fue evaluada según su frecuencia y nivel de importancia para los respectivos perfiles.
+Para la estructuración de esta matriz se han considerado los tres User Personas representativos de los segmentos objetivo de Prothia:
 
-| Tarea / Task | Carlos Mendoza (Paciente) - Frecuencia | Carlos Mendoza (Paciente) - Importancia | Valeria Ríos (Clínica) - Frecuencia | Valeria Ríos (Clínica) - Importancia | Miguel Torres (Ortopedia) - Frecuencia | Miguel Torres (Ortopedia) - Importancia |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| Colocación y ajuste del socket de la prótesis | Alta | Alta | Baja | Media | Media | Alta |
-| Ejecutar rutinas de ejercicios prescritos en el hogar | Alta | Alta | - | - | - | - |
-| Monitorear sensaciones de dolor, fatiga o roce en el muñón | Alta | Alta | Media | Media | - | - |
-| Prescribir y estructurar planes de rehabilitación física | - | - | Alta | Alta | - | - |
-| Evaluar la marcha, simetría y postura del paciente | Media | Media | Alta | Alta | Media | Media |
-| Detectar y corregir vicios posturales o compensaciones | Media | Media | Alta | Alta | Baja | Media |
-| Registrar evolución clínica y cumplimiento terapéutico | - | - | Alta | Alta | - | - |
-| Alinear componentes mecánicos de la prótesis | Baja | Media | Baja | Media | Alta | Alta |
-| Inspeccionar desgaste físico y holgura de componentes | Baja | Media | Baja | Baja | Alta | Alta |
-| Programar calendario de mantenimiento preventivo | Baja | Media | Baja | Baja | Media | Alta |
-| Realizar reparaciones correctivas o ajustes de emergencia | Baja | Alta | - | - | Alta | Alta |
-| Coordinar información técnica entre clínica y ortopedia | - | - | Media | Alta | Media | Alta |
-| Comunicar dudas sobre uso o reportar desperfectos | Media | Alta | Alta | Media | Media | Media |
+* **Carlos Mendoza (Paciente Amputado):** Representa a los usuarios que atraviesan el proceso de rehabilitación y adaptación motriz en su entorno doméstico tras la colocación de su prótesis.
+* **Valeria Rios (Jefa de Terapia Física y Rehabilitación):** Representa al cuerpo médico y asistencial encargado de prescribir rutinas, supervisar la evolución cinemática y evaluar la condición biomecánica de los pacientes.
+* **Miguel Torres (Ortoprotésico):** Representa a los técnicos y especialistas encargados del diseño, fabricación, ensamblaje, alineación y mantenimiento preventivo/correctivo de los dispositivos protésicos.
+
+Las escalas empleadas para clasificar las tareas en la matriz son las siguientes:
+
+* **Frecuencia:** Muy alta (múltiples veces al día), Alta (diaria), Media (semanal / quincenal), Baja (mensual o trimestral), Rara vez (anual o por evento imprevisto).
+* **Importancia:** Crítica (indispensable para la salud, integridad física o continuidad del tratamiento), Alta (esencial para el cumplimiento de objetivos), Media (relevante para la gestión y seguimiento), Baja (secundaria u opcional).
+
+| Tarea (Task) | Carlos Mendoza (Paciente) - Frecuencia | Carlos Mendoza (Paciente) - Importancia | Valeria Rios (Terapeuta) - Frecuencia | Valeria Rios (Terapeuta) - Importancia | Miguel Torres (Ortoprotésico) - Frecuencia | Miguel Torres (Ortoprotésico) - Importancia |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1. Colocación, ajuste e inspección del encaje (socket) y muñón | Muy alta | Crítica | Baja | Alta | Baja | Alta |
+| 2. Ejecución de ejercicios de fortalecimiento, equilibrio y marcha | Alta | Crítica | Rara vez | Media | Rara vez | Baja |
+| 3. Monitoreo y autoobservación postural para evitar vicios y caídas | Muy alta | Crítica | Baja | Media | Rara vez | Baja |
+| 4. Registro y reporte de sensaciones de dolor, fatiga o rozaduras | Alta | Alta | Media | Alta | Baja | Media |
+| 5. Asistencia y participación en sesiones presenciales de terapia física | Media | Alta | Alta | Crítica | Rara vez | Baja |
+| 6. Evaluación biomecánica presencial de postura, apoyo y marcha | Rara vez | Alta | Alta | Crítica | Baja | Alta |
+| 7. Prescripción y ajuste de planes de ejercicio terapéutico | Rara vez | Media | Alta | Crítica | Rara vez | Baja |
+| 8. Revisión y análisis de la evolución clínica del paciente | Baja | Media | Alta | Crítica | Rara vez | Media |
+| 9. Documentación y actualización del historial clínico del paciente | Rara vez | Baja | Alta | Alta | Rara vez | Baja |
+| 10. Fabricación, adaptación, alineación y entrega de prótesis | Rara vez | Crítica | Rara vez | Alta | Media | Crítica |
+| 11. Evaluación del desgaste físico, fatiga de materiales y holguras | Baja | Media | Rara vez | Media | Media | Crítica |
+| 12. Ejecución de mantenimientos preventivos y cambio de consumibles | Rara vez | Alta | Rara vez | Baja | Media | Crítica |
+| 13. Calibración mecánica de articulaciones y alineación dinámica | Rara vez | Alta | Rara vez | Media | Media | Crítica |
+| 14. Registro y trazabilidad de componentes y piezas entregadas | Rara vez | Baja | Rara vez | Baja | Alta | Alta |
+| 15. Coordinación interinstitucional clínica–taller ortopédico | Baja | Media | Media | Alta | Media | Alta |
+| 16. Traslado físico hacia los centros de atención especializada | Media | Media | Rara vez | Baja | Rara vez | Baja |
 
 #### Análisis:
 A través del **User Task Matrix**, podemos identificar las frecuencias e importancias entre los diferentes segmentos que presentamos y usar esta información como guía.
@@ -728,8 +737,9 @@ A partir de este proceso, identificamos lo siguiente:
 * Digitalizar y unificar el historial de uso de la prótesis para permitir a los centros ortopédicos programar mantenimientos preventivos.
 * Crear un ecosistema interoperable que conecte a pacientes, clínicas y técnicos ortopédicos en un solo flujo de información.
 
+https://miro.com/app/board/uXjVGbuSqec=/?share_link_id=610103626578
 
-<https://miro.com/app/board/uXjVGbuSqec=/?share_link_id=610103626578>
+
 ---
 ## 2.5. Ubiquitous Language
 
