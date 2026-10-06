@@ -377,3 +377,22 @@ Durante este Sprint 2 se realizaron las actividades de configuración y verifica
 <div style="text-align:center;"><img src="../assets/webapp-deployment-evidence.png" width="800" alt="Panel de control de despliegue de la aplicación web"></div>
 
 *Nota. Evidencia de publicación y estado operativo de la primera versión funcional de la Web Application en la plataforma Cloud.*
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el desarrollo del Sprint 2, el equipo consolidó la aplicación del marco de trabajo ágil Scrum y las buenas prácticas de ingeniería de software con GitFlow:
+
+1. **Gestión de Ramas y Commits:**  
+   Se mantuvieron protegidas las ramas `main` y `develop`. Las asignaciones se trabajaron de forma aislada en ramas `feature/<nombre-funcionalidad>`, utilizando mensajes bajo la convención de **Conventional Commits** (`feat:`, `fix:`, `docs:`, `style:`, `refactor:`), lo que facilitó la trazabilidad entre el código y los identificadores de tareas de Trello.
+
+2. **Revisiones de Código (Pull Requests):**  
+   Para integrar cualquier cambio hacia `develop`, se requirió la aprobación de al menos un revisor técnico del equipo (Oscar Checa en la capa backend o Ana Camila Patricio en la capa frontend), garantizando que los componentes de Vue 3 cumplieran con la guía de estilo de Vue y que los controladores de ASP.NET Core respetaran la separación por capas.
+
+3. **Métricas de Colaboración:**  
+   A través de la sección de *Insights / Contributors* en GitHub, se constata una participación equilibrada y activa de los cinco integrantes en los repositorios del proyecto, evidenciando un esfuerzo constante a lo largo de las semanas de desarrollo.
+
+**Figura**  
+*Métricas de colaboración y commits en GitHub Insights para el Sprint 2*
+<div style="text-align:center;"><img src="../assets/github-insights-sprint2.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
+
+*Nota. Registro de contribuciones y frecuencia de commits de los integrantes del equipo durante el Sprint 2 obtenido desde GitHub Insights.*
