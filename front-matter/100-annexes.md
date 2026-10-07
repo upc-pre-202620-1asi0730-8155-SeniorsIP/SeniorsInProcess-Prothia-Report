@@ -24,3 +24,10 @@ https://trello.com/invite/b/6aabb55b023122d8fe598ee0/ATTI98b4a9da9fc821f35855872
 
 https://trello.com/invite/b/6ac4c443ac48cfe5f3483422/ATTI5559667781037e2f809ea13a3cfc44a317501C04/seniorsinprocess-prothia-sprint-backlog-2
 
+**Prototype-navigation**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQBrWctxdhvqS5eny_ZvVn_MASUXQFA7N_7C3_EMiJk3FeQ?e=DdLokI
+
+**Landing Page video explicativo**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQDlZXDCog1hSZahgdohxRyZAUDE54ZWuqHOa2_hl9PXBZ0?e=IQIjez
