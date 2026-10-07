@@ -9,4 +9,3 @@ El informe se elaboró de manera colaborativa utilizando Git y GitHub como plata
 
 <img src="../assets/collaboration_insights.png">
 
-<img src="../assets/collaboration-insights.png">
