@@ -37,3 +37,44 @@ Los CTA de la Landing Page redirigen hacia la Web Application. Tanto los formula
 C4 Container Diagram de Prothia.
 
 ![C4 Container Diagram Prothia](../assets/c4-container-diagram-prothia.png)
+
+## 4.6.4. Software Architecture Components Diagrams
+
+### Landing Page Components
+
+La Landing Page se descompone en Hero & Value Proposition Section, Segment Solutions Section, Pricing & Plans Section, Lead Capture & Newsletter Forms, Landing API Client e Internationalization & Accessibility. Los CTA dirigen a los visitantes hacia la experiencia correspondiente de la Web Application, mientras que los formularios utilizan Landing API Client para registrar información mediante el RESTful API.
+
+C4 Component Diagram - Landing Page.
+
+![C4 Component Diagram Landing Page](../assets/c4-component-diagram-landing-page.png)
+
+### Web Application Components
+
+La Web Application separa Authentication & Security UI, Patient Rehabilitation Portal, Therapist Clinical Dashboard UI, Orthopedic Fleet & Workshop UI y Subscription & Billing Management UI. Todas estas experiencias utilizan Centralized API Client para la comunicación asíncrona mediante Axios y Pinia, y comparten recursos de Internationalization & Accessibility, manteniendo una única vía de comunicación con el RESTful API.
+
+C4 Component Diagram - Web Application.
+
+![C4 Component Diagram Web Application](../assets/c4-component-diagram-web-application.png)
+
+### RESTful API Components
+
+El RESTful API organiza sus componentes principales de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming: Patients, Prescription, Monitoring, Analytics, Workshop, Communication, Identity & Access Management y Subscriptions & Billing.
+
+Patients Component administra admisión clínica de pacientes, verificación de DNI, asignación de nivel funcional K (K0-K4), validación de cupos y vinculación de prótesis. Prescription Component gestiona prescripción terapéutica, selección de ejercicios, dosificación de series/repeticiones y publicación de planes domiciliarios. Monitoring Component procesa la ingesta de telemetría a 100 Hz, calibración en cero angular, evaluación de umbrales biomecánicos y ciclo de vida de alertas clínicas. Analytics Component consolida series temporales de marcha y adherencia, generación de informes clínicos con firma digital y colegiatura, y exportación de datasets CSV. Workshop Component gestiona el parque de prótesis, sincronización de ciclos de uso, conmutación por fatiga crítica y órdenes de trabajo de taller. Communication Component configura módulos confidenciales para anonimización y transmite reportes cifrados a centros ortopédicos externos.
+
+Adicionalmente, Identity & Access Management Component concentra registro, autenticación JWT, roles y sesiones; Subscriptions & Billing Component administra planes institucionales, licencias y pagos; y Public Lead Management Component procesa solicitudes de demostración y newsletter desde la Landing Page. Persistence & Gateway Layer concentra el acceso mediante Entity Framework Core hacia PostgreSQL y encapsula la comunicación con pasarelas de pago y servicios de correo.
+
+C4 Component Diagram - RESTful API.
+
+![C4 Component Diagram Restful Api](../assets/c4-component-diagram-restful-api.png)
+
+### Relational Database Components
+
+El container Relational Database se organiza mediante separación lógica de datos. Los esquemas patients, prescription, monitoring, analytics, workshop, communication, identity_access, subscriptions_payments y public_leads corresponden a los Bounded Contexts y módulos de soporte identificados en el diseño.
+
+Esta organización permite conservar límites de responsabilidad a nivel de persistencia aun cuando PostgreSQL sea desplegado inicialmente como una única instancia.
+
+C4 Component Diagram - Relational Database.
+
+![C4 Component Diagram Relational Database](../assets/c4-component-diagram-relational-database.png)
+
