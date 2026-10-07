@@ -395,6 +395,6 @@ Durante el desarrollo del Sprint 2, el equipo consolidó la aplicación del marc
 
 **Figura**  
 *Métricas de colaboración y commits en GitHub Insights para el Sprint 2*
-<div style="text-align:center;"><img src="../assets/github-insights-sprint2.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
+<div style="text-align:center;"><img src="../assets/collaboration-insights.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
 
 *Nota. Registro de contribuciones y frecuencia de commits de los integrantes del equipo durante el Sprint 2 obtenido desde GitHub Insights.*
