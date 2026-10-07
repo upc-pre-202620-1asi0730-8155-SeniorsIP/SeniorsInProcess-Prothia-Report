@@ -310,8 +310,6 @@ Durante la revisión del Sprint 2 se verificó el funcionamiento operativo de lo
   https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
 * **Enlace a la Web Application desplegada (v1.0):**  
   https://seniorsinprocess-prothia-app.netlify.app/
-* **Enlace al video de demostración y navegación de ejecución (Sprint 2):**  
-  `[Enlace a video en Microsoft Stream / SharePoint]`
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
