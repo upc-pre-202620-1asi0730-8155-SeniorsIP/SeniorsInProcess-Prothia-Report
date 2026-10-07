@@ -76,3 +76,95 @@ Class Diagram - Public Lead Management.
 
 ![Class Diagram Public Lead Management](../assets/class-diagram-public-lead-management.png)
 
+## 4.8. Database Design
+
+El diseño de base de datos utiliza PostgreSQL como DBMS relacional y conserva la separación lógica establecida por los Bounded Contexts identificados en el Design-Level EventStorming. Los módulos de soporte mantienen su propia persistencia para conservar la trazabilidad con las User Stories especificadas en el Capítulo III.
+
+Se utiliza lowercase_snake_case para tablas y columnas, UUID para identificadores, TIMESTAMPTZ para instantes que representan un momento real en el tiempo, DATE para fechas sin componente horario y NUMERIC para valores exactos. Los diagramas especifican claves primarias, claves foráneas internas, restricciones de unicidad, nulabilidad y reglas CHECK necesarias para mantener la integridad de los datos.
+
+Las relaciones internas de cada Bounded Context se representan mediante claves foráneas. Cuando una entidad necesita identificar información administrada por otro contexto, se conserva únicamente el identificador como referencia lógica, evitando introducir dependencias de persistencia que mezclen responsabilidades de dominio.
+
+### 4.8.1. Database Diagrams
+
+#### Relational Database Model Diagram
+
+Representa la estructura relacional integral de Prothia Platform en PostgreSQL 16, mostrando las tablas principales de cada Bounded Context y la trazabilidad de referencias lógicas entre pacientes, prescripciones, sesiones telemétricas, reportes, prótesis y transmisiones técnicas.
+
+Database Diagram - Relational Database Model.
+
+![Database Diagram Relational Database Model](../assets/erd_database_model.png)
+
+#### Patients
+
+El esquema patients persiste los datos de admisión clínica de pacientes amputados y sus expedientes médicos basales mediante las tablas patients y medical_records. El DNI del paciente es único y se restringe el nivel de amputación y el nivel funcional K a valores válidos del dominio mediante restricciones CHECK.
+
+Database Diagram - Patients.
+
+![Database Diagram Patients](../assets/database-diagram-patients.png)
+
+#### Prescription
+
+El esquema prescription persiste las prescripciones terapéuticas domiciliarias y los ejercicios dosificados mediante therapeutic_prescriptions y prescription_exercises, además de almacenar los límites basales en threshold_profiles. Se asegura unicidad por ejercicio dentro de cada plan y valores positivos para repeticiones y series.
+
+Database Diagram - Prescription.
+
+![Database Diagram Prescription](../assets/database-diagram-prescription.png)
+
+#### Monitoring
+
+El esquema monitoring persiste las sesiones de marcha domiciliaria en gait_sessions, las mediciones inerciales a 100 Hz en telemetry_measurements y las alertas críticas emitidas por desviación biomecánica en clinical_alerts. Se indexa la combinación de sesión y número de secuencia para optimizar consultas temporales.
+
+Database Diagram - Monitoring.
+
+![Database Diagram Monitoring](../assets/database-diagram-monitoring.png)
+
+#### Analytics
+
+El esquema analytics persiste los reportes clínicos mensuales en clinical_reports, registrando las puntuaciones de simetría bilateral, porcentaje de adherencia, recomendaciones médicas y la firma digital del fisioterapeuta con número de colegiatura y hash criptográfico.
+
+Database Diagram - Analytics.
+
+![Database Diagram Analytics](../assets/database-diagram-analytics.png)
+
+#### Workshop
+
+El esquema workshop persiste el parque de prótesis en prosthesis_assets, controlando ciclos acumulados y límite de fatiga, las órdenes de mantenimiento en work_orders y las intervenciones técnicas con recambio de piezas en technical_interventions. El número de serie de cada prótesis es único.
+
+Database Diagram - Workshop.
+
+![Database Diagram Workshop](../assets/database-diagram-workshop.png)
+
+#### Communication
+
+El esquema communication persiste las transmisiones cifradas a centros ortopédicos externos en workshop_transmissions, controlando la anonimización de DNI y acuse de recibo técnico, así como los mensajes de interconsulta en in_app_messages.
+
+Database Diagram - Communication.
+
+![Database Diagram Communication](../assets/database-diagram-communication.png)
+
+#### Identity & Access Management
+
+El modelo persiste cuentas de usuario, sesiones y solicitudes de recuperación de contraseña. El correo de cada cuenta y el hash de cada token de recuperación son únicos. Una cuenta puede originar múltiples sesiones y solicitudes de recuperación; las sesiones controlan su periodo de vigencia y las solicitudes conservan used_at en NULL mientras no hayan sido utilizadas.
+
+Database Diagram - Identity & Access Management.
+
+![Database Diagram Identity Access Management](../assets/database-diagram-identity-access-management.png)
+
+#### Subscriptions & Payment Management
+
+El modelo persiste planes de suscripción, suscripciones de clínicas, licencias de software y transacciones de pago. Cada suscripción referencia el plan contratado y cada transacción corresponde a una suscripción o a una licencia, pero no a ambas simultáneamente. Esta exclusión se controla mediante una restricción CHECK.
+
+Los importes deben ser positivos y las fechas de expiración deben ser posteriores al inicio del periodo contratado.
+
+Database Diagram - Subscriptions & Payment Management.
+
+![Database Diagram Subscriptions Payment Management](../assets/database-diagram-subscriptions-payment-management.png)
+
+#### Public Lead Management
+
+El módulo persiste las solicitudes de demostración y las suscripciones al newsletter provenientes del Landing Page. Ambos procesos son independientes. Las solicitudes conservan la institución y los datos de contacto necesarios para su seguimiento, mientras que el correo utilizado para el newsletter mantiene una restricción de unicidad.
+
+Database Diagram - Public Lead Management.
+
+![Database Diagram Public Lead Management](../assets/database-diagram-public-lead-management.png)
+
