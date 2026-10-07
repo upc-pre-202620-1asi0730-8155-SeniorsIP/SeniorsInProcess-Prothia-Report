@@ -56,25 +56,13 @@ Class Diagram - Communication.
 
 El modelo concentra UserAccount, UserSession y PasswordResetRequest. IdentityService implementa IIdentityService y coordina registro, autenticación, administración de sesiones y recuperación de contraseña. UserRole, AccountStatus y UserSessionStatus representan estados y roles válidos del dominio.
 
-Class Diagram - Identity & Access Management.
-
-![Class Diagram Identity Access Management](../assets/class-diagram-identity-access-management.png)
-
 ### Subscriptions & Payment Management
 
 SubscriptionPlan representa la oferta contratada por una clínica, ClinicSubscription representa su acceso vigente y SoftwareLicense representa la licencia otorgada a un centro ortopédico. PaymentTransaction registra el resultado de cada operación de pago. SubscriptionPaymentService coordina contratación, licenciamiento, confirmación de pagos y vigencia de acceso.
 
-Class Diagram - Subscriptions & Payment Management.
-
-![Class Diagram Subscriptions Payment Management](../assets/class-diagram-subscriptions-payment-management.png)
-
 ### Public Lead Management
 
 DemoRequest y NewsletterSubscription representan los dos flujos públicos de captación utilizados en la Landing Page. PublicLeadService registra las solicitudes de demostración y las suscripciones al newsletter.
-
-Class Diagram - Public Lead Management.
-
-![Class Diagram Public Lead Management](../assets/class-diagram-public-lead-management.png)
 
 ## 4.8. Database Design
 
@@ -98,73 +86,35 @@ Database Diagram - Relational Database Model.
 
 El esquema patients persiste los datos de admisión clínica de pacientes amputados y sus expedientes médicos basales mediante las tablas patients y medical_records. El DNI del paciente es único y se restringe el nivel de amputación y el nivel funcional K a valores válidos del dominio mediante restricciones CHECK.
 
-Database Diagram - Patients.
-
-![Database Diagram Patients](../assets/database-diagram-patients.png)
-
 #### Prescription
 
 El esquema prescription persiste las prescripciones terapéuticas domiciliarias y los ejercicios dosificados mediante therapeutic_prescriptions y prescription_exercises, además de almacenar los límites basales en threshold_profiles. Se asegura unicidad por ejercicio dentro de cada plan y valores positivos para repeticiones y series.
-
-Database Diagram - Prescription.
-
-![Database Diagram Prescription](../assets/database-diagram-prescription.png)
 
 #### Monitoring
 
 El esquema monitoring persiste las sesiones de marcha domiciliaria en gait_sessions, las mediciones inerciales a 100 Hz en telemetry_measurements y las alertas críticas emitidas por desviación biomecánica en clinical_alerts. Se indexa la combinación de sesión y número de secuencia para optimizar consultas temporales.
 
-Database Diagram - Monitoring.
-
-![Database Diagram Monitoring](../assets/database-diagram-monitoring.png)
-
 #### Analytics
 
 El esquema analytics persiste los reportes clínicos mensuales en clinical_reports, registrando las puntuaciones de simetría bilateral, porcentaje de adherencia, recomendaciones médicas y la firma digital del fisioterapeuta con número de colegiatura y hash criptográfico.
-
-Database Diagram - Analytics.
-
-![Database Diagram Analytics](../assets/database-diagram-analytics.png)
 
 #### Workshop
 
 El esquema workshop persiste el parque de prótesis en prosthesis_assets, controlando ciclos acumulados y límite de fatiga, las órdenes de mantenimiento en work_orders y las intervenciones técnicas con recambio de piezas en technical_interventions. El número de serie de cada prótesis es único.
 
-Database Diagram - Workshop.
-
-![Database Diagram Workshop](../assets/database-diagram-workshop.png)
-
 #### Communication
 
 El esquema communication persiste las transmisiones cifradas a centros ortopédicos externos en workshop_transmissions, controlando la anonimización de DNI y acuse de recibo técnico, así como los mensajes de interconsulta en in_app_messages.
-
-Database Diagram - Communication.
-
-![Database Diagram Communication](../assets/database-diagram-communication.png)
 
 #### Identity & Access Management
 
 El modelo persiste cuentas de usuario, sesiones y solicitudes de recuperación de contraseña. El correo de cada cuenta y el hash de cada token de recuperación son únicos. Una cuenta puede originar múltiples sesiones y solicitudes de recuperación; las sesiones controlan su periodo de vigencia y las solicitudes conservan used_at en NULL mientras no hayan sido utilizadas.
 
-Database Diagram - Identity & Access Management.
-
-![Database Diagram Identity Access Management](../assets/database-diagram-identity-access-management.png)
-
 #### Subscriptions & Payment Management
 
-El modelo persiste planes de suscripción, suscripciones de clínicas, licencias de software y transacciones de pago. Cada suscripción referencia el plan contratado y cada transacción corresponde a una suscripción o a una licencia, pero no a ambas simultáneamente. Esta exclusión se controla mediante una restricción CHECK.
-
-Los importes deben ser positivos y las fechas de expiración deben ser posteriores al inicio del periodo contratado.
-
-Database Diagram - Subscriptions & Payment Management.
-
-![Database Diagram Subscriptions Payment Management](../assets/database-diagram-subscriptions-payment-management.png)
+El modelo persiste planes de suscripción, suscripciones de clínicas, licencias de software y transacciones de pago. Cada suscripción referencia el plan contratado y cada transacción corresponde a una suscripción o a una licencia, pero no a ambas simultáneamente. Esta exclusión se controla mediante una restricción CHECK. Los importes deben ser positivos y las fechas de expiración deben ser posteriores al inicio del periodo contratado.
 
 #### Public Lead Management
 
 El módulo persiste las solicitudes de demostración y las suscripciones al newsletter provenientes del Landing Page. Ambos procesos son independientes. Las solicitudes conservan la institución y los datos de contacto necesarios para su seguimiento, mientras que el correo utilizado para el newsletter mantiene una restricción de unicidad.
-
-Database Diagram - Public Lead Management.
-
-![Database Diagram Public Lead Management](../assets/database-diagram-public-lead-management.png)
 
