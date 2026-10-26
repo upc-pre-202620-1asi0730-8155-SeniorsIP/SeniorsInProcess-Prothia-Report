@@ -302,138 +302,111 @@ Durante el Sprint 2, el equipo desarrolló el frontend de la aplicación web de 
 | Prothia-Frontend | Matthewnhfe | 99b7680 | chore(config): configure development environment variables | Ajusta la configuración de variables de entorno para el servidor local. |
 | Prothia-Frontend | Matthewnhfe | 1614be1 | Merge branch 'feature/app-setup' into develop | Integra la rama feature/app-setup en develop |
 
-#### 5.2.2.5. Execution Evidence for Sprint Review
+#### 5.2.2.5.Execution Evidence for Sprint Review
 
-Durante la revisión del Sprint 2 se verificó el funcionamiento operativo de los siguientes componentes:
+En esta sección se presentan las evidencias de ejecución de la aplicación web de Prothia correspondientes al Sprint 2, siguiendo la estructura de presentación de referencia de Noxway. Las vistas muestran las interfaces desarrolladas en Vue 3 y PrimeVue y los resultados de las interacciones desde los perfiles de Paciente Amputado, Profesional de Clínica de Rehabilitación y Técnico de Centro Ortopédico.
 
-1. **Landing Page (v2.0):**
-   * **Simulador de Facturación (VS-04):** El visitante puede alternar entre planes mensuales y anuales mediante un conmutador animado, recalculando los costos y destacando el 20% de ahorro anual en las tarifas de clínicas y centros ortopédicos.
-   * **Conexión Directa a la Web Application:** Los botones Register Now y los llamados a la acción de cada segmento objetivo redirigen hacia la aplicación web en producción.
-   * **Soporte Bilingüe Completo (VS-09):** Alternancia inmediata de idioma (EN/ES) en todo el contenido estático.
+**Enlaces de Ejecución Pública en Producción**
+*   **Aplicación Web Desplegada (Prothia Frontend):** https://prothia-web-app-7003f.web.app/
+*   **Landing Page Desplegada (v2.0):** https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
 
-2. **Frontend Web Application (v1.0 - Vue 3 / PrimeVue):**
-   * **Acceso y Selección de Perfil (US-02):** Pantalla de inicio de sesión con selector interactivo de rol (Paciente, Clínica y Centro Ortopédico).
-   * **Admisión de Pacientes Amputados (US-04):** Formulario para profesionales de la salud con campos validados para datos de filiación, diagnóstico clínico y nivel de amputación.
-   * **Asociación de Prótesis (US-05):** Panel del técnico ortopédico donde se visualiza el inventario de prótesis y se realiza la asignación a un paciente activo.
-   * **Ficha de Consulta Integral (US-06):** Vista del expediente clínico con los detalles personales del paciente, la prótesis vinculada y el estado de su rehabilitación.
+*Figura 1. Inicio de Sesión y Selección de Rol (Módulo IAM).*
 
-**Figura**  
-*Conmutador de planes y la conexión a la aplicación web en Landing Page v2.0*
-<div style="text-align:center;"><img src="../assets/execution-landing-v2.png" width="800" alt="Conmutador de planes y conexión a la aplicación web en Landing Page v2.0"></div>
+<img src="../assets/iam.png" width="800">
 
-*Nota. Vista de la Landing Page v2.0 evidenciando el conmutador interactivo de planes en facturación mensual y anual.*
+*Figura 2. Dashboard Principal del Paciente ("Mi Día" - Patient Portal).*
 
-**Figura**  
-*Autenticación y selección de roles en la aplicación web*
-<div style="text-align:center;"><img src="../assets/execution-webapp-login.png" width="800" alt="Autenticación y selección de roles en la aplicación web"></div>
+<img src="../assets/figura2.png" width="800">
 
-*Nota. Pantalla de inicio de sesión con selector de roles para pacientes, clínicas y centros ortopédicos.*
+*Figura 3. Telemetría Biomecánica en Vivo e Historial de Marcha.*
 
-**Figura**  
-*Formulario interactivo de registro clínico de pacientes amputados implementado con componentes PrimeVue*
-<div style="text-align:center;"><img src="../assets/execution-webapp-patient-register.png" width="800" alt="Formulario interactivo de registro clínico de pacientes amputados"></div>
+<img src="../assets/figura3.png" width="800">
 
-*Nota. Formulario de admisión clínica desarrollado con PrimeVue para el registro estructurado de pacientes.*
+<img src="../assets/marcha.png" width="800">
 
-**Figura**  
-*Diálogo de asignación de dispositivos protésicos disponible para el perfil del técnico ortopédico*
-<div style="text-align:center;"><img src="../assets/execution-webapp-prosthesis-assign.png" width="800" alt="Diálogo de asignación de dispositivos protésicos"></div>
+*Figura 4. Mis Ejercicios y Mensajería Clínica del Paciente.*
 
-*Nota. Interfaz modal que permite al técnico ortopédico vincular prótesis disponibles al paciente seleccionado.*
+<img src="../assets/ejercicios.png" width="800">
 
-**Figura**  
-*Panel principal del paciente amputado (Mi Día) con métricas telemétricas y plan de ejercicios*
-<div style="text-align:center;"><img src="../assets/execution-webapp-patient-myday.png" width="800" alt="Panel principal del paciente amputado en Web Application"></div>
+<img src="../assets/mensajeria.png" width="800">
 
-*Nota. Vista del portal del paciente mostrando el saludo personalizado, indicadores de simetría y cadencia de marcha, y el seguimiento de ejercicios prescritos en el hogar.*
+*Figura 5. Dashboard Clínico y Alta de Pacientes (Módulo Patients).*
 
-* **Enlace a la Landing Page desplegada (v2.0):**  
-  https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
-* **Enlace a la Web Application desplegada (v1.0):**  
-  https://seniorsinprocess-prothia-app.netlify.app/
+<img src="../assets/clinica.png" width="800">
+
+<img src="../assets/paciente.png" width="800">
+
+
+*Figura 6. Prescripción Terapéutica y Centro de Alertas (Prescription & Monitoring).*
+
+<img src="../assets/prescripcion.png" width="800">
+
+<img src="../assets/alertas.png" width="800">
+
+*Figura 7. Coordinación con Ortopedia, Reportes y Suscripción (Communication, Analytics & Billing).*
+
+<img src="../assets/reporte.png" width="800">
+
+<img src="../assets/suscripcion.png" width="800">
+
+*Figura 8. Portal del Taller Ortopédico: Flota, Mantenimiento y Alertas (Módulo Workshop).*
+
+<img src="../assets/taller.png" width="800">
+
+<img src="../assets/flota.png" width="800">
+
+<img src="../assets/mantenimiento.png" width="800">
+
+<img src="../assets/alertasss.png" width="800">
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-Para este Sprint 2 se implementaron y documentaron los primeros servicios del backend utilizando **ASP.NET Core** y **C#**, estructurados según los principios del estilo arquitectónico RESTful y documentados mediante la especificación **OpenAPI (Swagger UI)**.
+Durante el Sprint 2 se implementaron los servicios de consumo HTTP en el frontend de Prothia (SeniorsInProcess-Prothia-Frontend) apoyados en la infraestructura compartida BaseApi y BaseEndpoint (basada en Axios) y en clases Assembler para transformar los recursos JSON hacia las entidades de dominio de cada Bounded Context.
 
-De acuerdo con las pautas del Statement (pág. 26), en sprints previos al despliegue de Web Services en la nube (el cual se consuma formalmente en el hito AV2), la documentación interactiva se verifica mediante su URL de ejecución local.
+En el entorno de desarrollo local se utiliza JSON Server con datos simulados definidos en el archivo server/db.json. Para el entorno de producción desplegado, la configuración en environment.production conecta los servicios con endpoints mock en la nube (Beeceptor / Mock API). Los ejemplos presentados en la tabla muestran los campos principales de los recursos consumidos por cada módulo del frontend.
 
-* **URL del repositorio de Web Services:**  
-  https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend
-* **URL de la documentación interactiva OpenAPI (Swagger Local):**  
-  `https://localhost:7071/swagger/index.html` 
-* **Identificadores de commits vinculados a documentación:** `3f92c18`, `9c41d87`, `5e80d21`, `2b11e74`.
+**Configuración de URLs Base de Servicios en el Frontend**
+*   **URL base local (JSON Server):** http://localhost:3000
+*   **Repositorio con servicios y datos simulados:** https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend
 
-A continuación, se detalla la relación de endpoints implementados, sus sintaxis de llamada, parámetros requeridos y modelos de respuesta:
-
-| Endpoint / Recurso | Verbo HTTP | Sintaxis de Llamada | Parámetros (Query / Route / Body) | Ejemplo y Explicación del Response | Código de Estado |
-| :--- | :--- | :--- | :--- | :--- | :---: |
-| **Autenticación de Usuario** | `POST` | `/api/v1/auth/sign-in` | **Body (JSON):**<br>`{ "email": "diego.salazar@rehabsur.pe", "password": "Password123*", "role": "HEALTHCARE_PROFESSIONAL" }` | Retorna token de sesión e información básica del usuario:<br>`{ "token": "eyJhbGciOiJIUzI1NiIsIn...", "userId": "a1b2c3d4-...", "role": "HEALTHCARE_PROFESSIONAL" }`<br>*Permite autenticar y autorizar accesos por rol.* | `200 OK` |
-| **Registrar Paciente** | `POST` | `/api/v1/patients` | **Body (JSON):**<br>`{ "fullName": "Carlos Mendoza Arias", "identificationNumber": "45892104", "amputationLevel": "Transtibial", "affectedSide": "Derecha", "clinicId": "3fa85f64-..." }` | Retorna el recurso creado con su identificador:<br>`{ "id": "b1a2c3d4-e5f6-7a8b-9c0d-1e2f3a4b5c6d", "fullName": "Carlos Mendoza Arias", "status": "ACTIVE", "createdAt": "2026-09-24T15:30:00Z" }`<br>*Confirma el alta del paciente en la clínica.* | `201 Created` |
-| **Consultar Expediente del Paciente** | `GET` | `/api/v1/patients/{id}` | **Route:**<br>`id` (UUID): Identificador único del paciente. | Retorna la ficha clínica con prótesis vinculada:<br>`{ "id": "b1a2c3d4-...", "fullName": "Carlos Mendoza Arias", "identificationNumber": "45892104", "amputationLevel": "Transtibial", "prosthesis": { "serialNumber": "PR-2026-TT-084", "type": "Transtibial Carbono" } }`<br>*Facilita la consulta de datos del paciente.* | `200 OK` |
-| **Registrar Prótesis** | `POST` | `/api/v1/prostheses` | **Body (JSON):**<br>`{ "serialNumber": "PR-2026-TT-084", "type": "Transtibial Carbono", "orthopedicCenterId": "5c6d7e8f-..." }` | Retorna la prótesis dada de alta en el inventario:<br>`{ "id": "f9e8d7c6-...", "serialNumber": "PR-2026-TT-084", "status": "AVAILABLE" }`<br>*Registra el componente protésico.* | `201 Created` |
-| **Asociar Prótesis a Paciente** | `POST` | `/api/v1/prostheses/{id}/assignments` | **Route:**<br>`id` (UUID): ID de la prótesis.<br>**Body (JSON):**<br>`{ "patientId": "b1a2c3d4-..." }` | Retorna la confirmación del enlace:<br>`{ "prosthesisId": "f9e8d7c6-...", "patientId": "b1a2c3d4-...", "status": "ASSIGNED", "assignedAt": "2026-09-27T11:00:00Z" }`<br>*Asocia unívocamente la prótesis con el paciente.* | `200 OK` |
-
-**Figura**  
-*Vista general de endpoints documentados en Swagger UI (OpenAPI)*
-<div style="text-align:center;"><img src="../assets/swagger-documentation1-sprint2.png" width="800" alt="Vista general de endpoints documentados en Swagger UI"></div>
-
-*Nota. Catálogo estructurado de endpoints RESTful para autenticación, gestión de pacientes y prótesis bajo la especificación OpenAPI.*
-
-**Figura**  
-*Interacción y ejecución de endpoints con datos de muestra y respuesta HTTP (Swagger UI)*
-<div style="text-align:center;"><img src="../assets/swagger-documentation2-sprint2.png" width="800" alt="Ejecución interactiva de endpoints en Swagger UI"></div>
-
-*Nota. Prueba de ejecución interactiva del endpoint de registro de pacientes mostrando datos de entrada en JSON y respuesta HTTP 201 Created.*
+| Acción / Módulo | Método HTTP | Sintaxis de llamada local | Parámetros / cuerpo | Ejemplo parcial de respuesta | Explicación |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| Consultar pacientes (patients) | GET | http://localhost:3000/patients | Ninguno | `[{"id":1,"fullName": "Carlos Mendoza Arias", "kLevel":"K3"}]` | Devuelve el directorio de pacientes amputados registrados en la clínica. |
+| Registrar paciente (patients) | POST | http://localhost:3000/patients | Body JSON (Patient) | `{"id": 5, "dni": "45892104", "amputationLevel": "Transtibial"}` | Almacena un nuevo paciente en el catálogo clínico y actualiza el store. |
+| Consultar sesiones (monitoring) | GET | http://localhost:3000/gaitSessions | Ninguno | `[{"id":1,"patientId":1, "cadence":96, "symmetry":92.4}]` | Obtiene las sesiones telemétricas de marcha y sus métricas biomecánicas. |
+| Consultar alertas (monitoring) | GET | http://localhost:3000/alerts | Ninguno | `[{"id": 1, "patientName": "Carlos Mendoza", "severity":"Warning"}]` | Devuelve el historial de alertas clínicas por desviación postural o impacto. |
+| Consultar umbrales (monitoring) | GET / PUT | http://localhost:3000/thresholds | Body JSON en PUT | `[{"id":1,"patientId":1, "maxPelvicTilt":12,"maxAsymmetry":15}]` | Consulta o actualiza los parámetros de sensibilidad de alerta por paciente. |
+| Consultar planes (prescription) | GET / POST | http://localhost:3000/prescriptions | Body JSON en POST | `[{"id":1,"patientId":1, "phase": "Fase 2", "adherence":88}]` | Obtiene o publica planes de prescripción terapéutica y ejercicios asignados. |
+| Consultar transmisiones (communication) | GET / POST | http://localhost:3000/transmissions | Body JSON en POST | `[{"id":1,"patientName":"Carlos Mendoza", "workshop":"Ortopedia Avanzada"}]` | Lista o registra el envío de fichas biomecánicas entre clínica y ortopedia. |
+| Consultar mensajes (communication) | GET / POST | http://localhost:3000/clinicalMessages | Body JSON en POST | `[{"id":1,"sender": "Lic. Diego Salazar", "text": "Mantén el apoyo..."}]` | Gestiona los mensajes de interconsulta entre el paciente y su fisioterapeuta. |
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-Durante este Sprint 2 se realizaron las actividades de configuración y verificación de despliegue para los productos digitales del alcance de TB1, satisfaciendo los requerimientos de publicación en entornos productivos y cloud providers:
+Durante el Sprint 2 se realizó el despliegue de la primera versión funcional del frontend de Prothia mediante Firebase Hosting, habilitando su acceso público desde cualquier navegador web. El proyecto utilizado en la consola de Firebase se identifica como prothia-web-app-7003f. Asimismo, se actualizó el despliegue de la Landing Page en GitHub Pages conectando sus botones de acción directamente hacia la aplicación web desplegada.
 
-##### 1. Despliegue de la Nueva Versión de la Landing Page (v2.0)
-* **Plataforma:** GitHub Pages.
-* **Repositorio y Rama de Despliegue:** `SeniorsInProcess-Prothia-LandingPage` (rama `main`).
-* **Procedimiento:** Las ramas `feature/pricing-simulation` y `feature/app-cta-links` fueron integradas en `develop` tras pruebas de renderizado en diferentes resoluciones. Posteriormente se generó un Pull Request hacia la rama `main`, la cual ejecuta el flujo automático de publicación de GitHub Pages desde la raíz (`/root`).
-* **URL Pública:**  
-  https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
+**Datos de Alojamiento y Publicación (Sprint 2)**
+*   **Plataforma de alojamiento de la Web Application:** Firebase Hosting (prothia-web-app-7003f).
+*   **Repositorio del Frontend:** https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend
+*   **Aplicación Web Desplegada:** https://prothia-web-app-7003f.web.app/
 
-**Figura**  
-*Configuración de despliegue en GitHub Pages para Landing Page v2.0*
-<div style="text-align:center;"><img src="../assets/github-pages-v2-deployment.png" width="800" alt="Evidencia de despliegue en GitHub Pages"></div>
+*Figura 1. Evidencia de publicación en Firebase Hosting.*
 
-*Nota. Panel de administración en GitHub Settings confirmando el despliegue exitoso de la versión 2.0 del Landing Page.*
-
-##### 2. Despliegue de la Primera Versión de la Frontend Web Application (v1.0)
-* **Plataforma:** Netlify Cloud Hosting Platform (Cloud Provider).
-* **Repositorio y Rama de Despliegue:** `SeniorsInProcess-Prothia-Frontend` (rama `main` / `dist`).
-* **Procedimiento:**
-  1. Se empaquetaron y compilaron los artefactos estáticos optimizados de la aplicación desarrollada en Vue 3 y Vite (`npm run build`), centralizados en la carpeta `dist`.
-  2. Se configuró el servicio de alojamiento bajo arquitectura Jamstack Cloud con soporte de aprovisionamiento de certificados SSL/TLS y compresión de recursos.
-  3. Se validó la carga de las vistas de selección de roles, admisión clínica de pacientes y paneles de control, comprobando que la aplicación responda de manera óptima tanto en navegadores de escritorio como móviles.
-* **URL Pública:**  
-  https://seniorsinprocess-prothia-app.netlify.app/
-
-**Figura**  
-*Panel de control de despliegue en la plataforma Cloud para la aplicación web*
-<div style="text-align:center;"><img src="../assets/webapp-deployment-evidence.png" width="800" alt="Panel de control de despliegue de la aplicación web"></div>
-
-*Nota. Evidencia de publicación y estado operativo de la primera versión funcional de la Web Application en la plataforma Cloud.*
+<img src="../assets/firebase.png" width="800">
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
-Durante el desarrollo del Sprint 2, el equipo consolidó la aplicación del marco de trabajo ágil Scrum y las buenas prácticas de ingeniería de software con GitFlow:
+Durante el Sprint 2, el equipo organizó el desarrollo del frontend de Prothia mediante ramas de funcionalidades (feature/<bounded-context>) y su integración progresiva en la rama develop y main. La siguiente tabla resume los aportes reales verificados en el historial de commits del repositorio SeniorsInProcess-Prothia-Frontend:
 
-1. **Gestión de Ramas y Commits:**  
-   Se mantuvieron protegidas las ramas `main` y `develop`. Las asignaciones se trabajaron de forma aislada en ramas `feature/<nombre-funcionalidad>`, utilizando mensajes bajo la convención de **Conventional Commits** (`feat:`, `fix:`, `docs:`, `style:`, `refactor:`), lo que facilitó la trazabilidad entre el código y los identificadores de tareas de Trello.
-
-2. **Revisiones de Código (Pull Requests):**  
-   Para integrar cualquier cambio hacia `develop`, se requirió la aprobación de al menos un revisor técnico del equipo (Oscar Checa en la capa backend o Ana Camila Patricio en la capa frontend), garantizando que los componentes de Vue 3 cumplieran con la guía de estilo de Vue y que los controladores de ASP.NET Core respetaran la separación por capas.
-
-3. **Métricas de Colaboración:**  
-   A través de la sección de *Insights / Contributors* en GitHub, se constata una participación equilibrada y activa de los cinco integrantes en los repositorios del proyecto, evidenciando un esfuerzo constante a lo largo de las semanas de desarrollo.
+| Integrante | Usuario de GitHub | Aportes registrados en SeniorsInProcess-Prothia-Frontend |
+| :--- | :--- | :--- |
+| Patricio Farias, Ana Camila | anacamilapatricio-sketch | Inicialización del repositorio, configuración de dependencias, i18n, router, Pinia, variables de entorno y PrimeVue Material (PR #1); desarrollo completo e integración de los módulos Communication y Prescription . |
+| Checa Burga, Oscar Diego | OscarCheca | Desarrollo de la infraestructura Shared (BaseApi, BaseEndpoint, role store, vistas compartidas), diccionarios en.json y es.json, e implementación completa de los módulos Monitoring y Patients . |
+| Dextre Flores, Leonardo Felix | leo-dex45 | Desarrollo completo de los módulos Billing (entidades, API service, Pinia store y vista de suscripción clínica) y Workshop (flota de prótesis, agenda de mantenimiento preventivo, alertas mecánicas y vistas de taller) . |
+| Salcedo Correa, Carlos Matthew | Matthewnhfe | Desarrollo de los módulos Analytics (reportes clínicos) y Patient-Portal (layout, dashboard diario, telemetría en vivo, historial de marcha, ejercicios y mensajes), además de la configuración raíz App-Setup . |
+| Barrenechea Bustamante, Rafael Andre | yafussssss | Desarrollo completo del módulo IAM (entidad de usuario, comandos auth, cliente API, interceptores, auth guard, Pinia store y vistas sign-in/sign-up), del módulo Option y actualización del README.md. |
 
 **Figura**  
 *Métricas de colaboración y commits en GitHub Insights para el Sprint 2*
-<div style="text-align:center;"><img src="../assets/collaboration-insights.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
+<div style="text-align:center;"><img src="../assets/sprint2insight.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
 
 *Nota. Registro de contribuciones y frecuencia de commits de los integrantes del equipo durante el Sprint 2 obtenido desde GitHub Insights.*
