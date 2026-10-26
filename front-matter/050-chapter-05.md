@@ -177,38 +177,37 @@ El trabajo en equipo durante el Sprint 1 fluyó de manera estructurada bajo el f
 
 ### 5.2.2. Sprint 2
 
-Durante el Sprint 2, el equipo de SeniorsInProcess concentró su trabajo en cumplir con los objetivos establecidos para el hito **TB1**: desplegar una nueva versión optimizada del sitio web estático (**Landing Page v2.0**), estructurar y desplegar la primera versión funcional de la aplicación web (**Frontend Web Application v1.0**) desarrollada con el framework Vue 3 y la biblioteca de componentes PrimeVue, y definir e implementar en entorno local los primeros servicios del **RESTful API** en ASP.NET Core, documentados bajo el estándar OpenAPI mediante Swagger UI.
+Durante el Sprint 2, el equipo SeniorsInProcess enfocó su trabajo en aplicar las mejoras a la versión pública de la Landing Page y en desarrollar y desplegar la primera versión funcional de la aplicación web de Prothia, implementando todos los Bounded Contexts definidos en la arquitectura Domain-Driven Design para los tres segmentos objetivo.
 
 #### 5.2.2.1. Sprint Planning 2
 
-En esta sección se especifican los aspectos principales del Sprint Planning Meeting correspondiente a la segunda iteración de desarrollo del proyecto.
+El Sprint Planning 2 se enfocó en el despliegue de mejoras del sitio web estático (Landing Page) de Prothia y en el desarrollo y despliegue de la primera versión funcional de la aplicación web de Prothia. El objetivo principal de esta iteración es consolidar la plataforma digital conectando a pacientes amputados, profesionales de clínicas de rehabilitación y técnicos de centros ortopédicos.
 
 | Sprint # | Sprint 2 |
 | :--- | :--- |
-| **Sprint Planning Background** | Reunión de planificación para definir los compromisos del hito TB1. El equipo acordó actualizar y desplegar la versión 2.0 del Landing Page (integrando el simulador de facturación de planes, soporte de internacionalización completo y botones de acción que enlazan con la experiencia web) y construir la primera versión funcional de la Web Application (módulos de inicio de sesión por roles, admisión clínica de pacientes amputados y asignación inicial de prótesis), acompañada de la definición de los primeros servicios RESTful en ASP.NET Core. |
-| **Date** | 2026-09-18 |
-| **Time** | 20:00 |
-| **Location** | Microsoft Teams Group Call (Sesión Virtual Sincrónica) |
-| **Prepared By** | Patricio Farias, Ana Camila |
-| **Attendees (to planning meeting)** | Patricio Farias, Ana Camila / Checa Burga, Oscar Diego / Dextre Flores, Leonardo Felix / Salcedo Correa, Carlos Mathhew / Barrenechea Bustamante, Rafael Andre |
-| **Sprint n – 1 Review Summary** | Durante el Sprint 1 se concluyó y desplegó la versión 1.0 del Landing Page en GitHub Pages, logrando presentar la propuesta de valor, las métricas de impacto y la captación de prospectos. El Product Owner validó positivamente la coherencia estética con las guías de estilo, recomendando como prioridad para este segundo sprint vincular los llamados a la acción (call-to-action) directamente hacia las vistas de la Web Application e incorporar interactividad al comparador de planes. |
-| **Sprint n – 1 Retrospective Summary** | **Start:** Formalizar la revisión cruzada de código mediante Pull Requests obligatorios antes de integrar en la rama develop, asegurando el cumplimiento estricto de las convenciones de codificación en C# y Vue 3.<br>**Continue:** Mantener la comunicación fluida por Discord y la actualización continua del estado de las historias en el tablero de Trello.<br>**Stop:** Evitar postergar la redacción de la documentación OpenAPI y las pruebas de despliegue para el final de la iteración. |
-| **Sprint Goal & User Stories** | |
-| **Sprint 2 Goal** | *Our focus is on delivering an enhanced interactive Landing Page and deploying the first functional release of the Prothia Web Application for clinical patient onboarding and prosthetic asset association, backed by documented local RESTful API endpoints.*<br><br>*We believe it delivers a direct and cohesive transition from public discovery to active clinical management for rehabilitation professionals, while empowering orthopedic technicians with digital prosthesis tracking.*<br><br>*This will be confirmed when visitors can interactively simulate subscription billing and toggle languages on the Landing Page, clinical staff can register amputee patients and view their clinical cards in the deployed Web Application, orthopedic specialists can associate prosthetic devices to registered patients, and developers can execute documented endpoints in Swagger with successful 200/201 response status codes.* |
-| **Sprint 2 Velocity** | 21 Story Points |
-| **Sum of Story Points** | 21 Story Points |
+| **SPRINT PLANNING BACKGROUND** | |
+| Date | 2026-10-01 |
+| Time | 8:00 PM |
+| Location | Reunión virtual mediante Discord y Microsoft Teams |
+| Prepared By | Patricio Farias, Ana Camila |
+| Attendees (to planning meeting) | Ana Camila Patricio Farias, Oscar Diego Checa Burga, Leonardo Felix Dextre Flores, Carlos Matthew Salcedo Correa, Rafael Andre Barrenechea Bustamante |
+| **SPRINT 2 REVIEW & RETROSPECTIVE SUMMARY** | |
+| Sprint 2 Review Summary | Se validó la versión mejorada de la Landing Page con conexión directa hacia la aplicación web y el funcionamiento de los módulos del frontend en Vue 3 y PrimeVue para pacientes, clínicas y centros ortopédicos. |
+| Sprint 2 Retrospective Summary | Durante este sprint, todos los integrantes compartieron sus ideas respecto a la aplicación web, los Bounded Contexts, la arquitectura DDD en el frontend y las funcionalidades por rol. Tuvimos tareas bien organizadas y realizadas mediante ramas `feature/` y Pull Requests hacia `develop`, lo cual se verifica en los avances del informe y de la aplicación web desplegada. |
+| **SPRINT GOAL & USER STORIES** | |
+|Sprint 2 Goal|Nuestro enfoque está en implementar las mejoras en la Landing Page y el desarrollo y despliegue de la aplicación web de Prothia, asegurando su coherencia visual, funcionalidad multilingüe (ES/EN) y acceso diferenciado para nuestros tres segmentos objetivo (pacientes amputados, clínicas de rehabilitación y centros ortopédicos). Creemos que esto ofrece una experiencia de navegación clara, accesible e integrada a los usuarios potenciales de nuestra solución. Esto se confirmará cuando los usuarios puedan alternar el idioma desde la interfaz, navegar intuitivamente por cada módulo sin errores visuales y consultar o registrar información simulada mediante JSON Server y servicios mock en producción.|
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 
-Para asegurar una adecuada organización interna y efectividad en la comunicación, se estructuró la matriz **LACX** (*Leadership-and-Collaboration Matrix*), estableciendo el líder (L) y los colaboradores (C) por cada aspecto técnico abordado en este Sprint 2:
+A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados durante el Sprint 2, reflejando la distribución real de responsabilidades sobre la aplicación web, su despliegue y la documentación del proyecto.
 
-| Team Member (Last Name, First Name) | GitHub Username | Frontend Web Application (Vue 3 / PrimeVue)<br>Leader (L) / Collaborator (C) | Backend RESTful Services (ASP.NET Core)<br>Leader (L) / Collaborator (C) | Landing Page v2.0 (HTML/CSS/JS)<br>Leader (L) / Collaborator (C) | Project Documentation & Testing<br>Leader (L) / Collaborator (C) |
-| :--- | :--- | :---: | :---: | :---: | :---: |
-| **Patricio Farias, Ana Camila** | `anacamilapatricio-sketch` | **L** | C | C | **L** |
-| **Checa Burga, Oscar Diego** | `OscarCheca` | C | **L** | C | C |
-| **Dextre Flores, Leonardo Felix** | `Leo-dex45` | C | C | C | **L** |
-| **Salcedo Correa, Carlos Mathhew** | `Matthewnhfe` | C | C | **L** | C |
-| **Barrenechea Bustamante, Rafael Andre** | `yafussssss` | C | **L** | C | C |
+| Team Member (Last Name, First Name) | GitHub Username | Aplicación Web Leader (L) / Collaborator (C) | Despliegue de la Aplicación Web Leader (L) / Collaborator (C) | Project Documentation Leader (L) / Collaborator (C) |
+| :--- | :--- | :---: | :---: | :---: |
+| **Patricio Farias, Ana Camila** | anacamilapatricio-sketch | L | C | L |
+| **Checa Burga, Oscar Diego** | `OscarCheca` | L | C | L |
+| **Dextre Flores, Leonardo Felix** | `leo-dex45` | C | L | C |
+| **Salcedo Correa, Carlos Matthew** | `Matthewnhfe` | L | L | C |
+| **Barrenechea Bustamante, Rafael Andre** | `yafussssss` | C | C | C |
 
 #### 5.2.2.3. Sprint Backlog 2
 
