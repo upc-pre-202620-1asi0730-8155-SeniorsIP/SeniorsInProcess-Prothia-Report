@@ -215,50 +215,92 @@ El objetivo principal del Sprint 2 es poner en operación la primera versión de
 
 **Figura**  
 *Tablero de control de tareas en Trello para el Sprint 2*
-<div style="text-align:center;"><img src="../assets/trello-sprint-2-backlog.png" width="800" alt="Tablero de control de tareas en Trello para el Sprint 2"></div>
+<div style="text-align:center;"><img src="../assets/sprint2.png" width="800" alt="Tablero de control de tareas en Trello para el Sprint 2"></div>
 
-*Nota. Captura del tablero en Trello mostrando la distribución de historias de usuario entre las columnas To-Do, Doing y Done.*
+*Nota. Captura del tablero en Trello.*
 
 **Enlace del tablero de Trello:**  
-https://trello.com/invite/b/6ac4c443ac48cfe5f3483422/ATTI5559667781037e2f809ea13a3cfc44a317501C04/seniorsinprocess-prothia-sprint-backlog-2
+https://trello.com/invite/b/6a3482081843e32dea421094/ATTI18eefa82ccf88b07429958c3ca4d886e7D9A78CB/sprint-2-prothia
 
-| Sprint # | Sprint 2 | | | | | | |
+
+| **Story Id** | **User Story Title** | **Task Id** | **Task Title** | **Task Description** | **Story point** | **Assigned** | **Status** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **User Story** | | **Work-Item / Task** | | | | | |
-| **Story Id** | **Story Title** | **Task Id** | **Task Title** | **Task Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
-| **US-01** | Registro de paciente amputado | TSK-201 | Formulario de registro de usuario paciente | Diseñar e implementar en Vue 3 el formulario de registro para pacientes con validación de credenciales. | 3 | Patricio Farias, Ana Camila | Done |
-| | | TSK-202 | Vinculación con almacenamiento de cuenta | Configurar el almacenamiento local del perfil y estado de registro mediante Pinia. | 2 | Dextre Flores, Leonardo Felix | Done |
-| **US-02** | Inicio de sesión con acceso diferenciado por rol | TSK-203 | Diseño de interfaz de inicio de sesión y selector de rol | Crear el componente LoginView.vue en Vue 3 con pestañas para Paciente, Clínica y Ortopedia con PrimeVue. | 4 | Patricio Farias, Ana Camila | Done |
-| | | TSK-204 | Configuración de Vue Router y guardias de navegación | Implementar las rutas protegidas en router/index.js según el rol seleccionado. | 4 | Dextre Flores, Leonardo Felix | Done |
-| **US-04** | Registro de datos del paciente en la clínica | TSK-205 | Maquetación del formulario de alta clínica de paciente | Diseñar e implementar PatientRegisterView.vue para registrar datos clínicos, nivel de amputación y lado afectado. | 5 | Patricio Farias, Ana Camila | Done |
-| | | TSK-206 | Lógica de validación de campos obligatorios | Programar reglas de validación en frontend para DNI, fecha de nacimiento y asignación de terapeuta. | 3 | Dextre Flores, Leonardo Felix | Done |
-| **US-05** | Asociación de prótesis a un paciente | TSK-207 | Componente de vinculación de prótesis para ortopedias | Construir el diálogo modal ProsthesisAssignDialog.vue para seleccionar pacientes y prótesis disponibles. | 4 | Salcedo Correa, Carlos Mathhew | Done |
-| | | TSK-208 | Validación de disponibilidad del activo protésico | Programar regla de control para evitar la asignación de dispositivos previamente vinculados. | 3 | Checa Burga, Oscar Diego | Done |
-| **US-06** | Consulta de ficha del paciente | TSK-209 | Vista de Expediente Clínico 360 del paciente | Crear la vista PatientProfileView.vue con datos de filiación, prótesis vinculada y estado de rehabilitación. | 5 | Patricio Farias, Ana Camila | Done |
-| | | TSK-210 | Formateo y renderizado de datos clínicos | Implementar tarjetas informativas de PrimeVue para el resumen clínico del paciente. | 3 | Barrenechea Bustamante, Rafael Andre | Done |
-| **VS-04** | Consulta de planes y simulación de facturación | TSK-211 | Conmutador dinámico mensual/anual en Landing Page | Desarrollar en JavaScript el switch interactivo en la sección de planes con recálculo automático del ahorro anual. | 3 | Salcedo Correa, Carlos Mathhew | Done |
-| **VS-09** | Cambio de idioma del portal (EN / ES) | TSK-212 | Actualización integral de diccionario de internacionalización | Enriquecer translations.js asegurando cobertura completa en inglés y español para todas las secciones. | 3 | Dextre Flores, Leonardo Felix | Done |
-| **TS-01** | Gestión de autenticación y cuentas vía API | TSK-213 | Controlador de autenticación en ASP.NET Core | Desarrollar AuthController con endpoints de inicio de sesión y emisión de token de prueba. | 4 | Checa Burga, Oscar Diego | In-Process |
-| **TS-02** | Gestión de pacientes y prótesis vía API | TSK-214 | Controladores de pacientes y activos protésicos | Implementar PatientsController y ProsthesesController con modelos y esquemas OpenAPI. | 4 | Barrenechea Bustamante, Rafael Andre | In-Process |
+| US-01 | Registro de datos del paciente en la clínica | US001TASK001 | Formulario y store de alta de pacientes | Implementar entidad `Patient`, patient store y formulario de registro clínico con validación de DNI y nivel K. | 3 | Oscar | Done |
+| US-02 | Asociación de prótesis a un paciente | US002TASK001 | Modal de vinculación de prótesis | Desarrollar diálogo en el módulo workshop para asociar una prótesis disponible del inventario a un paciente. | 3 | Leonardo | Done |
+| US-03 | Consulta de ficha del paciente | US003TASK001 | Vista de directorio y expediente 360 | Implementar lista de pacientes, filtros de selección y vista de expediente clínico integral con prótesis vinculada. | 2 | Oscar | Done |
+| US-04 | Visualización del dashboard biomecánico | US004TASK001 | Dashboard de telemetría clínica | Construir la vista de monitoreo biomecánico con métricas de cadencia, simetría bilateral, ángulo sagital e impacto. | 4 | Oscar | Done |
+| US-05 | Consulta del historial de datos biomecánicos | US005TASK001 | Vista de historial de marcha en portal paciente | Implementar vista gait history monitoring en patient-portal con gráficos de evolución semanal y sesiones. | 3 | Carlos | Done |
+| US-06 | Identificación de postura o movimiento inadecuado | US006TASK001 | Vista de telemetría en vivo para paciente | Desarrollar pantalla de biofeedback en vivo (live telemetry) con indicadores visuales de alineación postural. | 4 | Carlos | Done |
+| US-07 | Asignación de plan de ejercicios | US007TASK001 | Editor de prescripción terapéutica | Crear entidades `Prescription` y `Exercise`, servicio API, store Pinia y vista de asignación de rutinas clínicas. | 4 | Camila | Done |
+| US-08 | Registro de cumplimiento de ejercicios | US008TASK001 | Vista de ejercicios diarios del paciente | Implementar en patient-portal la lista interactiva de ejercicios prescritos para marcar series completadas. | 3 | Carlos | Done |
+| US-09 | Consulta del progreso de rehabilitación | US009TASK001 | Dashboard "Mi Día" y adherencia | Desarrollar el panel de resumen diario del paciente y el indicador porcentual de adherencia semanal. | 3 | Carlos | Done |
+| US-10 | Recepción de alerta por postura incorrecta | US010TASK001 | Centro de alertas clínicas | Implementar entidad `Alert`, store y bandeja de eventos críticos por desviación postural en monitoring. | 3 | Oscar | Done |
+| US-13 | Registro de historial técnico de la prótesis | US013TASK001 | Bitácora e inventario de flota protésica | Implementar entidad `Prosthesis`, tablas de flota y registro de intervenciones mecánicas en workshop. | 3 | Leonardo | Done |
+| US-14 | Programación de mantenimiento preventivo | US014TASK001 | Agenda de mantenimiento preventivo | Desarrollar entidad `MaintenanceSchedule`, store Pinia y calendario de revisiones técnicas agendadas. | 3 | Leonardo | Done |
+| US-15 | Recepción de alerta de mantenimiento requerido | US015TASK001 | Centro de alertas de fatiga mecánica | Implementar entidad `MechanicalAlert` y vista de avisos por exceso de ciclos o pico de fuerza en taller. | 2 | Leonardo | Done |
+| US-16 | Envío de mensajes entre paciente y clínica | US016TASK001 | Módulo de mensajería clínica | Crear entidad `ClinicalMessage` en communication y vista de chat directo en patient-portal. | 3 | Camila/Carlos | Done |
+| US-17 | Compartir información entre clínica y ortopedia | US017TASK001 | Vista de coordinación con taller ortopédico | Implementar entidad `Transmission`, store y formulario para transmitir fichas biomecánicas al taller. | 4 | Camila | Done |
+| US-18 | Consulta de notificaciones generales | US018TASK001 | Menú de opciones y avisos de cuenta | Desarrollar el Bounded Context option con store Pinia, API client y componente de presentación. | 3 | Rafael | Done |
+| US-19 | Contratación de suscripción anual | US019TASK001 | Vista de suscripción y facturación clínica | Implementar entidades `ClinicSubscription` e `ElectronicInvoice`, servicio API, store y vista en billing. | 4 | Leonardo | Done |
+| US-20 | Adquisición de licencia de software | US020TASK001 | Gestión de licencia anual para taller | Integrar vista de control de licencia corporativa de software y cupos de prótesis activas en telemetría. | 2 | Leonardo | Done |
+| US-21 | Consulta del estado de suscripción o licencia | US021TASK001 | Historial de comprobantes y vigencia | Mostrar barra de capacidad de cupos activos, vigencia del plan y tabla de facturas electrónicas emitidas. | 2 | Leonardo | Done |
+| US-38 | Generación de reporte de progreso del paciente | US038TASK001 | Generador de reportes clínicos | Implementar entidad `ClinicalReport`, analytics store y vista de informe con firma y colegiatura. | 4 | Carlos | Done |
+| US-39 | Exportación de datos históricos del paciente | US039TASK001 | Acciones de exportación CSV y PDF clínico | Añadir controles de selección de paciente, periodo de evaluación y botones de exportación. | 2 | Carlos | Done |
 
 * Total de horas invertidas: 50 horas de trabajo colaborativo.
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
-A continuación, se resume el registro de commits representativos generados durante la implementación del Sprint 2, aplicando el estándar **Conventional Commits** y el modelo de ramificación **GitFlow** sobre los repositorios de la organización.
+Durante el Sprint 2, el equipo desarrolló el frontend de la aplicación web de Prothia, incorporando la configuración base de Vue 3, PrimeVue, Pinia, Vue Router e internacionalización (EN/ES), así como los Bounded Contexts de `shared`, `monitoring`, `patients`, `communication`, `prescription`, `billing`, `workshop`, `analytics`, `patient-portal`, `iam` y `option`. A continuación, se presenta el registro completo de los 75 commits reales del repositorio (Parte 1: Configuración inicial, shared y monitoring).
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| `SeniorsInProcess-Prothia-Frontend` | `feature/auth-views` | `7d1a29c` | `feat(auth): implement login view with multi-role selector and form validation` | Añade la vista de autenticación diferenciada para pacientes, clínicas y centros ortopédicos con PrimeVue. | 22/09/2026 |
-| `SeniorsInProcess-Prothia-Frontend` | `feature/patient-registration` | `4b83f10` | `feat(patients): create clinical registration form and state management` | Implementa el formulario de admisión de pacientes con gestión reactiva de datos y validaciones de DNI. | 25/09/2026 |
-| `SeniorsInProcess-Prothia-Frontend` | `feature/prosthesis-linking` | `8e20a44` | `feat(prosthesis): add prosthesis assignment modal for orthopedic technicians` | Agrega diálogo interactivo para vincular dispositivos protésicos disponibles al expediente del paciente. | 28/09/2026 |
-| `SeniorsInProcess-Prothia-Frontend` | `feature/patient-card` | `1a59b32` | `feat(patients): render patient 360 medical profile overview card` | Diseña la tarjeta clínica integral del paciente con datos de dispositivo asociado y terapeuta a cargo. | 01/10/2026 |
-| `SeniorsInProcess-Prothia-Backend` | `feature/auth-service` | `3f92c18` | `feat(auth): add authentication endpoints and token verification logic` | Expone endpoints de inicio de sesión bajo ASP.NET Core con autorización basada en roles (RBAC). | 21/09/2026 |
-| `SeniorsInProcess-Prothia-Backend` | `feature/patients-api` | `9c41d87` | `feat(patients): implement CRUD endpoints and repository for patient records` | Desarrolla controladores RESTful para dar de alta y consultar pacientes vinculados a clínicas. | 24/09/2026 |
-| `SeniorsInProcess-Prothia-Backend` | `feature/prostheses-api` | `5e80d21` | `feat(prosthesis): add prosthesis registration and patient assignment endpoint` | Incorpora endpoint para asignar prótesis a pacientes con validación de disponibilidad y unicidad. | 27/09/2026 |
-| `SeniorsInProcess-Prothia-Backend` | `feature/swagger-docs` | `2b11e74` | `docs(api): configure OpenAPI Swagger documentation for patient and prosthesis endpoints` | Configura anotaciones XML y esquemas de respuesta OpenAPI en Swagger UI para todos los endpoints creados. | 30/09/2026 |
-| `SeniorsInProcess-Prothia-LandingPage` | `feature/pricing-simulation` | `6a43f89` | `feat(pricing): add interactive monthly and annual billing switcher` | Añade el selector interactivo de tarifas con actualización de precios y ahorro anual en tiempo real. | 23/09/2026 |
-| `SeniorsInProcess-Prothia-LandingPage` | `feature/app-cta-links` | `0d72c15` | `feat(nav): connect landing page action buttons to web application routes` | Vincula los botones "Register Now" y accesos por segmento directamente con la aplicación web desplegada. | 26/09/2026 |
+
+| Repository | Author / Branch | Commit Id | Commit Message | Descripción del cambio |
+| :--- | :--- | :--- | :--- | :--- |
+| Prothia-Frontend | anacamilapatricio-sketch | de2aa3c | chore: initial commit | Inicializa el repositorio base del proyecto frontend en Vue 3 y Vite. |
+| Prothia-Frontend | anacamilapatricio-sketch | 6e21554 | chore: clean up code, remove unused imports, remove unused files | Limpia la plantilla inicial eliminando archivos e importaciones no utilizadas. |
+| Prothia-Frontend | anacamilapatricio-sketch | a0a6754 | build: add dependencies for project features | Agrega dependencias de PrimeVue, Pinia, Vue Router, Axios y Vue I18n. |
+| Prothia-Frontend | anacamilapatricio-sketch | b680551 | feat(i18n): add internationalization support for en and es locales | Configura el plugin de internacionalización para soporte en inglés y español. |
+| Prothia-Frontend | anacamilapatricio-sketch | 2765848 | feat(in-app-navigation): add In-app navigation router | Incorpora la configuración base del enrutador de navegación interna. |
+| Prothia-Frontend | anacamilapatricio-sketch | b991c56 | feat(state-management): add pinia for state management | Integra Pinia para la gestión centralizada de estado en la aplicación. |
+| Prothia-Frontend | anacamilapatricio-sketch | 4c627e0 | feat(environment): add Environment variables for development and production | Añade archivos de variables de entorno para desarrollo y producción. |
+| Prothia-Frontend | anacamilapatricio-sketch | 79385f9 | feat(ui): integrate PrimeVue with Material theme | Configura la librería de componentes PrimeVue con el tema visual Material. |
+| Prothia-Frontend | anacamilapatricio-sketch | 998c483 | Merge pull request #1 from .../feature/project-configuration | Integra la rama de configuración base del proyecto mediante el PR #1. |
+| Prothia-Frontend | OscarCheca | 2d73c91 | feat(shared): add BaseApi and BaseEndpoint infrastructure | Implementa las clases base de infraestructura HTTP para consumo de APIs. |
+| Prothia-Frontend | OscarCheca | 2f19f47 | feat(shared): add role store | Crea el store compartido para gestionar el rol activo del usuario. |
+| Prothia-Frontend | OscarCheca | 6a76f6e | feat(shared): add presentation views and components for shared | Agrega vistas de presentación y componentes transversales del módulo shared. |
+| Prothia-Frontend | OscarCheca | 8f7b63b | refactor(router): fix router names | Estandariza los nombres de las rutas en el archivo de configuración del router. |
+| Prothia-Frontend | OscarCheca | e782a9d | Merge branch 'feature/shared' into develop | Integra la rama feature/shared en la rama develop. |
+| Prothia-Frontend | OscarCheca | 8326e33 | feat(monitoring): add domain | Crea las entidades de alertas y monitoreo. |
+| Prothia-Frontend | anacamilapatricio-sketch | fe3110e | feat(communication): add clinical message and transmission domain entities | Crea las entidades de dominio para mensajes clínicos y transmisiones al taller. |
+| Prothia-Frontend | anacamilapatricio-sketch | cb63011 | feat(communication): implement api client and data assemblers | Implementa el cliente API y los ensambladores del módulo communication. |
+| Prothia-Frontend | anacamilapatricio-sketch | f036d5c | feat(communication): add communication state management store | Agrega el store de Pinia para gestionar transmisiones y mensajes clínicos. |
+| Prothia-Frontend | anacamilapatricio-sketch | 86cd7ba | feat(communication): create workshop coordination view and routes | Desarrolla la vista de coordinación con centros ortopédicos y sus rutas. |
+| Prothia-Frontend | anacamilapatricio-sketch | d68ae9d | feat(communication): integrate module routing, translations and mock endpoints | Integra las rutas del módulo, claves de traducción y endpoints simulados. |
+| Prothia-Frontend | anacamilapatricio-sketch | 2be0fcf | Merge branch 'feature/communication' into develop | Integra la rama feature/communication en la rama develop. |
+| Prothia-Frontend | anacamilapatricio-sketch | 48d668f | feat(prescription): add prescription and exercise domain entities | Define las entidades de dominio de prescripción terapéutica y ejercicios. |
+| Prothia-Frontend | anacamilapatricio-sketch | 3cccc4a | feat(prescription): implement api service and exercise assemblers | Implementa el servicio API y ensambladores de planes de ejercicios. |
+| Prothia-Frontend | anacamilapatricio-sketch | 4f89b83 | feat(prescription): add prescription pinia store | Crea el store de Pinia para administrar la prescripción de ejercicios. |
+| Prothia-Frontend | anacamilapatricio-sketch | 9a23e41 | feat(prescription): implement prescription editor view and routes | Construye la vista del editor de prescripciones clínicas y sus rutas. |
+| Prothia-Frontend | anacamilapatricio-sketch | 372627a | Merge branch 'feature/prescription' into develop | Integra la rama feature/prescription en la rama develop. |
+| Prothia-Frontend | leo-dex45 | 1e22528 | feat(billing): add clinic subscription and electronic invoice domain entities | Define las entidades de suscripción de clínica y comprobantes electrónicos. |
+| Prothia-Frontend | leo-dex45 | a7521d3 | feat(billing): implement api service and data assemblers | Implementa el servicio API y ensambladores de datos del módulo billing. |
+| Prothia-Frontend | leo-dex45 | 1a35cd6 | feat(billing): add billing pinia store | Agrega el store de Pinia para el estado de suscripciones y facturación. |
+| Prothia-Frontend | leo-dex45 | 1344515 | feat(billing): create clinic subscription view and routes | Desarrolla la vista de administración de suscripción anual y sus rutas. |
+| Prothia-Frontend | Matthewnhfe | d7c4dca | feat(analytics): add clinical report domain entity | Define la entidad de dominio para los informes clínicos de evolución. |
+| Prothia-Frontend | Matthewnhfe | f66113a | feat(analytics): implement api client and clinical report assembler | Implementa el cliente API y el ensamblador de reportes clínicos. |
+| Prothia-Frontend | Matthewnhfe | 7340e25 | feat(analytics): add analytics state management store | Crea el store de Pinia para la gestión de métricas y reportes analíticos. |
+| Prothia-Frontend | Matthewnhfe | d6176e7 | feat(analytics): create clinical reports view and routing | Desarrolla la vista generadora de reportes clínicos y su enrutamiento. |
+| Prothia-Frontend | Matthewnhfe | 1466900 | feat(patient-portal): create patient layout and portal routing definition | Construye la estructura visual y definición de rutas del portal del paciente. |
+| Prothia-Frontend | Matthewnhfe | dba99d2 | feat(patient-portal): add dashboard and daily routine views | Añade el dashboard principal "Mi Día" y la vista de rutina diaria del paciente. |
+| Prothia-Frontend | Matthewnhfe | 90fa5d1 | feat(patient-portal): add live telemetry and gait history monitoring views | Implementa las vistas de telemetría en vivo e historial biomecánico de marcha. |
+| Prothia-Frontend | Matthewnhfe | 4e759bb | feat(patient-portal): add patient exercises and messaging views | Agrega las vistas de ejercicios asignados y mensajería con el fisioterapeuta. |
+| Prothia-Frontend | Matthewnhfe | 06447aa | Merge branch 'feature/patient-portal' into develop | Integra la rama feature/patient-portal en la rama develop. |
+| Prothia-Frontend | Matthewnhfe | b1e17e2 | chore(config): configure html entrypoint and vite client type definitions | Configura el archivo raíz index.html y las definiciones de tipos de Vite. |
+| Prothia-Frontend | Matthewnhfe | f195df2 | style: define global styles and base application stylesheet | Define las variables CSS globales y la hoja de estilos base de Prothia. |
+| Prothia-Frontend | Matthewnhfe | e7cbea8 | feat(app): implement root application component and layout viewport | Implementa el componente raíz App.vue y el contenedor de vistas. |
+| Prothia-Frontend | Matthewnhfe | f7504b6 | feat(main): bootstrap vue application with plugins and global providers | Inicializa la instancia principal de Vue integrando plugins y proveedores. |
+| Prothia-Frontend | Matthewnhfe | 99b7680 | chore(config): configure development environment variables | Ajusta la configuración de variables de entorno para el servidor local. |
+| Prothia-Frontend | Matthewnhfe | 1614be1 | Merge branch 'feature/app-setup' into develop | Integra la rama feature/app-setup en develop |
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
