@@ -5,6 +5,7 @@
 Las historias de usuario para este proyecto se crearon en colaboración con el equipo de desarrollo, enfocándose en las necesidades principales de tres tipos de usuarios: paciente amputado, la clínica de rehabilitación y el centro ortopédico
 
 Para mantener la organización, las historias se agruparon en épicas según sus funcionalidades. Los criterios de aceptación de cada historia se definieron utilizando la sintaxis Gherkin, asegurando que el equipo comprendiera el problema desde la perspectiva del usuario final.
+
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
 | :--- | :--- | :--- | :--- | :--- |
 | **EP-01** | **Gestión de Pacientes y Prótesis** | Esta épica abarca el registro y la administración de la información de los pacientes amputados y de las prótesis que utilizan, permitiendo vincular cada dispositivo con su respectivo paciente y centro ortopédico. | | |
