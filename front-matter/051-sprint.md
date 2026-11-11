@@ -328,3 +328,209 @@ Durante el Sprint 2, el equipo organizó el desarrollo del frontend de Prothia m
 <div style="text-align:center;"><img src="../assets/sprint2insight.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
 
 *Nota. Registro de contribuciones y frecuencia de commits de los integrantes del equipo durante el Sprint 2 obtenido desde GitHub Insights.*
+
+### 5.2.3. Sprint 3
+
+Durante el Sprint 3, el equipo centró su esfuerzo en el diseño, implementación y documentación del servicio backend (**Prothia Platform REST API**) utilizando **C#**, **ASP.NET Core (.NET 10)** y **Entity Framework Core** bajo una arquitectura guiada por el dominio (**DDD**) y **Clean Architecture**. Asimismo, se configuró la persistencia relacional en **MySQL** (administrada mediante **MySQL Workbench**), se estandarizó el manejo de errores mediante **RFC 9457 (`ProblemDetails`)**, se documentaron los contratos mediante **Scalar / OpenAPI** con soporte de internacionalización (`i18n`) y autenticación **HTTP Bearer Token (JWT)**, y se establecieron las bases de integración con la aplicación web frontend.
+
+#### 5.2.3.1. Sprint Planning 3
+
+En esta sesión se establecieron las prioridades técnicas para construir los 8 *Bounded Contexts* principales del servidor (`Patients`, `Prescriptions`, `Monitoring`, `Workshop`, `Communication`, `Analytics`, `Billing` e `IAM`) apoyados en el núcleo transversal `Shared`, abarcando las **21 Technical Stories** especificadas para la API RESTful (`TS-PAT-001` a `TS-IAM-002`).
+
+| Campo | Detalle | 
+| ----- | ----- | 
+| **Sprint #** | Sprint 3 | 
+| **Sprint Planning Background** | Reunión de planificación orientada a la implementación del backend RESTful en ASP.NET Core (.NET 10), configuración de persistencia relacional en MySQL Workbench, estandarización de respuestas RFC 9457 (`ProblemDetails`), exposición de documentación interactiva con Scalar/OpenAPI e integración con el frontend en Vue 3. | 
+| **Date** | 2026-10-20 | 
+| **Time** | 08:00 PM | 
+| **Location** | Reunión virtual mediante Discord y Microsoft Teams | 
+| **Prepared By** | Salcedo Correa, Carlos Mathhew / Checa Burga, Oscar Diego | 
+| **Attendees (to planning meeting)** | Patricio Farias, Ana Camila / Checa Burga, Oscar Diego / Dextre Flores, Leonardo Felix / Salcedo Correa, Carlos Mathhew / Barrenechea Bustamante, Rafael Andre | 
+| **Sprint 2 Review Summary** | Se validó y desplegó la primera versión de la Web Application en Vue 3 y PrimeVue sobre Firebase Hosting, integrando enrutamiento por roles, soporte multilingüe (ES/EN) y mejoras en la Landing Page. | 
+| **Sprint 2 Retrospective Summary** | **Start:** Estandarizar el patrón *Result*, el formato de error RFC 9457 (`ProblemDetails`), convenciones *snake_case* en base de datos y *kebab-case* en rutas (`/api/v1/...`) desde el módulo `Shared` antes de codificar cada contexto. **Continue:** Mantener la integración progresiva mediante ramas `feature/` bajo GitFlow y control de versiones semántico en el `CHANGELOG`. **Stop:** Duplicar lógica de validación entre capas de dominio e interfaz. | 
+| **Sprint 3 Goal** | **Nuestro enfoque es** implementar y desplegar la primera versión de la interfaz de programación de aplicaciones RESTful en ASP.NET Core, con persistencia de datos en MySQL e integración con la aplicación web. **Creemos que esto permitirá** garantizar la trazabilidad clínica, la persistencia de datos de telemetría biomecánica y la gestión confiable de prótesis para pacientes amputados, profesionales de rehabilitación y técnicos ortoprotesistas. **Esto se comprobará cuando** los puntos de acceso documentados en Scalar/OpenAPI procesen y almacenen correctamente las transacciones de los contextos delimitados en MySQL, devolviendo códigos de estado HTTP estandarizados. | 
+| **Sprint 3 Velocity** | 63 Story Points | 
+| **Sum of Story Points** | 63 Story Points (21 Technical Stories: `TS-PAT-001` a `TS-IAM-002`) | 
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Para distribuir responsabilidades con claridad, se elaboró la matriz **LACX**. **Oscar Checa** lideró la persistencia en base de datos (**MySQL Workbench**) y la documentación/pruebas en **Scalar / OpenAPI**, mientras que **Carlos Salcedo** lideró el desarrollo del **Backend API**, la **integración Frontend-Backend** y el **despliegue Cloud**.
+
+| Team Member (Last Name, First Name) | GitHub Username | Backend API Development (L/C) | Database & Persistence - MySQL (L/C) | Frontend-Backend Integration (L/C) | Documentation & Testing - Scalar/OpenAPI (L/C) | Cloud Deployment (L/C) | 
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | 
+| Barrenechea Bustamante, Rafael Andre | `Rafael1231312331` | C | C | C | C | C | 
+| Checa Burga, Oscar Diego | `OscarCheca` | C | **L** | C | **L** | C | 
+| Dextre Flores, Leonardo Felix | `leo-dex45` | C | C | C | C | C | 
+| Patricio Farias, Ana Camila | `anc-f4` | C | C | C | C | C | 
+| Salcedo Correa, Carlos Mathhew | `Matthewnhfe` | **L** | C | **L** | C | **L** | 
+
+#### 5.2.3.3. Sprint Backlog 3
+
+El objetivo del Sprint Backlog 3 fue descomponer las **21 Technical Stories** (`TS-PAT-001` a `TS-IAM-002`) y los requisitos transversales del núcleo `Shared` en tareas técnicas concretas (*Work-Items*) estimadas en horas.
+
+* **Tablero de Trello Sprint 3:** https://trello.com/invite/b/6af24524b9b52bebb1362092/ATTI56729a1c7f447b96c1b198fbaad9384d9A36EF96/sprint-3-prothia
+
+* **Captura del Tablero de Trello Sprint 3:**
+  <div style="text-align:center;"><img src="../assets/sprint3.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
+
+| Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status | 
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | 
+| **TS-PAT-001** | Register a New Patient | `TS-PAT-001-T01` | Infraestructura Base y Shared Kernel | Inicializar solución `prothia.sln` (.NET 10), configurar `BaseRepository`, `UnitOfWork`, interceptores de auditoría, convenciones `snake_case`/`kebab-case`, *Result pattern* y errores RFC 9457 `ProblemDetails`. | 5 h | Ana Camila / Oscar | Done | 
+| **TS-PAT-001** | Register a New Patient | `TS-PAT-001-T02` | Comando de Alta de Paciente y Validación DNI | Implementar agregado `Patient`, objetos de valor (`Dni`, `KLevel`, `AmputationLevel`, `ProsthesisCode`), validación de unicidad de DNI y endpoint `POST /api/v1/patients` con cabecera `Location`. | 4 h | Oscar | Done | 
+| **TS-PAT-002** | Query All Registered Patients | `TS-PAT-002-T01` | Consulta de Directorio Clínico de Pacientes | Implementar `PatientQueryService` con lectura sin seguimiento (*non-tracking read*), ensamblador `PatientResource` y endpoint `GET /api/v1/patients`. | 2 h | Oscar | Done | 
+| **TS-PAT-003** | Query Patient by Identifier | `TS-PAT-003-T01` | Consulta de Paciente por ID y Fachada ACL | Implementar consulta individual `GET /api/v1/patients/{id}`, manejo de `404 Not Found` y exposición de `IPatientsContextFacade` para otros contextos. | 3 h | Oscar | Done | 
+| **TS-PRE-001** | Query Rehabilitation Exercise Catalog | `TS-PRE-001-T01` | Catálogo de Ejercicios Terapéuticos | Implementar agregado `Exercise`, repositorio EF Core, servicio de consulta y endpoint `GET /api/v1/exercises` retornando `ExerciseResource` (`id`, `name`, `focus`). | 3 h | Ana Camila | Done | 
+| **TS-PRE-002** | Create Exercise Prescription for Patient | `TS-PRE-002-T01` | Emisión de Prescripción Terapéutica con ACL | Implementar agregado `Prescription`, entidad `PrescribedExercise`, validación de paciente vía ACL (`ExternalPatientService`) y endpoint `POST /api/v1/prescriptions`. | 4 h | Ana Camila | Done | 
+| **TS-PRE-003** | Get Prescription by Patient ID | `TS-PRE-003-T01` | Consulta de Prescripción Activa por Paciente | Implementar consulta de rutina activa por paciente en repositorio EF Core y exponer endpoint `GET /api/v1/prescriptions/patient/{patientId}`. | 2 h | Ana Camila | Done | 
+| **TS-MON-001** | Record Telemetry Gait Session | `TS-MON-001-T01` | Ingesta de Sesiones de Marcha IoT | Implementar agregados `GaitSession` y `GaitSessionAudit`, comando `RecordGaitSessionCommand` y endpoint `POST /api/v1/gait-sessions` para persistir pasos, cadencia, simetría y picos de impacto. | 4 h | Oscar | Done | 
+| **TS-MON-002** | Query Clinical Postural Alerts | `TS-MON-002-T01` | Consulta Cronológica de Alertas Posturales | Implementar agregado `Alert`, repositorio EF Core y endpoint `GET /api/v1/alerts` ordenado por fecha de ocurrencia retornando `AlertResource`. | 3 h | Oscar | Done | 
+| **TS-MON-003** | Resolve Postural Alert | `TS-MON-003-T01` | Resolución de Alertas Clínicas | Implementar comando `ResolveAlertCommand`, actualización de estado a `Resolved` con marca temporal `resolvedAt` y endpoint `PUT /api/v1/alerts/{id}/resolve`. | 2 h | Oscar | Done | 
+| **TS-MON-004** | Calibrate Patient Threshold Profile | `TS-MON-004-T01` | Calibración de Perfiles de Umbrales Biomecánicos | Implementar agregado `ThresholdProfile` (`pelvicTilt`, `asymmetry`, `cadence`, `impactPeak`) y endpoints `POST` y `PUT /api/v1/threshold-profiles`. | 3 h | Oscar | Done | 
+| **TS-WRK-001** | Register / Associate a Prosthesis | `TS-WRK-001-T01` | Registro y Asociación de Prótesis en Flota | Implementar agregado `Prosthesis` y `ProsthesisAudit` (`serialNumber`, `kLevel`, `socketType`), repositorio EF Core y endpoint `POST /api/v1/prostheses`. | 4 h | Leonardo | Done | 
+| **TS-WRK-002** | Schedule Preventive Maintenance | `TS-WRK-002-T01` | Programación de Mantenimiento Preventivo | Implementar agregado `MaintenanceSchedule`, validación de fechas e identificadores fuertemente tipados, y endpoint `POST /api/v1/maintenance-schedules`. | 3 h | Leonardo | Done | 
+| **TS-WRK-003** | Mechanical Alert Dispatch & Resolution | `TS-WRK-003-T01` | Despacho y Resolución de Alertas Mecánicas | Implementar agregado `MechanicalAlert` (`MechanicalAlertSeverity`, `MechanicalAlertStatus`), creación de alertas por sobrecarga y resolución vía `PUT /api/v1/mechanical-alerts/{id}/resolve`. | 3 h | Leonardo | Done | 
+| **TS-COM-001** | Transmit Clinical File to Workshop | `TS-COM-001-T01` | Transmisión de Ficha Clínica a Taller Externo | Implementar modelo de transmisión clínica, configuración EF Core, servicio ACL y endpoint `POST /api/v1/clinical-transmissions` retornando `ClinicalTransmissionResource` (`status: 'Transmitted'`). | 4 h | Ana Camila / Rafael | Done | 
+| **TS-COM-002** | Exchange Clinical Coordination Messages | `TS-COM-002-T01` | Mensajería de Coordinación Clínica y Notificaciones | Implementar agregados `Message` y `UserNotification`, servicios CQRS con patrón *Result* y endpoints `GET` y `POST /api/v1/clinical-messages`. | 4 h | Rafael / Ana Camila | Done | 
+| **TS-ANA-001** | Generate and Issue Clinical Report | `TS-ANA-001-T01` | Generación y Emisión de Reporte Clínico | Implementar agregado `ClinicalReport`, entidad `ReportIndicator`, validación de RUC (`TaxId`), colegiatura (`TherapistRegistry`) y paciente vía ACL, y endpoint `POST /api/v1/reports`. | 5 h | Carlos | Done | 
+| **TS-ANA-002** | Query Reports by ID or Patient | `TS-ANA-002-T01` | Consulta de Reportes Clínicos y Serialización CSV | Implementar `ClinicalReportRepository` con *eager loading* de indicadores, serialización CSV (`KinematicIndicator`) y endpoints `GET /api/v1/reports` y `GET /api/v1/reports/{id}`. | 3 h | Carlos | Done | 
+| **TS-BIL-001** | Manage Clinic Subscription | `TS-BIL-001-T01` | Gestión de Suscripciones y Cupos de Clínica | Implementar agregado `ClinicSubscription`, objetos de valor (`PatientQuota`, `SubscriptionPeriod`, `PaymentMethodSummary`) y endpoints `GET` y `PUT /api/v1/clinic-subscriptions/{id}`. | 4 h | Leonardo | Done | 
+| **TS-BIL-002** | Query Electronic Invoices | `TS-BIL-002-T01` | Emisión y Consulta de Facturas Electrónicas | Implementar agregado `ElectronicInvoice` (`Money`, `InvoiceNumber`, `InvoiceStatus`), repositorio ordenado y endpoint `GET /api/v1/invoices`. | 3 h | Leonardo | Done | 
+| **TS-IAM-001** | User Sign-Up | `TS-IAM-001-T01` | Registro de Cuentas de Usuario con BCrypt | Implementar agregado `User`, servicio de hashing `BCrypt`, detección de duplicidad (`409 Conflict`) y endpoint `POST /api/v1/authentication/sign-up`. | 3 h | Carlos | Done | 
+| **TS-IAM-002** | User Sign-In & Token Issuance | `TS-IAM-002-T01` | Autenticación JWT, Middleware y Conexión MySQL | Implementar emisor de tokens JWT, middleware de autorización Bearer, endpoint `POST /api/v1/authentication/sign-in`, cadena de conexión MySQL y documentación Scalar/OpenAPI (`v0.1.7`). | 4 h | Carlos / Oscar | Done | 
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3 se implementó la arquitectura completa del servidor en el repositorio `SeniorsInProcess-Prothia-Backend` siguiendo el flujo de ramas `feature/<context>` integradas hacia `develop`. La siguiente tabla consolida los **28 commits más relevantes** que evidencian la construcción progresiva de las 21 Technical Stories y la participación de los cinco integrantes del equipo:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body / Descripción | Commited on (Date) | 
+| ----- | ----- | ----- | ----- | ----- | ----- | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/project-configuration` | `3fd6bcc` | `chore: initial commit` | Inicializa el repositorio base y estructura de solución `.sln` en .NET 10. | 20/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/project-configuration` | `2281704` | `build: add depedencies for solution features` | Agrega paquetes NuGet para Entity Framework Core, MySQL, mediador y OpenAPI. | 20/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/shared` | `3ad7b85` | `feat(conventions): add support for snake case and pluralized table naming conventions` | Configura convenciones de nomenclatura relacional `snake_case` para las tablas de base de datos. | 21/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/shared` | `c07ccb1` | `feat(persitence): implement base repository and unit of work` | Implementa el patrón `BaseRepository` y `UnitOfWork` sobre Entity Framework Core. | 21/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/shared` | `402a97a` | `feat(result): add abstraction for Result pattern implementation` | Incorpora la abstracción del patrón `Result` para el manejo estandarizado de errores y `ProblemDetails`. | 21/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/patients` | `4a9542e` | `feat(patient): add Patient aggregate` | Modela la raíz de agregado `Patient` junto con sus objetos de valor clínicos (`TS-PAT-001`). | 28/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/analytics` | `84d72df` | `feat(analytics): add ClinicalReport aggregate root` | Modela el agregado `ClinicalReport` e indicadores cinemáticos con soporte CSV (`TS-ANA-001`). | 28/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/billing` | `7dc0c2d` | `feat(billing): add ClinicSubscription aggregate root with plan, quota and payment method validation` | Implementa el agregado `ClinicSubscription` con validaciones de cupos y periodo (`TS-BIL-001`). | 28/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/billing` | `57d8041` | `feat(billing): add ElectronicInvoice aggregate root with amount, currency and invoice number validation` | Implementa la raíz de agregado `ElectronicInvoice` con auditoría y validación de formato (`TS-BIL-002`). | 29/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/patients` | `e8b1b90` | `feat(patient): implement Patient repository` | Implementa la persistencia del repositorio de pacientes y contratos de servicio CQRS (`TS-PAT-002`, `TS-PAT-003`). | 30/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/analytics` | `2e793aa` | `feat(analytics): implement ExternalPatientService ACL adapter over IPatientsContextFacade` | Implementa el adaptador *Anti-Corruption Layer (ACL)* para validar pacientes desde `Analytics`. | 31/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/analytics` | `8b6607b` | `feat(analytics): implement ClinicalReportCommandService with patient validation and duplicate detection` | Desarrolla el servicio de comandos de reportes clínicos con detección de duplicados (`TS-ANA-001`). | 31/10/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/analytics` | `997af24` | `feat(analytics): implement ClinicalReportRepository with EF Core eager indicator loading` | Configura mapeos EF Core (`ApplyAnalyticsConfiguration`) y carga ansiosa de indicadores (`TS-ANA-002`). | 01/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/analytics` | `05bca90` | `feat(analytics): add ReportsController REST endpoints (/api/v1/reports)` | Expone los endpoints RESTful de reportes clínicos con metadatos OpenAPI localizados (`TS-ANA-001`, `TS-ANA-002`). | 01/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/billing` | `33c4b6b` | `feat(billing): add ApplyBillingConfiguration with EF Core mappings for ClinicSubscription and ElectronicInvoice` | Configura el mapeo relacional en EF Core e implementa los repositorios de facturación (`TS-BIL-001`, `TS-BIL-002`). | 01/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/patients` | `ab76d58` | `feat(patient): implement PatientsController for managing patients` | Implementa el controlador REST `PatientsController` y sus ensambladores de recursos (`TS-PAT-001` a `TS-PAT-003`). | 02/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/billing` | `395da37` | `feat(billing): implement ClinicSubscriptionCommandService with create and update handlers using Result pattern` | Implementa los servicios de aplicación de suscripciones y facturas electrónicas (`TS-BIL-001`, `TS-BIL-002`). | 02/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/communication` | `b33cf82` | `feat(communication): add Message and UserNotification aggregates with audits` | Crea los agregados de mensajería y notificaciones junto con sus repositorios (`TS-COM-002`). | 03/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/communication` | `5ce8464` | `feat(communication): implement CommunicationNotificationCommandService using Result pattern` | Implementa los servicios de comandos y consultas del contexto `Communication` (`TS-COM-001`, `TS-COM-002`). | 03/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/prescriptions` | `33a1ecd` | `feat(prescriptions): add Prescription aggregate root and queries` | Implementa los agregados `Prescription` y `Exercise`, comandos y consultas de dominio (`TS-PRE-001` a `TS-PRE-003`). | 03/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/shared` | `d858fa9` | `feat(shared): configure asp.net core interfaces, routing and openapi` | Configura pipelines del mediador, manejo global de excepciones, localización y OpenAPI. | 04/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/prescriptions` | `0a1ae6b` | `feat(prescriptions): add resources, excercises controller and prescription controller` | Implementa repositorios EF Core, servicio ACL y controladores REST de prescripción (`TS-PRE-001` a `TS-PRE-003`). | 05/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/billing` | `4f912a0` | `feat(billing): implement ClinicSubscriptionsController` | Expone `ClinicSubscriptionsController` e `InvoicesController` con mapeo `ProblemDetails` y OpenAPI (`TS-BIL-001`, `TS-BIL-002`). | 06/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/monitoring` | `4911c55` | `feat(monitoring): implement alert and gait session resource assemblers and controllers` | Completa agregados, repositorios, eventos y controladores REST de alertas, umbrales y sesiones (`TS-MON-001` a `TS-MON-004`). | 07/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/workshop` | `acf6022` | `feat(workshop): implement presistence in infrastructure` | Implementa agregados (`Prosthesis`, `MaintenanceSchedule`, `MechanicalAlert`) y persistencia EF Core (`TS-WRK-001` a `TS-WRK-003`). | 07/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/workshop` | `d9df43d` | `feat(workshop): implement controllers and location` | Implementa capa de aplicación, recursos REST y controladores del módulo `Workshop` (`TS-WRK-001` a `TS-WRK-003`). | 08/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/communication` | `7050b9d` | `feat(communication): expose clinical messages and transmissions rest endpoints` | Completa la infraestructura EF Core, servicios ACL y endpoints REST de mensajes y transmisiones (`TS-COM-001`, `TS-COM-002`). | 08/11/2026 | 
+| `SeniorsInProcess-Prothia-Backend` | `feature/IAM` | `16d18d9` | `feat(iam): add authentication, tokens, and users REST controller endpoints` | Implementa el módulo `IAM` (BCrypt, JWT, middleware, fachada ACL, controladores `TS-IAM-001`, `TS-IAM-002`) y conexión MySQL (`8cd1e3d`). | 08/11/2026 | 
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+En este Sprint se verificó la ejecución conjunta de la **Base de Datos en MySQL Workbench**, el **RESTful API en ASP.NET Core (.NET 10)** y su consumo desde la **Web Application en Vue 3**.
+
+* **URL de la Landing Page Desplegada:** https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
+
+* **URL de la Web Application Desplegada:** https://prothia-web-app-7003f.web.app/
+
+* **URL del Backend RESTful API / Scalar UI:** https://prothia-backend.onrender.com/
+
+* **Video Demostrativo de Ejecución (Sprint 3):** Colocar el enlace del video
+
+**Capturas de Evidencia de Ejecución:**
+
+1. **Esquema y tablas generadas en MySQL Workbench:**
+
+   <div style="text-align:center;"><img src="../assets/diagramabd.png" width="800" alt="diagrama de la base de datos"></div>
+
+2. **Interfaz interactiva de Scalar / OpenAPI mostrando los 8 Bounded Contexts:**
+   
+   <div style="text-align:center;"><img src="../assets/scalar.png" width="800" alt="evidencia de escalar"></div>
+
+3. **Flujo de Autenticación JWT (IAM) e integración en la Web Application:**
+   
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se documentaron la totalidad de los endpoints RESTful correspondientes a las **21 Technical Stories** en ASP.NET Core (.NET 10) siguiendo la especificación **OpenAPI** y expuestos a través de la interfaz interactiva de **Scalar**. Se implementaron convenciones globales con URL base `/api/v1`, rutas en `kebab-case`, respuestas en formato JSON (`application/json; charset=utf-8`), estandarización de errores bajo **RFC 9457 (`ProblemDetails`)**, autenticación mediante **HTTP Bearer Token (`Authorization: Bearer <token>`)** y el **inglés como idioma por defecto**.
+
+* **Repositorio de Web Services (Backend):** https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend
+
+* **URL de la Documentación Desplegada (Scalar / OpenAPI):**  https://prothia-backend.onrender.com/
+
+* **Commits asociados a Documentación OpenAPI y ProblemDetails:** `d858fa9` (`Shared OpenAPI`), `99b86f3` (`Security Bearer`), `1bfd059` y `898833a` (`Analytics OpenAPI`), `4c11352` y `ac80eec` (`Billing OpenAPI & ProblemDetails`).
+
+| Technical Story ID | Bounded Context / Acción | Verbo HTTP | Sintaxis de Llamada (Ruta) | Parámetros / Payload (Request) | Ejemplo y Explicación del Response | 
+| ----- | ----- | ----- | ----- | ----- | ----- | 
+| **TS-PAT-001** | **Patients** — Register a New Patient | `POST` | `/api/v1/patients` | Body JSON (`fullName`, `dni`, `age`, `amputation`, `kLevel`, `prosthesisCode` opcional) | **201 Created:** Cabecera `Location: /api/v1/patients/{id}` y `PatientResource`. Si el DNI está duplicado retorna **409 Conflict** / **400 Bad Request** con `ProblemDetails`. | 
+| **TS-PAT-002** | **Patients** — Query All Registered Patients | `GET` | `/api/v1/patients` | Ninguno | **200 OK:** Arreglo JSON de objetos `PatientResource` con estado de adherencia, simetría y alertas (lectura *non-tracking*). | 
+| **TS-PAT-003** | **Patients** — Query Patient by Identifier | `GET` | `/api/v1/patients/{id}` | Path param: `{id}` | **200 OK:** Objeto `PatientResource`. Si `{id}` no existe retorna **404 Not Found**. | 
+| **TS-PRE-001** | **Prescriptions** — Query Exercise Catalog | `GET` | `/api/v1/exercises` | Ninguno | **200 OK:** Arreglo JSON de `ExerciseResource` incluyendo `id`, `name` y `focus`. | 
+| **TS-PRE-002** | **Prescriptions** — Create Exercise Prescription | `POST` | `/api/v1/prescriptions` | Body JSON (`patientId`, `phaseNumber`, `phaseName`, `durationWeeks`, `frequencyPerWeek`, `exercises` array) | **201 Created:** Retorna `PrescriptionResource` tras validar existencia del paciente vía ACL. Si `patientId` no existe retorna **404 Not Found**. | 
+| **TS-PRE-003** | **Prescriptions** — Get Prescription by Patient ID | `GET` | `/api/v1/prescriptions/patient/{patientId}` | Path param: `{patientId}` | **200 OK:** Retorna el `PrescriptionResource` detallado con el plan de rehabilitación activo del paciente. | 
+| **TS-MON-001** | **Monitoring** — Record Telemetry Gait Session | `POST` | `/api/v1/gait-sessions` | Body JSON (`patientId`, `durationMinutes`, `steps`, `cadence`, `symmetryPercent`, `alertsCount`, `impactPeakNewtons`) | **201 Created:** Persiste las métricas telemétricas de la sesión de marcha y retorna `GaitSessionResource`. | 
+| **TS-MON-002** | **Monitoring** — Query Clinical Postural Alerts | `GET` | `/api/v1/alerts` | Ninguno | **200 OK:** Arreglo JSON de `AlertResource` (pendientes y resueltas) ordenado por fecha de ocurrencia. | 
+| **TS-MON-003** | **Monitoring** — Resolve Postural Alert | `PUT` | `/api/v1/alerts/{id}/resolve` | Path param: `{id}` | **200 OK:** Actualiza el estado de la alerta a `status = 'Resolved'` y registra la marca de tiempo `resolvedAt`. | 
+| **TS-MON-004** | **Monitoring** — Calibrate Threshold Profile | `POST` / `PUT` | `/api/v1/threshold-profiles` | Body JSON (`patientId`, `pelvicTilt`, `asymmetry`, `cadence`, `impactPeak`) | **201 Created / 200 OK:** Crea o actualiza el perfil de umbrales biomecánicos basales del paciente. | 
+| **TS-WRK-001** | **Workshop** — Register / Associate a Prosthesis | `POST` | `/api/v1/prostheses` | Body JSON (`serialNumber`, `type`, `patientName`, `clinicName`, `kLevel`, `socketType`) | **201 Created:** Registra la prótesis, la vincula al paciente y retorna `ProsthesisResource`. | 
+| **TS-WRK-002** | **Workshop** — Schedule Preventive Maintenance | `POST` | `/api/v1/maintenance-schedules` | Body JSON (`serialNumber`, `patientName`, `scheduledDate`, `type`, `workshopName`, `technician`) | **201 Created:** Agenda la inspección preventiva en el calendario del taller y retorna `MaintenanceScheduleResource`. | 
+| **TS-WRK-003** | **Workshop** — Mechanical Alert Dispatch & Resolution | `POST` / `PUT` | `/api/v1/mechanical-alerts` `/api/v1/mechanical-alerts/{id}/resolve` | Body JSON de creación o Path param `{id}` para resolución | **201 Created / 200 OK:** Registra una alerta de sobrecarga mecánica o actualiza su estado a resuelto. | 
+| **TS-COM-001** | **Communication** — Transmit Clinical File to Workshop | `POST` | `/api/v1/clinical-transmissions` | Body JSON (`patientId`, `patientName`, `patientDni`, `workshopName`, `sharedModules`, `technicalNotes`) | **201 Created:** Retorna `ClinicalTransmissionResource` con `status: 'Transmitted'`. | 
+| **TS-COM-002** | **Communication** — Exchange Coordination Messages | `GET` / `POST` | `/api/v1/clinical-messages` | Body JSON en POST (remitente, destinatario, contenido) | **200 OK / 201 Created:** Persiste y retorna los hilos de mensajes clínicos con marcas de tiempo y metadatos del remitente. | 
+| **TS-ANA-001** | **Analytics** — Generate and Issue Clinical Report | `POST` | `/api/v1/reports` | Body JSON (`reportCode`, `patientId`, `indicators` array, `diagnosis`, `medicalRecommendation`) | **201 Created:** Valida al paciente vía ACL, persiste el informe biomecánico y retorna `ClinicalReportResource`. | 
+| **TS-ANA-002** | **Analytics** — Query Reports by ID or Patient | `GET` | `/api/v1/reports` `/api/v1/reports/{id}` | Path param opcional: `{id}` | **200 OK:** Retorna el listado completo de informes emitidos o el `ClinicalReportResource` específico listo para vista o exportación CSV. | 
+| **TS-BIL-001** | **Billing** — Manage Clinic Subscription | `GET` / `PUT` | `/api/v1/clinic-subscriptions` `/api/v1/clinic-subscriptions/{id}` | Path param `{id}` y Body JSON (`plan`, `usedQuota`, `totalQuota`, `fee`) | **200 OK:** Consulta o actualiza el nivel de suscripción institucional y la asignación de cupos retornando `ClinicSubscriptionResource`. | 
+| **TS-BIL-002** | **Billing** — Query Electronic Invoices | `GET` | `/api/v1/invoices` | Ninguno | **200 OK:** Retorna un arreglo JSON de `ElectronicInvoiceResource` con el historial de comprobantes electrónicos. | 
+| **TS-IAM-001** | **IAM** — User Sign-Up | `POST` | `/api/v1/authentication/sign-up` | Body JSON (`username`, `password`) | **201 Created (o 200 OK):** Crea la cuenta con hash `BCrypt` y retorna `UserResource`. Si el usuario ya existe retorna **409 Conflict**. | 
+| **TS-IAM-002** | **IAM** — User Sign-In & Token Issuance | `POST` | `/api/v1/authentication/sign-in` | Body JSON (`username`, `password`) | **200 OK:** Retorna `AuthenticatedUserResource` con el token Bearer JWT firmado. Si las credenciales son inválidas retorna **401 Unauthorized** / **400 Bad Request**. | 
+
+**Capturas de Interacción en Scalar / OpenAPI:**
+
+<div style="text-align:center;"><img src="../assets/cap1.png" width="800" alt="Interacción en Scalar"></div>
+
+<div style="text-align:center;"><img src="../assets/cap2.png" width="800" alt="Interacción en Scalar"></div>
+
+<div style="text-align:center;"><img src="../assets/cap3.png" width="800" alt="Interacción en Scalar"></div>
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+En esta iteración se configuró la cadena de conexión hacia **MySQL** (`chore(config): configure MySQL default connection string and project settings` - commit `8cd1e3d`) y se prepararon los artefactos de despliegue para los tres productos de la solución (**Landing Page**, **Frontend Web Application** y **Backend RESTful Web Services**).
+
+1. **Configuración de Base de Datos Relacional (MySQL Workbench & Cloud DBMS):**
+
+   * Se configuró el esquema relacional en **MySQL** empleando Entity Framework Core y convenciones automáticas `snake_case` pluralizadas (`3ad7b85`).
+
+2. **Despliegue del RESTful API (.NET 10 / Scalar):**
+
+   * Se empaquetó el proyecto `Prothia.API` en su versión `0.1.7` (`6dbf9b2`) habilitando la interfaz de documentación **Scalar / OpenAPI**, el soporte de errores **RFC 9457 (`ProblemDetails`)** y las políticas CORS para permitir peticiones desde el dominio de Firebase Hosting.
+
+3. **Actualización del Frontend y Landing Page:**
+
+   * Se actualizaron las variables de entorno en `Prothia-Frontend` para apuntar a la ruta base `/api/v1` del servidor desplegado en lugar del mock local, y se preparó la estructura de incrustación de videos en `Prothia-LandingPage`.
+
+* **Capturas del Proceso de Despliegue (Cloud Provider, MySQL Workbench y Firebase):**
+  
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el desarrollo colaborativo se ejecutó sobre el repositorio `SeniorsInProcess-Prothia-Backend` aplicando rigurosamente **GitFlow** (ramas `feature/project-configuration`, `feature/shared`, `feature/patients`, `feature/prescriptions`, `feature/monitoring`, `feature/analytics`, `feature/billing`, `feature/workshop`, `feature/communication` y `feature/IAM` fusionadas hacia `develop`), **Conventional Commits** y **Semantic Versioning** documentado desde la versión `0.1.0` hasta la `0.1.7` en el archivo `CHANGELOG.md`.
+
+| Integrante | Usuario GitHub (Backend) | Technical Stories Implementadas | Ramas Trabajadas | Resumen de Aportes en el Sprint 3 | 
+| ----- | ----- | ----- | ----- | ----- | 
+| **Patricio Farias, Ana Camila** | `anc-f4` | `TS-PRE-001`, `TS-PRE-002`, `TS-PRE-003`, `TS-COM-001` | `feature/shared`, `feature/prescriptions`, `feature/communication` | Implementación completa del núcleo transversal **`Shared`** (`BaseRepository`, `UnitOfWork`, interceptores de auditoría, convenciones `snake_case` y `kebab-case`, patrón `Result`, `ProblemDetails`, mediador y configuración OpenAPI/Bearer); desarrollo integral de **`Prescriptions`** y endpoints de transmisión clínica en **`Communication`** (Release `0.1.3` y `0.1.5`). | 
+| **Checa Burga, Oscar Diego** | `OscarCheca` | `TS-PAT-001`, `TS-PAT-002`, `TS-PAT-003`, `TS-MON-001`, `TS-MON-002`, `TS-MON-003`, `TS-MON-004` | `feature/project-configuration`, `feature/patients`, `feature/monitoring` | Inicialización de la solución `prothia.sln` y dependencias `.NET 10`; liderazgo en persistencia MySQL y documentación Scalar/OpenAPI; implementación completa de **`Patients`** (agregados, repositorio, fachada ACL, eventos y `PatientsController`) y **`Monitoring`** (sesiones de marcha, umbrales, resolución de alertas y controladores REST - Release `0.1.0` y `0.1.4`). | 
+| **Dextre Flores, Leonardo Felix** | `leo-dex45` | `TS-WRK-001`, `TS-WRK-002`, `TS-WRK-003`, `TS-BIL-001`, `TS-BIL-002` | `feature/billing`, `feature/workshop` | Implementación integral de punta a punta de **`Billing`** (`ClinicSubscription`, `ElectronicInvoice`, objetos de valor, repositorios EF Core, ensambladores OpenAPI/`ProblemDetails` y controladores REST - Release `0.1.2`) y **`Workshop`** (`Prosthesis`, `MaintenanceSchedule`, `MechanicalAlert`, persistencia EF Core, resolución de alertas mecánicas y controladores REST - Release `0.1.6`). | 
+| **Salcedo Correa, Carlos Mathhew** | `Matthewnhfe` | `TS-ANA-001`, `TS-ANA-002`, `TS-IAM-001`, `TS-IAM-002` | `feature/analytics`, `feature/IAM` | Liderazgo del desarrollo del API, configuración de conexión **MySQL** (`8cd1e3d`) y despliegue; implementación completa de **`Analytics`** (`ClinicalReport`, indicadores CSV, adaptador ACL `ExternalPatientService`, repositorio EF Core, metadatos OpenAPI y `ReportsController` - Release `0.1.1`) y del módulo **`IAM`** (agregado `User`, `BCrypt`, JWT, middleware, fachada ACL y endpoints `sign-up`/`sign-in` - Release `0.1.7`). | 
+| **Barrenechea Bustamante, Rafael Andre** | `Rafael1231312331` | `TS-COM-001`, `TS-COM-002` | `feature/communication` | Modelado e implementación de los agregados `Message` y `UserNotification` con auditoría, enumeraciones de error, contratos de repositorio (`IMessageRepository`, `IUserNotificationRepository`), servicios `CommunicationNotificationCommandService` y `QueryService`, e infraestructura REST de mensajería clínica en **`Communication`**. | 
+
+**Capturas de GitHub Insights / Contributors del Sprint 3:**
+
+<div style="text-align:center;"><img src="../assets/insightsprint3.png" width="800" alt="Contribución"></div>
