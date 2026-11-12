@@ -11,7 +11,7 @@ Ottobock Digital Solutions es la división tecnológica del fabricante global de
 ### Competidor 3: SWORD Health
 SWORD Health es una plataforma integral de terapia física digital y telerehabilitación predictiva enfocada en el tratamiento del dolor y la recuperación posquirúrgica. Su solución combina sensores de movimiento inerciales portátiles con un terapeuta digital impulsado por IA (Phoenix), el cual guía y corrige al paciente en tiempo real durante cada sesión mientras un equipo de fisioterapeutas clínicos supervisa su progreso de forma remota a través de la nube. Esta plataforma es ampliamente reconocida en el mercado corporativo y de aseguradoras de salud por reducir significativamente la deserción en las terapias domiciliarias y disminuir costos médicos asociados a cirugías o tratamientos tradicionales.
 
----
+
 ## 2.1.1. Análisis competitivo.
 
 <table>
@@ -176,7 +176,7 @@ SWORD Health es una plataforma integral de terapia física digital y telerehabil
   </tbody>
 </table>
 
----
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
 Hemos identificado diversas estrategias y tácticas para diferenciarnos y competir efectivamente con otros actores del mercado de la telerehabilitación y las soluciones tecnológicas protésicas. A continuación, se detallan las principales:
 
@@ -193,7 +193,7 @@ Hemos identificado diversas estrategias y tácticas para diferenciarnos y compet
 * **Enfoque Local Inicial y Expansión Regional:** A diferencia de soluciones globales como Ottobock o SWORD Health, Prothia comenzará su validación e implementación en clínicas y centros ortopédicos de Lima, adaptándose a los flujos de trabajo y presupuestos de la realidad sanitaria peruana antes de expandirse a nivel nacional y latinoamericano. 
 * **Alianzas Estratégicas con Centros Ortopédicos y de Rehabilitación Locales:** Estableceremos convenios de colaboración mutua con ortopedias y especialistas locales para co-diseñar módulos clave (como el historial de uso y mantenimiento preventivo), garantizando una adopción fluida y un soporte técnico directo que las plataformas extranjeras no pueden ofrecer en el mercado local.
 
----
+
 ## 2.2. Entrevistas. 
 
 ### 2.2.1. Diseño de entrevistas. 
@@ -264,9 +264,7 @@ En esta sección, se han planteado diversas preguntas dirigidas a nuestros segme
 * **Duración de la entrevista:** 7:16
 * **Enlace:** https://tinyurl.com/2ezssk23
 
-<div align="center">
-          <img src="../assets/Entrevista_Segmento1.png" alt="escala" >
-        </div>
+![Entrevista 1](../assets/Entrevista_Segmento1.png)
 
 ### Resumen de la entrevista
 
@@ -292,9 +290,7 @@ En cuanto a dispositivos y conectividad, su herramienta primordial y de uso perm
 * **Duración de la entrevista:** 7:04
 * **Enlace:** https://tinyurl.com/3p23ymt4
 
-<div align="center">
-          <img src="../assets/PacienteAmputado-imagen.jpeg" alt="escala">
-        </div>
+![Entrevista 2](../assets/PacienteAmputado-imagen.jpeg)
 
 ### Resumen de la entrevista
 
@@ -306,7 +302,7 @@ Respecto a su círculo de influencia, su fisioterapeuta representa su máxima fi
 
 ## Entrevista 3 – Miguel Suarez
 
-### 1. Datos Generales del Entrevistado
+### Datos Generales del Entrevistado
 
 * **Nombres y Apellidos:** Miguel Suarez Casas
 * **Edad:** 25 años
@@ -315,16 +311,14 @@ Respecto a su círculo de influencia, su fisioterapeuta representa su máxima fi
 * **Ocupación:** Asistente administrativo (modalidad teletrabajo)
 * **Condición Médica:** Amputación transfemoral en la pierna derecha (uso de prótesis mecánica desde hace aproximadamente 3 años).
 
-### 2. Evidencia de la Entrevista
+### Detalles de la Entrevista
 
 * **Fecha de entrevista:** 08/09/2026
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 5:10
 * **Enlace:** https://tinyurl.com/23hvbfxw
 
-<div align="center">
-          <img src="../assets/Entrevista_PacienteAmputado(3).png" alt="escala">
-        </div>
+![Entrevista 3](../assets/Entrevista_PacienteAmputado(3).png)
 
 ### 3. Resumen de la Entrevista
 
@@ -352,9 +346,7 @@ Frente al entorno de hardware, el entrevistado reserva la computadora exclusivam
 * **Duración de la entrevista:** 7:09
 * **Enlace:** https://tinyurl.com/mwx4b4s6
 
-<div align="center">
-          <img src="../assets/Entrevista_Segmento2.png" alt="Entrevista Diego Salazar - Segmento Clínicas de Rehabilitación" >
-        </div>
+![Entrevista 1.2](../assets/Entrevista_Segmento2.png)
 
 ### Resumen de la entrevista
 
@@ -379,9 +371,7 @@ En el aspecto subjetivo, analítico y actitudinal, Diego muestra un perfil profe
 * **Duración de la entrevista:** 6:12
 * **Enlace:** https://tinyurl.com/44yuywb7
 
-<div align="center">
-          <img src="../assets/clinica-entrevista.jpeg" alt="Entrevista a Ana Mercedes" >
-        </div>
+![Entrevista 2](../assets/clinica-entrevista.jpeg)
 
 ### Resumen de la entrevista
 La entrevistada es Ana Mercedes, una profesional de 38 años de edad, de ocupación fisioterapeuta especializada en rehabilitación física, quien se desempeña laboralmente en una clínica de rehabilitación en la ciudad de Lima. En su trayectoria profesional cuenta con aproximadamente diez años de experiencia en el área de medicina física y rehabilitación, gestionando de manera periódica en su centro médico la atención ambulatoria de una cohorte de quince a veinte pacientes con amputaciones de extremidades. En lo relativo a la estructura y los flujos de coordinación técnica fuera del entorno hospitalario, el seguimiento ambulatorio se gestiona de forma descentralizada mediante canales convencionales como llamadas telefónicas y la aplicación de mensajería instantánea WhatsApp, a través de los cuales el paciente reporta verbalmente la ejecución de sus rutinas y se evalúa la necesidad de programar una nueva cita de control presencial en la sede. Actualmente, la supervisión de la adherencia al tratamiento y el progreso biomecánico en el hogar depende primordialmente del testimonio subjetivo del usuario y, de manera esporádica, de videos caseros que los pacientes graban y remiten por mensajería; no obstante, la institución carece de instrumentación biomédica para mediciones cinemáticas continuas y no dispone de una base de datos centralizada que permita consolidar y analizar formalmente dichos registros. Esta brecha de información remota genera riesgos clínicos considerables identificados por la especialista, tales como la ejecución incorrecta de los ejercicios pautados, el desarrollo inadvertido de compensaciones musculoesqueléticas nocivas en otras zonas corporales y una notable deserción o pérdida paulatina de adherencia terapéutica debido a la falta de un mecanismo de fiscalización constante.
@@ -405,9 +395,7 @@ En cuanto a requerimientos funcionales y entorno de hardware, considera estricta
 * **Duración de la entrevista:** 6:12
 * **Enlace:** https://tinyurl.com/5xxj6njv
 
-<div align="center">
-          <img src="../assets/Entrevista3_Segmento2.png" alt="Entrevista a Ana Mercedes" >
-        </div>
+![Entrevista 3](../assets/Entrevista3_Segmento2.png)
 
 ### Resumen de la entrevista
 La Sra. Carmen, médica especialista en Rehabilitación de 70 años y actual Directora Médica de una clínica en Lima, cuenta con más de 40 años de experiencia trabajando en el área asistencial. A lo largo de su trayectoria ha tenido contacto frecuente con pacientes que requieren procesos de rehabilitación física, entre ellos pacientes amputados que necesitan un seguimiento constante durante su adaptación y uso de prótesis. A partir de la entrevista, se pudo identificar que uno de los principales retos dentro de su trabajo está relacionado con el seguimiento de los pacientes fuera de las instalaciones de la clínica. Actualmente, el proceso de rehabilitación se encuentra bastante centrado en las consultas presenciales, donde los especialistas pueden evaluar directamente al paciente, observar su postura, revisar su marcha y realizar las recomendaciones correspondientes. Sin embargo, una vez que el paciente regresa a su domicilio, existe poca visibilidad sobre cómo continúa realizando sus ejercicios y actividades indicadas.
@@ -444,9 +432,7 @@ Para Carmen, el verdadero valor de la solución no estaría únicamente en incor
 * **Duración de la entrevista:** 5:24
 * **Enlace:** https://tinyurl.com/2asw539n
 
-<div align="center">
-          <img src="../assets/entrevista_Segmento3.png" alt="escala" >
-        </div>
+![Entrevista 1](../assets/entrevista_Segmento3.png)
 
 ### Resumen de la entrevista
 
@@ -471,9 +457,7 @@ En cuanto a los requisitos funcionales y especificaciones de hardware, considera
 * **Duración de la entrevista:** 5:36
 * **Enlace:** https://tinyurl.com/bdhm2vcm
 
-<div align="center">
-          <img src="../assets/Entrevista2_Segmento3.png" alt="escala" >
-        </div>
+![Entrevista 2](../assets/Entrevista2_Segmento3.png)
 
 ### Resumen de la entrevista
 
@@ -499,9 +483,7 @@ Frente a la conceptualización de una herramienta tecnológica especializada par
 * **Inicio de la entrevista:** 0:05
 * **Duración de la entrevista:** 4:20
 
-<div align="center">
-          <img src="../assets/Entrevista3_Segmento3.png" alt="escala" >
-        </div>
+![Entrevista 3](../assets/Entrevista3_Segmento3.png)
 
 ### Resumen de la entrevista
 
@@ -647,7 +629,7 @@ Las escalas empleadas para clasificar las tareas en la matriz son las siguientes
 | 15. Coordinación interinstitucional clínica–taller ortopédico | Baja | Media | Media | Alta | Media | Alta |
 | 16. Traslado físico hacia los centros de atención especializada | Media | Media | Rara vez | Baja | Rara vez | Baja |
 
----
+
 
 ### 2.3.3. User Journey Mapping. 
 En esta sección se presentan los User Journey Maps de los tres segmentos objetivo. Cada mapa refleja el recorrido actual que estos usuarios realizan para cumplir sus objetivos sin contar aún con una solución tecnológica integrada, mostrando los puntos críticos, emociones, tareas clave y oportunidades de mejora. Estos recorridos nos permiten entender los desafíos que enfrentan los usuarios día a día.
@@ -664,7 +646,7 @@ En esta sección se presentan los User Journey Maps de los tres segmentos objeti
 
 ![journey map Miguel Torres](../assets/JM-Miguel%20Torres.png)
 
----
+
 ### 2.3.4. Empathy Mapping. 
 En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender las experiencias, emociones y pensamientos que expresan los usuarios de cada segmento objetivo.
 
@@ -680,8 +662,8 @@ En esta sección se presentan los Empathy Maps. Estos nos ayudarán a comprender
 
 ![Empathy Mapping Miguel Torres](../assets/EM-MiguelTorres.png)
 
----
 ## 2.4. Big Picture EventStorming
+
 
 **1- Colocación de eventos del dominio**
 
@@ -730,7 +712,7 @@ A partir de este proceso, identificamos lo siguiente:
 https://miro.com/app/board/uXjVGbuSqec=/?share_link_id=610103626578
 
 
----
+
 ## 2.5. Ubiquitous Language
 
 El Ubiquitous Language reúne los términos principales del dominio de Prothia para que el equipo utilice un mismo significado durante el análisis, diseño e implementación. Los términos se mantienen en inglés y sus definiciones se presentan en español.
