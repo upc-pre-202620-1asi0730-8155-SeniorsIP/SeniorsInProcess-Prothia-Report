@@ -26,6 +26,7 @@ En esta sección se detalla la reunión de planificación del primer sprint, don
 
 ### 5.2.1.2. Aspect Leaders and Collaborators 
 
+
 A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para los aspectos clave abordados en este sprint.  
 
 | Team Member (Last Name, First Name) | GitHub Username | Landing Page (HTML/CSS/JS)<br>Leader (L) / Collaborator (C) | UX/UI & Prototyping<br>Leader (L) / Collaborator (C) | Project Documentation<br>Leader (L) / Collaborator (C) |
@@ -37,6 +38,8 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 | Salcedo Correa, Carlos Mathhew | Matthewnhfe | L | L | C |
 
 ### 5.2.1.3. Sprint Backlog 1 
+
+
 Para organizar el flujo de trabajo, las tareas se gestionaron mediante **Trello**. A continuación se desglosan las historias de usuario priorizadas de la épica EP-09 y sus respectivas tareas. 
 
 **Figura**
@@ -62,28 +65,41 @@ https://trello.com/invite/b/6aabb55b023122d8fe598ee0/ATTI98b4a9da9fc821f35855872
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 Capturas de pantalla de la Landing Page implementada en vistas Desktop y Mobile, acompañadas del video demostrativo de navegación e interacción del sitio.
+
+
 ![Landing Page - Desktop](../assets/Execution-Evidence-Landing.png)
 
+
 ![Landing Page - Mobile](../assets/Execution-Evidence-LandingMobile.png)
+
 
 link de la landing: https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
 
 link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQDNRf7YFyx2S7sfhe8y7z-aAemJubaEn3IlURxzwNnz_MM?e=NuhSGo
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+
 Durante este Sprint 1, el esfuerzo del equipo se concentró de manera exclusiva en el desarrollo del Landing Page estático (HTML, CSS y JavaScript) y en establecer la identidad visual del producto. Dado que el alcance funcional de esta iteración no contempló aún el desarrollo del backend (RESTful API), no se cuenta con endpoints documentados mediante OpenAPI/Swagger para esta entrega. La documentación de servicios se abordará en los siguientes sprints, conforme se inicie la construcción de la API orientada a dominio de Prothia.
 
+
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+
 Para asegurar el acceso público a la propuesta de Prothia, el Landing Page fue desplegado utilizando GitHub Pages. Se consolidó el código estático en la rama develop del repositorio SeniorsInProcess/Prothia-Landing-Page. Desde la sección Settings de GitHub, se configuró "Build and deployment" apuntando a la rama correspondiente. El despliegue generó exitosamente la URL pública, donde se verificó la correcta carga de estilos, scripts de internacionalización y assets visuales en todos los breakpoints.
 
 **Figura**
+
 *Evidencia de deployment 1*
+
 ![Github Page - Desktop](../assets/github-pages.png)
 
 *Nota. Elaboración propia.*
 
 **Figura**
+
 *Evidencia de deployment 2*
+
 ![Github Page - Mobile](../assets/Execution-Evidence-Landing.png)
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint 
@@ -133,12 +149,16 @@ A continuación, se detalla la matriz de liderazgo y colaboración (LACX) para l
 El objetivo principal del Sprint 2 es poner en operación la primera versión de la aplicación web y optimizar la experiencia interactiva del Landing Page. Para el seguimiento ágil de las historias de usuario y tareas de desarrollo, se utilizó la herramienta **Trello**. A continuación, se presenta la evidencia del tablero del sprint y la tabla de control de estado correspondiente.
 
 **Figura**  
+
 *Tablero de control de tareas en Trello para el Sprint 2*
+
+
 ![Tablero de control de tareas en Trello para el Sprint 2](../assets/sprint2.png) 
 
 *Nota. Captura del tablero en Trello.*
 
 **Enlace del tablero de Trello:**  
+
 https://trello.com/invite/b/6a3482081843e32dea421094/ATTI18eefa82ccf88b07429958c3ca4d886e7D9A78CB/sprint-2-prothia
 
 
@@ -226,57 +246,82 @@ Durante el Sprint 2, el equipo desarrolló el frontend de la aplicación web de 
 En esta sección se presentan las evidencias de ejecución de la aplicación web de Prothia correspondientes al Sprint 2, siguiendo la estructura de presentación de referencia de Noxway. Las vistas muestran las interfaces desarrolladas en Vue 3 y PrimeVue y los resultados de las interacciones desde los perfiles de Paciente Amputado, Profesional de Clínica de Rehabilitación y Técnico de Centro Ortopédico.
 
 **Enlaces de Ejecución Pública en Producción**
+
 *   **Aplicación Web Desplegada (Prothia Frontend):** https://prothia-web-app-7003f.web.app/
+
 *   **Landing Page Desplegada (v2.0):** https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
 
 *Figura 1. Inicio de Sesión y Selección de Rol (Módulo IAM).*
 
+
 ![Inicio de Sesión y Selección de Rol (Módulo IAM)](../assets/iam.png)
+
 
 *Figura 2. Dashboard Principal del Paciente ("Mi Día" - Patient Portal).*
 
+
 ![Dashboard Principal del Paciente ("Mi Día" - Patient Portal)](../assets/figura2.png)
+
 
 *Figura 3. Telemetría Biomecánica en Vivo e Historial de Marcha.*
 
+
 ![Telemetría Biomecánica en Vivo e Historial de Marcha](../assets/figura3.png) 
+
 
 ![Historial de Marcha](../assets/marcha.png)
 
+
 *Figura 4. Mis Ejercicios y Mensajería Clínica del Paciente.*
+
 
 ![Mis Ejercicios y Mensajería Clínica del Paciente](../assets/ejercicios.png)
 
+
 ![Mensajería Clínica del Paciente](../assets/mensajeria.png)
+
 
 *Figura 5. Dashboard Clínico y Alta de Pacientes (Módulo Patients).*
 
+
 ![Dashboard Clínico y Alta de Pacientes (Módulo Patients)](../assets/clinica.png)
+
 
 ![Alta de Pacientes](../assets/paciente.png)
 
 
 *Figura 6. Prescripción Terapéutica y Centro de Alertas (Prescription & Monitoring).*
 
+
 ![Prescripción Terapéutica y Centro de Alertas](../assets/prescripcion.png)
+
 
 ![Centro de Alertas](../assets/alertas.png)
 
+
 *Figura 7. Coordinación con Ortopedia, Reportes y Suscripción (Communication, Analytics & Billing).*
+
 
 ![Coordinación con Ortopedia, Reportes y Suscripción](../assets/reporte.png)
 
+
 ![Suscripción](../assets/suscripcion.png)
+
 
 *Figura 8. Portal del Taller Ortopédico: Flota, Mantenimiento y Alertas (Módulo Workshop).*
 
+
 ![Portal del Taller Ortopédico: Flota, Mantenimiento y Alertas (Módulo Workshop)](../assets/taller.png)
+
 
 ![Flota](../assets/flota.png)
 
+
 ![Mantenimiento](../assets/mantenimiento.png)
 
+
 ![Alertas de Fatiga Mecánica](../assets/alertasss.png)
+
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -285,7 +330,9 @@ Durante el Sprint 2 se implementaron los servicios de consumo HTTP en el fronten
 En el entorno de desarrollo local se utiliza JSON Server con datos simulados definidos en el archivo server/db.json. Para el entorno de producción desplegado, la configuración en environment.production conecta los servicios con endpoints mock en la nube (Beeceptor / Mock API). Los ejemplos presentados en la tabla muestran los campos principales de los recursos consumidos por cada módulo del frontend.
 
 **Configuración de URLs Base de Servicios en el Frontend**
+
 *   **URL base local (JSON Server):** http://localhost:3000
+
 *   **Repositorio con servicios y datos simulados:** https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend
 
 | Acción / Módulo | Método HTTP | Sintaxis de llamada local | Parámetros / cuerpo | Ejemplo parcial de respuesta | Explicación |
@@ -304,11 +351,15 @@ En el entorno de desarrollo local se utiliza JSON Server con datos simulados def
 Durante el Sprint 2 se realizó el despliegue de la primera versión funcional del frontend de Prothia mediante Firebase Hosting, habilitando su acceso público desde cualquier navegador web. El proyecto utilizado en la consola de Firebase se identifica como prothia-web-app-7003f. Asimismo, se actualizó el despliegue de la Landing Page en GitHub Pages conectando sus botones de acción directamente hacia la aplicación web desplegada.
 
 **Datos de Alojamiento y Publicación (Sprint 2)**
+
 *   **Plataforma de alojamiento de la Web Application:** Firebase Hosting (prothia-web-app-7003f).
+
 *   **Repositorio del Frontend:** https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend
+
 *   **Aplicación Web Desplegada:** https://prothia-web-app-7003f.web.app/
 
 *Figura 1. Evidencia de publicación en Firebase Hosting.*
+
 
 ![Evidencia de publicación en Firebase Hosting](../assets/firebase.png)
 
@@ -325,7 +376,11 @@ Durante el Sprint 2, el equipo organizó el desarrollo del frontend de Prothia m
 | Barrenechea Bustamante, Rafael Andre | yafussssss | Desarrollo completo del módulo IAM (entidad de usuario, comandos auth, cliente API, interceptores, auth guard, Pinia store y vistas sign-in/sign-up), del módulo Option y actualización del README.md. |
 
 **Figura**  
+
+
 *Métricas de colaboración y commits en GitHub Insights para el Sprint 2*
+
+
 ![Analíticos de colaboración en GitHub - Sprint 2](../assets/sprint2insight.png)
 
 *Nota. Registro de contribuciones y frecuencia de commits de los integrantes del equipo durante el Sprint 2 obtenido desde GitHub Insights.*
@@ -372,6 +427,8 @@ El objetivo del Sprint Backlog 3 fue descomponer las **21 Technical Stories** (`
 * **Tablero de Trello Sprint 3:** https://trello.com/invite/b/6af24524b9b52bebb1362092/ATTI56729a1c7f447b96c1b198fbaad9384d9A36EF96/sprint-3-prothia
 
 * **Captura del Tablero de Trello Sprint 3:**
+
+
 ![Tablero de Trello Sprint 3](../assets/sprint3.png)
 
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status | 
@@ -492,11 +549,15 @@ Durante el Sprint 3 se documentaron la totalidad de los endpoints RESTful corres
 
 **Capturas de Interacción en Scalar / OpenAPI:**
 
+
 ![Capturas de Interacción en Scalar / OpenAPI](../assets/val1.png)
+
 
 ![Capturas de Interacción en Scalar / OpenAPI](../assets/cap2.png)
 
+
 ![Capturas de Interacción en Scalar / OpenAPI](../assets/cap3.png)
+
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -516,9 +577,12 @@ En esta iteración se configuró la cadena de conexión hacia **MySQL** (`chore(
 
 * **Capturas del Proceso de Despliegue (Cloud Provider y Firebase):**
   
+
 ![Capturas del Proceso de Despliegue (Cloud Provider y Firebase)](../assets/cloudprovider.png)
 
+
 ![Capturas del Proceso de Despliegue (Cloud Provider y Firebase)](../assets/firebase.png)
+
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
