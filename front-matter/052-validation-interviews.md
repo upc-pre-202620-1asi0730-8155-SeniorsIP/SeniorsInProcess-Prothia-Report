@@ -83,9 +83,9 @@ Distrito de Residencia: Lima, Perú
 
 Timing de inicio y duración:  – Duración:
 
-Enlace: https://shorturl.at/hP36c
+Enlace: https://shorturl.at/H9yKC
 
-![III-JuanRamirez](../assets/Paciente3.png)
+![III-MiguelSuarez](../assets/Paciente3.png)
 
 Resumen: Miguel, usuario con amputación transfemoral, identificó en el Landing Page la conexión tripartita entre paciente, clínica y taller ortopédico, destacando que el sistema de alertas en casa le brinda tranquilidad frente a su miedo constante a sufrir caídas. En las tareas de la Web Application, ingresó sin inconvenientes a través de la tarjeta de paciente y resaltó que el indicador de cumplimiento en "Mi Día" lo motiva a mantener la disciplina con sus rutinas. Al completar un ejercicio, sugirió aumentar ligeramente el tamaño del botón de confirmación para facilitar la interacción táctil en pantallas móviles. En la sección de gráficas de marcha, interpretó de forma inmediata una alerta roja sobre su ritmo como un indicador de caminata lenta o insegura. Valoró mucho la mensajería integrada con el terapeuta para evitar que las consultas se pierdan en aplicaciones externas como WhatsApp, y señaló que, aunque el término "Cadencia" no le era familiar, la unidad complementaria ("pasos/min") hizo que el dato fuera totalmente comprensible. Indicó una leve dificultad inicial para ubicar el menú desplegable en la esquina de la vista móvil, otorgó una puntuación de 4 / 5 y propuso añadir videos cortos demostrativos antes de marcar cada ejercicio como completado.
 
