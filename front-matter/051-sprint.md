@@ -501,7 +501,7 @@ En este Sprint se verificó la ejecución conjunta de la **Base de Datos en MySQ
 
 * **URL del Backend RESTful API / Scalar UI:** https://prothia-backend.onrender.com/
 
-* **Video Demostrativo de Ejecución:** Colocar el enlace del video
+* **Video Demostrativo de Ejecución:** https://shorturl.at/0ABTB
 
 **Capturas de Evidencia de Ejecución:**
 
