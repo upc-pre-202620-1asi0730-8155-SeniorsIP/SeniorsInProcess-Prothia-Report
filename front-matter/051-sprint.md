@@ -41,7 +41,8 @@ Para organizar el flujo de trabajo, las tareas se gestionaron mediante **Trello*
 
 **Figura**
 
-<div style="text-align:center;"><img src="../assets/spring1.png" width="800" alt="Trello"></div>
+![Tablero de control de tareas en Trello para el Sprint 1](../assets/spring1.png)
+
 
 **Enlace del tablero de Trello:** 
 
@@ -55,15 +56,15 @@ https://trello.com/invite/b/6aabb55b023122d8fe598ee0/ATTI98b4a9da9fc821f35855872
 | SeniorsInProcess/Prothia-Landing-Page | develop | `e5acca4` | Feat(landing): complete landing page structure and content in index.html | Estructura y contenido completos de la Landing page en index.html | 17/09/2026 |
 | SeniorsInProcess/Prothia-Landing-Page | develop | `b2c7cce` | Feat(landing): complete landing page styles and responsive layout in styles.css | Completa los estilos de la Landing page y el diseño responsivo en styles.css. | 17/09/2026 |
 | SeniorsInProcess/Prothia-Landing-Page | develop | `f2b24fc` | feat(landing): complete main javascript interactions and logic in main.js | Completa las interacciones y la lógica principales de JavaScript en main.js. | 17/09/2026 |
-| SeniorsInProcess/Prothia-Landing-Page | develop | `a4d9681` | feat(landing): complete hero sequence animation logic in hero-sequence.js | Implementar la lógica de animación de la secuencia del hero en hero-sequence.js. | 17/09/2026 |
+| SeniorsInProcess/Prothia-Landing-Page | develop | `<br/>a4d9681` | feat(landing): complete hero sequence animation logic in hero-sequence.js | Implementar la lógica de animación de la secuencia del hero en hero-sequence.js. | 17/09/2026 |
 | SeniorsInProcess/Prothia-Landing-Page | develop | `a4d9681` | feat(landing): complete internationalization logic and language switcher in translation.js | Implementar la lógica de internacionalización y el selector de idioma en translation.js. | 17/09/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
 Capturas de pantalla de la Landing Page implementada en vistas Desktop y Mobile, acompañadas del video demostrativo de navegación e interacción del sitio.
-<div style="text-align:center;"><img src="../assets/Execution-Evidence-Landing.png" width="800" alt="Landing Page - Desktop"></div>
+![Landing Page - Desktop](../assets/Execution-Evidence-Landing.png)
 
-<div style="text-align:center;"><img src="../assets/Execution-Evidence-LandingMobile.png" width="400" alt="Landing Page - Desktop"></div>
+![Landing Page - Mobile](../assets/Execution-Evidence-LandingMobile.png)
 
 link de la landing: https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
 
@@ -77,19 +78,19 @@ Para asegurar el acceso público a la propuesta de Prothia, el Landing Page fue 
 
 **Figura**
 *Evidencia de deployment 1*
-<div style="text-align:center;"><img src="../assets/github-pages.png" width="800" alt="Github Page - Desktop"></div>
+![Github Page - Desktop](../assets/github-pages.png)
 
 *Nota. Elaboración propia.*
 
 **Figura**
 *Evidencia de deployment 2*
-<div style="text-align:center;"><img src="../assets/Execution-Evidence-Landing.png" width="800" alt="Landing Page - Desktop"></div>
+![Github Page - Mobile](../assets/Execution-Evidence-Landing.png)
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint 
 
 El trabajo en equipo durante el Sprint 1 fluyó de manera estructurada bajo el flujo de GitFlow. Cada integrante clonó el repositorio y trabajó sobre ramas feature/ específicas (ej. feature/contact-form, feature/hero-section). Al finalizar las tareas asignadas en Trello, se abrieron Pull Requests hacia la rama develop, los cuales fueron revisados activamente por Ana Camila como Team Leader antes de ser integrados. Esto garantizó que el código HTML/CSS mantuviera las convenciones establecidas en nuestras Style Guidelines y evitó conflictos significativos al unificar las vistas del Landing Page. 
 
-<div style="text-align:center;"><img src="../assets/Github-Insights.png" width="800" alt="Landing Page - Desktop"></div>
+![GitHub Insights](../assets/Github-Insights.png)
 
 *Nota*. Elaboracion propia
 
@@ -133,7 +134,7 @@ El objetivo principal del Sprint 2 es poner en operación la primera versión de
 
 **Figura**  
 *Tablero de control de tareas en Trello para el Sprint 2*
-<div style="text-align:center;"><img src="../assets/sprint2.png" width="800" alt="Tablero de control de tareas en Trello para el Sprint 2"></div>
+![Tablero de control de tareas en Trello para el Sprint 2](../assets/sprint2.png) 
 
 *Nota. Captura del tablero en Trello.*
 
@@ -230,52 +231,52 @@ En esta sección se presentan las evidencias de ejecución de la aplicación web
 
 *Figura 1. Inicio de Sesión y Selección de Rol (Módulo IAM).*
 
-<img src="../assets/iam.png" width="800">
+![Inicio de Sesión y Selección de Rol (Módulo IAM)](../assets/iam.png)
 
 *Figura 2. Dashboard Principal del Paciente ("Mi Día" - Patient Portal).*
 
-<img src="../assets/figura2.png" width="800">
+![Dashboard Principal del Paciente ("Mi Día" - Patient Portal)](../assets/figura2.png)
 
 *Figura 3. Telemetría Biomecánica en Vivo e Historial de Marcha.*
 
-<img src="../assets/figura3.png" width="800">
+![Telemetría Biomecánica en Vivo e Historial de Marcha](../assets/figura3.png) 
 
-<img src="../assets/marcha.png" width="800">
+![Historial de Marcha](../assets/marcha.png)
 
 *Figura 4. Mis Ejercicios y Mensajería Clínica del Paciente.*
 
-<img src="../assets/ejercicios.png" width="800">
+![Mis Ejercicios y Mensajería Clínica del Paciente](../assets/ejercicios.png)
 
-<img src="../assets/mensajeria.png" width="800">
+![Mensajería Clínica del Paciente](../assets/mensajeria.png)
 
 *Figura 5. Dashboard Clínico y Alta de Pacientes (Módulo Patients).*
 
-<img src="../assets/clinica.png" width="800">
+![Dashboard Clínico y Alta de Pacientes (Módulo Patients)](../assets/clinica.png)
 
-<img src="../assets/paciente.png" width="800">
+![Alta de Pacientes](../assets/paciente.png)
 
 
 *Figura 6. Prescripción Terapéutica y Centro de Alertas (Prescription & Monitoring).*
 
-<img src="../assets/prescripcion.png" width="800">
+![Prescripción Terapéutica y Centro de Alertas](../assets/prescripcion.png)
 
-<img src="../assets/alertas.png" width="800">
+![Centro de Alertas](../assets/alertas.png)
 
 *Figura 7. Coordinación con Ortopedia, Reportes y Suscripción (Communication, Analytics & Billing).*
 
-<img src="../assets/reporte.png" width="800">
+![Coordinación con Ortopedia, Reportes y Suscripción](../assets/reporte.png)
 
-<img src="../assets/suscripcion.png" width="800">
+![Suscripción](../assets/suscripcion.png)
 
 *Figura 8. Portal del Taller Ortopédico: Flota, Mantenimiento y Alertas (Módulo Workshop).*
 
-<img src="../assets/taller.png" width="800">
+![Portal del Taller Ortopédico: Flota, Mantenimiento y Alertas (Módulo Workshop)](../assets/taller.png)
 
-<img src="../assets/flota.png" width="800">
+![Flota](../assets/flota.png)
 
-<img src="../assets/mantenimiento.png" width="800">
+![Mantenimiento](../assets/mantenimiento.png)
 
-<img src="../assets/alertasss.png" width="800">
+![Alertas de Fatiga Mecánica](../assets/alertasss.png)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -309,7 +310,7 @@ Durante el Sprint 2 se realizó el despliegue de la primera versión funcional d
 
 *Figura 1. Evidencia de publicación en Firebase Hosting.*
 
-<img src="../assets/firebase.png" width="800">
+![Evidencia de publicación en Firebase Hosting](../assets/firebase.png)
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -325,7 +326,7 @@ Durante el Sprint 2, el equipo organizó el desarrollo del frontend de Prothia m
 
 **Figura**  
 *Métricas de colaboración y commits en GitHub Insights para el Sprint 2*
-<div style="text-align:center;"><img src="../assets/sprint2insight.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
+![Analíticos de colaboración en GitHub - Sprint 2](../assets/sprint2insight.png)
 
 *Nota. Registro de contribuciones y frecuencia de commits de los integrantes del equipo durante el Sprint 2 obtenido desde GitHub Insights.*
 
@@ -371,7 +372,7 @@ El objetivo del Sprint Backlog 3 fue descomponer las **21 Technical Stories** (`
 * **Tablero de Trello Sprint 3:** https://trello.com/invite/b/6af24524b9b52bebb1362092/ATTI56729a1c7f447b96c1b198fbaad9384d9A36EF96/sprint-3-prothia
 
 * **Captura del Tablero de Trello Sprint 3:**
-  <div style="text-align:center;"><img src="../assets/sprint3.png" width="800" alt="Analíticos de colaboración en GitHub - Sprint 2"></div>
+![Tablero de Trello Sprint 3](../assets/sprint3.png)
 
 | Story Id | Story Title | Task Id | Task Title | Task Description | Estimation (Hours) | Assigned To | Status | 
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | 
@@ -448,12 +449,12 @@ En este Sprint se verificó la ejecución conjunta de la **Base de Datos en MySQ
 **Capturas de Evidencia de Ejecución:**
 
 1. **Esquema y tablas generadas en MySQL Workbench:**
-
-   <div style="text-align:center;"><img src="../assets/diagramabd.png" width="800" alt="diagrama de la base de datos"></div>
+    
+![Esquema y tablas generadas en MySQL Workbench](../assets/diagramabd.png)
 
 2. **Interfaz interactiva de Scalar / OpenAPI mostrando los 8 Bounded Contexts:**
    
-   <div style="text-align:center;"><img src="../assets/scalar.png" width="800" alt="evidencia de escalar"></div>
+![Interfaz interactiva de Scalar / OpenAPI mostrando los 8 Bounded Contexts](../assets/scalar.png)
    
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -491,11 +492,11 @@ Durante el Sprint 3 se documentaron la totalidad de los endpoints RESTful corres
 
 **Capturas de Interacción en Scalar / OpenAPI:**
 
-<div style="text-align:center;"><img src="../assets/val1.png" width="800" alt="Interacción en Scalar"></div>
+![Capturas de Interacción en Scalar / OpenAPI](../assets/val1.png)
 
-<div style="text-align:center;"><img src="../assets/cap2.png" width="800" alt="Interacción en Scalar"></div>
+![Capturas de Interacción en Scalar / OpenAPI](../assets/cap2.png)
 
-<div style="text-align:center;"><img src="../assets/cap3.png" width="800" alt="Interacción en Scalar"></div>
+![Capturas de Interacción en Scalar / OpenAPI](../assets/cap3.png)
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -515,9 +516,9 @@ En esta iteración se configuró la cadena de conexión hacia **MySQL** (`chore(
 
 * **Capturas del Proceso de Despliegue (Cloud Provider y Firebase):**
   
-  <div style="text-align:center;"><img src="../assets/cloudprovider.png" width="800" alt="Despliegue"></div>
+![Capturas del Proceso de Despliegue (Cloud Provider y Firebase)](../assets/cloudprovider.png)
 
-  <div style="text-align:center;"><img src="../assets/firebase.png" width="800" alt="Despliegue"></div>
+![Capturas del Proceso de Despliegue (Cloud Provider y Firebase)](../assets/firebase.png)
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -533,4 +534,4 @@ Durante el Sprint 3, el desarrollo colaborativo se ejecutó sobre el repositorio
 
 **Capturas de GitHub Insights / Contributors del Sprint 3:**
 
-<div style="text-align:center;"><img src="../assets/insightsprint3.png" width="800" alt="Contribución"></div>
+![Capturas de GitHub Insights / Contributors del Sprint 3](../assets/insightsprint3.png)
