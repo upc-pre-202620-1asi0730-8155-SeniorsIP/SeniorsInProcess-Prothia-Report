@@ -53,7 +53,12 @@ Edad: 26 años
 
 Distrito de Residencia: Lima, Perú
 
-Enlace: 
+Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBmT2mJtttNTI3o-B1PTvhPAfxWnIGgREpDPZB46ZVj8RU?e=FaxZ3K
+
+<div align="center">
+          <img src="../assets/Paciente3.png" alt="paciente3" >
+        </div>
+
 
 Resumen: Enrique comprende rápidamente la propuesta de valor y los beneficios del seguimiento domiciliario, destacando la tranquilidad que le brinda el monitoreo para evitar lesiones en el muñón. La navegación por la plataforma y el panel "Mi Día" le resulta intuitiva, logrando marcar sus ejercicios y entender las alertas de desviación ("marcas amarillas") sin necesidad de lenguaje médico complejo. Sugiere implementar un modo oscuro para mayor comodidad visual nocturna.
 
