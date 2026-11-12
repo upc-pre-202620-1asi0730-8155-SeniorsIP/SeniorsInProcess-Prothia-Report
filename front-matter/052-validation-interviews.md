@@ -111,7 +111,7 @@ Edad: 38 años
 
 Distrito de Residencia: Lima, Perú
 
-Timing de inicio y duración:  – Duración:
+Timing de inicio y duración:  – Duración: 
 
 Enlace: https://tinyurl.com/yy8ktzmd
 
@@ -125,9 +125,9 @@ Edad: 70 años
 
 Distrito de Residencia: Lima, Perú
 
-Timing de inicio y duración:  – Duración: 
+Timing de inicio y duración: 0:01 – Duración: 3:26
 
-Enlace: https://tinyurl.com/3m3cd3ju
+Enlace:https://tinyurl.com/4ev79kkj
 
 Resumen: Desde una perspectiva directiva y médica, la Dra. Carmen Salazar valoró en el Landing Page el respaldo de datos objetivos para sustentar extensiones de tratamiento ante las aseguradoras, así como la claridad de los planes de precios para la planificación del presupuesto anual de su clínica. En las pruebas de la Web Application, destacó la legibilidad de la tipografía, la amplitud del diseño visual y la claridad con la que el panel principal muestra la distribución de pacientes en seguimiento sin saturar la pantalla. Consideró que la revisión de alertas es directa al problema y que el formulario estructurado de registro de pacientes previene errores de transcripción en residentes o terapeutas jóvenes, siendo mucho más seguro que las prescripciones manuales. Confirmó que la paleta de colores de alerta es sobria y autoexplicativa, y que el menú lateral permanente evita cualquier desorientación. Otorgó una calificación de 5 / 5 y solicitó incorporar un filtro de alertas por terapeuta tratante para facilitar la supervisión clínica de su personal.   
 
@@ -140,9 +140,9 @@ Edad: 57 años
 
 Distrito de Residencia: Lima, Perú
 
-Timing de inicio y duración:  – Duración:
+Timing de inicio y duración: 0:01  – Duración: 2:45
 
-Enlace: 
+Enlace: https://tinyurl.com/vfz8jnut
 
 Resumen: Miguel valora enormemente la visibilidad de los ciclos de uso y la telemetría, considerando que transforma el enfoque del mantenimiento. Destaca la ventaja de que el sistema sea multimarca y que las licencias se cobren por taller. Encuentra las alertas de ciclos excedidos muy útiles para programar revisiones oportunas. Como sugerencia, indica que sería de gran ayuda incluir los días restantes de la garantía de fábrica en la ficha técnica de cada pieza.   
 
