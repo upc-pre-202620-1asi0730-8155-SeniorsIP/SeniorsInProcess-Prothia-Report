@@ -53,12 +53,9 @@ Edad: 26 años
 
 Distrito de Residencia: Lima, Perú
 
-Enlace: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQBmT2mJtttNTI3o-B1PTvhPAfxWnIGgREpDPZB46ZVj8RU?e=FaxZ3K
+Enlace: https://shorturl.at/7dKUe
 
-<div align="center">
-          <img src="../assets/Paciente3.png" alt="paciente3" >
-        </div>
-
+![I-Enrique](../assets/interpatient.png)
 
 Resumen: Enrique comprende rápidamente la propuesta de valor y los beneficios del seguimiento domiciliario, destacando la tranquilidad que le brinda el monitoreo para evitar lesiones en el muñón. La navegación por la plataforma y el panel "Mi Día" le resulta intuitiva, logrando marcar sus ejercicios y entender las alertas de desviación ("marcas amarillas") sin necesidad de lenguaje médico complejo. Sugiere implementar un modo oscuro para mayor comodidad visual nocturna.
 
@@ -70,7 +67,7 @@ Distrito de Residencia: San Miguel, Lima, Perú
 
 Enlace: https://tinyurl.com/ysz37829
 
-![VI-JuanRamirez](../assets/VI-JuanRamirez.png)
+![II-JuanRamirez](../assets/VI-JuanRamirez.png)
 
 
 Resumen: Juan evalúa de forma muy positiva el diseño y la claridad de la aplicación, apreciando el uso de telemetría y sensores. Encuentra los indicadores de pasos y la barra de progreso altamente visuales y útiles para evaluar su ritmo semanal. Valora el canal seguro del chat y confirma que la navegación es completamente intuitiva. Sugiere reorganizar el menú principal tipo barra lateral y añadir notificaciones push al celular para respuestas del médico.
@@ -81,7 +78,10 @@ Edad: 25 años
 
 Distrito de Residencia: Lima, Perú
 
-Enlace: 
+Enlace: https://shorturl.at/hP36c
+
+
+![III-JuanRamirez](../assets/Paciente3.png)
 
 Resumen: Miguel destaca la seguridad que le proporciona el sistema de monitoreo y alertas, especialmente ante su miedo a caídas. Encuentra motivador el seguimiento del cumplimiento de sus rutinas. Sugiere aumentar el tamaño del botón para marcar ejercicios en dispositivos móviles y añadir videos cortos demostrativos antes de completar las tareas. Comprende correctamente los avisos (como las alertas rojas de ritmo) y valora la opción de mensajería directa.
 
@@ -109,7 +109,7 @@ Distrito de Residencia: Lima, Perú
 
 Enlace: https://tinyurl.com/yy8ktzmd
 
-![VI-AnaMercedes](../assets/VI-AnaMercedes.png)
+![V-AnaMercedes](../assets/VI-AnaMercedes.png)
 
 Resumen: La Lic. Mercedes resalta el valor del reporte clínico automático y la prevención de malas posturas. El dashboard general y los porcentajes de adherencia le resultan muy útiles para reportar resultados gerenciales. Navega predeciblemente por la plataforma y encuentra el registro de pacientes ligero. Sugiere incluir campos numéricos exactos en los deslizadores de inclinación y un panel que permita comparar gráficas del mismo paciente en diferentes semanas.   
 
@@ -136,13 +136,15 @@ Enlace:
 
 Resumen: Miguel valora enormemente la visibilidad de los ciclos de uso y la telemetría, considerando que transforma el enfoque del mantenimiento. Destaca la ventaja de que el sistema sea multimarca y que las licencias se cobren por taller. Encuentra las alertas de ciclos excedidos muy útiles para programar revisiones oportunas. Como sugerencia, indica que sería de gran ayuda incluir los días restantes de la garantía de fábrica en la ficha técnica de cada pieza.   
 
-**Entrevista 8: Juan Carlos Salcedo**
+**Entrevista 8: Enrique Castañeda**
 
-Edad: 47 años
+Edad: 28 años
 
-Distrito de Residencia: Lima, Perú
+Distrito de Residencia: Lince, Perú
 
-Enlace: 
+Enlace: https://shorturl.at/er1pA
+
+![VIII-Enrique Castañeda](../assets/intertechni.png)
 
 Resumen: Juan Carlos considera que la evidencia de impactos de la plataforma será fundamental para gestionar reclamos de garantía. Utiliza eficientemente el calendario para organizar revisiones y encuentra que los colores de alerta resaltan correctamente la urgencia. Considera el sistema cómodo de usar incluso desde una tableta. Sugiere poder registrar si el muñón del paciente presenta fluctuaciones de volumen para anticipar reajustes de los encajes.   
 
