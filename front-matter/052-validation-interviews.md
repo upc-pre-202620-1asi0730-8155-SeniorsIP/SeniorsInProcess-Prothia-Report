@@ -63,7 +63,10 @@ Edad: 30 años
 
 Distrito de Residencia: San Miguel, Lima, Perú
 
-Enlace:
+Enlace: https://tinyurl.com/ysz37829
+
+![VI-JuanRamirez](../assets/VI-JuanRamirez.png)
+
 
 Resumen: Juan evalúa de forma muy positiva el diseño y la claridad de la aplicación, apreciando el uso de telemetría y sensores. Encuentra los indicadores de pasos y la barra de progreso altamente visuales y útiles para evaluar su ritmo semanal. Valora el canal seguro del chat y confirma que la navegación es completamente intuitiva. Sugiere reorganizar el menú principal tipo barra lateral y añadir notificaciones push al celular para respuestas del médico.
 
@@ -86,7 +89,10 @@ Edad: 30 años
 
 Distrito de Residencia: Lima, Perú
 
-Enlace:
+Enlace: https://tinyurl.com/y75pj2ce
+
+![VI-ClaudioCovenas](../assets/VI-ClaudioCovenia.png)
+
 
 Resumen: El Lic. Coveñas considera que la plataforma soluciona eficazmente la falta de visibilidad del paciente fuera de la clínica. Valora la agilidad del dashboard para el triaje, utilizando las alertas críticas (semaforización) para priorizar casos urgentes. El proceso de registro de pacientes y la asignación de ejercicios le resultan rápidos y eficientes. Sugiere incorporar un botón para exportar rápidamente un PDF de alertas específicas para adjuntar a las historias clínicas tradicionales.   
 
@@ -96,7 +102,9 @@ Edad: 38 años
 
 Distrito de Residencia: Lima, Perú
 
-Enlace: 
+Enlace: https://tinyurl.com/yy8ktzmd
+
+![VI-AnaMercedes](../assets/VI-AnaMercedes.png)
 
 Resumen: La Lic. Mercedes resalta el valor del reporte clínico automático y la prevención de malas posturas. El dashboard general y los porcentajes de adherencia le resultan muy útiles para reportar resultados gerenciales. Navega predeciblemente por la plataforma y encuentra el registro de pacientes ligero. Sugiere incluir campos numéricos exactos en los deslizadores de inclinación y un panel que permita comparar gráficas del mismo paciente en diferentes semanas.   
 
