@@ -443,7 +443,7 @@ En este Sprint se verificó la ejecución conjunta de la **Base de Datos en MySQ
 
 * **URL del Backend RESTful API / Scalar UI:** https://prothia-backend.onrender.com/
 
-* **Video Demostrativo de Ejecución (Sprint 3):** Colocar el enlace del video
+* **Video Demostrativo de Ejecución:** Colocar el enlace del video
 
 **Capturas de Evidencia de Ejecución:**
 
@@ -454,10 +454,7 @@ En este Sprint se verificó la ejecución conjunta de la **Base de Datos en MySQ
 2. **Interfaz interactiva de Scalar / OpenAPI mostrando los 8 Bounded Contexts:**
    
    <div style="text-align:center;"><img src="../assets/scalar.png" width="800" alt="evidencia de escalar"></div>
-
-3. **Flujo de Autenticación JWT (IAM) e integración en la Web Application:**
    
-
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se documentaron la totalidad de los endpoints RESTful correspondientes a las **21 Technical Stories** en ASP.NET Core (.NET 10) siguiendo la especificación **OpenAPI** y expuestos a través de la interfaz interactiva de **Scalar**. Se implementaron convenciones globales con URL base `/api/v1`, rutas en `kebab-case`, respuestas en formato JSON (`application/json; charset=utf-8`), estandarización de errores bajo **RFC 9457 (`ProblemDetails`)**, autenticación mediante **HTTP Bearer Token (`Authorization: Bearer <token>`)** y el **inglés como idioma por defecto**.
@@ -494,7 +491,7 @@ Durante el Sprint 3 se documentaron la totalidad de los endpoints RESTful corres
 
 **Capturas de Interacción en Scalar / OpenAPI:**
 
-<div style="text-align:center;"><img src="../assets/cap1.png" width="800" alt="Interacción en Scalar"></div>
+<div style="text-align:center;"><img src="../assets/val1.png" width="800" alt="Interacción en Scalar"></div>
 
 <div style="text-align:center;"><img src="../assets/cap2.png" width="800" alt="Interacción en Scalar"></div>
 
@@ -516,8 +513,11 @@ En esta iteración se configuró la cadena de conexión hacia **MySQL** (`chore(
 
    * Se actualizaron las variables de entorno en `Prothia-Frontend` para apuntar a la ruta base `/api/v1` del servidor desplegado en lugar del mock local, y se preparó la estructura de incrustación de videos en `Prothia-LandingPage`.
 
-* **Capturas del Proceso de Despliegue (Cloud Provider, MySQL Workbench y Firebase):**
+* **Capturas del Proceso de Despliegue (Cloud Provider y Firebase):**
   
+  <div style="text-align:center;"><img src="../assets/cloudprovider.png" width="800" alt="Despliegue"></div>
+
+  <div style="text-align:center;"><img src="../assets/firebase.png" width="800" alt="Despliegue"></div>
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
