@@ -50,7 +50,6 @@ De esta manera, SeniorsInProcess busca generar valor para cada uno de sus segmen
 | **Descripción**           | Soy Carlos Salcedo, tengo 18 años y actualmente curso el cuarto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de nivel básico a intermedio en el lenguaje de programación C++, así como habilidades básicas en diseño. Además, tengo afinidad por el arte, especialmente el dibujo, y un fuerte interés por la música. Me considero una persona comprometida, responsable y con disposición constante para aprender. Mi objetivo en este curso es profundizar en los temas relacionados con mi carrera, fortalecer mis habilidades y prepararme para aplicarlas de manera efectiva en mi futuro profesional.   	   												|
 | **Foto**                  | <img src="../assets/CarlosSalcedo.png" alt="" width="200" height="240"> |
 
----
 | **Integrante**            | **Rafael Andre Barrenechea Bustamante**        									    |
 | :------------------------ | :-------------------------------------------------------------------------------- |
 | **Código del Estudiante** | u202417417                                   										|
@@ -58,7 +57,6 @@ De esta manera, SeniorsInProcess busca generar valor para cada uno de sus segmen
 | **Descripción**           | Soy Rafael André Barrenechea Bustamante, estudiante del quinto ciclo de la carrera de Ingeniería de Software. Una de mis principales cualidades es la capacidad para diseñar experiencias de usuario intuitivas y desarrollar componentes tecnológicos adaptados a las necesidades del proyecto. En el equipo, contribuiré con mis conocimientos en tecnologías como C++, Python y TypeScript, así como en el prototipado de interfaces, trabajando eficientemente para cumplir con todos los objetivos que se demanden. |
 | **Foto**                  | <img src="../assets/RafaelBarrenechea.png" alt="" width="200" height="240"> |
 
----
 
 
 
