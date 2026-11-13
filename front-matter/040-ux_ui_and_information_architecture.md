@@ -6,24 +6,16 @@
 *   **Typography:** La tipografía seleccionada es Montserrat para títulos y elementos destacados, por su claridad y estructura moderna. Para el cuerpo de texto se utiliza Inter a 14px con un interlineado de 1.5, garantizando una lectura fluida de los datos médicos. Los tamaños se adaptan al contexto web según la jerarquía: títulos, subtítulos y párrafos.
 
     *   **Escala:**
-        <div align="center">
-          <img src="../assets/Escala.png" alt="escala" width="250">
-        </div>
-
+    
+        ![Escala](../assets/Escala.png)
     *   **Weights:**
-        <div align="center">
-          <img src="../assets/Weights.png" alt="weights" width="150">
-        </div>
 
+        ![Weights](../assets/Weights.png)
     *   **Nomenclatura:**
-        <div align="center">
-          <img src="../assets/Nomenclatura.png" alt="nomenclatura" width="250">
-        </div>
+        ![Nomenclatura](../assets/Nomenclatura.png)
 
     *   **Example:**
-        <div align="center">
-          <img src="../assets/Example.png" alt="example" width="500">
-        </div>
+        ![Example](../assets/Example.png)
 
 *   **Colors:** La paleta de colores de Prothia prioriza la confianza médica, la tecnología y el progreso. El Azul Profundo transmite estabilidad y profesionalismo, usado en textos y fondos principales. El Teal (Verde Azulado) simboliza innovación y eficiencia, ideal para acentos y gráficos biomecánicos. El Verde Esmeralda incrementa la sensación de logro, siendo ideal para captar estados positivos o metas de rehabilitación cumplidas. Finalmente, el Gris Claro aporta orden y limpieza, usado en fondos secundarios y contenedores.
 
@@ -50,9 +42,7 @@ El uso balanceado de estos tonos asegura que la información clave, como las ale
 
 En cuanto a la tipografía, dado que Prothia gestiona datos biomecánicos, historiales técnicos y programas de ejercicios, optamos por fuentes claras y contemporáneas. Montserrat se utiliza en títulos y encabezados para dar una estructura moderna y sólida, mientras que Inter se aplica en los cuerpos de texto y tablas de datos para maximizar la legibilidad. Los tamaños son lo suficientemente grandes para asegurar claridad en las métricas, utilizando variaciones de peso para guiar la atención del usuario en las pantallas de monitoreo.
 
-<div align="center">
-  <img src="../assets/Colors.png" alt="Paleta de Colores Web" width="250">
-</div>
+![Paleta de Colores Web](../assets/Colors.png)
 
 *   **Tipografía:** Se respetará la relación tipográfica y jerarquía establecida en los General Style Guidelines, combinando Montserrat e Inter.
 
@@ -169,25 +159,19 @@ Para el sistema de navegación otorgamos libertad y facilidad al usuario dentro 
 
 ***PRIMERA NAVEGACIÓN:*** Acceso a apartados para cada tipo de usuario, herramientas de registro y cambio de idioma. Este navegador global se encuentra fijado en la parte superior de la pantalla (*sticky header*), permitiendo que el visitante pueda acceder en todo momento a las funciones y secciones principales del sitio (Home, The Challenge, Solutions, Features, Plans, About Us, FAQ, Contact), alternar el idioma (EN / ES) e interactuar directamente con el botón de registro (Register Now) sin la necesidad de hacer scroll de retorno.
 
-<div align="center">
-  <img src="../assets/Primera-Navegacion.png" alt="Primera Navegacion" >
-</div>
+![Primera Navegacion](../assets/Primera-Navegacion.png)
 
 *Fuente: Propia.*
 
 ***SEGUNDA NAVEGACIÓN:*** Pantalla principal (Hero Section) con llamado a la acción directo. Esta sección, ubicada inmediatamente después del encabezado, presenta la propuesta de valor de Prothia orientada a la telemetría biomecánica y cuenta con el botón principal "Register Now", el cual guía al visitante directamente hacia el formulario de registro y contacto tras captar su interés con la presentación del producto.
 
-<div align="center">
-  <img src="../assets/Segunda-Navegacion.png" alt="Segunda Navegacion" >
-</div>
+![Segunda Navegacion](../assets/Segunda-Navegacion.png)
 
 *Fuente: Propia.*
 
 ***TERCERA NAVEGACIÓN:*** Pie de página con información complementaria. Esta sección reúne enlaces de interés organizados por categorías (Plataforma, Aspectos Legales y Seguridad, y Centro de Innovación), permitiendo que los usuarios que llegaron al final del sitio continúen navegando fácilmente, consulten políticas de privacidad y normativas de seguridad médica (AES-256 y WCAG 2.1 AA) sin necesidad de regresar al inicio.
 
-<div align="center">
-  <img src="../assets/Tercera-Navegacion.png" alt="Tercera Navegacion" >
-</div>
+![Tercera Navegacion](../assets/Tercera-Navegacion.png)
 
 *Fuente: Propia.*
 
@@ -199,9 +183,7 @@ La Landing Page funciona como punto de entrada público a Prothia. Su propósito
 
 Para la Landing Page se diseñó el wireframe completo en Figma, priorizando la estructura informativa, la jerarquía de contenidos y el flujo de conversión antes de aplicar la paleta cromática y el detalle visual definitivo. El wireframe integra las secciones de encabezado con navegación global, presentación de la propuesta de valor con métricas de impacto, antecedentes del problema clínico, soluciones por segmento con pestañas interactivas, capacidades técnicas de la plataforma, bloque audiovisual demostrativo, planes de acceso, perfil institucional, testimonios clínicos, preguntas frecuentes y formulario de contacto.
 
-<div align="center">
-  <img src="../assets/Wireframe_-_Landing_Page.png" alt="Landing Page Wireframe" >
-</div>
+![Landing Page Wireframe](../assets/Wireframe_-_Landing_Page.png)
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=0-1*
 
@@ -209,10 +191,7 @@ Para la Landing Page se diseñó el wireframe completo en Figma, priorizando la 
 
 Los mock-ups de alta fidelidad aplican la identidad visual, paleta cromática, jerarquía tipográfica y componentes interactivos definidos para Prothia, consolidando una experiencia limpia, profesional y orientada al rigor médico y la biomecánica.
 
-
-<div align="center">
-  <img src="../assets/Mockup_-_Landing_Page.png" alt="Landing Page Mock-up" >
-</div>
+![Landing Page Mock-up](../assets/Mockup_-_Landing_Page.png)
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=19-3&t=cwyNHtJ3qwCys5Rq-4*
 
@@ -226,29 +205,18 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 
 #### Desktop Web Browser
 
-<div align="center">
-  <img src="../assets/Wireframe-AppWeb1.png" alt="App Web Wireframe 1" >
-</div>
+![App Web Wireframe 1](../assets/Wireframe-AppWeb1.png)
 
-<div align="center">
-  <img src="../assets/Wireframe-AppWeb2.png" alt="App Web Wireframe 2" >
-</div>
+![App Web Wireframe 2](../assets/Wireframe-AppWeb2.png)
 
-<div align="center">
-  <img src="../assets/Wireframe-AppWeb3.png" alt="App Web Wireframe 3" >
-</div>
+![App Web Wireframe 3](../assets/Wireframe-AppWeb3.png)
 
-<div align="center">
-  <img src="../assets/Wireframe-AppWeb4.png" alt="App Web Wireframe 4" >
-</div>
+![App Web Wireframe 4](../assets/Wireframe-AppWeb4.png)
 
-<div align="center">
-  <img src="../assets/Wireframe-AppWeb5.png" alt="App Web Wireframe 5" >
-</div>
+![App Web Wireframe 5](../assets/Wireframe-AppWeb5.png)
 
-<div align="center">
-  <img src="../assets/Wireframe-AppWeb6.png" alt="App Web Wireframe 6" >
-</div>
+![App Web Wireframe 6](../assets/Wireframe-AppWeb6.png)
+
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2*
 
@@ -258,57 +226,34 @@ Los Web Applications Wireflow Diagrams son representaciones visuales de los fluj
 
 Paciente amputado
 
-<div align="center">
-  <img src="../assets/wire1.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 1](../assets/wire1.png)
 
-<div align="center">
-  <img src="../assets/wire2.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 2](../assets/wire2.png)
 
-<div align="center">
-  <img src="../assets/wire3.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 3](../assets/wire3.png)
 
-<div align="center">
-  <img src="../assets/wire4.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 4](../assets/wire4.png)
+
 
 Profesionales de Terapia Física y Rehabilitación
 
-<div align="center">
-  <img src="../assets/wire5.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 5](../assets/wire5.png)
 
-<div align="center">
-  <img src="../assets/wire6.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 6](../assets/wire6.png)
 
-<div align="center">
-  <img src="../assets/wire7.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 7](../assets/wire7.png)
 
-<div align="center">
-  <img src="../assets/wire8.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 8](../assets/wire8.png)
 
 Técnicos Ortoprotesistas
 
-<div align="center">
-  <img src="../assets/wire9.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 9](../assets/wire9.png)
 
-<div align="center">
-  <img src="../assets/wire10.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 10](../assets/wire10.png)
 
-<div align="center">
-  <img src="../assets/wire11.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 11](../assets/wire11.png)
 
-<div align="center">
-  <img src="../assets/wire12.png" alt="App Web Applications Wireflow" >
-</div>
+![App Web Applications Wireflow 12](../assets/wire12.png)
 
 *Nota: Elaboración propia.*
 
@@ -316,65 +261,36 @@ Técnicos Ortoprotesistas
 
 #### Desktop Web Browser
 
-<div align="center">
-  <img src="../assets/AppWebMockup1.png" alt="App Web Mock-up 1" >
-</div>
+![App Web Mock-up 1](../assets/AppWebMockup1.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup2.png" alt="App Web Mock-up 2" >
-</div>
+![App Web Mock-up 2](../assets/AppWebMockup2.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup3.png" alt="App Web Mock-up 3" >
-</div>
+![App Web Mock-up 3](../assets/AppWebMockup3.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup4.png" alt="App Web Mock-up 4" >
-</div>
+![App Web Mock-up 4](../assets/AppWebMockup4.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup5.png" alt="App Web Mock-up 5" >
-</div>
+![App Web Mock-up 5](../assets/AppWebMockup5.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup6.png" alt="App Web Mock-up 6" >
-</div>
+![App Web Mock-up 6](../assets/AppWebMockup6.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup7.png" alt="App Web Mock-up 7" >
-</div>
+![App Web Mock-up 7](../assets/AppWebMockup7.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup8.png" alt="App Web Mock-up 8" >
-</div>
+![App Web Mock-up 8](../assets/AppWebMockup8.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup9.png" alt="App Web Mock-up 9" >
-</div>
+![App Web Mock-up 9](../assets/AppWebMockup9.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup10.png" alt="App Web Mock-up 10" >
-</div>
+![App Web Mock-up 10](../assets/AppWebMockup10.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup11.png" alt="App Web Mock-up 11" >
-</div>
+![App Web Mock-up 11](../assets/AppWebMockup11.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup12.png" alt="App Web Mock-up 12" >
-</div>
+![App Web Mock-up 12](../assets/AppWebMockup12.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup13.png" alt="App Web Mock-up 13" >
-</div>
+![App Web Mock-up 13](../assets/AppWebMockup13.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup14.png" alt="App Web Mock-up 14" >
-</div>
+![App Web Mock-up 14](../assets/AppWebMockup14.png)
 
-<div align="center">
-  <img src="../assets/AppWebMockup15.png" alt="App Web Mock-up 15" >
-</div>
+![App Web Mock-up 15](../assets/AppWebMockup15.png)
+
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2*
 
@@ -383,28 +299,24 @@ Técnicos Ortoprotesistas
 El diagrama de flujo de usuario es una representación visual de los pasos que un usuario sigue al interactuar con una aplicación web. Muestra la secuencia de acciones que el usuario realiza para completar una tarea u objetivo específico, permitiendo identificar puntos de interacción clave y optimizar la experiencia de uso.
 
 USER FLOW 01: Registrar la realización de los ejercicios indicados para llevar constancia de su adherencia
-<div align="center">
-  <img src="../assets/USER_FLOW_1.png" alt="Web Application User 1" >
-</div>
+
+![Web Application User 1](../assets/USER_FLOW_1.png)
 
 USER FLOW 02: Visualizar un dashboard con los datos biomecánicos recientes de un paciente para evaluar su desempeño
-<div align="center">
-  <img src="../assets/USER_FLOW_2.png" alt="Web Application User 2" >
-</div>
+
+![Web Application User 2](../assets/USER_FLOW_2.png)
 
 USER FLOW 03: Programar una fecha de mantenimiento preventivo para una prótesis para anticiparse a posibles fallas
-<div align="center">
-  <img src="../assets/USER_FLOW_3.png" alt="Web Application User 3" >
-</div>
+
+![Web Application User 3](../assets/USER_FLOW_3.png)
 
 *Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=121-3*
 
 
 ## 4.5. Web Applications Prototyping
 
-Prototipo de la aplicación web Prothia en figma: (https://tinyurl.com/2x48v884)
-<div align="center">
-  <img src="../assets/AppWebMockup11.png" alt="Prototipo App" >
-</div>
+Prototipo de la aplicación web Prothia en figma: https://tinyurl.com/2x48v884
+
+![App Web Prototipo](../assets/AppWebMockup11.png)
 
 Video del flujo del prototipo:(https://tinyurl.com/mtpua6jk)
