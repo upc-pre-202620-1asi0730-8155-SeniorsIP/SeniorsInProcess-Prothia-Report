@@ -1,120 +1,87 @@
 ## 4.7. Software Object-Oriented Design
+El diseño orientado a objetos se organiza de acuerdo con los Bounded Contexts implementados en el backend de la solución y mantiene trazabilidad directa con las User Stories del Capítulo III y el modelo relacional de persistencia. Los nombres de clases, propiedades, objetos de valor y métodos se mantienen en inglés, especificando sus tipos de datos, relaciones de composición/asociación, multiplicidades y visibilidad de miembros.
 
-El diseño orientado a objetos se organiza de acuerdo con los Bounded Contexts identificados en el Design-Level EventStorming y con los módulos de soporte necesarios para mantener trazabilidad con las User Stories del Capítulo III. Los nombres de clases, atributos, métodos e interfaces se mantienen en inglés y se especifican relaciones, multiplicidades y visibilidad de miembros.
-
-## 4.7.1. Class Diagrams
-
-### Patients
-
-Modela la admisión clínica y clasificación funcional del paciente amputado. El agregado Patient actúa como Aggregate Root y contiene los objetos de valor PatientId, Dni, AmputationLevel, KLevel y ProsthesisCode. Se relaciona con MedicalRecord para registrar antecedentes e historial clínico. PatientApplicationService coordina los comandos de registro, asignación de nivel funcional y vinculación de prótesis interactuando con IPatientRepository.
-
-Class Diagram - Patients.
-
-![Class Diagram Patients](../assets/class_diagram_patients.png)
-
-### Prescription
-
-Modela la prescripción terapéutica individualizada y la dosificación de rutinas domiciliarias. La raíz de agregado TherapeuticPrescription gestiona el conjunto de ejercicios prescritos mediante la entidad PlanExercise, la cual encapsula series, repeticiones y frecuencia semanal. ThresholdProfile gestiona los límites basales configurados de inclinación coronal y fuerza de impacto de talón.
-
-Class Diagram - Prescription.
-
-![Class Diagram Prescription](../assets/class_diagram_prescription.png)
-
-### Monitoring
-
-Modela la ingesta continua de señales inerciales y el control cinemático de la marcha. La raíz de agregado GaitSession coordina el ciclo de vida de la sesión (iniciada, concluida, interrumpida por enlace BLE), la calibración en cero angular y la recepción de paquetes TelemetryPacket100Hz con mediciones de inclinación coronal, ángulo sagital e impacto de talón en fuerzas G. ClinicalAlert representa los eventos emitidos ante desviaciones biomecánicas para su inspección y resolución clínica.
-
-Class Diagram - Monitoring.
-
-![Class Diagram Monitoring](../assets/class_diagram_monitoring.png)
-
-### Analytics
-
-Modela la consolidación de series temporales, métricas de simetría bilateral, adherencia al tratamiento y formalización del informe clínico mensual. La raíz de agregado ClinicalReport encapsula las recomendaciones médicas redactadas por el fisioterapeuta, la referencia al dataset crudo exportado en formato CSV y el objeto de valor DigitalSignature con código de colegiatura profesional y hash de autenticidad.
-
-Class Diagram - Analytics.
-
-![Class Diagram Analytics](../assets/class_diagram_analytics.png)
-
-### Workshop
-
-Modela el parque de dispositivos protésicos y la gestión de mantenimiento preventivo y correctivo. La raíz de agregado ProsthesisAsset supervisa el número de serie, ciclos acumulados de flexión/paso y conmutación de estado de salud (óptimo, preventivo al 60%, crítico por fatiga). La raíz de agregado MaintenanceOrder coordina el agendamiento técnico de citas, apertura de órdenes de trabajo, reemplazo de componentes (cilindro hidráulico) mediante TechnicalIntervention y conclusión del mantenimiento con restauración al estado óptimo.
-
-Class Diagram - Workshop.
-
-![Class Diagram Workshop](../assets/class_diagram_workshop.png)
-
-### Communication
-
-Modela la transmisión segura y confidencial de información clínica hacia talleres y centros ortopédicos externos. La raíz de agregado WorkshopTransmission administra la configuración de módulos confidenciales para anonimización de datos sensibles del paciente, el algoritmo de cifrado aplicado, el estado de envío y el registro de confirmación de recepción técnica. Adicionalmente, InAppMessage soporta la mensajería interna entre el paciente y el equipo de rehabilitación para interconsultas.
-
-Class Diagram - Communication.
-
-![Class Diagram Communication](../assets/class_diagram_communication.png)
-
-### Identity & Access Management
-
-El modelo concentra UserAccount, UserSession y PasswordResetRequest. IdentityService implementa IIdentityService y coordina registro, autenticación, administración de sesiones y recuperación de contraseña. UserRole, AccountStatus y UserSessionStatus representan estados y roles válidos del dominio.
-
-### Subscriptions & Payment Management
-
-SubscriptionPlan representa la oferta contratada por una clínica, ClinicSubscription representa su acceso vigente y SoftwareLicense representa la licencia otorgada a un centro ortopédico. PaymentTransaction registra el resultado de cada operación de pago. SubscriptionPaymentService coordina contratación, licenciamiento, confirmación de pagos y vigencia de acceso.
-
-### Public Lead Management
-
-DemoRequest y NewsletterSubscription representan los dos flujos públicos de captación utilizados en la Landing Page. PublicLeadService registra las solicitudes de demostración y las suscripciones al newsletter.
-
-## 4.8. Database Design
-
-El diseño de base de datos utiliza PostgreSQL como DBMS relacional y conserva la separación lógica establecida por los Bounded Contexts identificados en el Design-Level EventStorming. Los módulos de soporte mantienen su propia persistencia para conservar la trazabilidad con las User Stories especificadas en el Capítulo III.
-
-Se utiliza lowercase_snake_case para tablas y columnas, UUID para identificadores, TIMESTAMPTZ para instantes que representan un momento real en el tiempo, DATE para fechas sin componente horario y NUMERIC para valores exactos. Los diagramas especifican claves primarias, claves foráneas internas, restricciones de unicidad, nulabilidad y reglas CHECK necesarias para mantener la integridad de los datos.
-
-Las relaciones internas de cada Bounded Context se representan mediante claves foráneas. Cuando una entidad necesita identificar información administrada por otro contexto, se conserva únicamente el identificador como referencia lógica, evitando introducir dependencias de persistencia que mezclen responsabilidades de dominio.
-
-### 4.8.1. Database Diagrams
-
-#### Relational Database Model Diagram
-
-Representa la estructura relacional integral de Prothia Platform en PostgreSQL 16, mostrando las tablas principales de cada Bounded Context y la trazabilidad de referencias lógicas entre pacientes, prescripciones, sesiones telemétricas, reportes, prótesis y transmisiones técnicas.
-
-Database Diagram - Relational Database Model.
-
-![Database Diagram Relational Database Model](../assets/erd_database_model.png)
+### 4.7.1. Class Diagrams
 
 #### Patients
+Modela la admisión clínica, clasificación funcional y métricas consolidadas del paciente amputado. El agregado `Patient` actúa como Aggregate Root e incluye las propiedades de identificación (`id`, `dni`, `fullName`, `age`), clasificación clínica mediante las enumeraciones `EAmputation` y `EkLevel`, el código de prótesis vinculada (`prosthesisCode`), indicadores porcentuales de adherencia y simetría (`adherence`, `symmetry`), estado (`status`) y marcas de auditoría temporal (`createdAt`, `updatedAt`). `PatientCommandService` y `PatientQueryService` coordinan las operaciones de registro y consulta interactuando con `IPatientRepository`.
 
-El esquema patients persiste los datos de admisión clínica de pacientes amputados y sus expedientes médicos basales mediante las tablas patients y medical_records. El DNI del paciente es único y se restringe el nivel de amputación y el nivel funcional K a valores válidos del dominio mediante restricciones CHECK.
+![Diagrema patients](../assets/patientscd.png)
 
-#### Prescription
+#### Prescriptions
+Modela la prescripción terapéutica por fases y el catálogo de rutinas domiciliarias. La raíz de agregado `Prescription` gestiona los parámetros de la fase de rehabilitación (`phaseNumber`, `phaseName`, `durationWeeks`, `frequencyPerWeek`) y contiene una colección de entidades hijas `PrescribedExercise`, las cuales encapsulan la dosificación específica (`sets`, `reps`, `restSeconds`) referenciando a la entidad catálogo `Exercise` (`id`, `name`, `focus`).
 
-El esquema prescription persiste las prescripciones terapéuticas domiciliarias y los ejercicios dosificados mediante therapeutic_prescriptions y prescription_exercises, además de almacenar los límites basales en threshold_profiles. Se asegura unicidad por ejercicio dentro de cada plan y valores positivos para repeticiones y series.
+![Diagrama presciptions](../assets/prescriptionscd.png)
 
 #### Monitoring
+Modela el registro de sesiones de marcha, la evaluación de umbrales biomecánicos y la gestión de alertas clínicas. La raíz de agregado `GaitSession` almacena las métricas consolidadas de cada sesión (`recordedAt`, `durationMinutes`, `steps`, `cadence`, `symmetryPercent`, `alertsCount`, `impactPeakNewtons`). La raíz de agregado `ThresholdProfile` define los límites personalizados por paciente (`pelvicTilt`, `asymmetry`, `cadence`, `impactPeak`), mientras que `Alert` gestiona el ciclo de vida de los eventos críticos detectados (`deviationType`, `recordedValue`, `threshold`, `severity`, `status`, `occurredAt`, `resolvedAt`).
 
-El esquema monitoring persiste las sesiones de marcha domiciliaria en gait_sessions, las mediciones inerciales a 100 Hz en telemetry_measurements y las alertas críticas emitidas por desviación biomecánica en clinical_alerts. Se indexa la combinación de sesión y número de secuencia para optimizar consultas temporales.
+![Diagrama monitoring](../assets/monitoringcd.png)
 
 #### Analytics
+Modela la generación y formalización de los informes clínicos de evolución del paciente. La raíz de agregado `ClinicalReport` consolida la información administrativa y médica de la evaluación (`reportCode`, `issueDate`, `clinicName`, `clinicUnit`, datos del paciente, `diagnosis`, `prosthesisCode`, `evaluationPeriod`, `summary`, `medicalRecommendation`), incorpora la identificación del profesional junto con el objeto de valor `TherapistRegistry` y mantiene una relación de composición con la entidad hija `ReportIndicator` (`name`, `value`, `normalRange`, `evaluation`, `status`) para desglosar cada métrica biomecánica evaluada.
 
-El esquema analytics persiste los reportes clínicos mensuales en clinical_reports, registrando las puntuaciones de simetría bilateral, porcentaje de adherencia, recomendaciones médicas y la firma digital del fisioterapeuta con número de colegiatura y hash criptográfico.
+![Diagrama analytics](../assets/analyticscd.png)
 
 #### Workshop
+Modela la gestión de la flota de prótesis, el calendario de mantenimiento y las alertas mecánicas de taller. La raíz de agregado `Prosthesis` controla las especificaciones técnicas del dispositivo (`serialNumber`, `type`, `kLevel`, `socketType`, `kneeType`, `footType`), su asignación (`patientName`, `clinicName`), telemetría de hardware (`batteryLevel`, `sensorStatus`) y desgaste (`accumulatedCycles`, `cycleLimit`, `lastService`, `status`). Por su parte, `MaintenanceSchedule` administra la programación de intervenciones técnicas (`scheduledDate`, `interventionType`, `technicianName`, `status`, `notes`) y `MechanicalAlerts` registra los avisos por fatiga o límite de ciclos por componente.
 
-El esquema workshop persiste el parque de prótesis en prosthesis_assets, controlando ciclos acumulados y límite de fatiga, las órdenes de mantenimiento en work_orders y las intervenciones técnicas con recambio de piezas en technical_interventions. El número de serie de cada prótesis es único.
+![Diagrama workshop](../assets/workshopcd.png)
 
 #### Communication
+Modela la coordinación interinstitucional con talleres ortopédicos y la mensajería clínica directa. La raíz de agregado `ClinicalTransmission` gestiona el envío de fichas técnicas y módulos compartidos hacia los centros ortopédicos (`patientId`, `patientName`, `patientDni`, `workshopName`, `sharedModules`, `technicalNotes`, `status`, `statusLabel`, `summary`, `createdAtDate`). Adicionalmente, `ClinicalMessage` soporta el canal de comunicación bidireccional entre terapeutas, pacientes y notificaciones del sistema (`sender`, `senderName`, `senderRole`, `text`, `timestamp`, `isSystem`, `status`).
 
-El esquema communication persiste las transmisiones cifradas a centros ortopédicos externos en workshop_transmissions, controlando la anonimización de DNI y acuse de recibo técnico, así como los mensajes de interconsulta en in_app_messages.
+![Diagrama communication](../assets/communicationcd.png)
 
-#### Identity & Access Management
+#### Módulos de Soporte (Billing)
+* **Billing:** La raíz de agregado `ClinicSubscription` administra el plan institucional contratado por la clínica (`planName`, `status`, `planType`, `annualFee`, `monthlyEquivalent`, `startDate`, `renewalDate`, `usedQuota`, `totalQuota`) e integra como Owned Entity al objeto de valor `PaymentMethod` (`brand`, `cardTitle`, `expiry`, `autoRenew`). Asimismo, la entidad `ElectronicInvoice` gestiona los comprobantes de pago emitidos (`invoiceNumber`, `issueDate`, `concept`, `amount`, `currency`, `status`, `statusLabel`, `downloadUrl`).
 
-El modelo persiste cuentas de usuario, sesiones y solicitudes de recuperación de contraseña. El correo de cada cuenta y el hash de cada token de recuperación son únicos. Una cuenta puede originar múltiples sesiones y solicitudes de recuperación; las sesiones controlan su periodo de vigencia y las solicitudes conservan used_at en NULL mientras no hayan sido utilizadas.
+![Diagrama billing](../assets/billingcd.png)
 
-#### Subscriptions & Payment Management
+#### Identity & Access Management (IAM)
+Modela la gestión de identidades, credenciales de acceso, control de roles (RBAC) y auditoría de sesiones para los tres perfiles de la plataforma (Paciente, Clínica y Taller Ortopédico). La raíz de agregado `User` encapsula las credenciales (`username`, `email`, `passwordHash`), el rol asignado mediante la enumeración `ERole`, el estado de la cuenta (`isActive`) y extiende la clase de trazabilidad temporal `UserAudit` (`createdAt`, `updatedAt`). Asimismo, los servicios de dominio e infraestructura `ITokenService` y `IHashingService` soportan la emisión/validación de tokens JWT y el cifrado seguro de contraseñas.
 
-El modelo persiste planes de suscripción, suscripciones de clínicas, licencias de software y transacciones de pago. Cada suscripción referencia el plan contratado y cada transacción corresponde a una suscripción o a una licencia, pero no a ambas simultáneamente. Esta exclusión se controla mediante una restricción CHECK. Los importes deben ser positivos y las fechas de expiración deben ser posteriores al inicio del periodo contratado.
+![Diagrama IAM](../assets/iamcd.png)
 
-#### Public Lead Management
+### 4.8. Database Design
+El diseño de base de datos utiliza PostgreSQL como DBMS relacional y conserva la separación lógica establecida por los Bounded Contexts implementados en el backend bajo los principios de Domain-Driven Design (DDD) y Entity Framework Core. Se utiliza `lowercase_snake_case` para el mapeo de tablas y columnas, claves primarias enteras autoincrementales (`INT` / `SERIAL`) para los identificadores de entidades, `TIMESTAMPTZ` (`DateTimeOffset`) y cadenas formateadas (`VARCHAR`) para el registro de fechas e instantes temporales, y tipos numéricos (`INT` y `DECIMAL`) para los indicadores biomecánicos, conteo de ciclos y montos de facturación
 
-El módulo persiste las solicitudes de demostración y las suscripciones al newsletter provenientes del Landing Page. Ambos procesos son independientes. Las solicitudes conservan la institución y los datos de contacto necesarios para su seguimiento, mientras que el correo utilizado para el newsletter mantiene una restricción de unicidad.
+## 4.8.1. Database Diagrams
 
+**Diagrama del modelo de base de datos relacional**
+Representa la estructura relacional de Prothia Platform en MySQL, mostrando las tablas implementadas en cada Bounded Context y la trazabilidad de referencias entre pacientes, planes de prescripción, sesiones de marcha, alertas biomecánicas, reportes clínicos con sus indicadores, flota de prótesis, transmisiones técnicas y facturación institucional
+
+![Diagrama base de datos](../assets/datadiagram.png)
+
+**Esquemas de Persistencia por Bounded Context**
+* **Patients (`patients`):** Persiste los datos clínicos, demográficos y de evolución general de los pacientes amputados mediante la tabla `patients`, incluyendo su DNI único, edad (`age`), nivel de amputación (`e_amputation`), nivel funcional K (`ek_level`), código de prótesis vinculada (`prosthesis_code`), porcentajes consolidados de adherencia y simetría (`adherence`, `symmetry`), estado clínico (`status`) y marcas de auditoría temporal (`created_at`, `updated_at`).
+
+![Diagrama base de datos](../assets/patientsbd.png)
+
+* **Prescriptions (`prescriptions`):** Persiste los planes de prescripción terapéutica por fases en la tabla `prescriptions` (`phase_number`, `phase_name`, `duration_weeks`, `frequency_per_week`), el detalle de ejercicios dosificados en `prescribed_exercises` (`sets`, `reps`, `rest_seconds`) y el catálogo base de ejercicios terapéuticos en la tabla `exercises` (`name`, `focus`).
+
+![Diagrama base de datos](../assets/prescriptionbd.png)
+
+* **Monitoring (`monitoring`):** Persiste las sesiones de marcha domiciliaria en `gait_sessions` (registrando duración en minutos, pasos totales, cadencia, porcentaje de simetría, conteo de alertas y pico de impacto en Newtons), las alertas clínicas emitidas por desviaciones biomecánicas en `alerts` (`deviation_type`, `recorded_value`, `threshold`, `severity`, `status`) y los perfiles de umbrales biomecánicos calibrados por paciente en `threshold_profiles` (`pelvic_tilt`, `asymmetry`, `cadence`, `impact_peak`).
+
+![Diagrama base de datos](../assets/monitoringbd.png)
+
+* **Analytics (`analytics`):** Persiste los informes clínicos de evolución en la tabla `clinical_reports` (incluyendo código de reporte, datos de la clínica y del paciente, diagnóstico, periodo de evaluación, resumen, recomendación médica y el registro de colegiatura del terapeuta mediante el objeto de valor `therapist_registry`), junto con la tabla hija `report_indicators`, que almacena las métricas evaluadas, su rango normal y su estado de cumplimiento.
+
+![Diagrama base de datos](../assets/analytibd.png)
+
+* **Workshop (`workshop`):** Persiste la flota de prótesis en la tabla `prostheses` (controlando número de serie único, tipo, paciente y clínica asignados, ciclos acumulados frente al límite de fatiga, nivel de batería, estado del sensor y especificaciones de encaje, rodilla y pie), la programación de mantenimientos preventivos y correctivos en `maintenance_schedules`, y los avisos por desgaste o fatiga de componentes en `mechanical_alerts`.
+
+![Diagrama base de datos](../assets/workshopbd.png)
+
+* **Communication (`communication`):** Persiste las transmisiones de fichas e información clínica hacia talleres ortopédicos en `clinical_transmissions` (registrando los módulos compartidos, notas técnicas, resumen y estado de envío), así como el historial de mensajería bidireccional de interconsulta entre profesionales y pacientes en `clinical_messages`.
+
+![Diagrama base de datos](../assets/communicationbd.png)
+
+* **Billing (`billing`):** Persiste las suscripciones institucionales de las clínicas en `clinic_subscriptions` (incluyendo tarifas, fechas de vigencia, control de cupos utilizados frente al total contratado y los datos del método de pago embebidos mediante el Owned Type `PaymentMethod`), además de los comprobantes emitidos en la tabla `electronic_invoices`.
+
+![Diagrama base de datos](../assets/billingbd.png)
+
+* **Identity & Access Management (`iam`):** Persiste las cuentas de usuario y sus credenciales en la tabla `users` (incluyendo `username`, `email` único, `password_hash`, `role` de acceso diferenciado, estado `is_active` y marcas temporales `created_at` y `updated_at`), además del registro de trazabilidad de accesos y seguridad en la tabla `user_audits` (`user_id`, `action`, `ip_address`, `created_at`, `updated_at`).
+
+![Diagrama base de datos](../assets/iambd.png)
