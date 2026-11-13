@@ -2,6 +2,10 @@
 
  | Versión | Fecha | Autor | Descripción de modificación |
 | :--- | :--- | :--- | :--- |
+| 3.0 | 2026/11/01 | Ana Camila Patricio Farias | Adición de la sección 5.3 y correcciones en el capítulo II |
+| 3.1 | 2026/11/08 | Leonardo Felix Dextre Flores | Integración de la sprint 3 y correcciones en el capítulo IV |
+| 3.2 | 2026/11/05 | Oscar Diego Checa Burga | Integracion de la sección 5.3.1 correspondiente al Validation interview y aporte en el video about the team|
+| 3.3 | 2026/11/09 | Carlos Matthew Salcedo | Integracion de la sección 5.3.2 correspondiente al Validation interview y aporte en el video about the team |
 | 2.0 | 2026/09/30 | Ana Camila Patricio Farias | Aplicación de correcciones metodológicas en los Capítulos I, II y III basadas en la retroalimentación docente. |
 | 2.1 | 2026/10/01 | Leonardo Felix Dextre Flores | Aplicación de correcciones metodológicas en el Capítulo IV basadas en la retroalimentación docente. |
 | 2.2 | 2026/10/04 | Rafael Barrenechea Bustamante | Adición de las secciones 5.2.2.1 a 5.2.2.3 correspondientes a la fase de planificación del Sprint 2. |
