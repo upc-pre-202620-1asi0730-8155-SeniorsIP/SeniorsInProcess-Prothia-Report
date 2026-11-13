@@ -3,6 +3,8 @@
   
 ## Universidad Peruana de Ciencias Aplicadas
 
+**Ingenieria de Software**
+
 **1ASI030** 
 
 **Aplicaciones Web**
@@ -15,7 +17,7 @@ NRC
 
 Docente
 
-**Velasquez Nuñez, Angel Augusto**
+**Velásquez Núñez, Ángel Augusto**
 
 Equipo
 
