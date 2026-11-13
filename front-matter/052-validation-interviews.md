@@ -158,17 +158,19 @@ Enlace: https://shorturl.at/er1pA
 
 Resumen: Enrique Castañeda resaltó en el Landing Page el valor de contar con evidencia objetiva de uso para respaldar diagnósticos frente a fallas de válvulas o piezas por mal uso del paciente, considerando la independencia de marca y la transparencia de precios como ventajas competitivas clave para talleres independientes. Durante la interacción con la Web Application, se ubicó rápidamente mediante el ícono del engranaje y destacó la utilidad del indicador de mantenimientos programados semanales para organizar las herramientas del taller. En la gestión de alertas y citas, elogió la visibilidad del botón rojo de urgencia y la rapidez de carga del calendario, así como el ahorro de tiempo al consultar la ficha técnica digital en lugar de buscar archivadores físicos. Valoró especialmente que, al registrar el reemplazo de una pieza, el contador de horas se reinicie automáticamente a cero. Además, verificó que los botones poseen dimensiones adecuadas para ser operados cómodamente desde tablets en el área de montaje. Calificó la facilidad para programar mantenimientos con 4.5 / 5 y propuso añadir un campo en la ficha técnica para registrar variaciones de volumen del muñón del paciente, dado su impacto directo en el reajuste de encajes.
 
-**Entrevista 9: Jose Riveros**
+**Entrevista 9: Eveline Correa**
 
-Edad: 30 años
+Edad: 44 años
 
-Distrito de Residencia: Lima, Perú
+Distrito de Residencia: La Victoria, Lima, Perú
 
-Timing de inicio y duración: 0:05 – Duración: 
+Timing de inicio y duración: 0:05 – 8:48
 
-Enlace: 
+Enlace: https://shorturl.at/7Kyft
 
-Resumen: Jose destacó en el Landing Page que el monitoreo objetivo elimina la incertidumbre sobre el tiempo real de uso que reportan los pacientes, valorando enormemente que la solución sea agnóstica a la marca de la prótesis (a diferencia de softwares propietarios limitados a componentes de gama alta) y que el modelo de cobro sea por taller y no por paciente. En las tareas de la Web Application, aprobó la iconografía técnica de ingreso y resaltó la utilidad de la barra de control de dispositivos conectados frente al límite de su plan en el panel principal. Al revisar las alertas de mantenimiento, valoró la precisión del diagnóstico ("Riesgo de pérdida de fluido") y la rapidez con la que la ficha técnica despliega la información cuando atiende llamadas telefónicas de pacientes. Encontró directo y claro el formulario de registro de cambio de piezas, y enfatizó que las alertas rojas permiten prevenir fallas mecánicas graves en la vía pública. Confirmó que la interfaz aprovecha bien el ancho de pantalla sin saturación visual, calificó la experiencia con 5 / 5 y sugirió habilitar una sección para cargar fotografías del ensamblaje inicial de la prótesis con el fin de realizar comparaciones visuales en los mantenimientos anuales.
+![VIII-Eveline Correa](../assets/Tecnico9.png)
+
+Resumen: Eveline Correa destacó en el Landing Page que el monitoreo objetivo elimina la incertidumbre sobre el tiempo real de uso que reportan los pacientes, valorando enormemente que la solución sea agnóstica a la marca de la prótesis (a diferencia de softwares propietarios limitados a componentes de gama alta) y que el modelo de cobro sea por taller y no por paciente. En las tareas de la Web Application, aprobó la iconografía técnica de ingreso y resaltó la utilidad de la barra de control de dispositivos conectados frente al límite de su plan en el panel principal. Al revisar las alertas de mantenimiento, valoró la precisión del diagnóstico ("Riesgo de pérdida de fluido") y la rapidez con la que la ficha técnica despliega la información cuando atiende llamadas telefónicas de pacientes. Encontró directo y claro el formulario de registro de cambio de piezas, y enfatizó que las alertas rojas permiten prevenir fallas mecánicas graves en la vía pública. Confirmó que la interfaz aprovecha bien el ancho de pantalla sin saturación visual, calificó la experiencia con 5 / 5 y sugirió habilitar una sección para cargar fotografías del ensamblaje inicial de la prótesis con el fin de realizar comparaciones visuales en los mantenimientos anuales.
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
@@ -180,7 +182,7 @@ Resumen: Jose destacó en el Landing Page que el monitoreo objetivo elimina la i
 * **NRC:** 8155
 * **PROFESORES:** Todos
 * **AUDITOR:** SeniorsInProcess
-* **CLIENTE(S):** Enrique Diaz, Juan Ramirez, Miguel Suarez, Lic. Claudio, Lic. Ana Mercedes, Dra. Carmen Salazar, Miguel Sanchez, Enrique Castañeda y Jose Riveros (participantes de las sesiones de evaluación).
+* **CLIENTE(S):** Enrique Diaz, Juan Ramirez, Miguel Suarez, Lic. Claudio, Lic. Ana Mercedes, Dra. Carmen Salazar, Miguel Sanchez, Enrique Castañeda y Eveline Correa (participantes de las sesiones de evaluación).
 
 **SITE o APP A EVALUAR:** Plataforma de Monitoreo Protésico (Landing Page y aplicación web).
 
