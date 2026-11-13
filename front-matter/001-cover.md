@@ -42,5 +42,5 @@ U202417417 Barrenechea Bustamante, Rafael
 
 **Período 202620** 
 
-**Septiembre 2026**
+**Noviembre 2026**
 
