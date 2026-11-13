@@ -172,5 +172,116 @@ Resumen: Jose destacó en el Landing Page que el monitoreo objetivo elimina la i
 
 ### 5.3.3. Evaluaciones según heurísticas.
 
+**UX Heuristics & Principles Evaluation**
+*Usability – Inclusive Design – Information Architecture*
+
+* **CARRERA:** Ingeniería de Software
+* **CURSO:** Desarrollo de Aplicaciones Web
+* **NRC:** 8155
+* **PROFESORES:** Todos
+* **AUDITOR:** SeniorsInProcess
+* **CLIENTE(S):** Enrique Diaz, Juan Ramirez, Miguel Suarez, Lic. Claudio, Lic. Ana Mercedes, Dra. Carmen Salazar, Miguel Sanchez, Enrique Castañeda y Jose Riveros (participantes de las sesiones de evaluación).
+
+**SITE o APP A EVALUAR:** Plataforma de Monitoreo Protésico (Landing Page y aplicación web).
+
+**TAREAS A EVALUAR:**
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+1. Explorar el Landing Page y entender la propuesta de valor.
+2. Ingresar al panel principal a través de la autenticación de usuario.
+3. Revisar el estado diario de rutinas, gráficas de marcha y telemetría (Pacientes).
+4. Usar la mensajería integrada (Pacientes y Terapeutas).
+5. Revisar y gestionar alertas críticas de compensación postural (Terapeutas).
+6. Calibrar límites de inclinación y asignar rutinas a pacientes (Terapeutas).
+7. Monitorear los ciclos de uso y la flota activa de componentes (Técnicos).
+8. Registrar mantenimientos y cambios de piezas en la ficha técnica digital (Técnicos).
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+1. La configuración inicial y vinculación Bluetooth de los sensores físicos.
+2. El portal de pagos y facturación para clínicas y talleres.
+3. La gestión de roles administrativos (altas y bajas de personal).
+4. Registro de un nuevo usuario.
+
+---
+
+**ESCALA DE SEVERIDAD:**
+
+| Nivel | Descripción |
+| :---: | :--- |
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o se presenta con muy poca frecuencia. No necesita corregirse salvo que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir con más frecuencia o ser algo más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo en el siguiente release. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlo. Es importante corregirlo y se le debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento. |
+
+---
+
+**TABLA RESUMEN:**
+
+| # | Problema | Escala de severidad | Heurística / Principio violada(o) |
+| :-: | :--- | :-: | :--- |
+| **1** | Los botones para confirmar ejercicios son muy pequeños en la versión móvil | 3 | Inclusive Design: Interacción Táctil y Motora |
+| **2** | La interfaz blanca genera fatiga visual en la noche para los pacientes | 2 | Inclusive Design: Legibilidad y Contraste Visual |
+| **3** | Los sliders de calibración clínica no permiten ingresar valores numéricos exactos | 2 | Usability: Prevención de errores |
+| **4** | No existe una vista comparativa temporal de las gráficas de marcha | 2 | Information Architecture: Is it useful? |
+| **5** | Falta un filtro por terapeuta tratante en el panel general de alertas | 2 | Information Architecture: Is it findable? |
+| **6** | Ausencia de un campo para registrar variaciones del volumen del muñón | 2 | Information Architecture: Is it useful? |
+| **7** | El paciente no recibe notificaciones de nuevos mensajes del terapeuta | 2 | Usability: Visibilidad del estado del sistema |
+| **8** | Confusión al alternar entre pestañas de Telemetría e Historial en móviles | 1 | Information Architecture: Sistema de Navegación |
+
+---
+
+**DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA #1: Los botones para confirmar ejercicios son muy pequeños en la versión móvil**
+* **Severidad:** 3
+* **Heurística violada:** Inclusive Design – Interacción Táctil y Motora
+* **Problema:** Durante la sesión con Miguel Suarez (segmento de pacientes) se observó que le costaba acertar al botón de "completado" desde la pantalla de su celular. Considerando que los pacientes pueden tener compromisos motores, esto dificulta el flujo principal.
+* **Recomendación:** Incrementar el área interactiva de los botones principales a un mínimo de 48x48 píxeles en la versión móvil.
+
+**PROBLEMA #2: La interfaz blanca genera fatiga visual en la noche para los pacientes**
+* **Severidad:** 2
+* **Heurística violada:** Inclusive Design – Legibilidad y Contraste Visual
+* **Problema:** Durante la sesión con Enrique Diaz, comentó que al revisar sus estadísticas de pasos o enviar mensajes en la noche, el fondo blanco de la aplicación le producía fatiga visual.
+* **Recomendación:** Implementar un modo oscuro (Dark Mode) que respete las pautas de accesibilidad para contrastes de color.
+
+**PROBLEMA #3: Los sliders de calibración clínica no permiten ingresar valores numéricos exactos**
+* **Severidad:** 2
+* **Heurística violada:** Usabilidad – Prevención de errores
+* **Problema:** La Lic. Ana Mercedes (segmento de terapeutas) indicó que ajustar la inclinación de alerta usando únicamente controles deslizables (sliders) es impreciso y puede llevar a configurar un ángulo incorrecto por error de pulso.
+* **Recomendación:** Agregar un campo de texto numérico junto al control deslizante para que el terapeuta pueda escribir el valor exacto (ej. 14°).
+
+**PROBLEMA #4: No existe una vista comparativa temporal de las gráficas de marcha**
+* **Severidad:** 2
+* **Heurística violada:** Arquitectura de información – Is it useful?
+* **Problema:** La Lic. Ana Mercedes señaló que, para evaluar el progreso del paciente, necesita comparar cómo caminaba en la semana 1 frente a la semana 4, pero actualmente debe abrir las gráficas por separado.
+* **Recomendación:** Diseñar una vista de comparación "Lado a Lado" que permita visualizar las gráficas de dos semanas distintas en la misma pantalla.
+
+**PROBLEMA #5: Falta un filtro por terapeuta tratante en el panel general de alertas**
+* **Severidad:** 2
+* **Heurística violada:** Arquitectura de información – Is it findable?
+* **Problema:** Durante la sesión con la Dra. Carmen Salazar, indicó que como directora médica necesita auditar el trabajo de su personal, pero el panel muestra todas las alertas mezcladas sin forma de filtrarlas por el terapeuta a cargo.
+* **Recomendación:** Agregar un filtro en el Dashboard que permita segmentar la lista de alertas por el especialista asignado al paciente.
+
+**PROBLEMA #6: Ausencia de un campo para registrar variaciones del volumen del muñón**
+* **Severidad:** 2
+* **Heurística violada:** Arquitectura de información – Is it useful?
+* **Problema:** Enrique Castañeda (segmento de técnicos) comentó que al realizar mantenimientos es vital dejar constancia de si el paciente ha subido o bajado de peso (volumen del muñón), ya que esto afecta la garantía y el ajuste, pero no encontró dónde anotarlo.
+* **Recomendación:** Incluir un campo de texto para observaciones clínicas estandarizadas dentro del formulario de registro de mantenimiento.
+
+**PROBLEMA #7: El paciente no recibe notificaciones de nuevos mensajes del terapeuta**
+* **Severidad:** 2
+* **Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+* **Problema:** Juan Ramirez (segmento de pacientes) mencionó que podría perderse de indicaciones importantes si su terapeuta le escribe, ya que no tiene forma de enterarse a menos que abra activamente la aplicación.
+* **Recomendación:** Enviar una notificación push al dispositivo móvil del paciente cuando reciba un mensaje nuevo en el chat.
+
+**PROBLEMA #8: Confusión al alternar entre pestañas de Telemetría e Historial en móviles**
+* **Severidad:** 1
+* **Heurística violada:** Arquitectura de información – Sistema de Navegación
+* **Problema:** Enrique Diaz experimentó una leve confusión al inicio para cambiar de la vista de sus datos en tiempo real al historial pasado, ya que el menú desplegable estaba poco visible en la versión móvil.
+* **Recomendación:** Optimizar la barra de navegación inferior en celulares (bottom tab bar), usando íconos más descriptivos e indicando claramente la pestaña activa.
+
+---
+
+**Aspectos positivos observados**
+Los nueve participantes calificaron las herramientas como intuitivas y de alto valor para su día a día. Los pacientes (Enrique, Juan, Miguel) valoraron el lenguaje sencillo sin tecnicismos y la motivación que les genera ver su progreso diario de pasos. Los terapeutas (Claudio, Ana Mercedes, Carmen) destacaron el uso estandarizado de los colores de alerta (amarillo y rojo) que facilita identificar rápidamente los casos críticos. Por su parte, los técnicos ortoprotesistas (Miguel, Enrique, Jose) resaltaron la automatización de la ficha técnica y señalaron que los indicadores de desgaste por "ciclos de vida" se ajustan perfectamente a la realidad mecánica de sus talleres, brindándoles gran confianza en la plataforma.
 
 ## 5.4. Video About-the-Product.
