@@ -53,7 +53,7 @@ Edad: 26 años
 
 Distrito de Residencia: Lima, Perú
 
-Timing de inicio y duración:  – Duración:
+Timing de inicio y duración: 0:05 – Duración: 5:13
 
 Enlace: https://shorturl.at/7dKUe
 
@@ -67,9 +67,9 @@ Edad: 30 años
 
 Distrito de Residencia: San Miguel, Lima, Perú
 
-Timing de inicio y duración:  – Duración:
+Timing de inicio y duración: 0:01 – Duración: 11:44
 
-Enlace: https://tinyurl.com/ysz37829
+Enlace: https://tinyurl.com/5ytcjw7c
 
 ![II-JuanRamirez](../assets/VI-JuanRamirez.png)
 
@@ -81,7 +81,7 @@ Edad: 25 años
 
 Distrito de Residencia: Lima, Perú
 
-Timing de inicio y duración:  – Duración:
+Timing de inicio y duración: 0:05 – Duración: 5:17
 
 Enlace: https://shorturl.at/H9yKC
 
@@ -97,7 +97,7 @@ Edad: 30 años
 
 Distrito de Residencia: Lima, Perú
 
-Timing de inicio y duración:  – Duración:
+Timing de inicio y duración: 0:02 – Duración: 5:53
 
 Enlace: https://tinyurl.com/y75pj2ce
 
@@ -111,7 +111,7 @@ Edad: 38 años
 
 Distrito de Residencia: Lima, Perú
 
-Timing de inicio y duración:  – Duración: 
+Timing de inicio y duración: 0:02 Duración: 4:05
 
 Enlace: https://tinyurl.com/yy8ktzmd
 
@@ -164,7 +164,7 @@ Edad: 30 años
 
 Distrito de Residencia: Lima, Perú
 
-Timing de inicio y duración:  – Duración:
+Timing de inicio y duración: 0:05 – Duración: 
 
 Enlace: 
 
