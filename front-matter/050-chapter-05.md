@@ -1,0 +1,164 @@
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1 Software Configuration Management
+
+La gestión en **SeniorsInProcess (Prothia)** incluye el código fuente, documentación, prototipos y configuraciones del entorno de desarrollo de la plataforma web de monitoreo y seguimiento de rehabilitación de pacientes amputados. El proyecto contempla distintos productos digitales, incluyendo una Landing Page institucional, una aplicación web para clínicas de rehabilitación y centros ortopédicos, y servicios backend orientados al procesamiento de datos biomecánicos y de uso de prótesis en tiempo real. El equipo adopta prácticas basadas en GitFlow, Conventional Commits y Semantic Versioning, asegurando un flujo de trabajo colaborativo y organizado.
+
+### 5.1.1. Software Development Environment Configuration
+
+| Categoría / Actividad | Nombre del Producto | Propósito de Uso en el Proyecto | Tipo / Plataforma | Ruta de Referencia / Descarga |
+|---|---|---|---|---|
+| Project Management | <img src="../assets/trello.jpg" alt="SeniorsInProcess (Prothia)" width="150"/> | Gestión e itinerario de tareas del proyecto mediante tableros organizados por estados (To-Do, In Progress, Done), clave para el seguimiento de entregables como el reporte y la landing page. | SaaS | https://trello.com |
+| Team Communication | <img src="../assets/discord.png" alt="SeniorsInProcess (Prothia)" width="150"/> | Plataforma principal de comunicación remota para la realización de reuniones de equipo sincrónicas, planificación de Sprints y coordinación general. | SaaS / Desktop | https://discord.com/ |
+| Requirements Management | <img src="../assets/miro.jpg" alt="SeniorsInProcess (Prothia)" width="150"/> | Estructuración de ideas, diagramación de flujos de sistema, análisis del negocio y ejecución de la sesión de Event Storming para el ecosistema IoT. | SaaS | https://miro.com |
+| Requirements Management | <img src="../assets/structurizr.png" alt="SeniorsInProcess (Prothia)" width="150"/> | Modelado de la arquitectura de software del sistema DomotiCore bajo el modelo C4, representando los componentes clave (dashboard, gateway, nodos IoT y servicios de monitoreo). | SaaS / Desktop | https://structurizr.com |
+| Product UX/UI Design | <img src="../assets/figma.png" alt="SeniorsInProcess (Prothia)" width="150"/> | Diseño visual y prototipado interactivo de las interfaces del sistema, incluyendo el dashboard centralizado, paneles de control de dispositivos y visualización de consumo energético. | SaaS / Desktop | https://www.figma.com |
+| Product UX/UI Design | <img src="../assets/lucidchart.png" alt="SeniorsInProcess (Prothia)" width="150"/> | Elaboración de diagramas de flujo de trabajo, arquitectura técnica y diseño de procesos operativos del sistema. | SaaS | https://www.lucidchart.com |
+| Software Development | <img src="../assets/html.png" alt="SeniorsInProcess (Prothia)" width="150"/> | Lenguajes y estándares base utilizados para el desarrollo del frontend web, las interfaces de usuario y la Landing Page del producto. | Lenguajes / Estándares | https://developer.mozilla.org/es/docs/Web |
+| Software Development | <img src="../assets/webstorm.jpg" alt="SeniorsInProcess (Prothia)" width="150"/> | Entorno de desarrollo integrado (IDE) principal utilizado para la programación, edición y depuración del código fuente del frontend. | Desktop | https://www.jetbrains.com/webstorm/download |
+| Software Testing | <img src="../assets/gherkin.png" alt="SeniorsInProcess (Prothia)" width="150"/> | Lenguaje de especificación para definir escenarios de prueba BDD (Behavior-Driven Development) basados en historias de usuario (control remoto, automatizaciones por horario y alertas de consumo). | Estándar / DSL | https://cucumber.io/docs/gherkin/reference |
+| Software Documentation | <img src="../assets/github.jpg" alt="SeniorsInProcess (Prothia)" width="150"/> | Repositorio central del proyecto para el control de versiones distribuido, registro de commits, trabajo colaborativo y alojamiento de la documentación del sistema. | SaaS | https://github.com |
+| Software Deployment | <img src="../assets/gitpages.jpg" alt="SeniorsInProcess (Prothia)" width="150"/> | Servicio de alojamiento y despliegue continuo para la Landing Page pública del producto, permitiendo exponer la propuesta de valor de DomotiCore. | SaaS | https://pages.github.com |
+
+### 5.1.2 Source Code Management
+
+La gestión de código fuente del proyecto **Prothia (SeniorsInProcess)** se realiza mediante la plataforma **GitHub**, permitiendo un control de versiones en entorno de trabajo colaborativo. Se han definido repositorios independientes para cada producto digital.
+
+#### 5.1.2.1 Repositories
+
+| Product | Repository URL | Description |
+| :--- | :--- | :--- |
+| **Organization** | [SeniorsInProcess-Prothia-1ASI0729](https://github.com/SeniorsInProcess-Prothia-1ASI0729) --- [https://github.com/SeniorsInProcess-Prothia-1ASI0729] --- | Organización donde se ubican todos los repositorios del proyecto. |
+| **Landing Page** | [Prothia-Business-Web-Page](https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-LandingPage) --- [https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-LandingPage] --- | Repositorio de la Landing Page institucional del proyecto. |
+| **Frontend Web Application** | [Prothia-Front-End](https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend) --- [https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend] --- | Aplicación web para el monitoreo y seguimiento de la rehabilitación de pacientes amputados. |
+| **Backend Web Services** | [Prothia-Back-end](https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend) --- [https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend] --- | API REST y lógica de procesamiento de datos biomecánicos y de uso de prótesis. |
+| **Documentation Repository** | [Prothia-Report](https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Report/tree/develop) --- [https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Report/tree/develop] --- | Documentación técnica, reportes y entregables del proyecto. |
+---
+<div style="text-align:center;"><img src="../assets/organization-photo.png" width="800" alt="GitHub Repository Structure"></div>
+
+#### 5.1.2.2 GitFlow Workflow
+
+El equipo adopta **GitFlow** como estrategia de branching para mantener la estabilidad.
+
+* **Main Branch**: Contiene únicamente versiones estables y aprobadas del proyecto listas para producción.
+    * `main`
+* **Develop Branch**: Rama principal de integración donde se consolidan las funcionalidades desarrolladas antes de integrarse en producción.
+    * `develop`
+* **Feature Branches**: Cada nueva funcionalidad se desarrolla en una rama independiente para evitar conflictos en el código base.
+    * **Naming Convention**: `feature/<feature-name>`
+    * **Examples**: `feature/patient-monitoring-dashboard`, `feature/biomechanical-data-tracking`
+* **Hotfix Branches**: Ramas de emergencia para corregir errores críticos detectados directamente en producción.
+    * **Naming Convention**: `hotfix/<issue-description>`
+
+#### 5.1.2.3 Semantic Versioning
+
+El proyecto utiliza **Semantic Versioning 2.0.0** para controlar las versiones de los productos digitales de Prothia.
+
+| Version | Description |
+| :--- | :--- |
+| **v1.0.0** | Primera versión estable y funcional del producto. |
+| **v1.1.0** | Incorporación de nuevas funcionalidades menores. |
+| **v1.1.1** | Corrección de errores menores. |
+| **v2.0.0** | Cambios mayores que incluyen modificaciones estructurales incompatibles. |
+
+#### 5.1.2.4 Conventional Commits
+
+Se adopta el estándar de **Conventional Commits** para mantener un historial de cambios limpio y fácil de verificar por el equipo.
+
+| Prefix | Purpose |
+| :--- | :--- |
+| **feat** | Implementación de nuevas funcionalidades. |
+| **fix** | Corrección de errores o bugs. |
+| **docs** | Actualizaciones en la documentación del repositorio. |
+| **style** | Cambios que no afectan la lógica (espaciados, formatos, CSS). |
+| **refactor** | Reestructuración del código existente sin cambiar su funcionalidad. |
+| **test** | Corrección de pruebas unitarias o de integración. |
+
+**Examples:**
+* `feat: implement patient rehabilitation dashboard`
+* `docs: update sprint 1 documentation`
+* `fix: correct biomechanical data sync error`
+* `style: improve clinic panel spacing`
+### 5.1.3. Source Code Style Guide & Conventions.
+
+El uso de un estilo de código unificado y una arquitectura bien definida es clave para asegurar la escalabilidad, la mantenibilidad y la colaboración efectiva en el desarrollo de **Prothia**. Para ello, el proyecto incorpora prácticas de programación y convenciones estructurales que promueven la calidad técnica, la claridad y la consistencia en cada módulo de la plataforma, tomando como referencia estándares reconocidos de la industria y metodologías actuales.
+
+#### Arquitectura y organización del sistema
+
+Prothia adopta el modelo C4 de Simon Brown, lo que permite visualizar el sistema en distintos niveles de abstracción (contexto, contenedor, componente y código). Este enfoque ofrece una representación clara y comprensible, facilitando la comunicación entre desarrolladores, diseñadores y testers. Además, la arquitectura se fundamenta en los principios de Domain-Driven Design (DDD) y Clean Architecture, lo que garantiza una separación rigurosa entre capas (presentación, aplicación, dominio e infraestructura). Gracias a ello, se reduce el acoplamiento, se incrementa la mantenibilidad y se fortalece la capacidad de realizar pruebas automatizadas de manera eficiente.
+
+#### Frontend: Vue.js
+
+En el frontend, se emplea Vue.js como framework principal, implementando una arquitectura centrada en componentes reutilizables, organizados en directorios específicos como components, views y store. La convención de nombres establece el uso de PascalCase para los componentes (por ejemplo, PatientCard.vue) y kebab-case para los archivos (patient-card.vue), en concordancia con las recomendaciones de la comunidad Vue. Asimismo, se aplican buenas prácticas de desarrollo, entre ellas:
+
+* Separación de lógica y presentación mediante el patrón container/presentational components.
+* Uso de props y emits para la comunicación clara entre componentes.
+* Implementación de lazy loading y code splitting para optimizar el rendimiento.
+* Internacionalización con vue-i18n, gestionando archivos JSON para cada idioma.
+
+#### Alineación con guías de estilo estándar
+
+La estructura y nomenclatura utilizadas en Prothia siguen convenciones reconocidas como la Vue Style Guide y lineamientos generales de HTML/CSS. Además, el uso del inglés en identificadores, clases y funciones garantiza coherencia en el trabajo colaborativo, simplifica la integración con librerías externas y favorece la comprensión del código por parte de equipos internacionales.
+
+### 5.1.4. Software Deployment Configuration
+
+Esta sección describe la configuración y los pasos necesarios para
+desplegar la Landing Page de Prothia a partir del repositorio de
+código fuente.
+
+**Repositorio:** <https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-LandingPage>\
+**URL publicada:** <https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage>/
+**Rama de producción:** `main`
+
+------------------------------------------------------------------------
+
+**Landing Page**
+
+**Stack:** HTML5 + CSS3 + JavaScript 
+**Plataforma de despliegue:** GitHub Pages
+
+
+**Pasos de despliegue**
+
+1.  Confirmar que la rama `main` contiene la versión estable de la
+    Landing Page y que `index.html` se encuentra en la raíz del
+    repositorio.
+2.  En el repositorio de GitHub, ir a **Settings → Pages**.
+3.  En la sección **Build and deployment**, configurar:
+    - **Source:** Deploy from a branch
+    - **Branch:** `main`
+    - **Folder:** `/ (root)`
+4.  Hacer clic en **Save**. GitHub Pages generará automáticamente la URL
+    pública.
+5.  Esperar entre 1 y 2 minutos y verificar que la página carga
+    correctamente en:
+    `https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/`
+6.  Comprobar que el diseño responde correctamente en desktop (≥
+    1025px), tablet (769--1024px) y móvil (≤ 768px).
+7.  Verificar que el toggle de idioma (EN \| ES) funciona correctamente
+    en todos los breakpoints. \### Actualizaciones posteriores
+
+Cada `git push` a la rama `main` desencadena un redespliegue
+automático en GitHub Pages. No se requiere ninguna acción manual
+adicional.
+
+``` bash
+# Flujo estándar para publicar cambios
+git add .
+git commit -m "feat: update hero section copy"
+git push origin main
+```
+
+GitHub Pages tomará los nuevos archivos y publicará la versión
+actualizada en aproximadamente 1 minuto.
+
+**Verificación post-despliegue**
+
+Tras cada despliegue se recomienda verificar los siguientes puntos:
+| Verificación | Detalle |
+| --- | --- |
+| Carga de assets| Logo y fotos de testimonios visibles |
+| Navegación | Links del navbar redirigen a las secciones correctas (`#features`, `#plans`, `#audience`, `#demo`)|
+| Toggle de idioma | Cambia correctamente entre EN y ES en todos los textos con `data-i18n` |
+| Menú hamburguesa | Se abre y cierra correctamente en móvil; desaparece en desktop |
+| Responsive | Sin scroll horizontal en ningún breakpoint |
