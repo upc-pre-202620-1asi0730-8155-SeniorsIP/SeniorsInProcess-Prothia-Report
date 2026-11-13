@@ -291,3 +291,22 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 Los nueve participantes calificaron las herramientas como intuitivas y de alto valor para su día a día. Los pacientes (Enrique, Juan, Miguel) valoraron el lenguaje sencillo sin tecnicismos y la motivación que les genera ver su progreso diario de pasos. Los terapeutas (Claudio, Ana Mercedes, Carmen) destacaron el uso estandarizado de los colores de alerta (amarillo y rojo) que facilita identificar rápidamente los casos críticos. Por su parte, los técnicos ortoprotesistas (Miguel, Enrique, Jose) resaltaron la automatización de la ficha técnica y señalaron que los indicadores de desgaste por "ciclos de vida" se ajustan perfectamente a la realidad mecánica de sus talleres, brindándoles gran confianza en la plataforma.
 
 ## 5.4. Video About-the-Product.
+
+El video *About-the-Product* de Prothia presenta de manera ejecutiva y promocional la propuesta de valor del sistema, exponiendo la problemática de la rehabilitación domiciliaria de pacientes amputados, el modelo de negocio B2B dirigido a clínicas y centros ortopédicos, y una demostración visual de las funcionalidades principales de la plataforma en operación.
+
+* **Título del archivo de video:** `upc-pre-202620-1asi0730-8155-SeniorsInProcess-about-the-product-sprint-3.mp4`
+* **Duración (Timing):** 01:24 (1 minuto con 24 segundos)
+* **URL en Microsoft Stream:** https://shorturl.at/6eDpm
+* **URL en YouTube (Incrustado en el Landing Page):** https://youtu.be/kC9kLyM71bk
+
+#### Pauta de Secuencias de Contenido (Timings del Video de 1:24)
+| Inicio (`mm:ss`) | Fin (`mm:ss`) | Sección / Secuencia de Contenido | Descripción en el Video |
+| :---: | :---: | :--- | :--- |
+| `00:00` | `00:15` | **Problema y Contexto** | Presentación de la falta de seguimiento continuo y visibilidad clínica cuando el paciente amputado realiza su rehabilitación fuera del centro médico. |
+| `00:15` | `00:30` | **Propuesta de Valor (Prothia)** | Introducción a la plataforma web de monitoreo biomecánico continuo y su ecosistema que articula a pacientes, clínicas y talleres ortopédicos. |
+| `00:30` | `00:55` | **Demostración de Funcionalidades (Core Features)** | Recorrido visual por el Dashboard Clínico, las métricas de simetría de apoyo, el portal del paciente ("Mi Día") y las alertas automáticas de desviación postural. |
+| `00:55` | `01:15` | **Gestión de Talleres y Trazabilidad** | Demostración del módulo de ortopedia para el control del desgaste mecánico de las prótesis y programación de mantenimientos preventivos. |
+| `01:15` | `01:24` | **Llamado a la Acción (CTA) y Cierre** | Muestra de los planes institucionales de suscripción y cierre con los datos de contacto y la URL oficial de la plataforma. |
+
+* **Captura representativa del Video About-the-Product:**
+  ![Video About the Product Screenshot](../assets/yutu.png)
