@@ -65,6 +65,7 @@ The contributors are listed below with their areas of contribution as documented
 - **Leonardo Felix Dextre Flores** — architecture and EventStorming, report design updates, and frontend work for Billing and Workshop.
 - **Oscar Diego Checa Burga** — problem and introduction materials, shared frontend components, and work on Monitoring and Patients.
 - **Carlos Matthew Salcedo Correa** — EventStorming collaboration and implementation/integration work for Analytics and Patient Portal.
+- **Tomas Homola** — Identity and Access Management, backend implementation for Communication, and technical support.
 - **Rafael Barrenechea Bustamante** — architecture and software diagrams, plus implementation work for Identity and Access Management and Option.
 
 For detailed student profiles, see [Chapter I](front-matter/010-chapter-01.md). Additional collaboration and contribution evidence is available in the [student outcome section](front-matter/005-student-outcome.md).
