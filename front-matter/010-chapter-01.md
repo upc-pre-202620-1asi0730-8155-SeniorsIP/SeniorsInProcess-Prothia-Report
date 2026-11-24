@@ -50,6 +50,15 @@ De esta manera, SeniorsInProcess busca generar valor para cada uno de sus segmen
 | **Descripción**           | Soy Carlos Salcedo, tengo 18 años y actualmente curso el cuarto ciclo de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Cuento con conocimientos de nivel básico a intermedio en el lenguaje de programación C++, así como habilidades básicas en diseño. Además, tengo afinidad por el arte, especialmente el dibujo, y un fuerte interés por la música. Me considero una persona comprometida, responsable y con disposición constante para aprender. Mi objetivo en este curso es profundizar en los temas relacionados con mi carrera, fortalecer mis habilidades y prepararme para aplicarlas de manera efectiva en mi futuro profesional.   	   												|
 | **Foto**                  | <img src="../assets/CarlosSalcedo.png" alt="" width="180" height="240"> |
 
+---
+| **Integrante**            | **Tomas Homola**        									    |
+| :------------------------ | :-------------------------------------------------------------------------------- |
+| **Código del Estudiante** | U202623624                                  										|
+| **Carrera**               | Ingeniería de Software                       										|
+| **Descripción**           | Soy estudiante de Ingeniería de Software en la Universidad Masaryk en la República Checa y actualmente me encuentro de intercambio durante este semestre en la Universidad Peruana de Ciencias Aplicadas (UPC). Me interesa el desarrollo de productos de software en diversas áreas, especialmente en el sector médico y en la aplicación de la Inteligencia Artificial para el reconocimiento de imágenes. También disfruto desarrollar mis propias aplicaciones, con el objetivo de mejorar continuamente mis habilidades en la obtención, el análisis y la gestión de requisitos. Dentro del equipo, busco aportar mi experiencia tanto en la definición de requisitos como en el diseño de interfaces de usuario (UI), fortaleciendo así mis habilidades de trabajo en equipo y contribuyendo al éxito del proyecto.   	   												|
+| **Foto**                  | <img src="../assets/TomasHomola.jpeg" alt="" width="240" height="240"> |
+
+
 | **Integrante**            | **Rafael Andre Barrenechea Bustamante**        									    |
 | :------------------------ | :-------------------------------------------------------------------------------- |
 | **Código del Estudiante** | u202417417                                   										|
