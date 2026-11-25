@@ -72,6 +72,8 @@ De esta manera, SeniorsInProcess busca generar valor para cada uno de sus segmen
 
 
 
+## 1.2. Solution Profile
+
 ### 1.2.1 Antecedentes y Problemática
 
 **What / ¿QUÉ?**
