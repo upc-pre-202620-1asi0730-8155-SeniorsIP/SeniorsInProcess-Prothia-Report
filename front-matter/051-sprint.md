@@ -49,7 +49,7 @@ Para organizar el flujo de trabajo, las tareas se gestionaron mediante **Trello*
 
 **Enlace del tablero de Trello:** 
 
-https://trello.com/invite/b/6aabb55b023122d8fe598ee0/ATTI98b4a9da9fc821f35855872e0885a87cFED1E6E2/seniorsinprocess-prothia-sprint-1
+https://tinyurl.com/2z63xtwy
 
 
 ### 5.2.1.4. Development Evidence for Sprint Review 
@@ -73,9 +73,9 @@ Capturas de pantalla de la Landing Page implementada en vistas Desktop y Mobile,
 ![Landing Page - Mobile](../assets/Execution-Evidence-LandingMobile.png)
 
 
-link de la landing: https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
+link de la landing: https://tinyurl.com/mpu69fp3
 
-link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421065_upc_edu_pe/IQDNRf7YFyx2S7sfhe8y7z-aAemJubaEn3IlURxzwNnz_MM?e=NuhSGo
+link del video: https://tinyurl.com/5aebtwu5
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -159,7 +159,7 @@ El objetivo principal del Sprint 2 es poner en operación la primera versión de
 
 **Enlace del tablero de Trello:**  
 
-https://trello.com/invite/b/6a3482081843e32dea421094/ATTI18eefa82ccf88b07429958c3ca4d886e7D9A78CB/sprint-2-prothia
+https://tinyurl.com/d3rj6kvc
 
 
 | **Story Id** | **User Story Title** | **Task Id** | **Task Title** | **Task Description** | **Story point** | **Assigned** | **Status** |
@@ -249,7 +249,7 @@ En esta sección se presentan las evidencias de ejecución de la aplicación web
 
 *   **Aplicación Web Desplegada (Prothia Frontend):** https://prothia-web-app-7003f.web.app/
 
-*   **Landing Page Desplegada (v2.0):** https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
+*   **Landing Page Desplegada (v2.0):** https://tinyurl.com/mpu69fp3
 
 *Figura 1. Inicio de Sesión y Selección de Rol (Módulo IAM).*
 
@@ -333,7 +333,7 @@ En el entorno de desarrollo local se utiliza JSON Server con datos simulados def
 
 *   **URL base local (JSON Server):** http://localhost:3000
 
-*   **Repositorio con servicios y datos simulados:** https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend
+*   **Repositorio con servicios y datos simulados:** https://tinyurl.com/93nmmvkf
 
 | Acción / Módulo | Método HTTP | Sintaxis de llamada local | Parámetros / cuerpo | Ejemplo parcial de respuesta | Explicación |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -354,7 +354,7 @@ Durante el Sprint 2 se realizó el despliegue de la primera versión funcional d
 
 *   **Plataforma de alojamiento de la Web Application:** Firebase Hosting (prothia-web-app-7003f).
 
-*   **Repositorio del Frontend:** https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Frontend
+*   **Repositorio del Frontend:** https://tinyurl.com/93nmmvkf
 
 *   **Aplicación Web Desplegada:** https://prothia-web-app-7003f.web.app/
 
@@ -424,7 +424,7 @@ El equipo organizó los aspectos del Sprint 3 combinando los Bounded Contexts de
 
 El objetivo del Sprint Backlog 3 fue descomponer las **21 Technical Stories** (`TS-PAT-001` a `TS-IAM-002`) y los requisitos transversales del núcleo `Shared` en tareas técnicas concretas (*Work-Items*) estimadas en horas.
 
-* **Tablero de Trello Sprint 3:** https://trello.com/invite/b/6af24524b9b52bebb1362092/ATTI56729a1c7f447b96c1b198fbaad9384d9A36EF96/sprint-3-prothia
+* **Tablero de Trello Sprint 3:** https://tinyurl.com/mry8ypmd
 
 * **Captura del Tablero de Trello Sprint 3:**
 
@@ -497,7 +497,7 @@ Durante el Sprint 3, el equipo completó la integración transversal de los tres
 
 Se verificó la operatividad de los flujos principales para los tres segmentos objetivo identificados en el dominio de negocio: **Paciente Amputado** (autenticación JWT, panel interactivo 'Mi Día', consulta de rutina terapéutica y registro de telemetría de marcha), **Profesional Clínico de Rehabilitación** (directorio de pacientes, alta clínica, evaluación funcional K-Level, prescripción de ejercicios y resolución de alertas posturales) y **Técnico de Taller Ortopédico** (registro de prótesis en flota, agenda de mantenimiento preventivo y resolución de alertas mecánicas).
 
-* **URL de la Landing Page Desplegada:** <https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/>
+* **URL de la Landing Page Desplegada:** <https://tinyurl.com/mpu69fp3>
 * **URL de la Web Application Desplegada:** <https://prothia-web-app-7003f.web.app/>
 * **URL del Backend RESTful API / Scalar UI:** <https://prothia-backend.onrender.com/>
 
@@ -560,7 +560,7 @@ A continuación se presentan las capturas de pantalla que evidencian la interfaz
 
 Durante el Sprint 3 se documentaron la totalidad de los endpoints RESTful correspondientes a las **21 Technical Stories** en ASP.NET Core (.NET 10) siguiendo la especificación **OpenAPI** y expuestos a través de la interfaz interactiva de **Scalar**. Se implementaron convenciones globales con URL base `/api/v1`, rutas en `kebab-case`, respuestas en formato JSON (`application/json; charset=utf-8`), estandarización de errores bajo **RFC 9457 (`ProblemDetails`)**, autenticación mediante **HTTP Bearer Token (`Authorization: Bearer <token>`)** y el **inglés como idioma por defecto**.
 
-* **Repositorio de Web Services (Backend):** <https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend>
+* **Repositorio de Web Services (Backend):** <https://tinyurl.com/48yv8t2h>
 * **URL de la Documentación Desplegada (Scalar / OpenAPI):** <https://prothia-backend.onrender.com/>
 * **Commits asociados a Documentación OpenAPI y ProblemDetails:** `d858fa9` (`Shared OpenAPI`), `99b86f3` (`Security Bearer`), `1bfd059` y `898833a` (`Analytics OpenAPI`), `4c11352` y `ac80eec` (`Billing OpenAPI & ProblemDetails`).
 

@@ -163,4 +163,5 @@ Para mantener el proyecto organizado, usamos la escala de Fibonacci (1, 2, 3, 5,
 | 61 | **TS-ANA-002** | Query Reports by ID or Patient | Como usuario frontend, quiero consultar reportes mediante `GET /api/v1/reports` y `GET /api/v1/reports/{id}` para renderizar, imprimir o exportar fichas clínicas a CSV. | 2 |
 
 
-- **Tablero de Trello:** https://trello.com/invite/b/6aaa2414fe1250572c17b9fe/ATTIe7f0872c34d6ae28c8540edd005e015fC1DFC2EC/seniors-in-process-prothia
+- **Tablero de Trello:** 
+https://tinyurl.com/2usd8z39

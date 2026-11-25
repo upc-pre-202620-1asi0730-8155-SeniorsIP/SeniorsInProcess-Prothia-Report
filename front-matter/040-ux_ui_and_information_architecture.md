@@ -185,7 +185,8 @@ Para la Landing Page se diseñó el wireframe completo en Figma, priorizando la 
 
 ![Landing Page Wireframe](../assets/Wireframe_-_Landing_Page.png)
 
-*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=0-1*
+*Nota: Elaboración propia. Elaborado en: 
+https://tinyurl.com/3zmtff93*
 
 ### 4.3.2. Landing Page Mock-up
 
@@ -193,7 +194,8 @@ Los mock-ups de alta fidelidad aplican la identidad visual, paleta cromática, j
 
 ![Landing Page Mock-up](../assets/Mockup_-_Landing_Page.png)
 
-*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=19-3&t=cwyNHtJ3qwCys5Rq-4*
+*Nota: Elaboración propia. Elaborado en: 
+https://tinyurl.com/4y5wdtba*
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -218,7 +220,8 @@ Los wireframes de la aplicación web definen la disposición esquemática, la je
 ![App Web Wireframe 6](../assets/Wireframe-AppWeb6.png)
 
 
-*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2*
+*Nota: Elaboración propia. Elaborado en:
+https://tinyurl.com/t6xr49pc*
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
@@ -292,7 +295,8 @@ Técnicos Ortoprotesistas
 ![App Web Mock-up 15](../assets/AppWebMockup15.png)
 
 
-*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=10-2*
+*Nota: Elaboración propia. Elaborado en: 
+https://tinyurl.com/t6xr49pc*
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
@@ -310,7 +314,7 @@ USER FLOW 03: Programar una fecha de mantenimiento preventivo para una prótesis
 
 ![Web Application User 3](../assets/USER_FLOW_3.png)
 
-*Nota: Elaboración propia. Elaborado en: https://www.figma.com/design/dqRIVk8vPGYi9k3EEpfijS/Sin-t%C3%ADtulo?node-id=121-3*
+*Nota: Elaboración propia. Elaborado en: https://tinyurl.com/34hf2r4w*
 
 
 ## 4.5. Web Applications Prototyping

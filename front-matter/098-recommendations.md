@@ -44,7 +44,7 @@ El video incluye una retrospectiva general narrada con evidencias de nuestras se
 
 * **Duración total del video:** 8 minutos 
 * **Nombre de archivo reglamentario:** `upc-pre-202620-1asi0730-8155-SeniorsInProcess-about-the-team-sprint-3.mp4`
-* **Enlace en Microsoft Stream:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQBjXDT5OPWWS6psqU1NqWyCAcyo2FuPOhvpiUpcTJ7UxZo?e=yHekUB
+* **Enlace en Microsoft Stream:** https://tinyurl.com/2humrjdd
 * **Enlace en YouTube:** https://youtu.be/YzWYOWRyu6U
 
 ![Captura del Video About-the-Team](../assets/Evidencia%20About%20the%20team.png)
