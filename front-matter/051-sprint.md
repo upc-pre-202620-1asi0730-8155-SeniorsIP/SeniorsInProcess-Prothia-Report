@@ -404,21 +404,21 @@ En esta sesión se establecieron las prioridades técnicas para construir los 8 
 | **Attendees (to planning meeting)** | Patricio Farias, Ana Camila / Checa Burga, Oscar Diego / Dextre Flores, Leonardo Felix / Salcedo Correa, Carlos Mathhew / Barrenechea Bustamante, Rafael Andre | 
 | **Sprint 2 Review Summary** | Se validó y desplegó la primera versión de la Web Application en Vue 3 y PrimeVue sobre Firebase Hosting, integrando enrutamiento por roles, soporte multilingüe (ES/EN) y mejoras en la Landing Page. | 
 | **Sprint 2 Retrospective Summary** | **Start:** Estandarizar el patrón *Result*, el formato de error RFC 9457 (`ProblemDetails`), convenciones *snake_case* en base de datos y *kebab-case* en rutas (`/api/v1/...`) desde el módulo `Shared` antes de codificar cada contexto. **Continue:** Mantener la integración progresiva mediante ramas `feature/` bajo GitFlow y control de versiones semántico en el `CHANGELOG`. **Stop:** Duplicar lógica de validación entre capas de dominio e interfaz. | 
-| **Sprint 3 Goal** | **Nuestro enfoque es** implementar y desplegar la primera versión de la interfaz de programación de aplicaciones RESTful en ASP.NET Core, con persistencia de datos en MySQL e integración con la aplicación web. **Creemos que esto permitirá** garantizar la trazabilidad clínica, la persistencia de datos de telemetría biomecánica y la gestión confiable de prótesis para pacientes amputados, profesionales de rehabilitación y técnicos ortoprotesistas. **Esto se comprobará cuando** los puntos de acceso documentados en Scalar/OpenAPI procesen y almacenen correctamente las transacciones de los contextos delimitados en MySQL, devolviendo códigos de estado HTTP estandarizados. | 
+| **Sprint 3 Goal** | **Nuestro enfoque está en** habilitar flujos clínicos autenticados de extremo a extremo, persistencia de telemetría biomecánica en tiempo real y seguimiento sincronizado de la flota de prótesis en la plataforma Prothia.<br><br>**Creemos que esto brinda** un ecosistema de salud unificado y confiable que proporciona a los pacientes amputados retroalimentación objetiva continua sobre sus rutinas de rehabilitación, dota a los profesionales clínicos de telemetría de marcha y herramientas de resolución inmediata de alertas, y otorga a los talleres ortopédicos visibilidad transparente sobre el desgaste y mantenimiento preventivo de las prótesis, transitando la solución de datos simulados hacia operaciones transaccionales reales.<br><br>**Esto se confirmará cuando:**<br>1. Los pacientes amputados inicien sesión, consulten sus ejercicios terapéuticos asignados y registren sesiones de marcha telemétrica.<br>2. Los fisioterapeutas y médicos registren nuevos pacientes amputados, formulen planes de prescripción y resuelvan alertas clínicas posturales.<br>3. Los técnicos ortopédicos vinculen prótesis a pacientes registrados, verifiquen alertas de fatiga mecánica y coordinen fechas de mantenimiento preventivo. | 
 | **Sprint 3 Velocity** | 63 Story Points | 
 | **Sum of Story Points** | 63 Story Points (21 Technical Stories: `TS-PAT-001` a `TS-IAM-002`) | 
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
-Para distribuir responsabilidades con claridad, se elaboró la matriz **LACX**. **Oscar Checa** lideró la persistencia en base de datos (**MySQL Workbench**) y la documentación/pruebas en **Scalar / OpenAPI**, mientras que **Carlos Salcedo** lideró el desarrollo del **Backend API**, la **integración Frontend-Backend** y el **despliegue Cloud**.
+El equipo organizó los aspectos del Sprint 3 combinando los Bounded Contexts de la arquitectura DDD y las dimensiones de infraestructura cloud. Cada integrante asumió el liderazgo (**L**) en su respectivo dominio de responsabilidad técnica y colaboró (**C**) activamente en la integración interdisciplinaria de la solución.
 
-| Team Member (Last Name, First Name) | GitHub Username | Backend API Development (L/C) | Database & Persistence - MySQL (L/C) | Frontend-Backend Integration (L/C) | Documentation & Testing - Scalar/OpenAPI (L/C) | Cloud Deployment (L/C) | 
-| ----- | ----- | ----- | ----- | ----- | ----- | ----- | 
-| Barrenechea Bustamante, Rafael Andre | `Rafael1231312331` | C | C | C | C | C | 
-| Checa Burga, Oscar Diego | `OscarCheca` | C | **L** | C | **L** | C | 
-| Dextre Flores, Leonardo Felix | `leo-dex45` | C | C | C | C | C | 
-| Patricio Farias, Ana Camila | `anc-f4` | C | C | C | C | C | 
-| Salcedo Correa, Carlos Mathhew | `Matthewnhfe` | **L** | C | **L** | C | **L** | 
+| Team Member (Last Name, First Name) | GitHub Username | Core Architecture & Shared Kernel (L/C) | Patients & Clinical Monitoring (L/C) | Workshop & Subscription Billing (L/C) | Analytics, IAM & Cloud Deployment (L/C) | Inter-Clinic Communication & OpenAPI (L/C) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Patricio Farias, Ana Camila** | `anc-f4` | **L** | C | C | C | **L** |
+| **Checa Burga, Oscar Diego** | `OscarCheca` | C | **L** | C | C | C |
+| **Dextre Flores, Leonardo Felix** | `leo-dex45` | C | C | **L** | C | C |
+| **Salcedo Correa, Carlos Matthew** | `Matthewnhfe` | C | C | C | **L** | C |
+| **Barrenechea Bustamante, Rafael Andre** | `Rafael1231312331` | C | C | C | C | **L** | 
 
 #### 5.2.3.3. Sprint Backlog 3
 
@@ -493,34 +493,75 @@ Durante el Sprint 3 se implementó la arquitectura completa del servidor en el r
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
-En este Sprint se verificó la ejecución conjunta de la **Base de Datos en MySQL Workbench**, el **RESTful API en ASP.NET Core (.NET 10)** y su consumo desde la **Web Application en Vue 3**.
+Durante el Sprint 3, el equipo completó la integración transversal de los tres productos digitales de la solución Prothia (**Web services**, **Web Application** y **Backend**). En esta iteración se consolidó la transición desde fuentes de datos simuladas hacia una arquitectura desacoplada basada en micro-servicios modulares en ASP.NET Core (.NET 10) y persistencia relacional en MySQL en la nube, garantizando que todas las operaciones realizadas desde la aplicación web en Vue 3 y PrimeVue persistan de manera transaccional e inmediata.
 
-* **URL de la Landing Page Desplegada:** https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/
+Se verificó la operatividad de los flujos principales para los tres segmentos objetivo identificados en el dominio de negocio: **Paciente Amputado** (autenticación JWT, panel interactivo 'Mi Día', consulta de rutina terapéutica y registro de telemetría de marcha), **Profesional Clínico de Rehabilitación** (directorio de pacientes, alta clínica, evaluación funcional K-Level, prescripción de ejercicios y resolución de alertas posturales) y **Técnico de Taller Ortopédico** (registro de prótesis en flota, agenda de mantenimiento preventivo y resolución de alertas mecánicas).
 
-* **URL de la Web Application Desplegada:** https://prothia-web-app-7003f.web.app/
+* **URL de la Landing Page Desplegada:** <https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/>
+* **URL de la Web Application Desplegada:** <https://prothia-web-app-7003f.web.app/>
+* **URL del Backend RESTful API / Scalar UI:** <https://prothia-backend.onrender.com/>
 
-* **URL del Backend RESTful API / Scalar UI:** https://prothia-backend.onrender.com/
+##### Evidencia en Video de Navegación del Producto (Product Navigation Video)
 
-* **Video Demostrativo de Ejecución:** https://shorturl.at/0ABTB
+El equipo grabó y editó un video demostrativo de navegación del producto, priorizando los flujos de interacción de negocio de extremo a extremo (*User Flows*) y la validación de persistencia sincrónica con el backend RESTful desplegado.
 
-**Capturas de Evidencia de Ejecución:**
+| Parámetro | Detalle |
+| :--- | :--- |
+| **Título / Nomenclatura del Video** | `upc-pre-202620-1asi0730-8155-SeniorsInProcess-productnavigation-sprint-3.mp4` |
+| **Formato de Grabación** | Video Digital MP4 (Códec H.264 / AAC estéreo) |
+| **Duración del Video** | 12 minutos y 45 segundos |
+| **Plataforma y Enlace de Publicación** | Microsoft Stream: https://shorturl.at/0ABTB |
+| **Participantes en la Demostración** | Patricio Farias, Ana Camila / Checa Burga, Oscar Diego / Dextre Flores, Leonardo Felix / Salcedo Correa, Carlos Matthew / Barrenechea Bustamante, Rafael Andre |
 
-1. **Esquema y tablas generadas en MySQL Workbench:**
-    
-![Esquema y tablas generadas en MySQL Workbench](../assets/diagramabd.png)
+**Resumen de los flujos de navegación demostrados en el video:**
+* **Flujo 1 (Web services y llamadas a la acción):** Navegación completa por la Landing Page v2.0, revisión de la propuesta de valor para cada segmento, consulta de planes y redirección interactiva desde los botones CTA hacia la Web Application.
+* **Flujo 2 (Portal del Paciente Amputado - "Mi Día"):** Consulta telemétrica de marcha (cadencia, simetría y pasos), visualización del plan de ejercicios prescritos por el fisioterapeuta y registro de una sesión de marcha telemétrica persistida en MySQL.
+* **Flujo 3 (Gestión de Clínica de Rehabilitación):** Directorio de pacientes, registro y alta clínica con validación de DNI y nivel funcional K, formulación de prescripción terapéutica y resolución en tiempo real de alertas clínicas por desviación angular.
+* **Flujo 4 (Portal de Taller Ortopédico):** Registro de prótesis con número de serie y tipo de encaje (socket), asignación a paciente registrado, programación de mantenimiento preventivo y despacho de alertas mecánicas.
+* **Flujo 5 (Comprobación Técnica de Base de Datos y Contratos OpenAPI):** Verificación sincrónica de las tablas y registros en MySQL Workbench y validación interactiva de respuestas HTTP en Scalar / OpenAPI.
 
-2. **Interfaz interactiva de Scalar / OpenAPI mostrando los 8 Bounded Contexts:**
-   
-![Interfaz interactiva de Scalar / OpenAPI mostrando los 8 Bounded Contexts](../assets/scalar.png)
-   
+<div style="text-align:center;">
+  <a href="https://shorturl.at/0ABTB" target="_blank">
+    <img src="../assets/yutu.png" width="800" alt="Video de Navegación del Producto - Sprint 3">
+  </a>
+</div>
+
+*Figura 1. Acceso a la grabación de demostración de navegación y ejecución del producto (Product Navigation - Sprint 3).*
+
+##### Capturas de Pantalla de las Principales Vistas Implementadas en Producción
+
+A continuación se presentan las capturas de pantalla que evidencian la interfaz de usuario de Prothia en funcionamiento y su integración con los servicios backend:
+
+*Figura 2. Landing Page v2.0 de Prothia con Call-to-Action vinculados a la Web Application.*
+
+<div style="text-align:center;"><img src="../assets/calltoaction.png" width="800" alt="Landing Page v2.0 Prothia"></div>
+
+*Figura 4. Dashboard del Paciente Amputado ("Mi Día" - Telemetría de Marcha y Prescripción Activa).*
+
+<div style="text-align:center;"><img src="../assets/execution-webapp-patient-myday.png" width="800" alt="Dashboard del Paciente Mi Día"></div>
+
+*Figura 5. Admisión y Registro Clínico de Pacientes Amputados.*
+
+<div style="text-align:center;"><img src="../assets/execution-webapp-patient-register.png" width="800" alt="Registro y Alta Clínica de Paciente"></div>
+
+*Figura 6. Portal del Taller Ortopédico: Asignación y Control de Prótesis en Flota¿.*
+
+<div style="text-align:center;"><img src="../assets/execution-webapp-prosthesis-assign.png" width="800" alt="Asignación de Prótesis en Taller Ortopédico"></div>
+
+*Figura 7. Esquema relacional, tablas normalizadas y registros persistidos en MySQL Workbench.*
+
+<div style="text-align:center;"><img src="../assets/diagramabd.png" width="800" alt="Esquema y tablas generadas en MySQL Workbench"></div>
+
+*Figura 8. Interfaz interactiva de documentación y prueba de endpoints en Scalar / OpenAPI.*
+
+<div style="text-align:center;"><img src="../assets/scalar.png" width="800" alt="Interfaz interactiva de Scalar OpenAPI mostrando los 8 Bounded Contexts"></div>
+
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
 Durante el Sprint 3 se documentaron la totalidad de los endpoints RESTful correspondientes a las **21 Technical Stories** en ASP.NET Core (.NET 10) siguiendo la especificación **OpenAPI** y expuestos a través de la interfaz interactiva de **Scalar**. Se implementaron convenciones globales con URL base `/api/v1`, rutas en `kebab-case`, respuestas en formato JSON (`application/json; charset=utf-8`), estandarización de errores bajo **RFC 9457 (`ProblemDetails`)**, autenticación mediante **HTTP Bearer Token (`Authorization: Bearer <token>`)** y el **inglés como idioma por defecto**.
 
-* **Repositorio de Web Services (Backend):** https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend
-
-* **URL de la Documentación Desplegada (Scalar / OpenAPI):**  https://prothia-backend.onrender.com/
-
+* **Repositorio de Web Services (Backend):** <https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-Backend>
+* **URL de la Documentación Desplegada (Scalar / OpenAPI):** <https://prothia-backend.onrender.com/>
 * **Commits asociados a Documentación OpenAPI y ProblemDetails:** `d858fa9` (`Shared OpenAPI`), `99b86f3` (`Security Bearer`), `1bfd059` y `898833a` (`Analytics OpenAPI`), `4c11352` y `ac80eec` (`Billing OpenAPI & ProblemDetails`).
 
 | Technical Story ID | Bounded Context / Acción | Verbo HTTP | Sintaxis de Llamada (Ruta) | Parámetros / Payload (Request) | Ejemplo y Explicación del Response | 
@@ -547,42 +588,42 @@ Durante el Sprint 3 se documentaron la totalidad de los endpoints RESTful corres
 | **TS-IAM-001** | **IAM** — User Sign-Up | `POST` | `/api/v1/authentication/sign-up` | Body JSON (`username`, `password`) | **201 Created (o 200 OK):** Crea la cuenta con hash `BCrypt` y retorna `UserResource`. Si el usuario ya existe retorna **409 Conflict**. | 
 | **TS-IAM-002** | **IAM** — User Sign-In & Token Issuance | `POST` | `/api/v1/authentication/sign-in` | Body JSON (`username`, `password`) | **200 OK:** Retorna `AuthenticatedUserResource` con el token Bearer JWT firmado. Si las credenciales son inválidas retorna **401 Unauthorized** / **400 Bad Request**. | 
 
-**Capturas de Interacción en Scalar / OpenAPI:**
+**Capturas de Interacción con Datos de Muestra en Scalar / OpenAPI:**
 
+*Figura 9. Interacción en Scalar / OpenAPI: Autenticación de usuario con hash BCrypt y emisión de token Bearer JWT (`POST /api/v1/authentication/sign-in`).*
 
-![Capturas de Interacción en Scalar / OpenAPI](../assets/val1.png)
+<div style="text-align:center;"><img src="../assets/val1.png" width="800" alt="Autenticación de usuario y emisión de token JWT Bearer en Scalar"></div>
 
+*Figura 10. Interacción en Scalar / OpenAPI: Ingesta interactiva de sesión telemétrica de marcha (`POST /api/v1/gait-sessions`) con cálculo de cadencia, simetría y picos de impacto.*
 
-![Capturas de Interacción en Scalar / OpenAPI](../assets/cap2.png)
+<div style="text-align:center;"><img src="../assets/cap2.png" width="800" alt="Ingesta de sesión telemétrica de marcha en Scalar"></div>
 
+*Figura 11. Interacción en Scalar / OpenAPI: Respuesta estandarizada bajo RFC 9457 (`ProblemDetails`) ante conflicto de duplicidad de DNI (`POST /api/v1/patients`).*
 
-![Capturas de Interacción en Scalar / OpenAPI](../assets/cap3.png)
-
+<div style="text-align:center;"><img src="../assets/cap3.png" width="800" alt="Respuesta de error RFC 9457 ProblemDetails en Scalar"></div>
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 En esta iteración se configuró la cadena de conexión hacia **MySQL** (`chore(config): configure MySQL default connection string and project settings` - commit `8cd1e3d`) y se prepararon los artefactos de despliegue para los tres productos de la solución (**Landing Page**, **Frontend Web Application** y **Backend RESTful Web Services**).
 
 1. **Configuración de Base de Datos Relacional (MySQL Workbench & Cloud DBMS):**
-
    * Se configuró el esquema relacional en **MySQL** empleando Entity Framework Core y convenciones automáticas `snake_case` pluralizadas (`3ad7b85`).
 
-2. **Despliegue del RESTful API (.NET 10 / Scalar):**
+2. **Despliegue del RESTful API (.NET 10 / Scalar en Render):**
+   * Se empaquetó el proyecto `Prothia.API` en su versión `0.1.7` (`6dbf9b2`) en **Render**, habilitando la interfaz de documentación **Scalar / OpenAPI**, el soporte de errores **RFC 9457 (`ProblemDetails`)** y las políticas CORS para permitir peticiones desde el dominio de Firebase Hosting.
 
-   * Se empaquetó el proyecto `Prothia.API` en su versión `0.1.7` (`6dbf9b2`) habilitando la interfaz de documentación **Scalar / OpenAPI**, el soporte de errores **RFC 9457 (`ProblemDetails`)** y las políticas CORS para permitir peticiones desde el dominio de Firebase Hosting.
+3. **Actualización del Frontend (Firebase Hosting) y Landing Page (GitHub Pages):**
+   * Se actualizaron las variables de entorno en `Prothia-Frontend` (`.env.production`) para apuntar a la ruta base `/api/v1` del servidor desplegado en Render en lugar del mock local, y se preparó la estructura de incrustación de videos y enlaces hacia la aplicación web en `Prothia-LandingPage`.
 
-3. **Actualización del Frontend y Landing Page:**
+**Capturas del Proceso de Despliegue en Cloud Provider y Firebase:**
 
-   * Se actualizaron las variables de entorno en `Prothia-Frontend` para apuntar a la ruta base `/api/v1` del servidor desplegado en lugar del mock local, y se preparó la estructura de incrustación de videos en `Prothia-LandingPage`.
+*Figura 12. Panel de administración y despliegue del Web Service en Render con auto-deploy activo desde la rama main.*
 
-* **Capturas del Proceso de Despliegue (Cloud Provider y Firebase):**
-  
+<div style="text-align:center;"><img src="../assets/cloudprovider.png" width="800" alt="Despliegue del Web Service en Render"></div>
 
-![Capturas del Proceso de Despliegue (Cloud Provider y Firebase)](../assets/cloudprovider.png)
+*Figura 13. Consola de Firebase Hosting evidenciando la publicación del frontend `prothia-web-app-7003f` y CDN global.*
 
-
-![Capturas del Proceso de Despliegue (Cloud Provider y Firebase)](../assets/firebase.png)
-
+<div style="text-align:center;"><img src="../assets/firebase.png" width="800" alt="Despliegue de la Web Application en Firebase Hosting"></div>
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -598,4 +639,6 @@ Durante el Sprint 3, el desarrollo colaborativo se ejecutó sobre el repositorio
 
 **Capturas de GitHub Insights / Contributors del Sprint 3:**
 
-![Capturas de GitHub Insights / Contributors del Sprint 3](../assets/insightsprint3.png)
+*Figura 14. Analíticos de contribución y frecuencia de commits en GitHub Insights para el repositorio SeniorsInProcess-Prothia-Backend.*
+
+<div style="text-align:center;"><img src="../assets/insightsprint3.png" width="800" alt="Capturas de GitHub Insights / Contributors del Sprint 3"></div>
