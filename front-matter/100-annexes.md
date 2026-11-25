@@ -1,12 +1,12 @@
 **Exposición av1**
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQDqhAqZpAyeR5ceLW2ZlHXYAe9KDSyisVNcXhKU1fc8GPE?e=YVZ80N
+https://tinyurl.com/3b66ssfs
 
 **Needfinding Entrevistas**
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQC81Hz0hs9_QpIxWhYZ-TjAAZf92aSnv0wk24MMSoN7wl8?e=bn9ByD
+https://tinyurl.com/42ayyn2s
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQA_9jwIEEgTT4TH9ExhYDXBAStBqIjWMSpQZy_NVhKqW4s?e=Tad25u
+https://tinyurl.com/4b7uy3hd
 
 **Exposición tb1**
 
@@ -14,20 +14,20 @@ INSERTAR LINK TB1
 
 **Trello Product Backlog**
 
-https://trello.com/invite/b/6aaa2414fe1250572c17b9fe/ATTIe7f0872c34d6ae28c8540edd005e015fC1DFC2EC/seniors-in-process-prothia
+https://tinyurl.com/2usd8z39
 
 **Trello Spring 1**
 
-https://trello.com/invite/b/6aabb55b023122d8fe598ee0/ATTI98b4a9da9fc821f35855872e0885a87cFED1E6E2/seniorsinprocess-prothia-sprint-1
+https://tinyurl.com/2z63xtwy
 
 **Trello Spring 2**
 
-https://trello.com/invite/b/6ac4c443ac48cfe5f3483422/ATTI5559667781037e2f809ea13a3cfc44a317501C04/seniorsinprocess-prothia-sprint-backlog-2
+https://tinyurl.com/56f2kpx3
 
 **Prototype-navigation**
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQBrWctxdhvqS5eny_ZvVn_MASUXQFA7N_7C3_EMiJk3FeQ?e=DdLokI
+https://tinyurl.com/yc2cveak
 
 **Landing Page video explicativo**
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241i469_upc_edu_pe/IQDlZXDCog1hSZahgdohxRyZAUDE54ZWuqHOa2_hl9PXBZ0?e=IQIjez
+https://tinyurl.com/4b6kfptx
