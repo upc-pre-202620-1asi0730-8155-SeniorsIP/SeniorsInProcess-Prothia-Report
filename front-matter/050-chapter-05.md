@@ -116,8 +116,8 @@ Esta sección describe la arquitectura de despliegue, la infraestructura cloud y
 
 La Web services de Prothia se encuentra alojada en **GitHub Pages**.
 
-* **Repositorio:** <https://github.com/upc-pre-202620-1asi0730-8155-SeniorsIP/SeniorsInProcess-Prothia-LandingPage>
-* **URL publicada:** <https://upc-pre-202620-1asi0730-8155-seniorsip.github.io/SeniorsInProcess-Prothia-LandingPage/>
+* **Repositorio:** <https://tinyurl.com/mr2nw5yx>
+* **URL publicada:** <https://tinyurl.com/mpu69fp3>
 * **Rama de producción:** `main`
 * **Stack:** HTML5 + CSS3 + JavaScript (Vanilla) + i18n
 * **Plataforma de despliegue:** GitHub Pages
